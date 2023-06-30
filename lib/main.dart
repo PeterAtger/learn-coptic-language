@@ -1,4 +1,4 @@
-import 'package:ebty/Presentation/router.dart';
+import 'package:ebty/presentation/router.dart';
 import 'package:flutter/material.dart';
 
 void main() {

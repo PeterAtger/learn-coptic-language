@@ -116,5 +116,7 @@ class _ColorMaps {
 
 class AppTexts {
   static const title = 'تعلم اللغة القبطية';
-  static const errorMessage ='فيه حاجة حصلت غلط مش عارف اوى هى ايه بس هوصلها متقلقش';
+  static const errorMessage =
+      'فيه حاجة حصلت غلط مش عارف اوى هى ايه بس هوصلها متقلقش';
+  static const youClicked = 'لقد نقرت على النقر عدد نقرات:';
 }
