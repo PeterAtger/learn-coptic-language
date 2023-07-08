@@ -1,4 +1,4 @@
-import 'package:ebty/presentation/components/cards/neumorphic.dart';
+import 'package:ebty/presentation/components/cards/my_card.dart';
 import 'package:flutter/material.dart';
 
 class LettersScreen extends StatelessWidget {
@@ -14,7 +14,7 @@ class LettersScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const NeumorphicCard(key: Key('start')),
+              MyCard(key: const Key('start')),
               const SizedBox(
                 height: 36,
               ),

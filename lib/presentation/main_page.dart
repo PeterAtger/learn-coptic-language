@@ -1,6 +1,8 @@
+import 'package:ebty/presentation/components/hero/hero.dart';
+import 'package:ebty/presentation/pages/card_page/card_page.dart';
+import 'package:ebty/presentation/pages/rules_page/rules_page.dart';
 import 'package:ebty/presentation/theme/theme.dart';
 import 'package:flutter/material.dart';
-import 'package:audioplayers/audioplayers.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
@@ -15,61 +17,68 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      bottomNavigationBar: NavigationBar(
-        onDestinationSelected: (int index) {
-          setState(() {
-            currentPageIndex = index;
-          });
-        },
-        selectedIndex: currentPageIndex,
-        destinations: const <Widget>[
-          NavigationDestination(
-            icon: Icon(Icons.explore),
-            label: 'Explore',
-          ),
-          NavigationDestination(
-            icon: Icon(Icons.commute),
-            label: 'Commute',
-          ),
-          NavigationDestination(
-            selectedIcon: Icon(Icons.bookmark),
-            icon: Icon(Icons.bookmark_border),
-            label: 'Saved',
-          ),
-        ],
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const SizedBox(
-              height: 200,
-              child: Image(image: AssetImage('assets/images/coptic_cross.png')),
+    return Container(
+      decoration: BoxDecoration(
+          gradient: LinearGradient(
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+              colors: [AppColors.background, AppColors.navColor])),
+      child: Scaffold(
+          appBar: AppBar(
+              title: Padding(
+            padding: const EdgeInsets.only(top: 10),
+            child: Text(
+              'تعلم اللغة القبطية',
+              style: Theme.of(context).textTheme.titleMedium,
             ),
-            const Text(
-              AppTexts.title,
-              style: TextStyle(
-                fontSize: 24,
+          )),
+          backgroundColor: Colors.transparent,
+          bottomNavigationBar: NavigationBar(
+            onDestinationSelected: (int index) {
+              setState(() {
+                currentPageIndex = index;
+              });
+            },
+            selectedIndex: currentPageIndex,
+            destinations: const <Widget>[
+              NavigationDestination(
+                selectedIcon: Icon(Icons.home),
+                icon: Icon(Icons.home_outlined),
+                label: 'الرئيسية',
               ),
+              NavigationDestination(
+                icon: Icon(Icons.book),
+                label: 'الحروف',
+              ),
+              NavigationDestination(
+                icon: Icon(Icons.text_fields_outlined),
+                label: 'الكلمات',
+              ),
+              NavigationDestination(
+                icon: Icon(Icons.headphones_outlined),
+                label: 'المحفوظات',
+              ),
+              NavigationDestination(
+                icon: Icon(Icons.stacked_bar_chart),
+                label: 'القواعد',
+              ),
+            ],
+          ),
+          body: <Widget>[
+            const MyHero(key: Key('hero')),
+            CardsPage(
+              key: const Key('Cards'),
             ),
-            Text('You\'re on page number $currentPageIndex'),
-            Container(
-              padding: const EdgeInsets.all(32),
-              child: ElevatedButton(
-                  onPressed: () {
-                    final player = AudioPlayer();
-                    player.play(AssetSource('/audio/ding.mp3'));
-                    Navigator.pushNamed(context, '/letters');
-                  },
-                  style: const ButtonStyle(
-                      padding: MaterialStatePropertyAll(
-                          EdgeInsets.symmetric(vertical: 24, horizontal: 32))),
-                  child: const Text('متدوسش هتولع فالبرنامج')),
+            CardsPage(
+              key: const Key('Words'),
+            ),
+            CardsPage(
+              key: const Key('Mem'),
+            ),
+            Rulespage(
+              key: const Key('Rules'),
             )
-          ],
-        ),
-      ),
+          ][currentPageIndex]),
     );
   }
 }
