@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   google_fonts: ^4.0.4
   audioplayers: ^4.1.0
+  icons_launcher: ^2.1.0
 
 dev_dependencies:
   flutter_test:
@@ -74,3 +75,11 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+icons_launcher:
+  image_path: "assets/images/coptic_cross.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
