@@ -1,3 +1,4 @@
+import 'package:ebty/presentation/theme/theme.dart';
 import 'package:flutter/material.dart';
 
 class ErorrScreen extends StatelessWidget {
@@ -7,7 +8,7 @@ class ErorrScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Colors.red,
+      backgroundColor: AppColors.errorColor,
       body: Center(
         child: SizedBox(
           width: size.width * 0.8,

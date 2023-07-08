@@ -1,4 +1,5 @@
 import 'package:ebty/presentation/router.dart';
+import 'package:ebty/presentation/theme/theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,8 +21,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'PhiloDem Coptic Teacher',
       theme: ThemeData(
-        primarySwatch: Colors.pink,
-        scaffoldBackgroundColor: Colors.pink[50],
+        primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: AppColors.background,
         fontFamily: 'lato',
         buttonTheme: ButtonThemeData(
             shape: RoundedRectangleBorder(

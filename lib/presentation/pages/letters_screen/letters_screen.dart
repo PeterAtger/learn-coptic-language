@@ -1,3 +1,5 @@
+import 'package:ebty/presentation/components/cards/neumorphic.dart';
+import 'package:ebty/presentation/theme/theme.dart';
 import 'package:flutter/material.dart';
 
 class LettersScreen extends StatelessWidget {
@@ -7,13 +9,14 @@ class LettersScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Colors.pink[50],
+      backgroundColor: AppColors.background,
       body: Center(
         child: SizedBox(
           width: size.width * 0.8,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              const NeumorphicCard(key: Key('start')),
               const SizedBox(
                 height: 36,
               ),
