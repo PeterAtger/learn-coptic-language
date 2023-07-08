@@ -20,16 +20,9 @@ class MyApp extends StatelessWidget {
       },
       debugShowCheckedModeBanner: false,
       title: 'PhiloDem Coptic Teacher',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        scaffoldBackgroundColor: AppColors.background,
-        fontFamily: 'lato',
-        buttonTheme: ButtonThemeData(
-            shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(32.0))),
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
-      // darkTheme: ThemeData.dark(),
+      themeMode: ThemeMode.light,
+      theme: AppTheme().light(),
+      darkTheme: AppTheme().dark(),
       onGenerateRoute: RouterGenerator.generateRoute,
       initialRoute: '/',
     );

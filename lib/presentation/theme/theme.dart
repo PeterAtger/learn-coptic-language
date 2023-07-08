@@ -1,35 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-
-class AppFonts {
-  const AppFonts();
-  static final TextStyle heading1 = GoogleFonts.lato(
-      fontSize: 101, fontWeight: FontWeight.w300, letterSpacing: -1.5);
-
-  static final TextStyle heading2 =
-      GoogleFonts.lato(fontSize: 63, fontWeight: FontWeight.w300);
-
-  static final TextStyle heading3 =
-      GoogleFonts.lato(fontSize: 50, fontWeight: FontWeight.w400);
-
-  static final TextStyle heading4 = GoogleFonts.lato(
-      fontSize: 36, fontWeight: FontWeight.w400, letterSpacing: 0.25);
-
-  static final TextStyle heading5 =
-      GoogleFonts.lato(fontSize: 25, fontWeight: FontWeight.w400);
-
-  static final TextStyle heading6 = GoogleFonts.lato(
-      fontSize: 21, fontWeight: FontWeight.w500, letterSpacing: 0.15);
-
-  static final TextStyle button = GoogleFonts.lato(
-      fontSize: 15, fontWeight: FontWeight.w500, letterSpacing: 1.25);
-
-  static final TextStyle bodyText1 = GoogleFonts.lato(
-      fontSize: 17, fontWeight: FontWeight.w400, letterSpacing: 0.5);
-
-  static final TextStyle captionText = GoogleFonts.lato(
-      fontSize: 13, fontWeight: FontWeight.w400, letterSpacing: 0.4);
-}
 
 class AppColors {
   const AppColors();
@@ -44,4 +13,30 @@ class AppTexts {
   static const errorMessage =
       'فيه حاجة حصلت غلط مش عارف اوى هى ايه بس هوصلها متقلقش';
   static const youClicked = 'لقد نقرت على النقر عدد نقرات:';
+}
+
+class AppTheme {
+  light() {
+    return ThemeData(
+      primarySwatch: Colors.blue,
+      scaffoldBackgroundColor: AppColors.background,
+      fontFamily: 'lato',
+      buttonTheme: ButtonThemeData(
+          shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(32.0))),
+      visualDensity: VisualDensity.adaptivePlatformDensity,
+    );
+  }
+
+  dark() {
+    return ThemeData(
+      primarySwatch: Colors.blue,
+      scaffoldBackgroundColor: AppColors.background,
+      fontFamily: 'lato',
+      buttonTheme: ButtonThemeData(
+          shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(32.0))),
+      visualDensity: VisualDensity.adaptivePlatformDensity,
+    );
+  }
 }
