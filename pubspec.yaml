@@ -68,7 +68,10 @@ flutter:
       - assets/images/Grammar/
       - assets/images/Mahfozat/Ayat/
       - assets/images/Mahfozat/OmAlnwr/
+      - assets/images/Alphabet/
       - assets/audio/
+      - assets/audio/letters/
+      - assets/audio/OmAlnwr/
 
   fonts:
     - family: lato

@@ -3,12 +3,18 @@ import 'package:flutter/material.dart';
 
 class Rulespage extends StatelessWidget {
   Rulespage({super.key});
-  final List<Map> rules = List.generate(4,
-          (index) => {"id": index, "name": "assets/images/Grammar/$index.png"})
-      .toList();
+  final List<Map> rules = List.generate(
+      4,
+      (index) => {
+            "id": index,
+            "name": "assets/images/Grammar/$index.png",
+            "audio": "audio/OmAlnwr/$index.mp3"
+          }).toList();
 
   @override
   Widget build(BuildContext context) {
-    return ListCards(items: rules);
+    return ListCards(
+      items: rules,
+    );
   }
 }

@@ -13,11 +13,15 @@ class MahfozatPage extends StatelessWidget {
       13,
       (index) => {
             "id": index,
-            "name": "assets/images/Mahfozat/OmAlnwr/$index.png"
+            "name": "assets/images/Mahfozat/OmAlnwr/$index.png",
+            "audio": "audio/OmAlnwr/$index.mp3"
           }).toList();
 
   @override
   Widget build(BuildContext context) {
-    return ListCards(items: alnoor);
+    return ListCards(
+      items: alnoor,
+      hasAudio: true,
+    );
   }
 }
