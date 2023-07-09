@@ -66,6 +66,8 @@ flutter:
   assets:
       - assets/images/
       - assets/images/Grammar/
+      - assets/images/Mahfozat/Ayat/
+      - assets/images/Mahfozat/OmAlnwr/
       - assets/audio/
 
   fonts:

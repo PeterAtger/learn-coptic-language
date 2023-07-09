@@ -1,5 +1,6 @@
 import 'package:ebty/presentation/components/hero/hero.dart';
 import 'package:ebty/presentation/pages/card_page/card_page.dart';
+import 'package:ebty/presentation/pages/mahfozat_page/mahfozat_page.dart';
 import 'package:ebty/presentation/pages/rules_page/rules_page.dart';
 import 'package:ebty/presentation/theme/theme.dart';
 import 'package:flutter/material.dart';
@@ -72,9 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
             CardsPage(
               key: const Key('Words'),
             ),
-            CardsPage(
-              key: const Key('Mem'),
-            ),
+            MahfozatPage(key: const Key('Mahfozat')),
             Rulespage(
               key: const Key('Rules'),
             )
