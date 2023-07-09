@@ -13,7 +13,7 @@ class GridCards extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GridView.builder(
-        padding: const EdgeInsets.only(bottom: 32),
+        padding: const EdgeInsets.only(left: 16, right: 16, bottom: 32),
         gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
             maxCrossAxisExtent: 200,
             childAspectRatio: 2 / 2,

@@ -1,7 +1,8 @@
 import 'package:ebty/presentation/components/hero/hero.dart';
-import 'package:ebty/presentation/pages/card_page/card_page.dart';
+import 'package:ebty/presentation/pages/letters_page/letters_page.dart';
 import 'package:ebty/presentation/pages/mahfozat_page/mahfozat_page.dart';
 import 'package:ebty/presentation/pages/rules_page/rules_page.dart';
+import 'package:ebty/presentation/pages/words_page/words_page.dart';
 import 'package:ebty/presentation/theme/theme.dart';
 import 'package:flutter/material.dart';
 
@@ -67,10 +68,10 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           body: <Widget>[
             const MyHero(key: Key('hero')),
-            CardsPage(
+            LettersPage(
               key: const Key('Cards'),
             ),
-            CardsPage(
+            WordsPage(
               key: const Key('Words'),
             ),
             MahfozatPage(key: const Key('Mahfozat')),

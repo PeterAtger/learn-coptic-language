@@ -65,11 +65,13 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
       - assets/images/
+      - assets/images/words/
       - assets/images/Grammar/
       - assets/images/Mahfozat/Ayat/
       - assets/images/Mahfozat/OmAlnwr/
       - assets/images/Alphabet/
       - assets/audio/
+      - assets/audio/words/
       - assets/audio/letters/
       - assets/audio/OmAlnwr/
 
