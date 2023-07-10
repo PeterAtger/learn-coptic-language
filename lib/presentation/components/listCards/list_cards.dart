@@ -17,7 +17,7 @@ class ListCards extends StatelessWidget {
             margin: const EdgeInsets.symmetric(vertical: 4),
             child: Material(
               elevation: 8,
-              borderRadius: const BorderRadius.all(Radius.circular(32)),
+              borderRadius: const BorderRadius.all(Radius.circular(16)),
               child: TextButton(
                 onPressed: hasAudio
                     ? () {
@@ -29,7 +29,7 @@ class ListCards extends StatelessWidget {
                 style: ButtonStyle(
                     shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                         RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(32),
+                  borderRadius: BorderRadius.circular(16),
                 ))),
                 child: Container(
                   alignment: Alignment.center,
