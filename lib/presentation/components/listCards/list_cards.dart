@@ -21,7 +21,7 @@ class ListCards extends StatelessWidget {
               child: TextButton(
                 onPressed: hasAudio
                     ? () {
-                        if (index != 0) {
+                        if (index != 0 && index != 13) {
                           player.play(AssetSource(items[index - 1]["audio"]));
                         }
                       }
