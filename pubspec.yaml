@@ -97,7 +97,7 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
 
 icons_launcher:
-  image_path: "assets/images/coptic_cross.png"
+  image_path: "assets/images/icon.png"
   platforms:
     android:
       enable: true
