@@ -1,9 +1,19 @@
+import 'package:ebty/presentation/blocs/theme/theme_cubit.dart';
+import 'package:ebty/presentation/blocs/theme/theme_state.dart';
 import 'package:ebty/presentation/router.dart';
 import 'package:ebty/presentation/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:hydrated_bloc/hydrated_bloc.dart';
+import 'package:path_provider/path_provider.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  HydratedBloc.storage = await HydratedStorage.build(
+    storageDirectory: await getApplicationDocumentsDirectory(),
+  );
+
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
     statusBarColor: Colors.transparent,
     statusBarIconBrightness: Brightness.dark,
@@ -17,20 +27,27 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      builder: (context, child) {
-        return Directionality(
-          textDirection: TextDirection.rtl,
-          child: child!,
-        );
-      },
-      debugShowCheckedModeBanner: false,
-      title: 'PhiloDem Coptic Teacher',
-      themeMode: ThemeMode.light,
-      theme: AppTheme().light(),
-      darkTheme: AppTheme().dark(),
-      onGenerateRoute: RouterGenerator.generateRoute,
-      initialRoute: '/',
+    return BlocProvider(
+      create: (_) => ThemeCubit(),
+      child: BlocBuilder<ThemeCubit, ThemeState>(
+        builder: (context, state) {
+          return MaterialApp(
+            builder: (context, child) {
+              return Directionality(
+                textDirection: TextDirection.rtl,
+                child: child!,
+              );
+            },
+            debugShowCheckedModeBanner: false,
+            title: 'PhiloDem Coptic Teacher',
+            themeMode: ThemeMode.light,
+            theme: AppTheme().manageState(state),
+            darkTheme: AppTheme().dark(),
+            onGenerateRoute: RouterGenerator.generateRoute,
+            initialRoute: '/',
+          );
+        },
+      ),
     );
   }
 }

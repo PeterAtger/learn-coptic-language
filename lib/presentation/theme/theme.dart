@@ -1,3 +1,6 @@
+import 'dart:developer';
+
+import 'package:ebty/presentation/blocs/theme/theme_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -11,7 +14,7 @@ class AppColors {
   Color background = Colors.white;
   Color navColor = Colors.white;
   static Color errorColor = Colors.red;
-  Color cardColor = Color.fromARGB(120, 255, 255, 255);
+  Color cardColor = const Color.fromARGB(125, 255, 255, 255);
 }
 
 class AppTexts {
@@ -24,9 +27,32 @@ class AppTexts {
 }
 
 class AppTheme {
-  light() {
-    AppColors appColors = AppColors(main: Colors.deepPurple);
+  ThemeData manageState(ThemeState state) {
+    log(state.theme.toString());
 
+    switch (state.theme) {
+      case Themes.kg:
+        AppColors appColors = AppColors(main: Colors.pink);
+        return light(appColors);
+      case Themes.primary_1:
+        AppColors appColors = AppColors(main: Colors.deepPurple);
+        return light(appColors);
+      case Themes.primary_3:
+        AppColors appColors = AppColors(main: Colors.green);
+        return light(appColors);
+      case Themes.primary_5:
+        AppColors appColors = AppColors(main: Colors.blue);
+        return light(appColors);
+      case Themes.preparatory:
+        AppColors appColors = AppColors(main: Colors.lime);
+        return light(appColors);
+      case Themes.secondary:
+        AppColors appColors = AppColors(main: Colors.deepOrange);
+        return light(appColors);
+    }
+  }
+
+  ThemeData light(AppColors appColors) {
     return ThemeData(
       useMaterial3: true,
       colorScheme: ColorScheme.fromSwatch(
@@ -55,6 +81,7 @@ class AppTheme {
                 RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(16),
             )),
+            foregroundColor: MaterialStateProperty.all<Color>(Colors.black),
             backgroundColor:
                 MaterialStateProperty.all<Color>(appColors.cardColor)),
       ),

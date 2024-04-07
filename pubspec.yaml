@@ -39,6 +39,9 @@ dependencies:
   audioplayers: ^4.1.0
   icons_launcher: ^2.1.0
   scaffold_gradient_background: ^1.0.3+1
+  flutter_bloc: ^8.1.5
+  hydrated_bloc: ^9.1.5
+  path_provider: ^2.1.1
 
 dev_dependencies:
   flutter_test:
