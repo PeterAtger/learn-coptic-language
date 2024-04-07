@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ebty">
+    package="com.atger.ebty">
    <application
         android:label="Learn Coptic Language"
         android:name="${applicationName}"

@@ -1,7 +1,9 @@
 import 'package:ebty/presentation/components/hero/hero.dart';
+import 'package:ebty/presentation/components/paperOverlay/paper_overlay.dart';
 import 'package:ebty/presentation/pages/letters_page/letters_page.dart';
 import 'package:ebty/presentation/pages/mahfozat_page/mahfozat_page.dart';
 import 'package:ebty/presentation/pages/rules_page/rules_page.dart';
+import 'package:ebty/presentation/pages/test_page/test_page.dart';
 import 'package:ebty/presentation/pages/words_page/words_page.dart';
 import 'package:ebty/presentation/theme/theme.dart';
 import 'package:flutter/material.dart';
@@ -19,12 +21,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-          gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [AppColors.background, AppColors.navColor])),
+    return PaperOverlay(
+      color: Theme.of(context).colorScheme.background,
       child: Scaffold(
           appBar: AppBar(
               title: Padding(
@@ -64,6 +62,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 icon: Icon(Icons.stacked_bar_chart),
                 label: 'القواعد',
               ),
+              NavigationDestination(
+                icon: Icon(Icons.wysiwyg),
+                label: 'Test',
+              ),
             ],
           ),
           body: <Widget>[
@@ -77,6 +79,9 @@ class _MyHomePageState extends State<MyHomePage> {
             MahfozatPage(key: const Key('Mahfozat')),
             Rulespage(
               key: const Key('Rules'),
+            ),
+            TestPage(
+              key: const Key('Test'),
             )
           ][currentPageIndex]),
     );

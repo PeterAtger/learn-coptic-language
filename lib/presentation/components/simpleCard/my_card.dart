@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class MyCard extends StatelessWidget {
-  MyCard({Key? key}) : super(key: key);
+class SimpleCard extends StatelessWidget {
+  SimpleCard({Key? key}) : super(key: key);
   final List<Map> myProducts =
       List.generate(100, (index) => {"id": index, "name": "Card $index"})
           .toList();

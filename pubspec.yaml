@@ -77,6 +77,9 @@ flutter:
       - assets/audio/OmAlnwr/
 
   fonts:
+    - family: Avva_Shenouda
+      fonts:
+        - asset: lib/presentation/theme/fonts/avva-shenouda/Avva_Shenouda.ttf
     - family: lato
       fonts:
         - asset: lib/presentation/theme/fonts/lato/Lato-Regular.ttf
@@ -97,7 +100,7 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
 
 icons_launcher:
-  image_path: "assets/images/icon.png"
+  image_path: "assets/images/icon.jpeg"
   platforms:
     android:
       enable: true

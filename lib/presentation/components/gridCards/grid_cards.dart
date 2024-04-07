@@ -1,4 +1,5 @@
 import 'package:audioplayers/audioplayers.dart';
+import 'package:ebty/presentation/theme/theme.dart';
 import 'package:flutter/material.dart';
 
 class GridCards extends StatelessWidget {
@@ -21,23 +22,20 @@ class GridCards extends StatelessWidget {
             mainAxisSpacing: 8),
         itemCount: items.length,
         itemBuilder: (BuildContext ctx, index) {
-          return Material(
-            elevation: 8,
-            borderRadius: const BorderRadius.all(Radius.circular(16)),
-            child: TextButton(
-              onPressed: () {
-                player.play(AssetSource(items[index]["audio"]));
-              },
-              style: ButtonStyle(
-                  shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                      RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(16),
-              ))),
-              child: Container(
-                padding: const EdgeInsets.all(8),
-                alignment: Alignment.center,
-                color: Colors.transparent,
-                child: Image.asset(items[index]["name"]),
+          return GridTile(
+            child: Material(
+              borderRadius: const BorderRadius.all(Radius.circular(16)),
+              color: Colors.transparent,
+              child: OutlinedButton(
+                onPressed: () {
+                  player.play(AssetSource(items[index]["audio"]));
+                },
+                child: Container(
+                  padding: const EdgeInsets.all(8),
+                  alignment: Alignment.center,
+                  color: Colors.transparent,
+                  child: Image.asset(items[index]["name"]),
+                ),
               ),
             ),
           );

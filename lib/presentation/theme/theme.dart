@@ -2,11 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class AppColors {
-  const AppColors();
+  AppColors({required this.main}) {
+    background = main[100]!;
+  }
 
-  static final Color background = Colors.pink[200]!;
-  static const Color navColor = Color(0xFFf5efef);
-  static const Color errorColor = Colors.red;
+  MaterialColor main = Colors.green;
+
+  Color background = Colors.white;
+  Color navColor = Colors.white;
+  static Color errorColor = Colors.red;
+  Color cardColor = Color.fromARGB(120, 255, 255, 255);
 }
 
 class AppTexts {
@@ -20,12 +25,18 @@ class AppTexts {
 
 class AppTheme {
   light() {
+    AppColors appColors = AppColors(main: Colors.deepPurple);
+
     return ThemeData(
-      primarySwatch: Colors.pink,
-      scaffoldBackgroundColor: AppColors.background,
-      navigationBarTheme: const NavigationBarThemeData(
-          backgroundColor: AppColors.navColor,
-          labelTextStyle: MaterialStatePropertyAll(
+      useMaterial3: true,
+      colorScheme: ColorScheme.fromSwatch(
+        primarySwatch: appColors.main,
+        backgroundColor: appColors.background,
+      ),
+      scaffoldBackgroundColor: appColors.background,
+      navigationBarTheme: NavigationBarThemeData(
+          backgroundColor: appColors.navColor,
+          labelTextStyle: const MaterialStatePropertyAll(
               TextStyle(letterSpacing: 0, fontSize: 11))),
       appBarTheme: const AppBarTheme(
           backgroundColor: Colors.transparent,
@@ -38,13 +49,44 @@ class AppTheme {
           shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(32.0))),
       visualDensity: VisualDensity.adaptivePlatformDensity,
+      filledButtonTheme: FilledButtonThemeData(
+        style: ButtonStyle(
+            shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(16),
+            )),
+            backgroundColor:
+                MaterialStateProperty.all<Color>(appColors.cardColor)),
+      ),
+      outlinedButtonTheme: OutlinedButtonThemeData(
+          style: ButtonStyle(
+        backgroundColor: MaterialStateProperty.all<Color>(appColors.cardColor),
+        shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+            RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(16),
+        )),
+        side: MaterialStateProperty.all<BorderSide>(
+          const BorderSide(color: Colors.black, width: 2),
+        ),
+      )),
+      elevatedButtonTheme: ElevatedButtonThemeData(
+        style: ButtonStyle(
+            shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(16),
+            )),
+            backgroundColor:
+                MaterialStateProperty.all<Color>(appColors.cardColor)),
+      ),
     );
   }
 
   dark() {
+    AppColors appColors = AppColors(main: Colors.green);
+
     return ThemeData(
-      primarySwatch: Colors.pink,
-      scaffoldBackgroundColor: AppColors.background,
+      primarySwatch: appColors.main,
+      scaffoldBackgroundColor: appColors.background,
       fontFamily: 'lato',
       buttonTheme: ButtonThemeData(
           shape: RoundedRectangleBorder(

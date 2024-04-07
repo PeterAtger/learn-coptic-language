@@ -8,13 +8,13 @@ class Rulespage extends StatelessWidget {
       (index) => {
             "id": index,
             "name": "assets/images/Grammar/$index.png",
-            "audio": "audio/OmAlnwr/$index.mp3"
           }).toList();
 
   @override
   Widget build(BuildContext context) {
     return ListCards(
       items: rules,
+      hasAudio: false,
     );
   }
 }
