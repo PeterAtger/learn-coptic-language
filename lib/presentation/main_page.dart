@@ -25,16 +25,6 @@ class _MyHomePageState extends State<MyHomePage> {
       child: Scaffold(
           appBar: AppBar(
               centerTitle: true,
-              actions: <Widget>[
-                IconButton(
-                  icon: const Icon(
-                    Icons.settings_outlined,
-                    color: Colors.white,
-                    size: 24,
-                  ),
-                  onPressed: () {},
-                )
-              ],
               title: Text(
                 'تعلم اللغة القبطية',
                 style: Theme.of(context).textTheme.titleMedium,

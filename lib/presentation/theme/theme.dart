@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:ebty/presentation/blocs/theme/theme_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -9,7 +7,7 @@ class AppColors {
     background = main[100]!;
   }
 
-  MaterialColor main = Colors.green;
+  MaterialColor main;
 
   Color background = Colors.white;
   Color navColor = Colors.white;
@@ -45,65 +43,73 @@ class AppTheme {
         AppColors appColors = AppColors(main: Colors.lime);
         return light(appColors);
       case Themes.secondary:
-        AppColors appColors = AppColors(main: Colors.deepOrange);
+        AppColors appColors = AppColors(main: Colors.brown);
         return light(appColors);
     }
   }
 
   ThemeData light(AppColors appColors) {
     return ThemeData(
-      useMaterial3: true,
-      colorScheme: ColorScheme.fromSwatch(
-        primarySwatch: appColors.main,
-        backgroundColor: appColors.background,
-      ),
-      scaffoldBackgroundColor: appColors.background,
-      navigationBarTheme: NavigationBarThemeData(
-          backgroundColor: appColors.navColor,
-          labelTextStyle: const MaterialStatePropertyAll(
-              TextStyle(letterSpacing: 0, fontSize: 11))),
-      appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.transparent,
-          elevation: 0,
-          centerTitle: true,
-          systemOverlayStyle:
-              SystemUiOverlayStyle(statusBarBrightness: Brightness.dark)),
-      fontFamily: 'lato',
-      buttonTheme: ButtonThemeData(
-          shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(32.0))),
-      visualDensity: VisualDensity.adaptivePlatformDensity,
-      filledButtonTheme: FilledButtonThemeData(
-        style: ButtonStyle(
-            shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(16),
-            )),
-            foregroundColor: MaterialStateProperty.all<Color>(Colors.black),
-            backgroundColor:
-                MaterialStateProperty.all<Color>(appColors.cardColor)),
-      ),
-      outlinedButtonTheme: OutlinedButtonThemeData(
-          style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.all<Color>(appColors.cardColor),
-        shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-            RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(16),
-        )),
-        side: MaterialStateProperty.all<BorderSide>(
-          const BorderSide(color: Colors.black, width: 2),
+        useMaterial3: true,
+        colorScheme: ColorScheme.fromSwatch(
+          primarySwatch: appColors.main,
+          backgroundColor: appColors.background,
         ),
-      )),
-      elevatedButtonTheme: ElevatedButtonThemeData(
-        style: ButtonStyle(
-            shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(16),
-            )),
-            backgroundColor:
-                MaterialStateProperty.all<Color>(appColors.cardColor)),
-      ),
-    );
+        scaffoldBackgroundColor: appColors.background,
+        navigationBarTheme: NavigationBarThemeData(
+            backgroundColor: appColors.navColor,
+            labelTextStyle: const MaterialStatePropertyAll(
+                TextStyle(letterSpacing: 0, fontSize: 11))),
+        appBarTheme: const AppBarTheme(
+            backgroundColor: Colors.transparent,
+            elevation: 0,
+            centerTitle: true,
+            systemOverlayStyle:
+                SystemUiOverlayStyle(statusBarBrightness: Brightness.dark)),
+        fontFamily: 'lato',
+        buttonTheme: ButtonThemeData(
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(32.0))),
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+        filledButtonTheme: FilledButtonThemeData(
+          style: ButtonStyle(
+              shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                  RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(16),
+              )),
+              foregroundColor: MaterialStateProperty.all<Color>(Colors.black),
+              backgroundColor:
+                  MaterialStateProperty.all<Color>(appColors.cardColor)),
+        ),
+        outlinedButtonTheme: OutlinedButtonThemeData(
+            style: ButtonStyle(
+          backgroundColor:
+              MaterialStateProperty.all<Color>(appColors.cardColor),
+          shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+              RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          )),
+          side: MaterialStateProperty.all<BorderSide>(
+            const BorderSide(color: Colors.black, width: 1),
+          ),
+        )),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+            style: ButtonStyle(
+          backgroundColor:
+              MaterialStateProperty.all<Color>(appColors.main[300]!),
+          foregroundColor: MaterialStateProperty.all<Color>(Colors.black),
+          shape: MaterialStateProperty.all<BeveledRectangleBorder>(
+              BeveledRectangleBorder(
+            borderRadius: BorderRadius.circular(8),
+          )),
+        )),
+        floatingActionButtonTheme: FloatingActionButtonThemeData(
+            backgroundColor: appColors.main[200],
+            elevation: 8,
+            foregroundColor: Colors.black,
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(16.0),
+                side: const BorderSide(color: Colors.black, width: 1))));
   }
 
   dark() {
