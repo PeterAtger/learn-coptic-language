@@ -5,7 +5,6 @@ import 'package:ebty/presentation/pages/mahfozat_page/mahfozat_page.dart';
 import 'package:ebty/presentation/pages/rules_page/rules_page.dart';
 import 'package:ebty/presentation/pages/test_page/test_page.dart';
 import 'package:ebty/presentation/pages/words_page/words_page.dart';
-import 'package:ebty/presentation/theme/theme.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -25,13 +24,21 @@ class _MyHomePageState extends State<MyHomePage> {
       color: Theme.of(context).colorScheme.background,
       child: Scaffold(
           appBar: AppBar(
-              title: Padding(
-            padding: const EdgeInsets.only(top: 10),
-            child: Text(
-              'تعلم اللغة القبطية',
-              style: Theme.of(context).textTheme.titleMedium,
-            ),
-          )),
+              centerTitle: true,
+              actions: <Widget>[
+                IconButton(
+                  icon: const Icon(
+                    Icons.settings_outlined,
+                    color: Colors.white,
+                    size: 24,
+                  ),
+                  onPressed: () {},
+                )
+              ],
+              title: Text(
+                'تعلم اللغة القبطية',
+                style: Theme.of(context).textTheme.titleMedium,
+              )),
           backgroundColor: Colors.transparent,
           bottomNavigationBar: NavigationBar(
             onDestinationSelected: (int index) {
@@ -64,7 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               NavigationDestination(
                 icon: Icon(Icons.wysiwyg),
-                label: 'Test',
+                label: 'اعدادات',
               ),
             ],
           ),

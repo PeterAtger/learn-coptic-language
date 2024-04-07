@@ -1,18 +1,13 @@
-import 'package:ebty/presentation/components/gridCards/grid_cards.dart';
+import 'package:ebty/presentation/components/cards/list_card_v2.dart';
 import 'package:flutter/material.dart';
+import 'package:ebty/Model/word_model.dart';
 
 class TestPage extends StatelessWidget {
   TestPage({super.key});
-  final List<Map> items = List.generate(
-      32,
-      (index) => {
-            "id": index,
-            "name": "assets/images/Alphabet/$index.png",
-            "audio": "audio/letters/$index.mp3"
-          }).toList();
+  final List<Map<MahfozatKeys, String>> items = MahfozatList.getWordList();
 
   @override
   Widget build(BuildContext context) {
-    return GridCards(items: items);
+    return ListCardV2(items: items);
   }
 }

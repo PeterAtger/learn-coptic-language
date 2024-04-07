@@ -16,9 +16,9 @@ class ListCards extends StatelessWidget {
           return Container(
             margin: const EdgeInsets.symmetric(vertical: 4),
             child: Material(
-              elevation: 8,
               borderRadius: const BorderRadius.all(Radius.circular(16)),
-              child: TextButton(
+              color: Colors.transparent,
+              child: OutlinedButton(
                 onPressed: hasAudio
                     ? () {
                         if (index != 0 && index != 13) {
