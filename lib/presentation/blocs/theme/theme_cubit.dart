@@ -10,7 +10,11 @@ class ThemeCubit extends HydratedCubit<ThemeState> {
 
   @override
   ThemeState fromJson(Map<String, dynamic> json) {
-    return ThemeState(json['theme'] as Themes);
+    Themes theme = Themes.values.firstWhere(
+      (element) => element.toString() == json['theme'].toString(),
+    );
+    ThemeState initialState = ThemeState(theme);
+    return initialState;
   }
 
   @override

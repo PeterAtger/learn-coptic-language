@@ -28,8 +28,6 @@ class AppTexts {
 
 class AppTheme {
   ThemeData manageState(ThemeState state) {
-    log(state.theme.toString());
-
     switch (state.theme) {
       case Themes.kg:
         AppColors appColors = AppColors(main: Colors.pink);
