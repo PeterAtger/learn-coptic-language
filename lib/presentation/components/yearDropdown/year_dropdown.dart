@@ -1,18 +1,18 @@
-import 'package:ebty/presentation/blocs/theme/theme_cubit.dart';
-import 'package:ebty/presentation/blocs/theme/theme_state.dart';
+import 'package:ebty/presentation/blocs/year/year_cubit.dart';
+import 'package:ebty/presentation/blocs/year/year_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-const Map<Themes, String> mapTheme = {
-  Themes.kg: 'حضانة',
-  Themes.primary_1: 'أولى و تانية',
-  Themes.primary_3: 'تالتة و رابعة',
-  Themes.primary_5: 'خامسة و سادسة',
-  Themes.preparatory: 'اعدادي',
-  Themes.secondary: 'ثانوي'
+const Map<Years, String> yearDisplayMap = {
+  Years.kg: 'حضانة',
+  Years.primary_1: 'أولى و تانية',
+  Years.primary_3: 'تالتة و رابعة',
+  Years.primary_5: 'خامسة و سادسة',
+  Years.preparatory: 'اعدادي',
+  Years.secondary: 'ثانوي'
 };
 
-final List<String> list = mapTheme.values.toList();
+final List<String> list = yearDisplayMap.values.toList();
 
 class YearDropdown extends StatefulWidget {
   const YearDropdown({super.key});
@@ -24,28 +24,15 @@ class YearDropdown extends StatefulWidget {
 class _MyWidgetState extends State<YearDropdown> {
   String dropdownValue = list.first;
 
-  String getYearFromTheme({required Themes theme}) {
-    return mapTheme[theme].toString();
+  String getYearFromState({required Years theme}) {
+    return yearDisplayMap[theme].toString();
   }
 
-  Themes getThemeFromYear({required String year}) {
-    switch (year) {
-      case "حضانة":
-        return Themes.kg;
-      case "أولى و تانية":
-        return Themes.primary_1;
-      case "تالتة و رابعة":
-        return Themes.primary_3;
-      case "خامسة و سادسة":
-        return Themes.primary_5;
-      case "اعدادي":
-        return Themes.preparatory;
-      case "ثانوي":
-        return Themes.secondary;
+  Years getStateFromYear({required String year}) {
+    Years result =
+        yearDisplayMap.keys.firstWhere((key) => yearDisplayMap[key] == year);
 
-      default:
-        return Themes.kg;
-    }
+    return result;
   }
 
   @override
@@ -56,9 +43,9 @@ class _MyWidgetState extends State<YearDropdown> {
           border: Border.all(color: Colors.black),
           color: Theme.of(context).cardColor,
           borderRadius: BorderRadius.circular(10)),
-      child: BlocBuilder<ThemeCubit, ThemeState>(
+      child: BlocBuilder<YearCubit, YearState>(
         builder: (context, state) {
-          final String data = getYearFromTheme(theme: state.theme);
+          final String data = getYearFromState(theme: state.year);
 
           return DropdownButton<String>(
             value: data,
@@ -75,8 +62,8 @@ class _MyWidgetState extends State<YearDropdown> {
 
               setState(() {
                 context
-                    .read<ThemeCubit>()
-                    .changeTheme(getThemeFromYear(year: value));
+                    .read<YearCubit>()
+                    .changeTheme(getStateFromYear(year: value));
               });
             },
             items: list.map<DropdownMenuItem<String>>((String value) {

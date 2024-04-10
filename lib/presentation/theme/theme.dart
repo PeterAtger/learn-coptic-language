@@ -1,4 +1,4 @@
-import 'package:ebty/presentation/blocs/theme/theme_state.dart';
+import 'package:ebty/presentation/blocs/year/year_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -25,24 +25,24 @@ class AppTexts {
 }
 
 class AppTheme {
-  ThemeData manageState(ThemeState state) {
-    switch (state.theme) {
-      case Themes.kg:
+  ThemeData manageState(YearState state) {
+    switch (state.year) {
+      case Years.kg:
         AppColors appColors = AppColors(main: Colors.pink);
         return light(appColors);
-      case Themes.primary_1:
+      case Years.primary_1:
         AppColors appColors = AppColors(main: Colors.deepPurple);
         return light(appColors);
-      case Themes.primary_3:
+      case Years.primary_3:
         AppColors appColors = AppColors(main: Colors.green);
         return light(appColors);
-      case Themes.primary_5:
+      case Years.primary_5:
         AppColors appColors = AppColors(main: Colors.blue);
         return light(appColors);
-      case Themes.preparatory:
+      case Years.preparatory:
         AppColors appColors = AppColors(main: Colors.lime);
         return light(appColors);
-      case Themes.secondary:
+      case Years.secondary:
         AppColors appColors = AppColors(main: Colors.brown);
         return light(appColors);
     }

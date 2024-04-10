@@ -1,7 +1,7 @@
 import 'dart:developer';
 
-import 'package:ebty/presentation/blocs/theme/theme_cubit.dart';
-import 'package:ebty/presentation/blocs/theme/theme_state.dart';
+import 'package:ebty/presentation/blocs/year/year_cubit.dart';
+import 'package:ebty/presentation/blocs/year/year_state.dart';
 import 'package:ebty/presentation/components/cards/list_card_v2.dart';
 import 'package:flutter/material.dart';
 import 'package:ebty/Model/word_model.dart';
@@ -18,14 +18,14 @@ class TestPage extends StatelessWidget {
         Expanded(child: ListCardV2(items: items)),
         Align(
           alignment: Alignment.topCenter,
-          child: BlocBuilder<ThemeCubit, ThemeState>(
+          child: BlocBuilder<YearCubit, YearState>(
             builder: (context, state) {
               return FilledButton(
                 onPressed: () {
-                  log(state.theme.index.toString());
-                  Themes theme = state.theme;
-                  context.read<ThemeCubit>().changeTheme(Themes
-                      .values[(theme.index + 1) % (Themes.values.length)]);
+                  log(state.year.index.toString());
+                  Years theme = state.year;
+                  context.read<YearCubit>().changeTheme(
+                      Years.values[(theme.index + 1) % (Years.values.length)]);
                 },
                 child: const Text('Switch Theme'),
               );

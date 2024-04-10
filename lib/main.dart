@@ -1,5 +1,5 @@
-import 'package:ebty/presentation/blocs/theme/theme_cubit.dart';
-import 'package:ebty/presentation/blocs/theme/theme_state.dart';
+import 'package:ebty/presentation/blocs/year/year_cubit.dart';
+import 'package:ebty/presentation/blocs/year/year_state.dart';
 import 'package:ebty/presentation/router.dart';
 import 'package:ebty/presentation/theme/theme.dart';
 import 'package:flutter/material.dart';
@@ -28,8 +28,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (_) => ThemeCubit(),
-      child: BlocBuilder<ThemeCubit, ThemeState>(
+      create: (_) => YearCubit(),
+      child: BlocBuilder<YearCubit, YearState>(
         builder: (context, state) {
           return MaterialApp(
             builder: (context, child) {
@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
               );
             },
             debugShowCheckedModeBanner: false,
-            title: 'PhiloDem Coptic Teacher',
+            title: 'PhiloDem Learn Coptic Language',
             themeMode: ThemeMode.light,
             theme: AppTheme().manageState(state),
             darkTheme: AppTheme().dark(),
