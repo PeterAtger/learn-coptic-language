@@ -31,19 +31,22 @@ class _TestPageState extends State<TestPage> {
   }
 
   @override
+  void initState() {
+    Years year = context.read<YearCubit>().state.year;
+    items = getMahfozat(year);
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return BlocBuilder<YearCubit, YearState>(
-      builder: (context, state) {
-        return FutureBuilder(
-            future: getMahfozat(state.year),
-            builder: (BuildContext context, AsyncSnapshot<Mahfozat> snapshot) {
-              if (snapshot.connectionState == ConnectionState.waiting) {
-                return const Center(child: CircularProgressIndicator());
-              }
-              return renderData(snapshot.data);
-            });
-      },
-    );
+    return FutureBuilder(
+        future: items,
+        builder: (BuildContext context, AsyncSnapshot<Mahfozat> snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Center(child: CircularProgressIndicator());
+          }
+          return renderData(snapshot.data);
+        });
   }
 
   Widget renderData(Mahfozat? data) {
