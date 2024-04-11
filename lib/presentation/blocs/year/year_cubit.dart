@@ -4,7 +4,7 @@ import 'package:hydrated_bloc/hydrated_bloc.dart';
 class YearCubit extends HydratedCubit<YearState> {
   YearCubit() : super(InitialYear());
 
-  void changeTheme(Years theme) {
+  void changeYear(Years theme) {
     emit(YearState(theme));
   }
 

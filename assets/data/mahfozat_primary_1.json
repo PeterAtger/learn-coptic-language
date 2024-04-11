@@ -1,0 +1,18 @@
+{
+    "المستوى الاول": {
+        "المحادثة": [
+            {
+                "arabic": "اولى ابتداي اهو",
+                "coptic": "I am",
+                "path": "/some/path"
+            }
+        ],
+        "نعظمك يا ام النور": [
+            {
+                "arabic": "نعظمك يا ام النور",
+                "coptic": "We magnify you, O Mother of Light",
+                "path": "/some/path"
+            }
+        ]
+    }
+}

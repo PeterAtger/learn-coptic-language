@@ -63,7 +63,7 @@ class _MyWidgetState extends State<YearDropdown> {
               setState(() {
                 context
                     .read<YearCubit>()
-                    .changeTheme(getStateFromYear(year: value));
+                    .changeYear(getStateFromYear(year: value));
               });
             },
             items: list.map<DropdownMenuItem<String>>((String value) {

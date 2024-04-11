@@ -1,6 +1,10 @@
+import 'package:ebty/presentation/blocs/year/year_cubit.dart';
 import 'package:ebty/presentation/components/mahfozat/mahfozat.dart';
 import 'package:flutter/material.dart';
 import 'package:ebty/Model/mahfozat_model.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../../blocs/year/year_state.dart';
 
 class TestPage extends StatefulWidget {
   const TestPage({super.key});
@@ -11,24 +15,35 @@ class TestPage extends StatefulWidget {
 
 class _TestPageState extends State<TestPage> {
   late Future<Mahfozat> items;
+  late Map<Years, Mahfozat> memo = {};
 
-  @override
-  void initState() {
-    final Mahfozat mahfozat = Mahfozat();
-    items = mahfozat.getMahfozatList();
-    super.initState();
+  Future<Mahfozat> getMahfozat(Years year) async {
+    if (memo.containsKey(year)) {
+      return memo[year]!;
+    }
+
+    Mahfozat mahfozat = Mahfozat(year: year);
+    await mahfozat.getMahfozatList();
+
+    memo[year] = mahfozat;
+
+    return mahfozat;
   }
 
   @override
   Widget build(BuildContext context) {
-    return FutureBuilder(
-        future: items,
-        builder: (BuildContext context, AsyncSnapshot<Mahfozat> snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Center(child: CircularProgressIndicator());
-          }
-          return renderData(snapshot.data);
-        });
+    return BlocBuilder<YearCubit, YearState>(
+      builder: (context, state) {
+        return FutureBuilder(
+            future: getMahfozat(state.year),
+            builder: (BuildContext context, AsyncSnapshot<Mahfozat> snapshot) {
+              if (snapshot.connectionState == ConnectionState.waiting) {
+                return const Center(child: CircularProgressIndicator());
+              }
+              return renderData(snapshot.data);
+            });
+      },
+    );
   }
 
   Widget renderData(Mahfozat? data) {

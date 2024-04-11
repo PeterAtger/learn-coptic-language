@@ -1,24 +1,43 @@
 import 'dart:convert';
 
+import 'package:ebty/presentation/blocs/year/year_state.dart';
 import 'package:flutter/services.dart';
-
-const String filePath = "assets/data/words.json";
 
 enum MahfozatKeys { arabic, coptic, path }
 
 enum MahfozatTypes { level, group, item }
 
+Map<Years, String> mahfozatFiles = {
+  Years.kg: "assets/data/mahfozat_kg.json",
+  Years.primary_1: "assets/data/mahfozat_primary_1.json",
+  Years.primary_3: "assets/data/mahfozat_primary_3.json",
+  Years.primary_5: "assets/data/mahfozat_primary_5.json",
+  Years.preparatory: "assets/data/mahfozat_prep.json",
+  Years.secondary: "assets/data/mahfozat_sec.json",
+};
+
 class Mahfozat {
+  String fliePath = '';
   List<MahfozatLevel> levels = [];
   int count = 0;
   bool loaded = false;
 
+  Mahfozat({required Years year}) {
+    if (!mahfozatFiles.containsKey(year)) {
+      throw Exception("Year not found");
+    }
+
+    fliePath = mahfozatFiles[year]!;
+  }
+
   Future<Mahfozat> getMahfozatList() async {
+    print(loaded);
     if (loaded) return this;
 
-    final String rawData =
-        await rootBundle.loadString('assets/data/mahfozat.json');
+    final String rawData = await rootBundle.loadString(fliePath);
     final Map<String, dynamic> data = await json.decode(rawData);
+
+    print(data);
 
     for (String key in data.keys) {
       levels.add(parseLevel(key, data[key]));
