@@ -31,13 +31,10 @@ class Mahfozat {
   }
 
   Future<Mahfozat> getMahfozatList() async {
-    print(loaded);
     if (loaded) return this;
 
     final String rawData = await rootBundle.loadString(fliePath);
     final Map<String, dynamic> data = await json.decode(rawData);
-
-    print(data);
 
     for (String key in data.keys) {
       levels.add(parseLevel(key, data[key]));
