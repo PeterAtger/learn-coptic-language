@@ -73,13 +73,14 @@ class AppTheme {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         filledButtonTheme: FilledButtonThemeData(
           style: ButtonStyle(
-              shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                  RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(16),
-              )),
-              foregroundColor: MaterialStateProperty.all<Color>(Colors.black),
-              backgroundColor:
-                  MaterialStateProperty.all<Color>(appColors.cardColor)),
+            shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(16),
+            )),
+            foregroundColor: MaterialStateProperty.all<Color>(Colors.black),
+            backgroundColor:
+                MaterialStateProperty.all<Color>(appColors.cardColor),
+          ),
         ),
         outlinedButtonTheme: OutlinedButtonThemeData(
             style: ButtonStyle(

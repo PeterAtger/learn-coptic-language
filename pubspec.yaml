@@ -79,6 +79,7 @@ flutter:
       - assets/audio/words/
       - assets/audio/letters/
       - assets/audio/OmAlnwr/
+      - assets/data/
 
   fonts:
     - family: Avva_Shenouda

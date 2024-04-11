@@ -1,38 +1,45 @@
-import 'dart:developer';
-
-import 'package:ebty/presentation/blocs/year/year_cubit.dart';
-import 'package:ebty/presentation/blocs/year/year_state.dart';
-import 'package:ebty/presentation/components/cards/list_card_v2.dart';
+import 'package:ebty/presentation/components/mahfozat/mahfozat.dart';
 import 'package:flutter/material.dart';
-import 'package:ebty/Model/word_model.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:ebty/Model/mahfozat_model.dart';
 
-class TestPage extends StatelessWidget {
-  TestPage({super.key});
-  final List<Map<MahfozatKeys, String>> items = MahfozatList.getWordList();
+class TestPage extends StatefulWidget {
+  const TestPage({super.key});
+
+  @override
+  State<TestPage> createState() => _TestPageState();
+}
+
+class _TestPageState extends State<TestPage> {
+  late Future<Mahfozat> items;
+
+  @override
+  void initState() {
+    final Mahfozat mahfozat = Mahfozat();
+    items = mahfozat.getMahfozatList();
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Expanded(child: ListCardV2(items: items)),
-        Align(
-          alignment: Alignment.topCenter,
-          child: BlocBuilder<YearCubit, YearState>(
-            builder: (context, state) {
-              return FilledButton(
-                onPressed: () {
-                  log(state.year.index.toString());
-                  Years theme = state.year;
-                  context.read<YearCubit>().changeTheme(
-                      Years.values[(theme.index + 1) % (Years.values.length)]);
-                },
-                child: const Text('Switch Theme'),
-              );
-            },
-          ),
-        )
-      ],
-    );
+    return FutureBuilder(
+        future: items,
+        builder: (BuildContext context, AsyncSnapshot<Mahfozat> snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Center(child: CircularProgressIndicator());
+          }
+          return renderData(snapshot.data);
+        });
+  }
+
+  Widget renderData(Mahfozat? data) {
+    if (data == null) {
+      return const SizedBox(
+        child: Text('No data'),
+      );
+    }
+
+    List<FlatMahfozatItem> flatItems = Mahfozat.toFlatList(data);
+
+    return MahfozatList(items: flatItems);
   }
 }

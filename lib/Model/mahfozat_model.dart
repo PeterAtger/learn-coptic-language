@@ -1,0 +1,108 @@
+import 'dart:convert';
+
+import 'package:flutter/services.dart';
+
+const String filePath = "assets/data/words.json";
+
+enum MahfozatKeys { arabic, coptic, path }
+
+enum MahfozatTypes { level, group, item }
+
+class Mahfozat {
+  List<MahfozatLevel> levels = [];
+  int count = 0;
+  bool loaded = false;
+
+  Future<Mahfozat> getMahfozatList() async {
+    if (loaded) return this;
+
+    final String rawData =
+        await rootBundle.loadString('assets/data/mahfozat.json');
+    final Map<String, dynamic> data = await json.decode(rawData);
+
+    for (String key in data.keys) {
+      levels.add(parseLevel(key, data[key]));
+      count++;
+    }
+
+    loaded = true;
+
+    return this;
+  }
+
+  static List<FlatMahfozatItem> toFlatList(Mahfozat mahfozat) {
+    List<FlatMahfozatItem> flatList = [];
+
+    for (MahfozatLevel level in mahfozat.levels) {
+      flatList.add(FlatMahfozatItem(item: level, type: MahfozatTypes.level));
+      for (MahfozatGroup group in level.groups) {
+        flatList.add(FlatMahfozatItem(item: group, type: MahfozatTypes.group));
+        for (MahfozatItem item in group.items) {
+          flatList.add(FlatMahfozatItem(item: item, type: MahfozatTypes.item));
+        }
+      }
+    }
+
+    return flatList;
+  }
+
+  static MahfozatLevel parseLevel(String level, Map data) {
+    List<MahfozatGroup> groups = [];
+
+    for (String groupKey in data.keys) {
+      groups.add(parseGroup(groupKey, data[groupKey]));
+    }
+
+    return MahfozatLevel(level: level, groups: groups);
+  }
+
+  static MahfozatGroup parseGroup(String key, List data) {
+    List<MahfozatItem> items = [];
+
+    for (Map<String, dynamic> item in data) {
+      items.add(parseItem(item));
+    }
+
+    return MahfozatGroup(name: key, items: items);
+  }
+
+  static MahfozatItem parseItem(Map<String, dynamic> data) {
+    final String arabic = data[MahfozatKeys.arabic.name] ?? '';
+    final String coptic = data[MahfozatKeys.coptic.name] ?? '';
+    final String path = data[MahfozatKeys.path.name] ?? '';
+
+    return MahfozatItem(arabic: arabic, coptic: coptic, path: path);
+  }
+}
+
+class BaseMahfozat {}
+
+class MahfozatLevel extends BaseMahfozat {
+  final String level;
+  final List<MahfozatGroup> groups;
+
+  MahfozatLevel({required this.level, required this.groups});
+}
+
+class MahfozatGroup extends BaseMahfozat {
+  final String name;
+  final List<MahfozatItem> items;
+
+  MahfozatGroup({required this.name, required this.items});
+}
+
+class MahfozatItem extends BaseMahfozat {
+  final String arabic;
+  final String coptic;
+  final String path;
+
+  MahfozatItem(
+      {required this.arabic, required this.coptic, required this.path});
+}
+
+class FlatMahfozatItem {
+  final BaseMahfozat item;
+  final MahfozatTypes type;
+
+  FlatMahfozatItem({required this.item, required this.type});
+}
