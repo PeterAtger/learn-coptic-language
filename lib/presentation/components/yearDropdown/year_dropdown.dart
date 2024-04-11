@@ -37,43 +37,45 @@ class _MyWidgetState extends State<YearDropdown> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 12.0),
-      decoration: BoxDecoration(
-          border: Border.all(color: Colors.black),
-          color: Theme.of(context).cardColor,
-          borderRadius: BorderRadius.circular(10)),
-      child: BlocBuilder<YearCubit, YearState>(
-        builder: (context, state) {
-          final String data = getYearFromState(theme: state.year);
+    return Center(
+      child: Container(
+        constraints: const BoxConstraints(maxWidth: 800),
+        padding: const EdgeInsets.symmetric(horizontal: 12.0),
+        decoration: BoxDecoration(
+            border: Border.all(color: Colors.black),
+            color: Theme.of(context).cardColor,
+            borderRadius: BorderRadius.circular(10)),
+        child: BlocBuilder<YearCubit, YearState>(
+          builder: (context, state) {
+            final String data = getYearFromState(theme: state.year);
+            return DropdownButton<String>(
+              value: data,
+              borderRadius: const BorderRadius.all(Radius.circular(16)),
+              dropdownColor: Colors.white,
+              isExpanded: true,
+              icon: const Icon(Icons.arrow_drop_down),
+              style: const TextStyle(color: Colors.black, fontSize: 16),
+              underline: const SizedBox(),
+              onChanged: (String? value) {
+                if (value == null) {
+                  return;
+                }
 
-          return DropdownButton<String>(
-            value: data,
-            borderRadius: const BorderRadius.all(Radius.circular(16)),
-            dropdownColor: Colors.white,
-            isExpanded: true,
-            icon: const Icon(Icons.arrow_drop_down),
-            style: const TextStyle(color: Colors.black, fontSize: 16),
-            underline: const SizedBox(),
-            onChanged: (String? value) {
-              if (value == null) {
-                return;
-              }
-
-              setState(() {
-                context
-                    .read<YearCubit>()
-                    .changeYear(getStateFromYear(year: value));
-              });
-            },
-            items: list.map<DropdownMenuItem<String>>((String value) {
-              return DropdownMenuItem<String>(
-                value: value,
-                child: Text(value),
-              );
-            }).toList(),
-          );
-        },
+                setState(() {
+                  context
+                      .read<YearCubit>()
+                      .changeYear(getStateFromYear(year: value));
+                });
+              },
+              items: list.map<DropdownMenuItem<String>>((String value) {
+                return DropdownMenuItem<String>(
+                  value: value,
+                  child: Text(value),
+                );
+              }).toList(),
+            );
+          },
+        ),
       ),
     );
   }

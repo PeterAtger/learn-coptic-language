@@ -45,42 +45,44 @@ class _MahfozatListState extends State<MahfozatList> {
   }
 
   Widget renderItem(MahfozatItem item) {
-    return Container(
-      constraints: const BoxConstraints(minWidth: 200, maxWidth: 600),
-      margin: const EdgeInsets.symmetric(vertical: 4),
-      child: Material(
-          borderRadius: const BorderRadius.all(Radius.circular(16)),
-          child: OutlinedButton(
-            onPressed: () => {},
-            child: Container(
-                alignment: Alignment.center,
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 8, vertical: 16),
-                child: Column(children: [
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: Text(
-                      item.coptic,
-                      style: const TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 16,
-                        color: Colors.black,
-                        fontFamily: 'Avva_Shenouda',
-                      ),
-                    ),
-                  ),
-                  Align(
-                    alignment: Alignment.centerRight,
-                    child: Text(
-                      item.arabic,
-                      style: const TextStyle(
+    return Center(
+      child: Container(
+        constraints: const BoxConstraints(minWidth: 200, maxWidth: 800),
+        margin: const EdgeInsets.symmetric(vertical: 4),
+        child: Material(
+            borderRadius: const BorderRadius.all(Radius.circular(16)),
+            child: OutlinedButton(
+              onPressed: () => {},
+              child: Container(
+                  alignment: Alignment.center,
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+                  child: Column(children: [
+                    Align(
+                      alignment: Alignment.centerLeft,
+                      child: Text(
+                        item.coptic,
+                        style: const TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 16,
-                          color: Colors.black),
+                          color: Colors.black,
+                          fontFamily: 'Avva_Shenouda',
+                        ),
+                      ),
                     ),
-                  ),
-                ])),
-          )),
+                    Align(
+                      alignment: Alignment.centerRight,
+                      child: Text(
+                        item.arabic,
+                        style: const TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                            color: Colors.black),
+                      ),
+                    ),
+                  ])),
+            )),
+      ),
     );
   }
 
@@ -90,17 +92,22 @@ class _MahfozatListState extends State<MahfozatList> {
         !isFirst
             ? Container(
                 padding: const EdgeInsets.only(top: 16, bottom: 8),
-                child: const Divider(
-                  color: Colors.black,
-                  thickness: 2,
-                  indent: 16,
-                  endIndent: 16,
+                child: Center(
+                  child: Container(
+                    constraints: const BoxConstraints(maxWidth: 800),
+                    child: const Divider(
+                      color: Colors.black,
+                      thickness: 2,
+                      indent: 16,
+                      endIndent: 16,
+                    ),
+                  ),
                 ),
               )
             : const SizedBox(),
-        UnconstrainedBox(
+        Center(
           child: Container(
-            constraints: const BoxConstraints(minWidth: 100, maxWidth: 200),
+            constraints: const BoxConstraints(maxWidth: 200),
             padding: const EdgeInsets.symmetric(vertical: 8),
             margin: const EdgeInsets.only(bottom: 8),
             decoration: BoxDecoration(
