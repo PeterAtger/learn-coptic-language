@@ -10,7 +10,7 @@ class ShenoudaText extends StatelessWidget {
   ) {
     return Text(
       text,
-      style: const TextStyle(fontFamily: 'Avva_Shenouda'),
+      style: const TextStyle(fontFamily: 'Avva_Shenouda', color: Colors.black),
     );
   }
 }

@@ -1,0 +1,212 @@
+[
+    {
+        "image": "allom.png",
+        "gender": "p",
+        "audio": "01-alom.mp3"
+    },
+    {
+        "image": "val.png",
+        "gender": "p",
+        "audio": "02-vai.mp3"
+    },
+    {
+        "image": "noub.png",
+        "gender": "p",
+        "audio": "03-noub.mp3"
+    },
+    {
+        "image": "gi.png",
+        "gender": "t",
+        "audio": "04-gee.mp3"
+    },
+    {
+        "image": "calpingoc.png",
+        "gender": "p",
+        "audio": "05-salbengoz.mp3"
+    },
+    {
+        "image": "aghathos.png",
+        "gender": "p",
+        "audio": "06-agathos.mp3"
+    },
+    {
+        "image": "daniel.png",
+        "gender": "",
+        "audio": "07-daniel.mp3"
+    },
+    {
+        "image": "zoron.png",
+        "gender": "p",
+        "audio": "08-zoron.mp3"
+    },
+    {
+        "image": "neh.png",
+        "gender": "p",
+        "audio": "09-neh.mp3"
+    },
+    {
+        "image": "so-engom.png",
+        "gender": "",
+        "audio": "10-so-engom.mp3"
+    },
+    {
+        "image": "zoni.png",
+        "gender": "t",
+        "audio": "11-zony.mp3"
+    },
+    {
+        "image": "shiri.png",
+        "gender": "p",
+        "audio": "12-shiry.mp3"
+    },
+    {
+        "image": "estoy.png",
+        "gender": "p",
+        "audio": "13-estoy.mp3"
+    },
+    {
+        "image": "theveio.png",
+        "gender": "p",
+        "audio": "16-thevio-2.mp3"
+    },
+    {
+        "image": "ioh.png",
+        "gender": "p",
+        "audio": "18-ioh.mp3"
+    },
+    {
+        "image": "kouji.png",
+        "gender": "p",
+        "audio": "19-kouji.mp3"
+    },
+    {
+        "image": "lalho.png",
+        "gender": "p",
+        "audio": "20-lalho.mp3"
+    },
+    {
+        "image": "molh.png",
+        "gender": "p",
+        "audio": "21-molh.mp3"
+    },
+    {
+        "image": "nobi.png",
+        "gender": "p",
+        "audio": "22-novi.mp3"
+    },
+    {
+        "image": "xsomi.png",
+        "gender": "t",
+        "audio": "23-eksomy.mp3"
+    },
+    {
+        "image": "son.png",
+        "gender": "p",
+        "audio": "24-sonh.mp3"
+    },
+    {
+        "image": "piracmoc.png",
+        "gender": "p",
+        "audio": "25-berazmos.mp3"
+    },
+    {
+        "image": "ro.png",
+        "gender": "p",
+        "audio": "26-roh.mp3"
+    },
+    {
+        "image": "souri.png",
+        "gender": "t",
+        "audio": "27-souri.mp3"
+    },
+    {
+        "image": "totc.png",
+        "gender": "p",
+        "audio": "30-totz.mp3"
+    },
+    {
+        "image": "mav.png",
+        "gender": "t",
+        "audio": "31-mav.mp3"
+    },
+    {
+        "image": "shouri.png",
+        "gender": "t",
+        "audio": "32-shori.mp3"
+    },
+    {
+        "image": "fili.png",
+        "gender": "t",
+        "audio": "33-pheli.mp3"
+    },
+    {
+        "image": "fakhri.png",
+        "gender": "p",
+        "audio": "34-fakhri.mp3"
+    },
+    {
+        "image": "kaki.png",
+        "gender": "p",
+        "audio": "35-kaki.mp3"
+    },
+    {
+        "image": "shion.png",
+        "gender": "p",
+        "audio": "36-sheon.mp3"
+    },
+    {
+        "image": "khristoc.png",
+        "gender": "p",
+        "audio": "37-ekhrestos.mp3"
+    },
+    {
+        "image": "psalmos.png",
+        "gender": "p",
+        "audio": "38-psalmos.mp3"
+    },
+    {
+        "image": "onkh.png",
+        "gender": "p",
+        "audio": "39-onkh.mp3"
+    },
+    {
+        "image": "shai.png",
+        "gender": "p",
+        "audio": "42-shai.mp3"
+    },
+    {
+        "image": "fosi.png",
+        "gender": "p",
+        "audio": "43-foosi.mp3"
+    },
+    {
+        "image": "khello.png",
+        "gender": "p",
+        "audio": "45-khello.mp3"
+    },
+    {
+        "image": "hab.png",
+        "gender": "p",
+        "audio": "46-hab.mp3"
+    },
+    {
+        "image": "gerger.png",
+        "gender": "p",
+        "audio": "47-jerjer.mp3"
+    },
+    {
+        "image": "Go.png",
+        "gender": "p",
+        "audio": "48-gou.mp3"
+    },
+    {
+        "image": "Tshromy.png",
+        "gender": "t",
+        "audio": "49-tsherombi.mp3"
+    },
+    {
+        "image": "tno.png",
+        "gender": "",
+        "audio": "51-tennoo.mp3"
+    }
+]

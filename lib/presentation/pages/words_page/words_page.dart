@@ -1,18 +1,67 @@
-import 'package:ebty/presentation/components/gridCards/grid_cards.dart';
+import 'package:ebty/Model/words_model.dart';
+import 'package:ebty/presentation/blocs/year/year_cubit.dart';
+import 'package:ebty/presentation/blocs/year/year_state.dart';
+import 'package:ebty/presentation/components/words/words_grid.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
-class WordsPage extends StatelessWidget {
-  WordsPage({super.key});
-  final List<Map> items = List.generate(
-      42,
-      (index) => {
-            "id": index,
-            "name": "assets/images/words/$index.png",
-            "audio": "audio/words/$index.mp3"
-          }).toList();
+Map<Years, String> audioFolderMap = {
+  Years.kg: 'kg',
+  Years.primary_1: 'primary_1',
+  Years.primary_3: 'primary_3',
+  Years.primary_5: 'primary_5',
+  Years.preparatory: 'prep',
+  Years.secondary: 'sec',
+};
+
+class WordsPage extends StatefulWidget {
+  const WordsPage({super.key});
+
+  @override
+  State<WordsPage> createState() => _WordsPageState();
+}
+
+class _WordsPageState extends State<WordsPage> {
+  late Future<Words> items;
+
+  Future<Words> getWords(Years year) async {
+    Words words = Words(year: year);
+    await words.getWordsList();
+
+    return words;
+  }
+
+  @override
+  void initState() {
+    Years year = context.read<YearCubit>().state.year;
+    items = getWords(year);
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
-    return GridCards(items: items);
+    return FutureBuilder(
+        future: items,
+        builder: (BuildContext context, AsyncSnapshot<Words> snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Center(child: CircularProgressIndicator());
+          }
+          return renderData(snapshot.data);
+        });
+  }
+
+  Widget renderData(Words? data) {
+    Years year = context.read<YearCubit>().state.year;
+
+    if (data == null) {
+      return const SizedBox(
+        child: Text('No data'),
+      );
+    }
+
+    return WordsGrid(
+      items: data.words,
+      audioFolder: audioFolderMap[year] ?? "",
+    );
   }
 }

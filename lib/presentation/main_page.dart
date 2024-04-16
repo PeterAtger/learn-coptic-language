@@ -44,11 +44,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 label: 'الرئيسية',
               ),
               NavigationDestination(
-                icon: Icon(Icons.book),
+                icon: Icon(Icons.text_fields_outlined),
                 label: 'الحروف',
               ),
               NavigationDestination(
-                icon: Icon(Icons.text_fields_outlined),
+                icon: Icon(Icons.book),
                 label: 'الكلمات',
               ),
               NavigationDestination(
@@ -60,8 +60,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 label: 'القواعد',
               ),
               NavigationDestination(
-                icon: Icon(Icons.wysiwyg),
-                label: 'اعدادات',
+                icon: Icon(Icons.fire_extinguisher),
+                label: 'Test',
               ),
             ],
           ),
@@ -70,15 +70,15 @@ class _MyHomePageState extends State<MyHomePage> {
             LettersPage(
               key: const Key('Cards'),
             ),
-            WordsPage(
-              key: const Key('Words'),
+            const WordsPage(
+              key: Key('Words'),
             ),
-            MahfozatPage(key: const Key('Mahfozat')),
+            const MahfozatPage(key: Key('Mahfozat')),
             Rulespage(
               key: const Key('Rules'),
             ),
-            TestPage(
-              key: const Key('Test'),
+            const TestPage(
+              key: Key('Test'),
             )
           ][currentPageIndex]),
     );
