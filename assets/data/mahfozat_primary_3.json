@@ -1,17 +1,71 @@
 {
     "المستوى الاول": {
-        "المحادثة": [
+        "الرب نورى وخلاصى": [
             {
-                "arabic": "ثالثة ابتداي اهو",
-                "coptic": "I am",
-                "path": "/some/path"
+                "coptic": "`Psoic pe paovwini nem panohem ainaerho5 `anok qath3 `nnim: ``Psoic pet5 `e`hr3i `egen paovgai ainaergabiht `anok qath3 `nnim",
+                "arabic": "الرب نوري وخلاصي، ممن أخاف؟ الرب حصن حياتي، ممن أرتعب؟"
             }
         ],
-        "نعظمك يا ام النور": [
+        "الآيات": [
             {
-                "arabic": "نعظمك يا ام النور",
-                "coptic": "We magnify you, O Mother of Light",
-                "path": "/some/path"
+                "coptic": "Ek`e2wpi wkovno4",
+                "arabic": "لا تكن الا فرحا (تث 16: 15)"
+            },
+            {
+                "coptic": "2epi eretencebtwt",
+                "arabic": "كونوا مستعدينن (مت 24: 44)"
+            }
+        ],
+        "شعار المهرجان": [
+            {
+                "coptic": "`Psoic pe paovwini nem panohem",
+                "arabic": "الرب نوري وخلاصي (مز 27: 11)"
+            }
+        ],
+        "المحادثة": [
+            {
+                "coptic": "Nane toov`i",
+                "arabic": "صباح الخير"
+            },
+            {
+                "coptic": "Nane rovhi",
+                "arabic": "مساء الخير"
+            },
+            {
+                "coptic": "A2 pe pekran?",
+                "arabic": "ما اسمَك؟"
+            },
+            {
+                "coptic": "A2 pe peran?",
+                "arabic": "ما اسمِك؟"
+            },
+            {
+                "coptic": "Paran pe",
+                "arabic": "اسمي......."
+            },
+            {
+                "coptic": "ovgai",
+                "arabic": "كن معافٍ"
+            },
+            {
+                "coptic": "Ovgai qen `{Psoic",
+                "arabic": "كن معافى في الرب"
+            }
+        ]
+    },
+    "المستوى الثانى": {
+        "ذكصولوجية السيدة العذراء": [
+            {
+                "coptic": "Temetni25 `w Mari`a: %par0enoc `na t0wleb: `coni `m`Psici `mpibeni: eta colomwn cagi e0b3t4.",
+                "arabic": "عظمتكِ يا مريم: العذراء غير الدنسة: تشبه علو النخلة: التي تكلم عنها سليمان."
+            },
+            {
+                "coptic": "`N0o te 5movmi `mmwov `nwnq: etqa5 `mPilibanoc: `eta pi`hmot `nte 5me0nov5: bebi nan `ebol `nq3tc.",
+                "arabic": "أنتِ ينبوع ماء الحياة: الفائض من لبنان: التي نبعت لنا منه: نعمة اللاهوت."
+            },
+            {
+                "coptic": "Aremici nan `nEmmanov3l: qen tem3tra `mpar0enik3: a4aiten `nkl3ronomoc: `n`hr3i qen `0metovro `nnif3ov`i.",
+                "arabic": "ولدتِ لنا عمانوئيل: من أحشائكِ البتولي: وصيرنا واثين: في ملكوت السموات."
             }
         ]
     }

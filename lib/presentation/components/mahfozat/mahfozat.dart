@@ -60,13 +60,16 @@ class _MahfozatListState extends State<MahfozatList> {
                   child: Column(children: [
                     Align(
                       alignment: Alignment.centerLeft,
-                      child: Text(
-                        item.coptic,
-                        style: const TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                          color: Colors.black,
-                          fontFamily: 'Avva_Shenouda',
+                      child: Directionality(
+                        textDirection: TextDirection.ltr,
+                        child: Text(
+                          item.coptic,
+                          style: const TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                            color: Colors.black,
+                            fontFamily: 'Avva_Shenouda',
+                          ),
                         ),
                       ),
                     ),

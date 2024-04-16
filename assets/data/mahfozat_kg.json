@@ -2,42 +2,62 @@
     "المستوى الاول": {
         "المحادثة": [
             {
-                "arabic": "انا هو",
-                "coptic": "I am",
-                "path": "/some/path"
+                "coptic": "A12 pe peran?",
+                "arabic": "اسمك ايه؟ (للبنت) "
             },
             {
-                "arabic": "من هو",
-                "coptic": "Who is",
-                "path": "/some/path"
-            }
-        ],
-        "نعظمك يا ام النور": [
-            {
-                "arabic": "نعظمك يا ام النور",
-                "coptic": "We magnify you, O Mother of Light",
-                "path": "/some/path"
-            }
-        ]
-    },
-    "المستوى الثانى": {
-        "المحادثة": [
-            {
-                "arabic": "انا هو",
-                "coptic": "I am",
-                "path": "/some/path"
+                "coptic": "A2 pe pekran?",
+                "arabic": "اسمك ايه؟ (للولد)"
             },
             {
-                "arabic": "من هو",
-                "coptic": "Who is",
-                "path": "/some/path"
+                "coptic": "Paran pe ....",
+                "arabic": "اسمي ..... "
+            },
+            {
+                "coptic": "Paran pe m3na",
+                "arabic": "اسمي مينا "
+            },
+            {
+                "coptic": "Paran pe mari`a",
+                "arabic": "اسمي ماريا"
             }
         ],
-        "نعظمك يا ام النور": [
+        "رشم الصليب": [
             {
-                "arabic": "نعظمك يا ام النور",
-                "coptic": "We magnify you, O Mother of Light",
-                "path": "/some/path"
+                "coptic": "Qen `fran `m`1fiwt",
+                "arabic": "باسم الاب"
+            },
+            {
+                "coptic": "Nem ``P23ri",
+                "arabic": "والابن"
+            },
+            {
+                "coptic": "Nem Pinevma",
+                "arabic": "والروح"
+            },
+            {
+                "coptic": "E0ovab",
+                "arabic": "القدس"
+            },
+            {
+                "coptic": "Ovnov985 `Novwt `Am3n",
+                "arabic": "اله واحد : آمين"
+            }
+        ],
+        "شعار المهرجان": [
+            {
+                "coptic": "`Psoic pe paovwini nem panohem",
+                "arabic": "الرب نوري وخلاصي (مز 27: 11)"
+            }
+        ],
+        "الآيات": [
+            {
+                "coptic": "Nai n3i `Fnov5 kata pekni25 `nnai",
+                "arabic": "ارحمني يا الله حسب رحمتك (مز 50: 1)"
+            },
+            {
+                "coptic": "`Psoic aimenre 5mtca`ie `nte pek3i",
+                "arabic": "يا رب، أحببت محل بيتك (مز 26: 88)"
             }
         ]
     }

@@ -1,17 +1,117 @@
 {
     "المستوى الاول": {
-        "المحادثة": [
+        "نص قوموا يا بني النور": [
             {
-                "arabic": "خامسة ابتداي اهو",
-                "coptic": "I am",
-                "path": "/some/path"
+                "coptic": "Ten 03nov `e`p2wi ni23ri `nte piovwini `ntenhwc `eP==oc `nte nigom. Hopwc `nte4 er`hmot nan `m`pcw5 `nte nenyvx3.",
+                "arabic": "قوموا يا بني النور لنسبح رب القوات. لكي ينعم لنا بخلاص نفوسنا."
+            },
+            {
+                "coptic": "Qen `pgin`0ren`ohi `eraten `mpek`m0o cwmatikwc. `Aliov`I `ebol hiten pennovc `mpihvniim `nte 5eb2i.",
+                "arabic": "عندما تقف امامك جسديًا. انزع عن عقولنا نوم الغفلة. "
+            },
+            {
+                "coptic": "Moi nan P==oc `novmetre4ernvmfin: hopwc `ntenka5 `nten `ohi `eraten ` mpek`m0o `m`fnav `nte 5`procevx3.",
+                "arabic": "اعطنا يارب يقظة: لكي نفهم أن نقف أمامك وقت الصلاة."
             }
         ],
-        "نعظمك يا ام النور": [
+        "المحادثة": [
             {
-                "arabic": "نعظمك يا ام النور",
-                "coptic": "We magnify you, O Mother of Light",
-                "path": "/some/path"
+                "coptic": "Piovhb: xere ne.",
+                "arabic": "الكاهن: السلام لكِ."
+            },
+            {
+                "coptic": "Eva: xere nak.",
+                "arabic": "إيڨا: السلام لكَ."
+            },
+            {
+                "coptic": "Piov3b: Temenre 5acpi `nrem`nx3mi?",
+                "arabic": "الكاهن: أتحبين اللغة القبطية؟"
+            },
+            {
+                "coptic": "Eva: Qen ovme0m3i.",
+                "arabic": "إيڨا: نعم بالطبع."
+            },
+            {
+                "coptic": "Piov3b: E0be ov?",
+                "arabic": "الكاهن: لماذا؟"
+            },
+            {
+                "coptic": "Eva: `ntahwc ovoh `ntaka5 `epi`anaphora.",
+                "arabic": "إيڨا: لكي أسبح وأفهم القداس الإلهي."
+            },
+            {
+                "coptic": "Piov3b: mare F% `cmov `ero.",
+                "arabic": "الكاهن: الرب يباركك."
+            },
+            {
+                "coptic": "Eva: %2ep`hmot `ntok.",
+                "arabic": "إيڨا: أشكرك."
+            }
+        ],
+        "شعار المهرجان": [
+            {
+                "coptic": "`Psoic pe paovwini nem panohem",
+                "arabic": "الرب نوري وخلاصي (مز 27: 11)"
+            }
+        ],
+        "الآيات": [
+            {
+                "coptic": "`Psoic cwtem `eta `Procevx3",
+                "arabic": "يا رب، اسمع صلاتي (مز 143:11)"
+            },
+            {
+                "coptic": "Aribwk `m`Psoic qen ovono4",
+                "arabic": "اعبدوا الرب بفرح (مز 100: 2)"
+            },
+            {
+                "coptic": "`Psoic e4`e`areh `erok `ebol ha pethwov niben",
+                "arabic": "الرب يحفظك من كل شر (مز 121: 7)"
+            }
+        ]
+    },
+    "المستوي الثانى": {
+        "نص لحن القيامة": [
+            {
+                "coptic": "Tennav et`anactacic `mP=x=c  Ovoh tenovw2t `mf3`e0ovab I=3c P=x=c  {Pensoic f3etoi `na0nobi `mmavat4.",
+                "arabic": "ننظر إلى قيامة المسيحة ونسجد للقدوس يسوع المسيح ربنا الذي بلا خطية وحده."
+            },
+            {
+                "coptic": "Tenovw2t `mpek`ctavroc `w P==x=c: tenhwc ten5`wov `ntek`anactacic: ge `n0ok jar pe pennov5: ovoh `ntencwovn `nkeovai an `cb3l `erok: ovoh qen pekran cemov5 eron do7a Patri. ",
+                "arabic": "نسجد لصليبك أيها المسيح نسجد ونمجد قيامتك. لأنك أنت هو إلهنا ولا نعرف أحدًا سواك وباسمك دعينا (المجد للآب....)."
+            },
+            {
+                "coptic": "Amwini t3rov nipictoc: `ntenovw2t `n`t`anactacic `mP=x=c: ge h3ppe `ebol hiten pe4`ctavroc: a4`I `nge `fra2i `eqovn `epikocmoc t3r4.",
+                "arabic": "تعالوا يا جميع المؤمنين لنسجد لقيامة المسيح لأنه من قبل صليبه. دخل الفرح إلى العالم كله. "
+            },
+            {
+                "coptic": "Maren`cmov `eP==o=c  `nc3ov niben: ovoh `nten5`wov `nte4`anactacic: ge a4erhvpomonin: ovoh a4qomqem `m`fmov hiten pe4mov.",
+                "arabic": "فلنبارك الرب كل حين ونمجد قيامته. لأنه صبر وسحق الموت بموته."
+            }
+        ],
+        "المحادثة": [
+            {
+                "coptic": "M3na: xere ne.",
+                "arabic": "مينا: السلام لكِ."
+            },
+            {
+                "coptic": "Mari`a: xere nak.",
+                "arabic": "ماريا: السلام لكَ."
+            },
+            {
+                "coptic": "M3na: Teraqene `e0wn?",
+                "arabic": "مينا: إلي أين ستذهبين؟"
+            },
+            {
+                "coptic": "Mari`a: `E5ek`kl3ci`a.",
+                "arabic": "ماريا: إلي الكنيسة."
+            },
+            {
+                "coptic": "M3na: `@l3l `e0b3t.",
+                "arabic": "مينا: صلي لأجلي."
+            },
+            {
+                "coptic": "Mari`a: F5 nemak.",
+                "arabic": "ماريا: الله معكَ."
             }
         ]
     }

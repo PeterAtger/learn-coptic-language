@@ -1,17 +1,129 @@
 {
     "المستوى الاول": {
-        "المحادثة": [
+        "نص الأسبسمس الآدام": [
             {
-                "arabic": "ثانوي يا جدعااان",
-                "coptic": "I am",
-                "path": "/some/path"
+                "coptic": "Ovno4 `mmo mari`a 5bwki ovoh 5mav ge f3etqen pe`am3r: niajjeloc cehwc `ero4.",
+                "arabic": "افرحي يا مريم العبدة والأم لأن الذي في حجركِ، الملائكة تسبحه."
+            },
+            {
+                "coptic": "Ovoh niXerovbim: ceovw2t `mmo4 `a7iwc: nem niCerafim: qen ovmetatmovnk.",
+                "arabic": "والشاروبيم، يسجدون له بإستحقاق، والسيرافيم بغير فتور."
+            },
+            {
+                "coptic": "``Mmon `ntan `novparr3ci`a: qaten pensoic I=3=c  P==x=c : xwric netwbh nem ne`precbi`a: `w tensoic `nn3b t3ren 50e`otokoc.",
+                "arabic": "ليس لنا دالة، عند ربنا يسوع المسيح، سوى طلبتكِ وشفاعتكِ، يا سيدتنا كلنا السيدة والدة الإله."
+            },
+            {
+                "coptic": "Hina `ntenhwc `rok: nem niXerovbim: nem niCerafim: enw2 `ebol engw `mmoc.",
+                "arabic": "لكي نُسبحكَ، مع الشاروبيم، والسيرافيم، صارخين قائلين:"
+            },
+            {
+                "coptic": "Ge `xovab `xovab `xovab: P=oc pipantokratwr: `tfe nem `pkahi meh `ebol: qen pek`wov nem pektai`o.",
+                "arabic": "قدوس قدوس قدوس، أيها الرب ضابط الكل، السماء والأرض مملوءتان، من مجدك وكرامتك."
             }
         ],
-        "نعظمك يا ام النور": [
+        "المحادثة": [
             {
-                "arabic": "نعظمك يا ام النور",
-                "coptic": "We magnify you, O Mother of Light",
-                "path": "/some/path"
+                "coptic": "`)mav: Nane toov`i.",
+                "arabic": "الأم: صباح الخير."
+            },
+            {
+                "coptic": "`P23ri: Nane toov`I tamav.",
+                "arabic": "الإبن: صباح الخير يا أمي."
+            },
+            {
+                "coptic": "`)mav: twnk pa23ri.",
+                "arabic": "الأم: قم يا ابني."
+            },
+            {
+                "coptic": "`P23ri: %ovw2 `nta`enkot `novkovgi.",
+                "arabic": "الابن: أريد أن أنام قليلاً."
+            },
+            {
+                "coptic": "`)mav: 1`Xnawck: twnk `ntek`2l3l `mpatek 2enak `etekanz3b.",
+                "arabic": "الأم: سوف تتأخر: قم لكي تصلي قبل أن تذهب لمدرستك."
+            },
+            {
+                "coptic": "`P23ri: Nanec tamav aitwnt.",
+                "arabic": "الابن: حسنًا يا أمي أنا قمت."
+            },
+            {
+                "coptic": "`)mav: mare F% 2wpi nemak `nc3ov niben.",
+                "arabic": "الأم: فليكن الرب معك في كل حين."
+            }
+        ],
+        "الايات": [
+            {
+                "coptic": "Ek`e2wpi ekovno4",
+                "arabic": "لا تكن إلا فرحًا"
+            },
+            {
+                "coptic": "2wpi eretencebtwt",
+                "arabic": "كونوا مستعدين (مت 24: 44)"
+            }
+        ],
+        "شعار المهرجان": [
+            {
+                "coptic": "`Psoic pe paovwini nem panohem",
+                "arabic": "الرب نوري وخلاصي (مز 27: 1)"
+            }
+        ]
+    },
+    "المستوى الثانى": {
+        "إبصالية واطس للثلاثة فتية": [
+            {
+                "coptic": "Ari1yalin `ef3eta4a24 `e``hr3i `egwn ovoh avkoc4 a4twn4 a4kwr4 `m`fmov a45 2o24 hwc `ero4 arihov`o 9sac4",
+                "arabic": "رتلوا الذي صلب عنا وقبر: وقام وأبطل الموت وأهانه: سبحوه وزيدوه علواً."
+            },
+            {
+                "coptic": "Bw2 `mpirwmi `mpaleoc ovoh gwlh `mpiberi ev`kleoc ovoh `eqwnt `emeja`eleoc hwc `ero4 `arihov`o sac4.",
+                "arabic": "اخلعوا الإنسان العتيق وألبسوا الجديد الفاخرواقتربوا إلى عظم الرحمة سبحوه وزيدوه علواً."
+            },
+            {
+                "coptic": "Jenoc `nni`xrictianoc: ni`precbvteroc ke diakonoc: ma`wov `m`Psioc ge ovhikanoc: hwc `ero4 `apihov`o sac4.",
+                "arabic": "يا جنس المسيحيين، القسوس والشمامسة، أعطوا مجداً للرب لأنه مستوجب، سبحوه وزيدوه علواً."
+            }
+        ],
+        "المحادثة": [
+            {
+                "arabic": "الأب: مساء الخير.",
+                "coptic": "`fiwt: Nane rovhi>."
+            },
+            {
+                "arabic": "الابنة: مساء الخير يا أبي.",
+                "coptic": "`t2eri: Nane rovhi paiwt."
+            },
+            {
+                "arabic": "الأب: أين هو أخوكِ؟",
+                "coptic": "`fiwt: )wn pe pecon?"
+            },
+            {
+                "arabic": "الابنة: في الكنيسة.",
+                "coptic": "`t2eri: Qen 5ek`kl3ci`a."
+            },
+            {
+                "arabic": "الأب: لماذا؟ ",
+                "coptic": "`fiwt: E0be ov?"
+            },
+            {
+                "arabic": "الابنة: اليوم اجتماع خدام الكنيسة لأجل الخدمة.",
+                "coptic": "`t2eri: `mgoov pi0wov5 `nnire42em2i `n5ek`kl3ci`a e0be pi2em2i."
+            },
+            {
+                "arabic": "الأب: حسناً: أنا جائع.",
+                "coptic": "`fiwt: Nanec 5hoker."
+            },
+            {
+                "arabic": "الابنة: سوف أحضر الطعام بسرعة.",
+                "coptic": "`t2eri: 5nacob5 `n5`qre `nxwlem."
+            },
+            {
+                "arabic": "الأب: أشكرك.",
+                "coptic": "`fiwt: %2ep`hmot `ntotk."
+            },
+            {
+                "arabic": "الابنة: العفو يا أبي.",
+                "coptic": "`t2eri: `Mmon `hli paiwt."
             }
         ]
     }

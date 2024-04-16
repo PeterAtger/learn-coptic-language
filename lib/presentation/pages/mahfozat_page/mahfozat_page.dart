@@ -1,37 +1,63 @@
-import 'package:ebty/presentation/components/listCards/list_cards.dart';
+import 'package:ebty/presentation/blocs/year/year_cubit.dart';
+import 'package:ebty/presentation/components/mahfozat/mahfozat.dart';
 import 'package:flutter/material.dart';
+import 'package:ebty/Model/mahfozat_model.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
-class MahfozatPage extends StatelessWidget {
-  MahfozatPage({super.key});
-  final List<Map> ayat = List.generate(
-      5,
-      (index) => {
-            "id": index,
-            "name": "assets/images/Mahfozat/Ayat/$index.png",
-            "audio": "audio/Ayat/$index.mp3"
-          }).toList();
-  final List<Map> alnoor = List.generate(
-      18,
-      (index) => {
-            "id": index,
-            "name": "assets/images/Mahfozat/OmAlnwr/$index.png",
-            "audio": "audio/OmAlnwr/$index.mp3"
-          }).toList();
+import '../../blocs/year/year_state.dart';
+
+class MahfozatPage extends StatefulWidget {
+  const MahfozatPage({super.key});
+
+  @override
+  State<MahfozatPage> createState() => _MahfozatPageState();
+}
+
+class _MahfozatPageState extends State<MahfozatPage> {
+  late Future<Mahfozat> items;
+  late Map<Years, Mahfozat> memo = {};
+
+  Future<Mahfozat> getMahfozat(Years year) async {
+    if (memo.containsKey(year)) {
+      return memo[year]!;
+    }
+
+    Mahfozat mahfozat = Mahfozat(year: year);
+    await mahfozat.getMahfozatList();
+
+    memo[year] = mahfozat;
+
+    return mahfozat;
+  }
+
+  @override
+  void initState() {
+    Years year = context.read<YearCubit>().state.year;
+    items = getMahfozat(year);
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
-    return <Widget>[
-      ListCards(
-        items: alnoor,
-        hasAudio: true,
-      ),
-      const Divider(
-        height: 32,
-      ),
-      ListCards(
-        items: ayat,
-        hasAudio: true,
-      ),
-    ][0];
+    return FutureBuilder(
+        future: items,
+        builder: (BuildContext context, AsyncSnapshot<Mahfozat> snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Center(child: CircularProgressIndicator());
+          }
+          return renderData(snapshot.data);
+        });
+  }
+
+  Widget renderData(Mahfozat? data) {
+    if (data == null) {
+      return const SizedBox(
+        child: Text('No data'),
+      );
+    }
+
+    List<FlatMahfozatItem> flatItems = Mahfozat.toFlatList(data);
+
+    return MahfozatList(items: flatItems);
   }
 }

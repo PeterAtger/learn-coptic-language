@@ -2,16 +2,66 @@
     "المستوى الاول": {
         "المحادثة": [
             {
-                "arabic": "اولى ابتداي اهو",
-                "coptic": "I am",
-                "path": "/some/path"
+                "coptic": "A12 pe peran?",
+                "arabic": "اسمك ايه؟ (للبنت) "
+            },
+            {
+                "coptic": "A2 pe pekran?",
+                "arabic": "اسمك ايه؟ (للولد)"
+            },
+            {
+                "coptic": "Paran pe ....",
+                "arabic": "اسمي ..... "
+            },
+            {
+                "coptic": "Paran pe m3na",
+                "arabic": "اسمي مينا "
+            },
+            {
+                "coptic": "Paran pe mari`a",
+                "arabic": "اسمي ماريا"
             }
         ],
-        "نعظمك يا ام النور": [
+        "رشم الصليب": [
             {
-                "arabic": "نعظمك يا ام النور",
-                "coptic": "We magnify you, O Mother of Light",
-                "path": "/some/path"
+                "coptic": "Qen `fran `m`1fiwt",
+                "arabic": "باسم الاب"
+            },
+            {
+                "coptic": "Nem ``P23ri",
+                "arabic": "والابن"
+            },
+            {
+                "coptic": "Nem Pinevma",
+                "arabic": "والروح"
+            },
+            {
+                "coptic": "E0ovab",
+                "arabic": "القدس"
+            },
+            {
+                "coptic": "Ovnov985 `Novwt `Am3n",
+                "arabic": "اله واحد : آمين"
+            }
+        ],
+        "شعار المهرجان": [
+            {
+                "coptic": "`Psoic pe paovwini nem panohem",
+                "arabic": "الرب نوري وخلاصي (مز 27: 11)"
+            }
+        ],
+        "الآيات": [
+            {
+                "coptic": "`Psoic cwtem `eta `Procevx3",
+                "arabic": "يا رب، اسمع صلاتي (مز 143:11)"
+            },
+            {
+                "coptic": "Aribwk `m`Psoic qen ovono4",
+                "arabic": "اعبدوا الرب بفرح (مز 100: 2)"
+            },
+            {
+                "coptic": "`Psoic e4`e`areh `erok `ebol ha pethwov niben",
+                "arabic": "الرب يحفظك من كل شر (مز 121: 7)"
             }
         ]
     }

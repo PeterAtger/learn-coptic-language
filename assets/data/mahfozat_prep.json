@@ -1,17 +1,125 @@
 {
     "المستوى الاول": {
-        "المحادثة": [
+        "القطعة الثامنة من ثيؤطوكية الاحد": [
             {
-                "arabic": "اعدادي يا غجر",
-                "coptic": "I am",
-                "path": "/some/path"
+                "coptic": "__}}=Z `ncop `mm3ni: `ebolqen pah3t t3r4: 5na`cmov `epekran: P=oc `mpi`e`pt3r4.",
+                "arabic": "سبع مرات كل يوم. من كل قلبي. أبارك اسمك. يا رب الكل."
+            },
+            {
+                "coptic": "Aier`fmev`I `mpekran: ovoh aigemnom5: `Povro `nniewn: F% `nte ninov5.",
+                "arabic": "ذكرت اسمك فتعزيت. يا ملك الدهور. وإله الآلهة."
+            },
+            {
+                "coptic": "I=3c P=x=c  Pennov5: pi`al30inoc: f3eta4`I e0be pencw5 a4ercwma tikoc.",
+                "arabic": "يسوع المسيح إلهنا. الحقيقي الذي أتى من أجل خلاصنا متجسدًا."
+            },
+            {
+                "coptic": "A4sicar987 `ebol: qen {Pi=p=na e=90v: nem ebolqen mari`a: 52elet =e=0v.",
+                "arabic": "وتجسد من الروح القدس ومن مريم العروس الطاهرة"
             }
         ],
-        "نعظمك يا ام النور": [
+        "المحادثة": [
             {
-                "arabic": "نعظمك يا ام النور",
-                "coptic": "We magnify you, O Mother of Light",
-                "path": "/some/path"
+                "coptic": "M3na: nane toov`I a2 pe pekp35>?",
+                "arabic": "مينا: صباح الخير كيف حالك؟"
+            },
+            {
+                "coptic": "Dani3l: 5ovog. Ak2enak `e0wn `nca4?",
+                "arabic": "دانيال: أنا بخير، أين ذهبت يوم أمس؟"
+            },
+            {
+                "coptic": "M3na: ai2en3i `e5ek`kl3ci`a.",
+                "arabic": "مينا: لقد ذهبت الى الكنيسة."
+            },
+            {
+                "coptic": "Dani3l: ak`iri `nov qen 5ek`kl3ci`a>?",
+                "arabic": "دانيال: ماذا فعلت في الكنيسة؟"
+            },
+            {
+                "coptic": "M3na: 5si`cbw ovoh 5gerger nem na`2f3r.",
+                "arabic": "مينا: اتعلم وألعب مع أصحابي."
+            },
+            {
+                "coptic": "M3na: aksi`cbw `nov qen 5ek`kl3ci`a>?",
+                "arabic": "دانيال: ماذا تعلمت في الكنيسة؟"
+            },
+            {
+                "coptic": "M3na: aisi`cbw `novw2 qen 5acpi `nrem1`nx3mi.",
+                "arabic": "مينا: تعلمت أن أقرأ اللغة القبطية."
+            }
+        ],
+        "شعار المهرجان": [
+            {
+                "coptic": "`Psoic pe paovwini nem panohem",
+                "arabic": "الرب نوري وخلاصي (مز 27: 11)"
+            }
+        ],
+        "الآيات": [
+            {
+                "coptic": "Ek`e2wpi Ekovno4",
+                "arabic": "لا تكن إلا فرحًا "
+            },
+            {
+                "coptic": "`Arihir3n3",
+                "arabic": "عيشوا بالسلام (2كو 13: 11)"
+            }
+        ]
+    },
+    "المستوى الثانى": {
+        "تص بى أويك": [
+            {
+                "coptic": "Piwik `nte `pwnq: eta4`I `epec3t: nan `ebolqen `tfe: a45 `m`pwnq `mpikocmoc.",
+                "arabic": "خبز الحياة الذي نزل من السماء وهب الحياة للعالم."
+            },
+            {
+                "coptic": "`n0o hwi maria: are4ai qen tenegi: `mpimanna `nno3ton: eta4`I ebolqen `Fiwt.",
+                "arabic": "وأنتِ أيضًا يا مريم حملت في بطنك المن العقلي الذي آتى من الآب."
+            },
+            {
+                "coptic": "Aremac4 asne 0wleb: a45 nan `mpe4cwma: nem {pe4`cno4 ettai3ovt: anwnq 2a `eneh.",
+                "arabic": "ولدته بغير دنس وأعطانا جسده ودمه الكريم فحيينا إلى الأبد."
+            },
+            {
+                "coptic": "Cetwovnov harok: `nge nixerovbim: nem `nicerafim: ce`2nav `erok an.",
+                "arabic": "يقوم حولك الشاروبيم والسيرافيم ولا يستطيعون أن ينظروك."
+            },
+            {
+                "coptic": "Tennav `erok `mm3ni: higen pima`ner2wovwi: tensi ebolqen pekcwma: nem pek`cno4 ettai3ovt",
+                "arabic": "ونحن ننظرك كل يوم على المذبح ونتناول من جسدك ودمك الكريم."
+            }
+        ],
+        "المحادثة": [
+            {
+                "coptic": "Adel: Xere ne",
+                "arabic": "عادل: السلام لكِ."
+            },
+            {
+                "coptic": "Ra2a: Xere nak",
+                "arabic": "رشا: السلام لكَ"
+            },
+            {
+                "coptic": "Adel: A2 pe per35?",
+                "arabic": "عادل: كيف حالكِ؟"
+            },
+            {
+                "coptic": "Ra2a: %qoci `ema2w",
+                "arabic": "رشا: انا تعبانة جدًا."
+            },
+            {
+                "coptic": "Adel: Tera2ene `epic3ni?",
+                "arabic": "عادل: هل ستذهبِ للطبيب؟"
+            },
+            {
+                "coptic": "Rawa: Ce 5na2en3i haro4 `mfoov.",
+                "arabic": "رشا: نعم سأذهب إليه اليوم."
+            },
+            {
+                "coptic": "Adel: mare f% talso `mmo.",
+                "arabic": "عادل: فليشفيكِ الله."
+            },
+            {
+                "coptic": "Ra2a: %23p`hmot `ntotk.",
+                "arabic": "رشا: اشكركَ."
             }
         ]
     }
