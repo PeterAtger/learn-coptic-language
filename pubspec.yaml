@@ -89,17 +89,6 @@ flutter:
       fonts:
         - asset: lib/presentation/theme/fonts/lato/Lato-Regular.ttf
         - asset: lib/presentation/theme/fonts/lato/Lato-Bold.ttf
-    - family: noto
-      fonts:
-        - asset : assets/fonts/noto-sans-regular-400.ttf
-    - family: lateef
-      fonts:
-        - asset : assets/fonts/Lateef-Regular.ttf
-        - asset : assets/fonts/Lateef-Bold.ttf
-        - asset : assets/fonts/Lateef-ExtraBold.ttf
-        - asset : assets/fonts/Lateef-Light.ttf
-        - asset : assets/fonts/Lateef-Medium.ttf
-  #         weight: 700
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
