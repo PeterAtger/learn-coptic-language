@@ -5,15 +5,6 @@ import 'package:ebty/presentation/components/words/words_grid.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-Map<Years, String> audioFolderMap = {
-  Years.kg: 'kg',
-  Years.primary_1: 'primary_1',
-  Years.primary_3: 'primary_3',
-  Years.primary_5: 'primary_5',
-  Years.preparatory: 'prep',
-  Years.secondary: 'sec',
-};
-
 class TestPage extends StatefulWidget {
   const TestPage({super.key});
 
