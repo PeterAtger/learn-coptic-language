@@ -3,69 +3,79 @@
         "نص قوموا يا بني النور": [
             {
                 "coptic": "Ten 03nov `e`p2wi ni23ri `nte piovwini `ntenhwc `eP==oc `nte nigom. Hopwc `nte4 er`hmot nan `m`pcw5 `nte nenyvx3.",
-                "arabic": "قوموا يا بني النور لنسبح رب القوات. لكي ينعم لنا بخلاص نفوسنا."
+                "arabic": "قوموا يا بني النور لنسبح رب القوات. لكي ينعم لنا بخلاص نفوسنا.",
+                "audio": "tentheno-1.mp3"
             },
             {
                 "coptic": "Qen `pgin`0ren`ohi `eraten `mpek`m0o cwmatikwc. `Aliov`I `ebol hiten pennovc `mpihvniim `nte 5eb2i.",
-                "arabic": "عندما تقف امامك جسديًا. انزع عن عقولنا نوم الغفلة. "
+                "arabic": "عندما تقف امامك جسديًا. انزع عن عقولنا نوم الغفلة. ",
+                "audio": "tentheno-2.mp3"
             },
             {
                 "coptic": "Moi nan P==oc `novmetre4ernvmfin: hopwc `ntenka5 `nten `ohi `eraten ` mpek`m0o `m`fnav `nte 5`procevx3.",
-                "arabic": "اعطنا يارب يقظة: لكي نفهم أن نقف أمامك وقت الصلاة."
+                "arabic": "اعطنا يارب يقظة: لكي نفهم أن نقف أمامك وقت الصلاة.",
+                "audio": "tentheno-3.mp3"
             }
         ],
         "المحادثة": [
             {
                 "coptic": "Piovhb: xere ne.",
-                "arabic": "الكاهن: السلام لكِ."
+                "arabic": "الكاهن: السلام لكِ.",
+                "audio": "shere-ne.mp3"
             },
             {
                 "coptic": "Eva: xere nak.",
-                "arabic": "إيڨا: السلام لكَ."
+                "arabic": "إيڨا: السلام لكَ.",
+                "audio": "shere-nak.mp3"
             },
             {
                 "coptic": "Piov3b: Temenre 5acpi `nrem`nx3mi?",
-                "arabic": "الكاهن: أتحبين اللغة القبطية؟"
+                "arabic": "الكاهن: أتحبين اللغة القبطية؟",
+                "audio": "temenre-teasbi.mp3"
             },
             {
                 "coptic": "Eva: Qen ovme0m3i.",
-                "arabic": "إيڨا: نعم بالطبع."
+                "arabic": "إيڨا: نعم بالطبع.",
+                "audio": "khen-omicmi.mp3"
             },
             {
                 "coptic": "Piov3b: E0be ov?",
-                "arabic": "الكاهن: لماذا؟"
+                "arabic": "الكاهن: لماذا؟",
+                "audio": "ethve-ou.mp3"
             },
             {
                 "coptic": "Eva: `ntahwc ovoh `ntaka5 `epi`anaphora.",
-                "arabic": "إيڨا: لكي أسبح وأفهم القداس الإلهي."
+                "arabic": "إيڨا: لكي أسبح وأفهم القداس الإلهي.",
+                "audio": "entahoc-entakati.mp3"
             },
             {
                 "coptic": "Piov3b: mare F% `cmov `ero.",
-                "arabic": "الكاهن: الرب يباركك."
+                "arabic": "الكاهن: الرب يباركك.",
+                "audio": "mare-efnoti.mp3"
             },
             {
                 "coptic": "Eva: %2ep`hmot `ntok.",
-                "arabic": "إيڨا: أشكرك."
+                "arabic": "إيڨا: أشكرك.",
+                "audio": "teshebehmot-entotk.mp3"
             }
         ],
         "شعار المهرجان": [
             {
                 "coptic": "`Psoic pe paovwini nem panohem",
-                "arabic": "الرب نوري وخلاصي (مز 27: 11)"
+                "arabic": "الرب نوري وخلاصي (مز 27: 11)",
+                "audio": "ebtchoic-be.mp3"
             }
         ],
         "الآيات": [
             {
-                "coptic": "`Psoic cwtem `eta `Procevx3",
-                "arabic": "يا رب، اسمع صلاتي (مز 143:11)"
+                "coptic": "Ek`e2wpi wkovno4",
+                "arabic": "لا تكن الا فرحا (تث 16: 15)",
+                "audio": "ekeshobi-ekonof.mp3"
             },
             {
-                "coptic": "Aribwk `m`Psoic qen ovono4",
-                "arabic": "اعبدوا الرب بفرح (مز 100: 2)"
-            },
-            {
-                "coptic": "`Psoic e4`e`areh `erok `ebol ha pethwov niben",
-                "arabic": "الرب يحفظك من كل شر (مز 121: 7)"
+                "coptic": "2wpi eretencebtwt",
+                "arabic": "كونوا مستعدينن (مت 24: 44)",
+                "audio": "shobi-ereten.mp3"
             }
         ]
     },
@@ -73,45 +83,55 @@
         "نص لحن القيامة": [
             {
                 "coptic": "Tennav et`anactacic `mP=x=c  Ovoh tenovw2t `mf3`e0ovab I=3c P=x=c  {Pensoic f3etoi `na0nobi `mmavat4.",
-                "arabic": "ننظر إلى قيامة المسيحة ونسجد للقدوس يسوع المسيح ربنا الذي بلا خطية وحده."
+                "arabic": "ننظر إلى قيامة المسيحة ونسجد للقدوس يسوع المسيح ربنا الذي بلا خطية وحده.",
+                "audio": ""
             },
             {
                 "coptic": "Tenovw2t `mpek`ctavroc `w P==x=c: tenhwc ten5`wov `ntek`anactacic: ge `n0ok jar pe pennov5: ovoh `ntencwovn `nkeovai an `cb3l `erok: ovoh qen pekran cemov5 eron do7a Patri. ",
-                "arabic": "نسجد لصليبك أيها المسيح نسجد ونمجد قيامتك. لأنك أنت هو إلهنا ولا نعرف أحدًا سواك وباسمك دعينا (المجد للآب....)."
+                "arabic": "نسجد لصليبك أيها المسيح نسجد ونمجد قيامتك. لأنك أنت هو إلهنا ولا نعرف أحدًا سواك وباسمك دعينا (المجد للآب....).",
+                "audio": ""
             },
             {
                 "coptic": "Amwini t3rov nipictoc: `ntenovw2t `n`t`anactacic `mP=x=c: ge h3ppe `ebol hiten pe4`ctavroc: a4`I `nge `fra2i `eqovn `epikocmoc t3r4.",
-                "arabic": "تعالوا يا جميع المؤمنين لنسجد لقيامة المسيح لأنه من قبل صليبه. دخل الفرح إلى العالم كله. "
+                "arabic": "تعالوا يا جميع المؤمنين لنسجد لقيامة المسيح لأنه من قبل صليبه. دخل الفرح إلى العالم كله. ",
+                "audio": ""
             },
             {
                 "coptic": "Maren`cmov `eP==o=c  `nc3ov niben: ovoh `nten5`wov `nte4`anactacic: ge a4erhvpomonin: ovoh a4qomqem `m`fmov hiten pe4mov.",
-                "arabic": "فلنبارك الرب كل حين ونمجد قيامته. لأنه صبر وسحق الموت بموته."
+                "arabic": "فلنبارك الرب كل حين ونمجد قيامته. لأنه صبر وسحق الموت بموته.",
+                "audio": ""
             }
         ],
         "المحادثة": [
             {
                 "coptic": "M3na: xere ne.",
-                "arabic": "مينا: السلام لكِ."
+                "arabic": "مينا: السلام لكِ.",
+                "audio": "shere-ne.mp3"
             },
             {
                 "coptic": "Mari`a: xere nak.",
-                "arabic": "ماريا: السلام لكَ."
+                "arabic": "ماريا: السلام لكَ.",
+                "audio": "shere-nak.mp3"
             },
             {
                 "coptic": "M3na: Teraqene `e0wn?",
-                "arabic": "مينا: إلي أين ستذهبين؟"
+                "arabic": "مينا: إلي أين ستذهبين؟",
+                "audio": "tirasheni-ethon.mp3"
             },
             {
                 "coptic": "Mari`a: `E5ek`kl3ci`a.",
-                "arabic": "ماريا: إلي الكنيسة."
+                "arabic": "ماريا: إلي الكنيسة.",
+                "audio": "eti-ekeklicia.mp3"
             },
             {
                 "coptic": "M3na: `@l3l `e0b3t.",
-                "arabic": "مينا: صلي لأجلي."
+                "arabic": "مينا: صلي لأجلي.",
+                "audio": "eshlil-ethvit.mp3"
             },
             {
                 "coptic": "Mari`a: F5 nemak.",
-                "arabic": "ماريا: الله معكَ."
+                "arabic": "ماريا: الله معكَ.",
+                "audio": "efnoti-nemak.mp3"
             }
         ]
     }

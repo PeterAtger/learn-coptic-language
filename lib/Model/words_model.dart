@@ -5,15 +5,6 @@ import 'package:flutter/services.dart';
 
 enum WordsKeys { image, gender, audio }
 
-Map<Years, String> audioFolderMap = {
-  Years.kg: 'kg',
-  Years.primary_1: 'primary_1',
-  Years.primary_3: 'primary_3',
-  Years.primary_5: 'primary_5',
-  Years.preparatory: 'prep',
-  Years.secondary: 'sec',
-};
-
 Map<Years, String> wordsFiles = {
   Years.kg: "assets/data/words_kg.json",
   Years.primary_1: "assets/data/words_primary_1.json",
@@ -43,6 +34,7 @@ class Words {
     final List data = await json.decode(rawData);
 
     for (int i = 0; i < data.length; i++) {
+      print(data[i]);
       words.add(parseWord(data[i]));
     }
 

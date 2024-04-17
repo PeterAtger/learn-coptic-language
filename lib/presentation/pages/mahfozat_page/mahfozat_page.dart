@@ -1,3 +1,4 @@
+import 'package:ebty/Model/audio_model.dart';
 import 'package:ebty/presentation/blocs/year/year_cubit.dart';
 import 'package:ebty/presentation/blocs/year/year_state.dart';
 import 'package:ebty/presentation/components/mahfozat/mahfozat.dart';
@@ -49,6 +50,8 @@ class _MahfozatPageState extends State<MahfozatPage> {
   }
 
   Widget renderData(Mahfozat? data) {
+    Years year = context.read<YearCubit>().state.year;
+
     if (data == null) {
       return const SizedBox(
         child: Text('No data'),
@@ -57,6 +60,9 @@ class _MahfozatPageState extends State<MahfozatPage> {
 
     List<FlatMahfozatItem> flatItems = Mahfozat.toFlatList(data);
 
-    return MahfozatList(items: flatItems);
+    return MahfozatList(
+      items: flatItems,
+      audioFolder: audioFolderMap[year] ?? "",
+    );
   }
 }

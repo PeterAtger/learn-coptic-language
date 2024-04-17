@@ -3,69 +3,84 @@
         "نص الأسبسمس الآدام": [
             {
                 "coptic": "Ovno4 `mmo mari`a 5bwki ovoh 5mav ge f3etqen pe`am3r: niajjeloc cehwc `ero4.",
-                "arabic": "افرحي يا مريم العبدة والأم لأن الذي في حجركِ، الملائكة تسبحه."
+                "arabic": "افرحي يا مريم العبدة والأم لأن الذي في حجركِ، الملائكة تسبحه.",
+                "audio": ""
             },
             {
                 "coptic": "Ovoh niXerovbim: ceovw2t `mmo4 `a7iwc: nem niCerafim: qen ovmetatmovnk.",
-                "arabic": "والشاروبيم، يسجدون له بإستحقاق، والسيرافيم بغير فتور."
+                "arabic": "والشاروبيم، يسجدون له بإستحقاق، والسيرافيم بغير فتور.",
+                "audio": ""
             },
             {
                 "coptic": "``Mmon `ntan `novparr3ci`a: qaten pensoic I=3=c  P==x=c : xwric netwbh nem ne`precbi`a: `w tensoic `nn3b t3ren 50e`otokoc.",
-                "arabic": "ليس لنا دالة، عند ربنا يسوع المسيح، سوى طلبتكِ وشفاعتكِ، يا سيدتنا كلنا السيدة والدة الإله."
+                "arabic": "ليس لنا دالة، عند ربنا يسوع المسيح، سوى طلبتكِ وشفاعتكِ، يا سيدتنا كلنا السيدة والدة الإله.",
+                "audio": ""
             },
             {
                 "coptic": "Hina `ntenhwc `rok: nem niXerovbim: nem niCerafim: enw2 `ebol engw `mmoc.",
-                "arabic": "لكي نُسبحكَ، مع الشاروبيم، والسيرافيم، صارخين قائلين:"
+                "arabic": "لكي نُسبحكَ، مع الشاروبيم، والسيرافيم، صارخين قائلين:",
+                "audio": ""
             },
             {
                 "coptic": "Ge `xovab `xovab `xovab: P=oc pipantokratwr: `tfe nem `pkahi meh `ebol: qen pek`wov nem pektai`o.",
-                "arabic": "قدوس قدوس قدوس، أيها الرب ضابط الكل، السماء والأرض مملوءتان، من مجدك وكرامتك."
+                "arabic": "قدوس قدوس قدوس، أيها الرب ضابط الكل، السماء والأرض مملوءتان، من مجدك وكرامتك.",
+                "audio": ""
             }
         ],
         "المحادثة": [
             {
                 "coptic": "`)mav: Nane toov`i.",
-                "arabic": "الأم: صباح الخير."
+                "arabic": "الأم: صباح الخير.",
+                "audio": "mohadsa-11.mp3"
             },
             {
                 "coptic": "`P23ri: Nane toov`I tamav.",
-                "arabic": "الإبن: صباح الخير يا أمي."
+                "arabic": "الإبن: صباح الخير يا أمي.",
+                "audio": "mohadsa-12.mp3"
             },
             {
                 "coptic": "`)mav: twnk pa23ri.",
-                "arabic": "الأم: قم يا ابني."
+                "arabic": "الأم: قم يا ابني.",
+                "audio": "mohadsa-13.mp3"
             },
             {
                 "coptic": "`P23ri: %ovw2 `nta`enkot `novkovgi.",
-                "arabic": "الابن: أريد أن أنام قليلاً."
+                "arabic": "الابن: أريد أن أنام قليلاً.",
+                "audio": "mohadsa-14.mp3"
             },
             {
                 "coptic": "`)mav: 1`Xnawck: twnk `ntek`2l3l `mpatek 2enak `etekanz3b.",
-                "arabic": "الأم: سوف تتأخر: قم لكي تصلي قبل أن تذهب لمدرستك."
+                "arabic": "الأم: سوف تتأخر: قم لكي تصلي قبل أن تذهب لمدرستك.",
+                "audio": "mohadsa-15.mp3"
             },
             {
                 "coptic": "`P23ri: Nanec tamav aitwnt.",
-                "arabic": "الابن: حسنًا يا أمي أنا قمت."
+                "arabic": "الابن: حسنًا يا أمي أنا قمت.",
+                "audio": "mohadsa-16.mp3"
             },
             {
                 "coptic": "`)mav: mare F% 2wpi nemak `nc3ov niben.",
-                "arabic": "الأم: فليكن الرب معك في كل حين."
+                "arabic": "الأم: فليكن الرب معك في كل حين.",
+                "audio": "mohadsa-17.mp3"
             }
         ],
         "الايات": [
             {
                 "coptic": "Ek`e2wpi ekovno4",
-                "arabic": "لا تكن إلا فرحًا"
+                "arabic": "لا تكن إلا فرحًا",
+                "audio": "ekoshobi.mp3"
             },
             {
                 "coptic": "2wpi eretencebtwt",
-                "arabic": "كونوا مستعدين (مت 24: 44)"
+                "arabic": "كونوا مستعدين (مت 24: 44)",
+                "audio": "shobi.mp3"
             }
         ],
         "شعار المهرجان": [
             {
                 "coptic": "`Psoic pe paovwini nem panohem",
-                "arabic": "الرب نوري وخلاصي (مز 27: 1)"
+                "arabic": "الرب نوري وخلاصي (مز 27: 1)",
+                "audio": "ebtchoic.mp3"
             }
         ]
     },
@@ -73,57 +88,70 @@
         "إبصالية واطس للثلاثة فتية": [
             {
                 "coptic": "Ari1yalin `ef3eta4a24 `e``hr3i `egwn ovoh avkoc4 a4twn4 a4kwr4 `m`fmov a45 2o24 hwc `ero4 arihov`o 9sac4",
-                "arabic": "رتلوا الذي صلب عنا وقبر: وقام وأبطل الموت وأهانه: سبحوه وزيدوه علواً."
+                "arabic": "رتلوا الذي صلب عنا وقبر: وقام وأبطل الموت وأهانه: سبحوه وزيدوه علواً.",
+                "audio": "aripsalen-1.mp3"
             },
             {
                 "coptic": "Bw2 `mpirwmi `mpaleoc ovoh gwlh `mpiberi ev`kleoc ovoh `eqwnt `emeja`eleoc hwc `ero4 `arihov`o sac4.",
-                "arabic": "اخلعوا الإنسان العتيق وألبسوا الجديد الفاخرواقتربوا إلى عظم الرحمة سبحوه وزيدوه علواً."
+                "arabic": "اخلعوا الإنسان العتيق وألبسوا الجديد الفاخرواقتربوا إلى عظم الرحمة سبحوه وزيدوه علواً.",
+                "audio": "aripsalen-2.mp3"
             },
             {
                 "coptic": "Jenoc `nni`xrictianoc: ni`precbvteroc ke diakonoc: ma`wov `m`Psioc ge ovhikanoc: hwc `ero4 `apihov`o sac4.",
-                "arabic": "يا جنس المسيحيين، القسوس والشمامسة، أعطوا مجداً للرب لأنه مستوجب، سبحوه وزيدوه علواً."
+                "arabic": "يا جنس المسيحيين، القسوس والشمامسة، أعطوا مجداً للرب لأنه مستوجب، سبحوه وزيدوه علواً.",
+                "audio": "aripsalen-3.mp3"
             }
         ],
         "المحادثة": [
             {
                 "arabic": "الأب: مساء الخير.",
-                "coptic": "`fiwt: Nane rovhi>."
+                "coptic": "`fiwt: Nane rovhi>.",
+                "audio": "mohadsa-21.mp3"
             },
             {
                 "arabic": "الابنة: مساء الخير يا أبي.",
-                "coptic": "`t2eri: Nane rovhi paiwt."
+                "coptic": "`t2eri: Nane rovhi paiwt.",
+                "audio": "mohadsa-22.mp3"
             },
             {
                 "arabic": "الأب: أين هو أخوكِ؟",
-                "coptic": "`fiwt: )wn pe pecon?"
+                "coptic": "`fiwt: )wn pe pecon?",
+                "audio": "mohadsa-23.mp3"
             },
             {
                 "arabic": "الابنة: في الكنيسة.",
-                "coptic": "`t2eri: Qen 5ek`kl3ci`a."
+                "coptic": "`t2eri: Qen 5ek`kl3ci`a.",
+                "audio": "mohadsa-24.mp3"
             },
             {
                 "arabic": "الأب: لماذا؟ ",
-                "coptic": "`fiwt: E0be ov?"
+                "coptic": "`fiwt: E0be ov?",
+                "audio": "mohadsa-25.mp3"
             },
             {
                 "arabic": "الابنة: اليوم اجتماع خدام الكنيسة لأجل الخدمة.",
-                "coptic": "`t2eri: `mgoov pi0wov5 `nnire42em2i `n5ek`kl3ci`a e0be pi2em2i."
+                "coptic": "`t2eri: `mgoov pi0wov5 `nnire42em2i `n5ek`kl3ci`a e0be pi2em2i.",
+                "audio": "mohadsa-26.mp3"
             },
             {
                 "arabic": "الأب: حسناً: أنا جائع.",
-                "coptic": "`fiwt: Nanec 5hoker."
+                "coptic": "`fiwt: Nanec 5hoker.",
+                "audio": "mohadsa-27.mp3"
             },
             {
                 "arabic": "الابنة: سوف أحضر الطعام بسرعة.",
-                "coptic": "`t2eri: 5nacob5 `n5`qre `nxwlem."
+                "coptic": "`t2eri: 5nacob5 `n5`qre `nxwlem.",
+                "audio": "mohadsa-28.mp3"
             },
             {
                 "arabic": "الأب: أشكرك.",
-                "coptic": "`fiwt: %2ep`hmot `ntotk."
+                "coptic": "`fiwt: %2ep`hmot `ntotk.",
+                "audio": "mohadsa-29.mp3"
             },
             {
                 "arabic": "الابنة: العفو يا أبي.",
-                "coptic": "`t2eri: `Mmon `hli paiwt."
+                "coptic": "`t2eri: `Mmon `hli paiwt.",
+                "audio": "mohadsa-210.mp3"
             }
         ]
     }

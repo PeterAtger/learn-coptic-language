@@ -1,10 +1,15 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:ebty/Model/mahfozat_model.dart';
 import 'package:flutter/material.dart';
 
 class MahfozatList extends StatefulWidget {
   final List<FlatMahfozatItem> items;
 
-  const MahfozatList({super.key, this.items = const []});
+  MahfozatList({super.key, this.items = const [], this.audioFolder = ''});
+
+  final String audioFolder;
+  final String audioLocation = "audio/mahfozatV2/";
+  final player = AudioPlayer();
 
   @override
   State<MahfozatList> createState() => _MahfozatListState();
@@ -18,7 +23,14 @@ class _MahfozatListState extends State<MahfozatList> {
         itemCount: widget.items.length,
         itemBuilder: (BuildContext ctx, int index) {
           if (widget.items[index].type == MahfozatTypes.item) {
-            return renderItem(widget.items[index].item as MahfozatItem);
+            final String itemlocation =
+                "${widget.audioLocation}${widget.audioFolder}";
+
+            return renderItem(
+              widget.items[index].item as MahfozatItem,
+              widget.player,
+              itemlocation,
+            );
           }
           if (widget.items[index].type == MahfozatTypes.group) {
             return renderGroup(widget.items[index].item as MahfozatGroup);
@@ -44,7 +56,8 @@ class _MahfozatListState extends State<MahfozatList> {
     );
   }
 
-  Widget renderItem(MahfozatItem item) {
+  Widget renderItem(
+      MahfozatItem item, AudioPlayer player, String itemLocation) {
     return Center(
       child: Container(
         constraints: const BoxConstraints(minWidth: 200, maxWidth: 800),
@@ -52,7 +65,8 @@ class _MahfozatListState extends State<MahfozatList> {
         child: Material(
             borderRadius: const BorderRadius.all(Radius.circular(16)),
             child: OutlinedButton(
-              onPressed: () => {},
+              onPressed: () =>
+                  {player.play(AssetSource('$itemLocation/${item.audio}'))},
               child: Container(
                   alignment: Alignment.center,
                   padding:

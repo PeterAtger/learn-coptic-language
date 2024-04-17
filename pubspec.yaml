@@ -74,10 +74,18 @@ flutter:
       - assets/images/Grammar/
       - assets/images/Alphabet/
       - assets/audio/
+      - assets/audio/mahfozatV2/kg/
+      - assets/audio/mahfozatV2/primary_1/
+      - assets/audio/mahfozatV2/primary_3/
+      - assets/audio/mahfozatV2/primary_5/
+      - assets/audio/mahfozatV2/prep/
+      - assets/audio/mahfozatV2/sec/
       - assets/audio/wordsV2/kg/
+      - assets/audio/wordsV2/primary_1/
       - assets/audio/wordsV2/primary_3/
       - assets/audio/wordsV2/primary_5/
       - assets/audio/wordsV2/prep/
+      - assets/audio/wordsV2/sec/
       - assets/audio/letters/
       - assets/data/
 

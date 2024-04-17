@@ -3,65 +3,59 @@
         "المحادثة": [
             {
                 "coptic": "A12 pe peran?",
-                "arabic": "اسمك ايه؟ (للبنت) "
+                "arabic": "اسمك ايه؟ (للبنت) ",
+                "audio": "ash-pe.mp3"
             },
             {
                 "coptic": "A2 pe pekran?",
-                "arabic": "اسمك ايه؟ (للولد)"
+                "arabic": "اسمك ايه؟ (للولد)",
+                "audio": "ash-pek.mp3"
             },
             {
                 "coptic": "Paran pe ....",
-                "arabic": "اسمي ..... "
+                "arabic": "اسمي ..... ",
+                "audio": "paran-pe.mp3"
             },
             {
                 "coptic": "Paran pe m3na",
-                "arabic": "اسمي مينا "
+                "arabic": "اسمي مينا ",
+                "audio": "paran-pe.mp3"
             },
             {
                 "coptic": "Paran pe mari`a",
-                "arabic": "اسمي ماريا"
+                "arabic": "اسمي ماريا",
+                "audio": "paran-pe.mp3"
             }
         ],
         "رشم الصليب": [
             {
-                "coptic": "Qen `fran `m`1fiwt",
-                "arabic": "باسم الاب"
-            },
-            {
-                "coptic": "Nem ``P23ri",
-                "arabic": "والابن"
-            },
-            {
-                "coptic": "Nem Pinevma",
-                "arabic": "والروح"
-            },
-            {
-                "coptic": "E0ovab",
-                "arabic": "القدس"
-            },
-            {
-                "coptic": "Ovnov985 `Novwt `Am3n",
-                "arabic": "اله واحد : آمين"
+                "coptic": "Qen `fran `m`1fiwt Nem `P23ri Nem Pinevma E0ovab Ovnov985 `Novwt `Am3n",
+                "arabic": "باسم الآب والابن والروح القدس الإله الواحد آمين",
+                "audio": "saleep-all.mp3"
             }
         ],
         "شعار المهرجان": [
             {
                 "coptic": "`Psoic pe paovwini nem panohem",
-                "arabic": "الرب نوري وخلاصي (مز 27: 11)"
+                "arabic": "الرب نوري وخلاصي (مز 27: 11)",
+                "audio": ""
             }
         ],
         "الآيات": [
             {
                 "coptic": "`Psoic cwtem `eta `Procevx3",
-                "arabic": "يا رب، اسمع صلاتي (مز 143:11)"
+                "arabic": "يا رب، اسمع صلاتي (مز 143:11)",
+                "audio": "eptchoic-sotem.mp3"
             },
             {
                 "coptic": "Aribwk `m`Psoic qen ovono4",
-                "arabic": "اعبدوا الرب بفرح (مز 100: 2)"
+                "arabic": "اعبدوا الرب بفرح (مز 100: 2)",
+                "audio": "arivok.mp3"
             },
             {
                 "coptic": "`Psoic e4`e`areh `erok `ebol ha pethwov niben",
-                "arabic": "الرب يحفظك من كل شر (مز 121: 7)"
+                "arabic": "الرب يحفظك من كل شر (مز 121: 7)",
+                "audio": "eptchoic-ephare.mp3"
             }
         ]
     }

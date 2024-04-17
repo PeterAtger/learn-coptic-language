@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:ebty/presentation/blocs/year/year_state.dart';
 import 'package:flutter/services.dart';
 
-enum MahfozatKeys { arabic, coptic, path }
+enum MahfozatKeys { arabic, coptic, audio }
 
 enum MahfozatTypes { level, group, item }
 
@@ -85,9 +85,9 @@ class Mahfozat {
   static MahfozatItem parseItem(Map<String, dynamic> data) {
     final String arabic = data[MahfozatKeys.arabic.name] ?? '';
     final String coptic = data[MahfozatKeys.coptic.name] ?? '';
-    final String path = data[MahfozatKeys.path.name] ?? '';
+    final String audio = data[MahfozatKeys.audio.name] ?? '';
 
-    return MahfozatItem(arabic: arabic, coptic: coptic, path: path);
+    return MahfozatItem(arabic: arabic, coptic: coptic, audio: audio);
   }
 }
 
@@ -110,10 +110,10 @@ class MahfozatGroup extends BaseMahfozat {
 class MahfozatItem extends BaseMahfozat {
   final String arabic;
   final String coptic;
-  final String path;
+  final String audio;
 
   MahfozatItem(
-      {required this.arabic, required this.coptic, required this.path});
+      {required this.arabic, required this.coptic, required this.audio});
 }
 
 class FlatMahfozatItem {

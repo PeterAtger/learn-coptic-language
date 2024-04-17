@@ -2,54 +2,70 @@
     "المستوى الاول": {
         "الرب نورى وخلاصى": [
             {
-                "coptic": "`Psoic pe paovwini nem panohem ainaerho5 `anok qath3 `nnim: ``Psoic pet5 `e`hr3i `egen paovgai ainaergabiht `anok qath3 `nnim",
-                "arabic": "الرب نوري وخلاصي، ممن أخاف؟ الرب حصن حياتي، ممن أرتعب؟"
+                "coptic": "`Psoic pe paovwini nem panohem ainaerho5 `anok qath3 `nnim",
+                "arabic": "الرب نوري وخلاصي، ممن أخاف؟",
+                "audio": "eptchoic-1.mp3"
+            },
+            {
+                "coptic": "`Psoic pet5 `e`hr3i `egen paovgai ainaergabiht `anok qath3 `nnim",
+                "arabic": "الرب حصن حياتي، ممن أرتعب؟",
+                "audio": "eptchoic-2.mp3"
             }
         ],
         "الآيات": [
             {
                 "coptic": "Ek`e2wpi wkovno4",
-                "arabic": "لا تكن الا فرحا (تث 16: 15)"
+                "arabic": "لا تكن الا فرحا (تث 16: 15)",
+                "audio": "ekoshobi.mp3"
             },
             {
-                "coptic": "2epi eretencebtwt",
-                "arabic": "كونوا مستعدينن (مت 24: 44)"
+                "coptic": "2wpi eretencebtwt",
+                "arabic": "كونوا مستعدينن (مت 24: 44)",
+                "audio": "shoby.mp3"
             }
         ],
         "شعار المهرجان": [
             {
                 "coptic": "`Psoic pe paovwini nem panohem",
-                "arabic": "الرب نوري وخلاصي (مز 27: 11)"
+                "arabic": "الرب نوري وخلاصي (مز 27: 11)",
+                "audio": "eptchoic.mp3"
             }
         ],
         "المحادثة": [
             {
                 "coptic": "Nane toov`i",
-                "arabic": "صباح الخير"
+                "arabic": "صباح الخير",
+                "audio": "nane-toui.mp3"
             },
             {
                 "coptic": "Nane rovhi",
-                "arabic": "مساء الخير"
+                "arabic": "مساء الخير",
+                "audio": "nane-roshi.mp3"
             },
             {
                 "coptic": "A2 pe pekran?",
-                "arabic": "ما اسمَك؟"
+                "arabic": "ما اسمَك؟",
+                "audio": "ash-be-bekran.mp3"
             },
             {
                 "coptic": "A2 pe peran?",
-                "arabic": "ما اسمِك؟"
+                "arabic": "ما اسمِك؟",
+                "audio": "ash-be-beran.mp3"
             },
             {
                 "coptic": "Paran pe",
-                "arabic": "اسمي......."
+                "arabic": "اسمي.......",
+                "audio": "baran-be.mp3"
             },
             {
                 "coptic": "ovgai",
-                "arabic": "كن معافٍ"
+                "arabic": "كن معافٍ",
+                "audio": "ougai.mp3"
             },
             {
                 "coptic": "Ovgai qen `{Psoic",
-                "arabic": "كن معافى في الرب"
+                "arabic": "كن معافى في الرب",
+                "audio": "ougai-khen.mp3"
             }
         ]
     },
@@ -57,15 +73,18 @@
         "ذكصولوجية السيدة العذراء": [
             {
                 "coptic": "Temetni25 `w Mari`a: %par0enoc `na t0wleb: `coni `m`Psici `mpibeni: eta colomwn cagi e0b3t4.",
-                "arabic": "عظمتكِ يا مريم: العذراء غير الدنسة: تشبه علو النخلة: التي تكلم عنها سليمان."
+                "arabic": "عظمتكِ يا مريم: العذراء غير الدنسة: تشبه علو النخلة: التي تكلم عنها سليمان.",
+                "audio": "temetnishty-1.mp3"
             },
             {
                 "coptic": "`N0o te 5movmi `mmwov `nwnq: etqa5 `mPilibanoc: `eta pi`hmot `nte 5me0nov5: bebi nan `ebol `nq3tc.",
-                "arabic": "أنتِ ينبوع ماء الحياة: الفائض من لبنان: التي نبعت لنا منه: نعمة اللاهوت."
+                "arabic": "أنتِ ينبوع ماء الحياة: الفائض من لبنان: التي نبعت لنا منه: نعمة اللاهوت.",
+                "audio": "temetnishty-2.mp3"
             },
             {
                 "coptic": "Aremici nan `nEmmanov3l: qen tem3tra `mpar0enik3: a4aiten `nkl3ronomoc: `n`hr3i qen `0metovro `nnif3ov`i.",
-                "arabic": "ولدتِ لنا عمانوئيل: من أحشائكِ البتولي: وصيرنا واثين: في ملكوت السموات."
+                "arabic": "ولدتِ لنا عمانوئيل: من أحشائكِ البتولي: وصيرنا واثين: في ملكوت السموات.",
+                "audio": "temetnishty-3.mp3"
             }
         ]
     }
