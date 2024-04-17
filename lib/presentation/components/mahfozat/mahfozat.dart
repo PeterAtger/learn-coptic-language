@@ -5,17 +5,24 @@ import 'package:flutter/material.dart';
 class MahfozatList extends StatefulWidget {
   final List<FlatMahfozatItem> items;
 
-  MahfozatList({super.key, this.items = const [], this.audioFolder = ''});
+  const MahfozatList({super.key, this.items = const [], this.audioFolder = ''});
 
   final String audioFolder;
   final String audioLocation = "audio/mahfozatV2/";
-  final player = AudioPlayer();
 
   @override
   State<MahfozatList> createState() => _MahfozatListState();
 }
 
 class _MahfozatListState extends State<MahfozatList> {
+  final player = AudioPlayer();
+
+  @override
+  void dispose() {
+    player.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
@@ -28,7 +35,7 @@ class _MahfozatListState extends State<MahfozatList> {
 
             return renderItem(
               widget.items[index].item as MahfozatItem,
-              widget.player,
+              player,
               itemlocation,
             );
           }
