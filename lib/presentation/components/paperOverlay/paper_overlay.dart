@@ -9,6 +9,10 @@ class PaperOverlay extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(children: [
       Positioned.fill(
+          child: Container(
+        color: color,
+      )),
+      Positioned.fill(
           child: Image(
         image: const AssetImage('assets/images/paper.png'),
         repeat: ImageRepeat.repeat,
