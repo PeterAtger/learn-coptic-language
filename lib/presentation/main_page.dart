@@ -67,16 +67,10 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           body: <Widget>[
             const MyHero(key: Key('hero')),
-            LettersPage(
-              key: const Key('Cards'),
-            ),
-            const WordsPage(
-              key: Key('Words'),
-            ),
+            const LettersPage(key: Key('Cards')),
+            const WordsPage(key: Key('Words')),
             const MahfozatPage(key: Key('Mahfozat')),
-            Rulespage(
-              key: const Key('Rules'),
-            ),
+            const Rulespage(key: Key('Rules')),
             const TestPage(
               key: Key('Test'),
             )

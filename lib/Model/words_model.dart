@@ -34,7 +34,6 @@ class Words {
     final List data = await json.decode(rawData);
 
     for (int i = 0; i < data.length; i++) {
-      print(data[i]);
       words.add(parseWord(data[i]));
     }
 

@@ -2,8 +2,8 @@ import 'package:ebty/presentation/components/gridCards/grid_cards.dart';
 import 'package:flutter/material.dart';
 
 class LettersPage extends StatelessWidget {
-  LettersPage({super.key});
-  final List<Map> items = List.generate(
+  const LettersPage({super.key});
+  static List<Map> items = List.generate(
       32,
       (index) => {
             "id": index,

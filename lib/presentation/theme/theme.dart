@@ -25,8 +25,8 @@ class AppTexts {
 }
 
 class AppTheme {
-  ThemeData manageState(YearState state) {
-    switch (state.year) {
+  ThemeData manageState(Years year) {
+    switch (year) {
       case Years.kg:
         AppColors appColors = AppColors(main: Colors.pink);
         return light(appColors);

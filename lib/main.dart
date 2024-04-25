@@ -28,9 +28,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (_) => YearCubit(),
-      child: BlocBuilder<YearCubit, YearState>(
-        builder: (context, state) {
+      create: (_) => YearCubit()..loadData(),
+      child: BlocSelector<YearCubit, YearState, Years>(
+        selector: (state) {
+          return state.year;
+        },
+        builder: (context, year) {
           return MaterialApp(
             builder: (context, child) {
               return Directionality(
@@ -41,7 +44,7 @@ class MyApp extends StatelessWidget {
             debugShowCheckedModeBanner: false,
             title: 'PhiloDem Learn Coptic Language',
             themeMode: ThemeMode.light,
-            theme: AppTheme().manageState(state),
+            theme: AppTheme().manageState(year),
             darkTheme: AppTheme().dark(),
             onGenerateRoute: RouterGenerator.generateRoute,
             initialRoute: '/',

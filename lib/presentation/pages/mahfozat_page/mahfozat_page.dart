@@ -14,39 +14,17 @@ class MahfozatPage extends StatefulWidget {
 }
 
 class _MahfozatPageState extends State<MahfozatPage> {
-  late Future<Mahfozat> items;
-  late Map<Years, Mahfozat> memo = {};
-
-  Future<Mahfozat> getMahfozat(Years year) async {
-    if (memo.containsKey(year)) {
-      return memo[year]!;
-    }
-
-    Mahfozat mahfozat = Mahfozat(year: year);
-    await mahfozat.getMahfozatList();
-
-    memo[year] = mahfozat;
-
-    return mahfozat;
-  }
-
-  @override
-  void initState() {
-    Years year = context.read<YearCubit>().state.year;
-    items = getMahfozat(year);
-    super.initState();
-  }
-
   @override
   Widget build(BuildContext context) {
-    return FutureBuilder(
-        future: items,
-        builder: (BuildContext context, AsyncSnapshot<Mahfozat> snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Center(child: CircularProgressIndicator());
-          }
-          return renderData(snapshot.data);
-        });
+    return BlocBuilder<YearCubit, YearState>(
+      builder: (context, state) {
+        if (state.loading) {
+          return const Center(child: CircularProgressIndicator());
+        } else {
+          return renderData(state.mahfozat);
+        }
+      },
+    );
   }
 
   Widget renderData(Mahfozat? data) {

@@ -14,32 +14,17 @@ class WordsPage extends StatefulWidget {
 }
 
 class _WordsPageState extends State<WordsPage> {
-  late Future<Words> items;
-
-  Future<Words> getWords(Years year) async {
-    Words words = Words(year: year);
-    await words.getWordsList();
-
-    return words;
-  }
-
-  @override
-  void initState() {
-    Years year = context.read<YearCubit>().state.year;
-    items = getWords(year);
-    super.initState();
-  }
-
   @override
   Widget build(BuildContext context) {
-    return FutureBuilder(
-        future: items,
-        builder: (BuildContext context, AsyncSnapshot<Words> snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Center(child: CircularProgressIndicator());
-          }
-          return renderData(snapshot.data);
-        });
+    return BlocBuilder<YearCubit, YearState>(
+      builder: (context, state) {
+        if (state.loading) {
+          return const Center(child: CircularProgressIndicator());
+        } else {
+          return renderData(state.words);
+        }
+      },
+    );
   }
 
   Widget renderData(Words? data) {
