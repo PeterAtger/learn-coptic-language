@@ -19,19 +19,39 @@
             {
                 "coptic": "Paran pe m3na",
                 "arabic": "اسمي مينا ",
-                "audio": "paran-pe.mp3"
+                "audio": "aran-be-mina.mp3"
             },
             {
                 "coptic": "Paran pe mari`a",
                 "arabic": "اسمي ماريا",
-                "audio": "paran-pe.mp3"
+                "audio": "paran-be-maria.mp3"
             }
         ],
         "رشم الصليب": [
             {
-                "coptic": "Qen `fran `m`1fiwt Nem `P23ri Nem Pinevma E0ovab Ovnov985 `Novwt `Am3n",
-                "arabic": "باسم الآب والابن والروح القدس الإله الواحد آمين",
-                "audio": "saleep-all.mp3"
+                "coptic": "Qen `fran `m`1fiwt",
+                "arabic": "باسم الاب",
+                "audio": "saleep-1.mp3"
+            },
+            {
+                "coptic": "Nem ``P23ri",
+                "arabic": "والابن",
+                "audio": "saleep-2.mp3"
+            },
+            {
+                "coptic": "Nem Pinevma",
+                "arabic": "والروح",
+                "audio": "saleep-3.mp3"
+            },
+            {
+                "coptic": "E0ovab",
+                "arabic": "القدس",
+                "audio": "saleep-4.mp3"
+            },
+            {
+                "coptic": "Ovnov985 `Novwt `Am3n",
+                "arabic": "اله واحد : آمين",
+                "audio": "saleep-5.mp3"
             }
         ],
         "شعار المهرجان": [
