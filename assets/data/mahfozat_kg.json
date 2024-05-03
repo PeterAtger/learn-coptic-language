@@ -3,61 +3,74 @@
         "المحادثة": [
             {
                 "coptic": "A12 pe peran?",
-                "arabic": "اسمك ايه؟ (للبنت) "
+                "arabic": "اسمك ايه؟ (للبنت) ",
+                "audio": "ash-be-be.mp3"
             },
             {
                 "coptic": "A2 pe pekran?",
-                "arabic": "اسمك ايه؟ (للولد)"
+                "arabic": "اسمك ايه؟ (للولد)",
+                "audio": "ash-be-bek.mp3"
             },
             {
                 "coptic": "Paran pe ....",
-                "arabic": "اسمي ..... "
+                "arabic": "اسمي ..... ",
+                "audio": "paran-pe.mp3"
             },
             {
                 "coptic": "Paran pe m3na",
-                "arabic": "اسمي مينا "
+                "arabic": "اسمي مينا ",
+                "audio": "paran-be-mina.mp3"
             },
             {
                 "coptic": "Paran pe mari`a",
-                "arabic": "اسمي ماريا"
+                "arabic": "اسمي ماريا",
+                "audio": "paran-be-maria.mp3"
             }
         ],
         "رشم الصليب": [
             {
                 "coptic": "Qen `fran `m`1fiwt",
-                "arabic": "باسم الاب"
+                "arabic": "باسم الاب",
+                "audio": "saleep-1.mp3"
             },
             {
                 "coptic": "Nem ``P23ri",
-                "arabic": "والابن"
+                "arabic": "والابن",
+                "audio": "saleep-2.mp3"
             },
             {
                 "coptic": "Nem Pinevma",
-                "arabic": "والروح"
+                "arabic": "والروح",
+                "audio": "saleep-3.mp3"
             },
             {
                 "coptic": "E0ovab",
-                "arabic": "القدس"
+                "arabic": "القدس",
+                "audio": "saleep-4.mp3"
             },
             {
                 "coptic": "Ovnov985 `Novwt `Am3n",
-                "arabic": "اله واحد : آمين"
+                "arabic": "اله واحد : آمين",
+                "audio": "saleep-5.mp3"
             }
         ],
         "شعار المهرجان": [
             {
                 "coptic": "`Psoic pe paovwini nem panohem",
-                "arabic": "الرب نوري وخلاصي (مز 27: 11)"
+                "arabic": "الرب نوري وخلاصي (مز 27: 11)",
+                "audio": "eptchois-be.mp3"
             }
         ],
         "الآيات": [
             {
                 "coptic": "Nai n3i `Fnov5 kata pekni25 `nnai",
-                "arabic": "ارحمني يا الله حسب رحمتك (مز 50: 1)"
+                "arabic": "ارحمني يا الله حسب رحمتك (مز 50: 1)",
+                "audio": "nai-ne-efnote.mp3"
             },
             {
                 "coptic": "`Psoic aimenre 5mtca`ie `nte pek3i",
-                "arabic": "يا رب، أحببت محل بيتك (مز 26: 88)"
+                "arabic": "يا رب، أحببت محل بيتك (مز 26: 88)",
+                "audio": "eptchois-aimen.mp3"
             }
         ]
     }
