@@ -39,7 +39,7 @@
                 "audio": "saleep-2.mp3"
             },
             {
-                "coptic": "Nem Pinevma",
+                "coptic": "Nem Pi `Pnevma",
                 "arabic": "والروح",
                 "audio": "saleep-3.mp3"
             },
@@ -74,7 +74,8 @@
             },
             {
                 "coptic": "`Psoic e4`e`areh `erok `ebol ha pethwov niben",
-                "arabic": "الرب يحفظك من كل شر (مز 121: 7)"
+                "arabic": "الرب يحفظك من كل شر (مز 121: 7)",
+                "audio": "eptchoic-ephare.mp3"
             }
         ]
     }
