@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const LettersPage(key: Key('Cards')),
             const WordsPage(key: Key('Words')),
             const MahfozatPage(key: Key('Mahfozat')),
-            const Rulespage(key: Key('Rules')),
+            const RulesPage(key: Key('Rules')),
             const TestPage(
               key: Key('Test'),
             )

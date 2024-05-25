@@ -1,8 +1,7 @@
-import 'package:ebty/Model/audio_model.dart';
-import 'package:ebty/Model/words_model.dart';
+import 'package:ebty/Model/rules_model.dart';
 import 'package:ebty/presentation/blocs/year/year_cubit.dart';
 import 'package:ebty/presentation/blocs/year/year_state.dart';
-import 'package:ebty/presentation/components/words/words_grid.dart';
+import 'package:ebty/presentation/components/rules/rules_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -14,46 +13,30 @@ class TestPage extends StatefulWidget {
 }
 
 class _TestPageState extends State<TestPage> {
-  late Future<Words> items;
-
-  Future<Words> getWords(Years year) async {
-    Words words = Words(year: year);
-    await words.getWordsList();
-
-    return words;
-  }
-
-  @override
-  void initState() {
-    Years year = context.read<YearCubit>().state.year;
-    items = getWords(year);
-    super.initState();
-  }
-
   @override
   Widget build(BuildContext context) {
-    return FutureBuilder(
-        future: items,
-        builder: (BuildContext context, AsyncSnapshot<Words> snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Center(child: CircularProgressIndicator());
-          }
-          return renderData(snapshot.data);
-        });
+    return BlocBuilder<YearCubit, YearState>(
+      builder: (context, state) {
+        if (state.loading) {
+          return const Center(child: CircularProgressIndicator());
+        } else {
+          return renderData(state.rules);
+        }
+      },
+    );
   }
 
-  Widget renderData(Words? data) {
-    Years year = context.read<YearCubit>().state.year;
-
+  Widget renderData(Rules? data) {
     if (data == null) {
       return const SizedBox(
         child: Text('No data'),
       );
     }
 
-    return WordsGrid(
-      items: data.words,
-      audioFolder: audioFolderMap[year] ?? "",
+    List<FlatRuleItem> flatItems = Rules.toFlatList(data);
+
+    return RulesList(
+      items: flatItems,
     );
   }
 }

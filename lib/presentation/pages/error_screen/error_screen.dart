@@ -12,9 +12,9 @@ class ErorrScreen extends StatelessWidget {
       body: Center(
         child: SizedBox(
           width: size.width * 0.8,
-          child: Column(
+          child: const Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
+            children: [
               Icon(
                 Icons.error,
                 size: 72,

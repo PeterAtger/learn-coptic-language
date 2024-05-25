@@ -1,0 +1,39 @@
+{
+    "المستوى الاول": [
+        {
+            "rule": "base.png",
+            "examples": []
+        },
+        {
+            "rule": "ebty-yonany.png",
+            "examples": [
+                "ebty-yonany-e-3-1.png"
+            ]
+        },
+        {
+            "rule": "tareef-tankeer.png",
+            "examples": [
+                "tareef-tankeer-e-3-1.png",
+                "tareef-tankeer-e-3-2.png"
+            ]
+        }
+    ],
+    "المستوى الثانى": [
+        {
+            "rule": "dmaer-monfasela.png",
+            "examples": []
+        },
+        {
+            "rule": "kaynona.png",
+            "examples": [
+                "kaynona-e-3-1.png"
+            ]
+        },
+        {
+            "rule": "melkeia.png",
+            "examples": [
+                "melkeia-e-3-1.png"
+            ]
+        }
+    ]
+}

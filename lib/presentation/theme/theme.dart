@@ -58,7 +58,7 @@ class AppTheme {
         scaffoldBackgroundColor: appColors.background,
         navigationBarTheme: NavigationBarThemeData(
             backgroundColor: appColors.navColor,
-            labelTextStyle: const MaterialStatePropertyAll(
+            labelTextStyle: const WidgetStatePropertyAll(
                 TextStyle(letterSpacing: 0, fontSize: 11))),
         appBarTheme: const AppBarTheme(
             backgroundColor: Colors.transparent,
@@ -73,33 +73,31 @@ class AppTheme {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         filledButtonTheme: FilledButtonThemeData(
           style: ButtonStyle(
-            shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+            shape: WidgetStateProperty.all<RoundedRectangleBorder>(
                 RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(16),
             )),
-            foregroundColor: MaterialStateProperty.all<Color>(Colors.black),
+            foregroundColor: WidgetStateProperty.all<Color>(Colors.black),
             backgroundColor:
-                MaterialStateProperty.all<Color>(appColors.cardColor),
+                WidgetStateProperty.all<Color>(appColors.cardColor),
           ),
         ),
         outlinedButtonTheme: OutlinedButtonThemeData(
             style: ButtonStyle(
-          backgroundColor:
-              MaterialStateProperty.all<Color>(appColors.cardColor),
-          shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+          backgroundColor: WidgetStateProperty.all<Color>(appColors.cardColor),
+          shape: WidgetStateProperty.all<RoundedRectangleBorder>(
               RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(16),
           )),
-          side: MaterialStateProperty.all<BorderSide>(
+          side: WidgetStateProperty.all<BorderSide>(
             const BorderSide(color: Colors.black, width: 1),
           ),
         )),
         elevatedButtonTheme: ElevatedButtonThemeData(
             style: ButtonStyle(
-          backgroundColor:
-              MaterialStateProperty.all<Color>(appColors.main[300]!),
-          foregroundColor: MaterialStateProperty.all<Color>(Colors.black),
-          shape: MaterialStateProperty.all<BeveledRectangleBorder>(
+          backgroundColor: WidgetStateProperty.all<Color>(appColors.main[300]!),
+          foregroundColor: WidgetStateProperty.all<Color>(Colors.black),
+          shape: WidgetStateProperty.all<BeveledRectangleBorder>(
               BeveledRectangleBorder(
             borderRadius: BorderRadius.circular(8),
           )),

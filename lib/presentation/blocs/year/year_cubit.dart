@@ -1,4 +1,5 @@
 import 'package:ebty/Model/mahfozat_model.dart';
+import 'package:ebty/Model/rules_model.dart';
 import 'package:ebty/Model/words_model.dart';
 import 'package:ebty/presentation/blocs/year/year_state.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
@@ -15,13 +16,16 @@ class YearCubit extends HydratedCubit<YearState> {
     final Years year = state.year;
     final Words words = Words(year: year);
     final Mahfozat mahfozat = Mahfozat(year: year);
+    final Rules rules = Rules(year: year);
     await words.getWordsList();
     await mahfozat.getMahfozatList();
+    await rules.getRules();
 
     emit(YearState(
       year: year,
       words: words,
       mahfozat: mahfozat,
+      rules: rules,
       loading: false,
     ));
   }
