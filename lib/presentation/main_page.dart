@@ -5,7 +5,6 @@ import 'package:ebty/presentation/components/paperOverlay/paper_overlay.dart';
 import 'package:ebty/presentation/pages/letters_page/letters_page.dart';
 import 'package:ebty/presentation/pages/mahfozat_page/mahfozat_page.dart';
 import 'package:ebty/presentation/pages/rules_page/rules_page.dart';
-import 'package:ebty/presentation/pages/test_page/test_page.dart';
 import 'package:ebty/presentation/pages/words_page/words_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
