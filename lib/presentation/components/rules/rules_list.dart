@@ -78,6 +78,7 @@ class _RulesListState extends State<RulesList> {
   Widget renderItem(Rule item) {
     return Center(
       child: Container(
+        constraints: const BoxConstraints(maxWidth: 1125),
         margin: const EdgeInsets.symmetric(vertical: 4),
         child: Material(
             borderRadius: const BorderRadius.all(Radius.circular(16)),

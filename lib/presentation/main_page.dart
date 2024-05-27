@@ -51,19 +51,23 @@ class _MyHomePageState extends State<MyHomePage> {
                     label: 'الرئيسية',
                   ),
                   const NavigationDestination(
+                    selectedIcon: Icon(Icons.text_fields),
                     icon: Icon(Icons.text_fields_outlined),
                     label: 'الحروف',
                   ),
                   const NavigationDestination(
-                    icon: Icon(Icons.book),
+                    selectedIcon: Icon(Icons.book),
+                    icon: Icon(Icons.book_outlined),
                     label: 'الكلمات',
                   ),
                   const NavigationDestination(
+                    selectedIcon: Icon(Icons.headphones),
                     icon: Icon(Icons.headphones_outlined),
                     label: 'المحفوظات',
                   ),
                   NavigationDestination(
-                    icon: const Icon(Icons.stacked_bar_chart),
+                    selectedIcon: const Icon(Icons.gavel),
+                    icon: const Icon(Icons.gavel_outlined),
                     label: 'القواعد',
                     enabled: !skipRule,
                   ),
