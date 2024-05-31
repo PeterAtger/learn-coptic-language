@@ -8,7 +8,7 @@
             },
             {
                 "coptic": "Qen `pgin`0ren`ohi `eraten `mpek`m0o cwmatikwc. `Aliov`I `ebol hiten pennovc `mpihvniim `nte 5eb2i.",
-                "arabic": "عندما تقف امامك جسديًا. انزع عن عقولنا نوم الغفلة. ",
+                "arabic": "عندما نقف امامك جسديًا. انزع عن عقولنا نوم الغفلة. ",
                 "audio": "tentheno-2.mp3"
             },
             {
@@ -19,7 +19,7 @@
         ],
         "المحادثة": [
             {
-                "coptic": "Piovhb: xere ne.",
+                "coptic": "Piov3b: xere ne.",
                 "arabic": "الكاهن: السلام لكِ.",
                 "audio": "shere-ne.mp3"
             },
@@ -44,7 +44,7 @@
                 "audio": "ethve-ou.mp3"
             },
             {
-                "coptic": "Eva: `ntahwc ovoh `ntaka5 `epi`anaphora.",
+                "coptic": "Eva: `ntahwc ovoh `ntaka5 `epi`anapfora.",
                 "arabic": "إيڨا: لكي أسبح وأفهم القداس الإلهي.",
                 "audio": "entahoc-entakati.mp3"
             },
@@ -54,7 +54,7 @@
                 "audio": "mare-efnoti.mp3"
             },
             {
-                "coptic": "Eva: %2ep`hmot `ntok.",
+                "coptic": "Eva: %2ep`hmot `ntotk.",
                 "arabic": "إيڨا: أشكرك.",
                 "audio": "teshebehmot-entotk.mp3"
             }
@@ -62,7 +62,7 @@
         "شعار المهرجان": [
             {
                 "coptic": "`Psoic pe paovwini nem panohem",
-                "arabic": "الرب نوري وخلاصي (مز 27: 11)",
+                "arabic": "الرب نوري وخلاصي (مز 27: 1)",
                 "audio": "ebtchoic-be.mp3"
             }
         ],
@@ -83,7 +83,7 @@
         "نص لحن القيامة": [
             {
                 "coptic": "Tennav et`anactacic `mP=x=c  Ovoh tenovw2t `mf3`e0ovab I=3c P=x=c  {Pensoic f3etoi `na0nobi `mmavat4.",
-                "arabic": "ننظر إلى قيامة المسيحة ونسجد للقدوس يسوع المسيح ربنا الذي بلا خطية وحده.",
+                "arabic": "ننظر إلى قيامة المسيح ونسجد للقدوس يسوع المسيح ربنا الذي بلا خطية وحده.",
                 "audio": ""
             },
             {
@@ -114,7 +114,7 @@
                 "audio": "shere-nak.mp3"
             },
             {
-                "coptic": "M3na: Teraqene `e0wn?",
+                "coptic": "M3na: Tera2ene `e0wn?",
                 "arabic": "مينا: إلي أين ستذهبين؟",
                 "audio": "tirasheni-ethon.mp3"
             },
