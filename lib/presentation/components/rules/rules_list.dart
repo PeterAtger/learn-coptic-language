@@ -1,5 +1,6 @@
 import 'package:ebty/Model/rules_model.dart';
 import 'package:flutter/material.dart';
+import 'package:pinch_zoom_release_unzoom/pinch_zoom_release_unzoom.dart';
 
 class RulesList extends StatefulWidget {
   final List<FlatRuleItem> items;
@@ -12,9 +13,27 @@ class RulesList extends StatefulWidget {
 }
 
 class _RulesListState extends State<RulesList> {
+  bool blockScroll = false;
+  ScrollController controller = ScrollController();
+
+  void _blockScroll() {
+    setState(() {
+      blockScroll = true;
+    });
+  }
+
+  void _releaseScroll() {
+    setState(() {
+      blockScroll = false;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
+        physics: blockScroll
+            ? const NeverScrollableScrollPhysics()
+            : const AlwaysScrollableScrollPhysics(),
         padding: const EdgeInsets.only(left: 16, right: 16, bottom: 32),
         itemCount: widget.items.length,
         itemBuilder: (BuildContext ctx, int index) {
@@ -36,7 +55,12 @@ class _RulesListState extends State<RulesList> {
   }
 
   Widget renderExample(Example example) {
-    return Center(
+    return PinchZoomReleaseUnzoomWidget(
+      twoFingersOn: _blockScroll,
+      twoFingersOff: () => Future.delayed(
+        PinchZoomReleaseUnzoomWidget.defaultResetDuration,
+        _releaseScroll,
+      ),
       child: Container(
         margin: const EdgeInsets.symmetric(vertical: 4),
         child: Material(
@@ -56,7 +80,12 @@ class _RulesListState extends State<RulesList> {
   }
 
   Widget renderSmallItem(Rule item) {
-    return Center(
+    return PinchZoomReleaseUnzoomWidget(
+      twoFingersOn: _blockScroll,
+      twoFingersOff: () => Future.delayed(
+        PinchZoomReleaseUnzoomWidget.defaultResetDuration,
+        _releaseScroll,
+      ),
       child: Container(
         margin: const EdgeInsets.symmetric(vertical: 4),
         child: Material(
@@ -76,7 +105,12 @@ class _RulesListState extends State<RulesList> {
   }
 
   Widget renderItem(Rule item) {
-    return Center(
+    return PinchZoomReleaseUnzoomWidget(
+      twoFingersOn: _blockScroll,
+      twoFingersOff: () => Future.delayed(
+        PinchZoomReleaseUnzoomWidget.defaultResetDuration,
+        _releaseScroll,
+      ),
       child: Container(
         constraints: const BoxConstraints(maxWidth: 1125),
         margin: const EdgeInsets.symmetric(vertical: 4),
