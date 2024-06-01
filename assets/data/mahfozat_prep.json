@@ -24,7 +24,7 @@
         ],
         "المحادثة": [
             {
-                "coptic": "M3na: nane toov`I a2 pe pekp35>?",
+                "coptic": "M3na: nane toov`I a2 pe pekr35?",
                 "arabic": "مينا: صباح الخير كيف حالك؟",
                 "audio": "mohadsa-11.mp3"
             },
@@ -47,6 +47,11 @@
                 "coptic": "M3na: 5si`cbw ovoh 5gerger nem na`2f3r.",
                 "arabic": "مينا: اتعلم وألعب مع أصحابي.",
                 "audio": "mohadsa-15.mp3"
+            },
+            {
+                "coptic": "Dani3l: Aksi`cbw `nov qen 5ek`kl3ci`a>?",
+                "arabic": "دانيال: ماذا تعلمت فى الكنيسة ؟",
+                "audio": ""
             },
             {
                 "coptic": "M3na: aisi`cbw `nw2 `e5acpi `nrem1`nx3mi.",
@@ -75,7 +80,7 @@
         ]
     },
     "المستوى الثانى": {
-        "تص بى أويك": [
+        "نص بى أويك": [
             {
                 "coptic": "Piwik `nte `pwnq: eta4`I `epec3t: nan `ebolqen `tfe: a45 `m`pwnq `mpikocmoc.",
                 "arabic": "خبز الحياة الذي نزل من السماء وهب الحياة للعالم.",
@@ -97,7 +102,7 @@
                 "audio": ""
             },
             {
-                "coptic": "Tennav `erok `mm3ni: higen pima`ner2wovwi: tensi ebolqen pekcwma: nem pek`cno4 ettai3ovt",
+                "coptic": "Tennav `erok `mm3ni: higen pima`ner2wov2i: tensi ebolqen pekcwma: nem pek`cno4 ettai3ovt",
                 "arabic": "ونحن ننظرك كل يوم على المذبح ونتناول من جسدك ودمك الكريم.",
                 "audio": ""
             }
@@ -139,7 +144,7 @@
                 "audio": "mohadsa-27.mp3"
             },
             {
-                "coptic": "Ra2a: %23p`hmot `ntotk.",
+                "coptic": "Ra2a: %2ep`hmot `ntotk.",
                 "arabic": "رشا: اشكركَ.",
                 "audio": "mohadsa-28.mp3"
             }
