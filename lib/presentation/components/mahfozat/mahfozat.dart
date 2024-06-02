@@ -74,6 +74,12 @@ class _MahfozatListState extends State<MahfozatList> {
             child: OutlinedButton(
               onPressed: () =>
                   {player.play(AssetSource('$itemLocation/${item.audio}'))},
+              onLongPress: item.longAudio.isEmpty
+                  ? null
+                  : () => {
+                        player.play(
+                            AssetSource('$itemLocation/${item.longAudio}'))
+                      },
               child: Container(
                   alignment: Alignment.center,
                   padding:

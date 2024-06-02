@@ -10,6 +10,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 const hasNoRules = [Years.kg, Years.primary_1];
+const messages = [
+  "تم صنع هذا البرنامج بواسطة خدام كنيسة ابي سيفين والشهيدة دميانة بشبرا. أذكرونا فى صلواتكم",
+  "أضغط على الحرف لسماع النطق باللغة القبطية",
+  "أضغط على الكلمة لسماع النطق باللغة القبطية",
+  "أضغط ضغطة قصيرة لسماع نطق المحفوظات باللغة القبطية أو ضغطة طويلة لسماع اللحن",
+  "يمكنك استخدام اصبعين لتكبير او تصغير القاعدة",
+];
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
@@ -31,6 +38,11 @@ class _MyHomePageState extends State<MyHomePage> {
           color: Theme.of(context).colorScheme.background,
           child: Scaffold(
               appBar: AppBar(
+                  leading: IconButton(
+                    icon: const Icon(Icons.info_outline),
+                    onPressed: () => showCustomDialog(context),
+                    tooltip: "مساعدة",
+                  ),
                   centerTitle: true,
                   title: Text(
                     'تعلم اللغة القبطية',
@@ -82,6 +94,30 @@ class _MyHomePageState extends State<MyHomePage> {
               ][currentPageIndex]),
         );
       },
+    );
+  }
+
+  Future<dynamic> showCustomDialog(BuildContext context) {
+    return showDialog(
+      context: context,
+      builder: (BuildContext context) => AlertDialog(
+        content: Text(messages[currentPageIndex]),
+        backgroundColor: Colors.white,
+        shape: RoundedRectangleBorder(
+          side: const BorderSide(color: Colors.black, width: 1.5),
+          borderRadius: BorderRadius.circular(16),
+        ),
+        contentPadding: const EdgeInsets.only(top: 32, left: 32, right: 32),
+        actions: <Widget>[
+          TextButton(
+            onPressed: () => Navigator.pop(context, 'أغلاق'),
+            child: const Text(
+              'أغلاق',
+              textAlign: TextAlign.justify,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

@@ -51,7 +51,7 @@
             {
                 "coptic": "Dani3l: Aksi`cbw `nov qen 5ek`kl3ci`a>?",
                 "arabic": "دانيال: ماذا تعلمت فى الكنيسة ؟",
-                "audio": ""
+                "audio": "mohadsa-lost.mp3"
             },
             {
                 "coptic": "M3na: aisi`cbw `nw2 `e5acpi `nrem1`nx3mi.",
@@ -84,27 +84,32 @@
             {
                 "coptic": "Piwik `nte `pwnq: eta4`I `epec3t: nan `ebolqen `tfe: a45 `m`pwnq `mpikocmoc.",
                 "arabic": "خبز الحياة الذي نزل من السماء وهب الحياة للعالم.",
-                "audio": ""
+                "audio": "pe-oik-1.mp3",
+                "longAudio": "pe-oik-l7n-1.mp3"
             },
             {
                 "coptic": "`n0o hwi maria: are4ai qen tenegi: `mpimanna `nno3ton: eta4`I ebolqen `Fiwt.",
                 "arabic": "وأنتِ أيضًا يا مريم حملت في بطنك المن العقلي الذي آتى من الآب.",
-                "audio": ""
+                "audio": "pe-oik-2.mp3",
+                "longAudio": "pe-oik-l7n-2.mp3"
             },
             {
                 "coptic": "Aremac4 asne 0wleb: a45 nan `mpe4cwma: nem {pe4`cno4 ettai3ovt: anwnq 2a `eneh.",
                 "arabic": "ولدته بغير دنس وأعطانا جسده ودمه الكريم فحيينا إلى الأبد.",
-                "audio": ""
+                "audio": "pe-oik-3.mp3",
+                "longAudio": "pe-oik-l7n-3.mp3"
             },
             {
                 "coptic": "Cetwovnov harok: `nge nixerovbim: nem `nicerafim: ce`2nav `erok an.",
                 "arabic": "يقوم حولك الشاروبيم والسيرافيم ولا يستطيعون أن ينظروك.",
-                "audio": ""
+                "audio": "pe-oik-4.mp3",
+                "longAudio": "pe-oik-l7n-4.mp3"
             },
             {
                 "coptic": "Tennav `erok `mm3ni: higen pima`ner2wov2i: tensi ebolqen pekcwma: nem pek`cno4 ettai3ovt",
                 "arabic": "ونحن ننظرك كل يوم على المذبح ونتناول من جسدك ودمك الكريم.",
-                "audio": ""
+                "audio": "pe-oik-5.mp3",
+                "longAudio": "pe-oik-l7n-5.mp3"
             }
         ],
         "المحادثة": [
