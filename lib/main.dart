@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
               );
             },
             debugShowCheckedModeBanner: false,
-            title: 'PhiloDem Learn Coptic Language',
+            title: 'Learn Coptic Language',
             themeMode: ThemeMode.light,
             theme: AppTheme().manageState(year),
             darkTheme: AppTheme().dark(),
