@@ -7,4 +7,6 @@ Map<Years, String> audioFolderMap = {
   Years.primary_5: 'primary_5',
   Years.preparatory: 'prep',
   Years.secondary: 'sec',
+  Years.college: 'college',
+  Years.servants: 'servants',
 };

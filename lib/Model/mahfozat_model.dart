@@ -14,6 +14,8 @@ Map<Years, String> mahfozatFiles = {
   Years.primary_5: "assets/data/mahfozat_primary_5.json",
   Years.preparatory: "assets/data/mahfozat_prep.json",
   Years.secondary: "assets/data/mahfozat_sec.json",
+  Years.college: "assets/data/mahfozat_sec.json",
+  Years.servants: "assets/data/mahfozat_sec.json",
 };
 
 class Mahfozat {

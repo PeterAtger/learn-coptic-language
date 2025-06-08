@@ -1,212 +1,212 @@
 [
-    {
-        "image": "allom.png",
-        "gender": "p",
-        "audio": "01-alom.mp3"
-    },
-    {
-        "image": "val.png",
-        "gender": "p",
-        "audio": "02-vai.mp3"
-    },
-    {
-        "image": "noub.png",
-        "gender": "p",
-        "audio": "03-noub.mp3"
-    },
-    {
-        "image": "gi.png",
-        "gender": "t",
-        "audio": "04-gee.mp3"
-    },
-    {
-        "image": "calpingoc.png",
-        "gender": "p",
-        "audio": "05-salbengoz.mp3"
-    },
-    {
-        "image": "aghathos.png",
-        "gender": "p",
-        "audio": "06-agathos.mp3"
-    },
-    {
-        "image": "daniel.png",
-        "gender": "",
-        "audio": "07-daniel.mp3"
-    },
-    {
-        "image": "zoron.png",
-        "gender": "p",
-        "audio": "08-zoron.mp3"
-    },
-    {
-        "image": "neh.png",
-        "gender": "p",
-        "audio": "09-neh.mp3"
-    },
-    {
-        "image": "so-engom.png",
-        "gender": "",
-        "audio": "10-so-engom.mp3"
-    },
-    {
-        "image": "zoni.png",
-        "gender": "t",
-        "audio": "11-zony.mp3"
-    },
-    {
-        "image": "shiri.png",
-        "gender": "p",
-        "audio": "12-shiry.mp3"
-    },
-    {
-        "image": "estoy.png",
-        "gender": "p",
-        "audio": "13-estoy.mp3"
-    },
-    {
-        "image": "theveio.png",
-        "gender": "p",
-        "audio": "16-thevio-2.mp3"
-    },
-    {
-        "image": "ioh.png",
-        "gender": "p",
-        "audio": "18-ioh.mp3"
-    },
-    {
-        "image": "kouji.png",
-        "gender": "p",
-        "audio": "19-kouji.mp3"
-    },
-    {
-        "image": "lalho.png",
-        "gender": "p",
-        "audio": "20-lalho.mp3"
-    },
-    {
-        "image": "molh.png",
-        "gender": "p",
-        "audio": "21-molh.mp3"
-    },
-    {
-        "image": "nobi.png",
-        "gender": "p",
-        "audio": "22-novi.mp3"
-    },
-    {
-        "image": "xsomi.png",
-        "gender": "t",
-        "audio": "23-eksomy.mp3"
-    },
-    {
-        "image": "son.png",
-        "gender": "p",
-        "audio": "24-sonh.mp3"
-    },
-    {
-        "image": "piracmoc.png",
-        "gender": "p",
-        "audio": "25-berazmos.mp3"
-    },
-    {
-        "image": "ro.png",
-        "gender": "p",
-        "audio": "26-roh.mp3"
-    },
-    {
-        "image": "souri.png",
-        "gender": "t",
-        "audio": "27-souri.mp3"
-    },
-    {
-        "image": "totc.png",
-        "gender": "p",
-        "audio": "30-totz.mp3"
-    },
-    {
-        "image": "mav.png",
-        "gender": "t",
-        "audio": "31-mav.mp3"
-    },
-    {
-        "image": "shouri.png",
-        "gender": "t",
-        "audio": "32-shori.mp3"
-    },
-    {
-        "image": "fili.png",
-        "gender": "t",
-        "audio": "33-pheli.mp3"
-    },
-    {
-        "image": "fakhri.png",
-        "gender": "p",
-        "audio": "34-fakhri.mp3"
-    },
-    {
-        "image": "kaki.png",
-        "gender": "p",
-        "audio": "35-kaki.mp3"
-    },
-    {
-        "image": "shion.png",
-        "gender": "p",
-        "audio": "36-sheon.mp3"
-    },
-    {
-        "image": "khristoc.png",
-        "gender": "p",
-        "audio": "37-ekhrestos.mp3"
-    },
-    {
-        "image": "psalmos.png",
-        "gender": "p",
-        "audio": "38-psalmos.mp3"
-    },
-    {
-        "image": "onkh.png",
-        "gender": "p",
-        "audio": "39-onkh.mp3"
-    },
-    {
-        "image": "shai.png",
-        "gender": "p",
-        "audio": "42-shai.mp3"
-    },
-    {
-        "image": "fosi.png",
-        "gender": "p",
-        "audio": "43-foosi.mp3"
-    },
-    {
-        "image": "khello.png",
-        "gender": "p",
-        "audio": "45-khello.mp3"
-    },
-    {
-        "image": "hab.png",
-        "gender": "p",
-        "audio": "46-hab.mp3"
-    },
-    {
-        "image": "gerger.png",
-        "gender": "p",
-        "audio": "47-jerjer.mp3"
-    },
-    {
-        "image": "Go.png",
-        "gender": "p",
-        "audio": "48-gou.mp3"
-    },
-    {
-        "image": "Tshromy.png",
-        "gender": "t",
-        "audio": "49-tsherombi.mp3"
-    },
-    {
-        "image": "tno.png",
-        "gender": "",
-        "audio": "51-tennoo.mp3"
-    }
+  {
+    "image": "ma.png",
+    "gender": "p",
+    "audio": "01-ma.mp3"
+  },
+  {
+    "image": "votc.png",
+    "gender": "p",
+    "audio": "02-votc.mp3"
+  },
+  {
+    "image": "cobt.png",
+    "gender": "p",
+    "audio": "03-cobt.mp3"
+  },
+  {
+    "image": "higemon.png",
+    "gender": "p",
+    "audio": "04-higemon.mp3"
+  },
+  {
+    "image": "angeloc.png",
+    "gender": "p",
+    "audio": "05-angeloc.mp3"
+  },
+  {
+    "image": "aghabi.png",
+    "gender": "t",
+    "audio": "06-aghabi.mp3"
+  },
+  {
+    "image": "david.png",
+    "gender": "",
+    "audio": "07-david.mp3"
+  },
+  {
+    "image": "hozi.png",
+    "gender": "t",
+    "audio": "08-hozi.mp3"
+  },
+  {
+    "image": "fe.png",
+    "gender": "t",
+    "audio": "09-fe.mp3"
+  },
+  {
+    "image": "so-emmav.png",
+    "gender": "t",
+    "audio": "10-so-emmav.mp3"
+  },
+  {
+    "image": "zenzen.png",
+    "gender": "t",
+    "audio": "11-zenzen.mp3"
+  },
+  {
+    "image": "miti.png",
+    "gender": "t",
+    "audio": "12-miti.mp3"
+  },
+  {
+    "image": "esterter.png",
+    "gender": "p",
+    "audio": "13-esterter.mp3"
+  },
+  {
+    "image": "ehtho.png",
+    "gender": "p",
+    "audio": "14-ehtho.mp3"
+  },
+  {
+    "image": "ift.png",
+    "gender": "p",
+    "audio": "15-ift.mp3"
+  },
+  {
+    "image": "kahi.png",
+    "gender": "p",
+    "audio": "16-kahi.mp3"
+  },
+  {
+    "image": "gol.png",
+    "gender": "p",
+    "audio": "17-gol.mp3"
+  },
+  {
+    "image": "omc.png",
+    "gender": "",
+    "audio": "18-omc.mp3"
+  },
+  {
+    "image": "nomti.png",
+    "gender": "t",
+    "audio": "19-nomti.mp3"
+  },
+  {
+    "image": "xor.png",
+    "gender": "p",
+    "audio": "20-xor.mp3"
+  },
+  {
+    "image": "iom.png",
+    "gender": "p",
+    "audio": "21-iom.mp3"
+  },
+  {
+    "image": "pesit.png",
+    "gender": "",
+    "audio": "22-pesit.mp3"
+  },
+  {
+    "image": "ran.png",
+    "gender": "p",
+    "audio": "23-ran.mp3"
+  },
+  {
+    "image": "sini.png",
+    "gender": "",
+    "audio": "24-sini.mp3"
+  },
+  {
+    "image": "iot.png",
+    "gender": "p",
+    "audio": "25-iot.mp3"
+  },
+  {
+    "image": "mav.png",
+    "gender": "t",
+    "audio": "26-mav.mp3"
+  },
+  {
+    "image": "woo.png",
+    "gender": "p",
+    "audio": "27-woo.mp3"
+  },
+  {
+    "image": "moisis.png",
+    "gender": "",
+    "audio": "28-moisis.mp3"
+  },
+  {
+    "image": "fosh.png",
+    "gender": "",
+    "audio": "29-fosh.mp3"
+  },
+  {
+    "image": "kaki.png",
+    "gender": "p",
+    "audio": "30-kaki.mp3"
+  },
+  {
+    "image": "psishi.png",
+    "gender": "p",
+    "audio": "31-psishi.mp3"
+  },
+  {
+    "image": "arkhon.png",
+    "gender": "p",
+    "audio": "32-arkhon.mp3"
+  },
+  {
+    "image": "psalmos.png",
+    "gender": "p",
+    "audio": "33-psalmos.mp3"
+  },
+  {
+    "image": "wik.png",
+    "gender": "p",
+    "audio": "34-wik.mp3"
+  },
+  {
+    "image": "shiri.png",
+    "gender": "p",
+    "audio": "35-shiri.mp3"
+  },
+  {
+    "image": "sifi.png",
+    "gender": "t",
+    "audio": "36-sifi.mp3"
+  },
+  {
+    "image": "khen.png",
+    "gender": "",
+    "audio": "37-khen.mp3"
+  },
+  {
+    "image": "eneh.png",
+    "gender": "p",
+    "audio": "38-eneh.mp3"
+  },
+  {
+    "image": "gig.png",
+    "gender": "t",
+    "audio": "39-gig.mp3"
+  },
+  {
+    "image": "gom.png",
+    "gender": "t",
+    "audio": "40-gom.mp3"
+  },
+  {
+    "image": "tshoic.png",
+    "gender": "p",
+    "audio": "41-tshoic.mp3"
+  },
+  {
+    "image": "rasti.png",
+    "gender": "p",
+    "audio": "42-rasti.mp3"
+  }
 ]

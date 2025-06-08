@@ -5,11 +5,13 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 const Map<Years, String> yearDisplayMap = {
   Years.kg: 'حضانة',
-  Years.primary_1: 'أولى و تانية',
+  Years.primary_1: 'اولى وتانية',
   Years.primary_3: 'تالتة و رابعة',
   Years.primary_5: 'خامسة و سادسة',
   Years.preparatory: 'اعدادي',
-  Years.secondary: 'ثانوي'
+  Years.secondary: 'ثانوي',
+  Years.college: 'جامعة وخريجين',
+  Years.servants: 'خدام واعداد خدام'
 };
 
 final List<String> list = yearDisplayMap.values.toList();

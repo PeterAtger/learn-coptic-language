@@ -28,22 +28,28 @@ class AppTheme {
   ThemeData manageState(Years year) {
     switch (year) {
       case Years.kg:
-        AppColors appColors = AppColors(main: Colors.pink);
+        AppColors appColors = AppColors(main: Colors.lightBlue);
         return light(appColors);
       case Years.primary_1:
-        AppColors appColors = AppColors(main: Colors.deepPurple);
+        AppColors appColors = AppColors(main: Colors.yellow);
         return light(appColors);
       case Years.primary_3:
         AppColors appColors = AppColors(main: Colors.green);
         return light(appColors);
       case Years.primary_5:
-        AppColors appColors = AppColors(main: Colors.blue);
+        AppColors appColors = AppColors(main: Colors.deepPurple);
         return light(appColors);
       case Years.preparatory:
-        AppColors appColors = AppColors(main: Colors.lime);
+        AppColors appColors = AppColors(main: Colors.purple);
         return light(appColors);
       case Years.secondary:
+        AppColors appColors = AppColors(main: Colors.deepOrange);
+        return light(appColors);
+      case Years.college:
         AppColors appColors = AppColors(main: Colors.brown);
+        return light(appColors);
+      case Years.servants:
+        AppColors appColors = AppColors(main: Colors.grey);
         return light(appColors);
     }
   }

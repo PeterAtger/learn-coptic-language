@@ -7,11 +7,13 @@ enum WordsKeys { image, gender, audio }
 
 Map<Years, String> wordsFiles = {
   Years.kg: "assets/data/words_kg.json",
-  Years.primary_1: "assets/data/words_primary_1.json",
+  Years.primary_1: "assets/data/words_kg.json",
   Years.primary_3: "assets/data/words_primary_3.json",
   Years.primary_5: "assets/data/words_primary_5.json",
   Years.preparatory: "assets/data/words_prep.json",
   Years.secondary: "assets/data/words_sec.json",
+  Years.college: "assets/data/words_col.json",
+  Years.servants: "assets/data/words_serv.json",
 };
 
 class Words {

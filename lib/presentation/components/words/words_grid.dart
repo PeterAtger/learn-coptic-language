@@ -8,7 +8,7 @@ class WordsGrid extends StatefulWidget {
 
   final String audioFolder;
   final List<Word> items;
-  final String imageLocation = "assets/images/wordsV2/";
+  final String imageLocation = "assets/images/wordsV3/";
   final String audioLocation = "audio/wordsV2/";
 
   @override

@@ -2,7 +2,16 @@ import 'package:ebty/Model/mahfozat_model.dart';
 import 'package:ebty/Model/rules_model.dart';
 import 'package:ebty/Model/words_model.dart';
 
-enum Years { kg, primary_1, primary_3, primary_5, preparatory, secondary }
+enum Years {
+  kg,
+  primary_1,
+  primary_3,
+  primary_5,
+  preparatory,
+  secondary,
+  college,
+  servants
+}
 
 class YearState {
   final Years year;
