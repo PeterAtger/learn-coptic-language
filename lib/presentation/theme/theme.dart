@@ -37,13 +37,13 @@ class AppTheme {
         AppColors appColors = AppColors(main: Colors.green);
         return light(appColors);
       case Years.primary_5:
-        AppColors appColors = AppColors(main: Colors.deepPurple);
-        return light(appColors);
-      case Years.preparatory:
         AppColors appColors = AppColors(main: Colors.purple);
         return light(appColors);
+      case Years.preparatory:
+        AppColors appColors = AppColors(main: Colors.indigo);
+        return light(appColors);
       case Years.secondary:
-        AppColors appColors = AppColors(main: Colors.deepOrange);
+        AppColors appColors = AppColors(main: Colors.orange);
         return light(appColors);
       case Years.college:
         AppColors appColors = AppColors(main: Colors.brown);
