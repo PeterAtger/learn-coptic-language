@@ -73,41 +73,29 @@
         ]
     },
     "المستوى الثانى": {
-        "من مزمور 135 (الهوس الثاني)": [
+        "مقدمة القسمة الغريغورى": [
             {
-                "coptic": "F3`eta40amio `nnif3ov`I qen ovka5: All3lovi`a ge pe4nai 2op 2a `eneh",
-                "arabic": "الذي خلق السموات بفهم ، هلليلويا لأن إلي الأبد رحمته.",
-               	 "audio": "",
+                "coptic": "Penn3b pencwt3r: pimairwmi `n`aja0oc: pire4tanqo `nte nenyvx3.",
+                "arabic": "يا سيدنا ومخلصنا محب البشر الصالح محيي انفسنا.",
+		"audio": "",
                 "longAudio": ""
             },
-            {
-                "coptic": "F3`eta4tagro `mpikahi higen nimwov: All3lovi`a ge pe4nai 2op 2a `eneh",
-                "arabic": "الذي ثبت الأرض على المياه ، هلليلويا لأن إلي الأبد رحمته.",
-               	 "audio": "",
+           {
+                "coptic": "F5 f3`eta4t3i4 `mmin `mmo4 `ncw5 qaron e0be nennobi.",
+                "arabic": "يا الله الذي اسلم ذاته عنا خلاصاً من أجل خطايانا.",
+		"audio": "",
                 "longAudio": ""
             },
-            {
-                "coptic": "F3`eta40ami`o `nhanni25 `nre4erovwini `mmavat4: All3lovi`a ge pe4nai 2op 2a `eneh",
-                "arabic": "الذى خلق نيرين عظيمين وحده ، هلليلويا لأن إلي الأبد رحمته.",
-               	 "audio": "",
+           {
+                "coptic": "F3`ete `ebolhiten `p`a2ai `nte ne4nai: a4bol `ebol `n5metgagi `nte nirwmi",
+                "arabic": "الذى بكثرة رحمته حل عداوة البشر",
+		"audio": "",
                 "longAudio": ""
             },
-            {
-                "coptic": "`Fr3 `eover2i2i `nte pi`ehoov :  All3lovi`a ge pe4nai 2op 2a `eneh",
-                "arabic": "الشمس لحكم النهار ، هلليلويا لأن إلي الأبد رحمته.",
-               	 "audio": "",
-                "longAudio": ""
-            },
-            {
-                "coptic": "Piioh nem niciov ev`e7ovci`a `nte pi`egwrh: All3lovi`a ge pe4nai 2op 2a `eneh",
-                "arabic": "القمر والنجوم لحكم الليل ، هلليلويا لأن إلي الأبد رحمته.",
-               	 "audio": "",
-                "longAudio": ""
-            },
-            {
-                "coptic": "F3`eta42ari `ena X3mi nem nov2amici: All3lovi`a ge pe4nai 2op 2a `eneh",
-                "arabic": "الذى ضرب المصريين مع أبكارهم ، هلليلويا لأن إلي الأبد رحمته.",
-               	 "audio": "",
+           {
+                "coptic": "Pimonojen3c `nnovt: f3etx3 qen ken4 `mPe4iwt. Kvri`e evloj3con",
+                "arabic": "أيها الإله الوحيد الذى فى حضن أبيه. يا رب بارك.",
+		"audio": "",
                 "longAudio": ""
             },
         ]

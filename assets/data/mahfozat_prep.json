@@ -1,158 +1,91 @@
 {
     "المستوى الاول": {
-        "القطعة الثامنة من ثيؤطوكية الاحد": [
+        "الصلاة الربانية": [
             {
-                "coptic": "__}}=Z `ncop `mm3ni: `ebolqen pah3t t3r4: 5na`cmov `epekran: P=oc `mpi`e`pt3r4.",
-                "arabic": "سبع مرات كل يوم. من كل قلبي. أبارك اسمك. يا رب الكل.",
-                "audio": "shashf-1.mp3"
+                "coptic": "Peniwt etqen nif3ov`i",
+                "arabic": "أبانا الذى فى السماوات",
+                	"audio": ""
             },
             {
-                "coptic": "Aier`fmev`I `mpekran: ovoh aigemnom5: `Povro `nniewn: F% `nte ninov5.",
-                "arabic": "ذكرت اسمك فتعزيت. يا ملك الدهور. وإله الآلهة.",
-                "audio": "shashf-2.mp3"
+                "coptic": "Mare4tovbo `nge pekran",
+                "arabic": "ليتقدس اسمك",
+                	"audio": ""
             },
             {
-                "coptic": "I=3c P=x=c  Pennov5: pi`al30inoc: f3eta4`I e0be pencw5 a4ercwma tikoc.",
-                "arabic": "يسوع المسيح إلهنا. الحقيقي الذي أتى من أجل خلاصنا متجسدًا.",
-                "audio": "shashf-3.mp3"
+                "coptic": "Marec`I `nge tekmetovro",
+                "arabic": "ليأت ملكوتك",
+                	"audio": ""
             },
             {
-                "coptic": "A4sicar987 `ebol: qen {Pi=p=na e=90v: nem ebolqen mari`a: 52elet =e=0v.",
-                "arabic": "وتجسد من الروح القدس ومن مريم العروس الطاهرة",
-                "audio": "shashf-4.mp3"
-            }
-        ],
-        "المحادثة": [
-            {
-                "coptic": "M3na: nane toov`I a2 pe pekr35?",
-                "arabic": "مينا: صباح الخير كيف حالك؟",
-                "audio": "mohadsa-11.mp3"
+                "coptic": "Petehnak mare42wpi: `m`fr35 qen `tfe: nem higen pikahi",
+                "arabic": "لتكن مشيئتك كما فى السماء كذلك على الارض",
+                	"audio": ""
             },
             {
-                "coptic": "Dani3l: 5ovog. Ak2enak `e0wn `nca4?",
-                "arabic": "دانيال: أنا بخير، أين ذهبت يوم أمس؟",
-                "audio": "mohadsa-12.mp3"
+                "coptic": "Penwik `nte rac5: m3i4 nan `mfoov",
+                "arabic": "خبزنا الذى للغد اعطيه لنا اليوم",
+                	"audio": ""
             },
             {
-                "coptic": "M3na: ai2en3i `e5ek`kl3ci`a.",
-                "arabic": "مينا: لقد ذهبت الى الكنيسة.",
-                "audio": "mohadsa-13.mp3"
+                "coptic": "Ovoh xa n3et`eron nan `ebol",
+                "arabic": "واغفر لنا ذنوبنا",
+                	"audio": ""
             },
             {
-                "coptic": "Dani3l: ak`iri `nov qen 5ek`kl3ci`a>?",
-                "arabic": "دانيال: ماذا فعلت في الكنيسة؟",
-                "audio": "mohadsa-14.mp3"
+                "coptic": "`M`fr35 hwn `ntenxw `ebol: `nn3`ete ovon `ntan `erwov",
+                "arabic": "كما نغفر نحن ايضاً للمذنبين إلينا",
+                	"audio": ""
             },
             {
-                "coptic": "M3na: 5si`cbw ovoh 5gerger nem na`2f3r.",
-                "arabic": "مينا: اتعلم وألعب مع أصحابي.",
-                "audio": "mohadsa-15.mp3"
+                "coptic": "Ovoh `mperenten `eqovn `epiracmoc",
+                "arabic": "ولا تدخلنا فى تجربة",
+                	"audio": ""
             },
             {
-                "coptic": "Dani3l: Aksi`cbw `nov qen 5ek`kl3ci`a>?",
-                "arabic": "دانيال: ماذا تعلمت فى الكنيسة ؟",
-                "audio": "mohadsa-lost.mp3"
+                "coptic": "Alla nahmen `ebolha pipethwov",
+                "arabic": "لكن نجينا من الشرير",
+                	"audio": ""
             },
             {
-                "coptic": "M3na: aisi`cbw `nw2 `e5acpi `nrem1`nx3mi.",
-                "arabic": "مينا: تعلمت أن أقرأ اللغة القبطية.",
-                "audio": "mohadsa-16.mp3"
-            }
-        ],
-        "شعار المهرجان": [
+                "coptic": "Qen Pi`xrictoc i3covc pensoic",
+                "arabic": "بالمسيح يسوع ربنا",
+                	"audio": ""
+            },
             {
-                "coptic": "`Psoic pe paovwini nem panohem",
-                "arabic": "الرب نوري وخلاصي (مز 27: 1)",
-                "audio": "eptchois.mp3"
+                "coptic": "Ge 0wk te 5metovro nem 5gom: nem pi`wov 2a `eneh: `am3n",
+                "arabic": "لأن لك المكل والقوة والمجد إلى الأبد آمين",
+                	"audio": ""
             }
         ],
         "الآيات": [
             {
-                "coptic": "Ek`e2wpi Ekovno4",
-                "arabic": "لا تكن إلا فرحًا ",
-                "audio": "ekeshobi.mp3"
-            },
+                "coptic": "`Amoni `mf3`ete `ntotk",
+                "arabic": "تمسك بما عندك (رؤ : 11:3)",
+                "audio": ""
+            }
+        ],
+        "شعار المهرجان": [
             {
-                "coptic": "`Arihir3n3",
-                "arabic": "عيشوا بالسلام (2كو 13: 11)",
-                "audio": "arihirini.mp3"
+                "coptic": "@wpi qen n3etak`tcabo `erwov",
+                "arabic": "اثْبُتْ عَلَى مَا تَعَلَّمْتَ (2 تي : 3:14)",
+                "audio": ""
             }
         ]
     },
     "المستوى الثانى": {
-        "نص بى أويك": [
+        "نص من تسبحة الهوس الأول": [
             {
-                "coptic": "Piwik `nte `pwnq: eta4`I `epec3t: nan `ebolqen `tfe: a45 `m`pwnq `mpikocmoc.",
-                "arabic": "خبز الحياة الذي نزل من السماء وهب الحياة للعالم.",
-                "audio": "pe-oik-1.mp3",
-                "longAudio": "pe-oik-l7n-1.mp3"
+                "coptic": " Qen `p`a2ai `nte pek`wov: akqomqem `nn3et5ovb3n: akovwrp `mpekgwnt: a4ov`omov `m`fr35 `nhanrwov`i",
+                "arabic": "بكثرة مجدك ، سحقت الذين يقاوموننا ، أرسلت غضبك ، فأكلهم مثل الهشيم",
+                "audio": "",
+                "longAudio": ""
             },
             {
-                "coptic": "`n0o hwi maria: are4ai qen tenegi: `mpimanna `nno3ton: eta4`I ebolqen `Fiwt.",
-                "arabic": "وأنتِ أيضًا يا مريم حملت في بطنك المن العقلي الذي آتى من الآب.",
-                "audio": "pe-oik-2.mp3",
-                "longAudio": "pe-oik-l7n-2.mp3"
+                "coptic": "`Ebol hiten pi`pnevma `nte pek`mbon a4`ohi `erat4 `nge pimwov: avsici `nge nimwvo `m`fr35 `novcobt: avswc `nge nigol qen `0m35 `m`fiom.",
+                "arabic": "وبروح غضبك وقف الماء ، وارتفعت المياه مثل السور ، وجمدت الأمواج فى وسط البحر.",
+                "audio": "",
+                "longAudio": ""
             },
-            {
-                "coptic": "Aremac4 asne 0wleb: a45 nan `mpe4cwma: nem {pe4`cno4 ettai3ovt: anwnq 2a `eneh.",
-                "arabic": "ولدته بغير دنس وأعطانا جسده ودمه الكريم فحيينا إلى الأبد.",
-                "audio": "pe-oik-3.mp3",
-                "longAudio": "pe-oik-l7n-3.mp3"
-            },
-            {
-                "coptic": "Cetwovnov harok: `nge nixerovbim: nem `nicerafim: ce`2nav `erok an.",
-                "arabic": "يقوم حولك الشاروبيم والسيرافيم ولا يستطيعون أن ينظروك.",
-                "audio": "pe-oik-4.mp3",
-                "longAudio": "pe-oik-l7n-4.mp3"
-            },
-            {
-                "coptic": "Tennav `erok `mm3ni: higen pima`ner2wov2i: tensi ebolqen pekcwma: nem pek`cno4 ettai3ovt",
-                "arabic": "ونحن ننظرك كل يوم على المذبح ونتناول من جسدك ودمك الكريم.",
-                "audio": "pe-oik-5.mp3",
-                "longAudio": "pe-oik-l7n-5.mp3"
-            }
         ],
-        "المحادثة": [
-            {
-                "coptic": "Adel: Xere ne",
-                "arabic": "عادل: السلام لكِ.",
-                "audio": "mohadsa-21.mp3"
-            },
-            {
-                "coptic": "Ra2a: Xere nak",
-                "arabic": "رشا: السلام لكَ",
-                "audio": "mohadsa-22.mp3"
-            },
-            {
-                "coptic": "Adel: A2 pe per35?",
-                "arabic": "عادل: كيف حالكِ؟",
-                "audio": "mohadsa-23.mp3"
-            },
-            {
-                "coptic": "Ra2a: %qoci `ema2w",
-                "arabic": "رشا: انا تعبانة جدًا.",
-                "audio": "mohadsa-24.mp3"
-            },
-            {
-                "coptic": "Adel: Tera2ene `epic3ni?",
-                "arabic": "عادل: هل ستذهبِ للطبيب؟",
-                "audio": "mohadsa-25.mp3"
-            },
-            {
-                "coptic": "Rawa: Ce 5na2en3i haro4 `mfoov.",
-                "arabic": "رشا: نعم سأذهب إليه اليوم.",
-                "audio": "mohadsa-26.mp3"
-            },
-            {
-                "coptic": "Adel: mare f% talso `mmo.",
-                "arabic": "عادل: فليشفيكِ الله.",
-                "audio": "mohadsa-27.mp3"
-            },
-            {
-                "coptic": "Ra2a: %2ep`hmot `ntotk.",
-                "arabic": "رشا: اشكركَ.",
-                "audio": "mohadsa-28.mp3"
-            }
-        ]
     }
 }

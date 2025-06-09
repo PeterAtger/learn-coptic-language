@@ -1,32 +1,5 @@
 {
     "المستوى الاول": {
-        "المحادثة": [
-            {
-                "coptic": "A12 pe peran?",
-                "arabic": "اسمك ايه؟ (للبنت) ",
-                "audio": "ash-be-be.mp3"
-            },
-            {
-                "coptic": "A2 pe pekran?",
-                "arabic": "اسمك ايه؟ (للولد)",
-                "audio": "ash-be-bek.mp3"
-            },
-            {
-                "coptic": "Paran pe ....",
-                "arabic": "اسمي ..... ",
-                "audio": "paran-pe.mp3"
-            },
-            {
-                "coptic": "Paran pe m3na",
-                "arabic": "اسمي مينا ",
-                "audio": "paran-be-mina.mp3"
-            },
-            {
-                "coptic": "Paran pe mari`a",
-                "arabic": "اسمي ماريا",
-                "audio": "paran-be-maria.mp3"
-            }
-        ],
         "رشم الصليب": [
             {
                 "coptic": "Qen `fran `m`1fiwt",
@@ -56,21 +29,26 @@
         ],
         "شعار المهرجان": [
             {
-                "coptic": "`Psoic pe paovwini nem panohem",
-                "arabic": "الرب نوري وخلاصي (مز 27: 1)",
-                "audio": "eptchois-be.mp3"
+                "coptic": "@wpi qen n3etak`tcabo `erwov",
+                "arabic": "اثْبُتْ عَلَى مَا تَعَلَّمْتَ (2 تي : 3:14)",
+                "audio": ""
             }
         ],
         "الآيات": [
             {
-                "coptic": "Nai n3i `Fnov5 kata pekni25 `nnai",
-                "arabic": "ارحمني يا الله حسب رحمتك (مز 50: 1)",
-                "audio": "nai-ne-efnote.mp3"
+                "coptic": "`Amoni `mf3`ete `ntotk",
+                "arabic": "تمسك بما عندك (رؤ : 11:3)",
+                "audio": ""
             },
             {
-                "coptic": "`Psoic aimenre 5mtcaie `nte pek3i",
-                "arabic": "يا رب، أحببت محل بيتك (مز 26: 8)",
-                "audio": "eptchois-aimen.mp3"
+                "coptic": "`Fnov5 ovajap3 pe",
+                "arabic": "الله محبة (1 يو: 16:4)",
+                "audio": ""
+            },
+            {
+                "coptic": "`Anok pe `fovwini `mpikocmoc",
+                "arabic": "انا هو نور العالم (يو: 12:8)",
+                "audio": ""
             }
         ]
     }

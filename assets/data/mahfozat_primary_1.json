@@ -1,32 +1,5 @@
 {
     "المستوى الاول": {
-        "المحادثة": [
-            {
-                "coptic": "A12 pe peran?",
-                "arabic": "اسمك ايه؟ (للبنت) ",
-                "audio": "ash-pe.mp3"
-            },
-            {
-                "coptic": "A2 pe pekran?",
-                "arabic": "اسمك ايه؟ (للولد)",
-                "audio": "ash-pek.mp3"
-            },
-            {
-                "coptic": "Paran pe ....",
-                "arabic": "اسمي ..... ",
-                "audio": "paran-pe.mp3"
-            },
-            {
-                "coptic": "Paran pe m3na",
-                "arabic": "اسمي مينا ",
-                "audio": "aran-be-mina.mp3"
-            },
-            {
-                "coptic": "Paran pe mari`a",
-                "arabic": "اسمي ماريا",
-                "audio": "paran-be-maria.mp3"
-            }
-        ],
         "رشم الصليب": [
             {
                 "coptic": "Qen `fran `m`1fiwt",
@@ -56,26 +29,26 @@
         ],
         "شعار المهرجان": [
             {
-                "coptic": "`Psoic pe paovwini nem panohem",
-                "arabic": "الرب نوري وخلاصي (مز 27: 1)",
-                "audio": "eptchois-be.mp3"
+                "coptic": "@wpi qen n3etak`tcabo `erwov",
+                "arabic": "اثْبُتْ عَلَى مَا تَعَلَّمْتَ (2 تي : 3:14)",
+                "audio": ""
             }
         ],
         "الآيات": [
             {
-                "coptic": "`Psoic cwtem `eta `Procevx3",
-                "arabic": "يا رب، اسمع صلاتي (مز 143 :1)",
-                "audio": "eptchoic-sotem.mp3"
+                "coptic": "`Amoni `mf3`ete `ntotk",
+                "arabic": "تمسك بما عندك (رؤ : 11:3)",
+                "audio": ""
             },
             {
-                "coptic": "Aribwk `m`Psoic qen ovono4",
-                "arabic": "اعبدوا الرب بفرح (مز 100: 2)",
-                "audio": "arivok.mp3"
+                "coptic": "`Fnov5 ovajap3 pe",
+                "arabic": "الله محبة (1 يو: 16:4)",
+                "audio": ""
             },
             {
-                "coptic": "`Psoic e4`e`areh `erok `ebol ha pethwov niben",
-                "arabic": "الرب يحفظك من كل شر (مز 121: 7)",
-                "audio": "eptchoic-ephare.mp3"
+                "coptic": "`Anok pe `fovwini `mpikocmoc",
+                "arabic": "انا هو نور العالم (يو: 12:8)",
+                "audio": ""
             }
         ]
     }
