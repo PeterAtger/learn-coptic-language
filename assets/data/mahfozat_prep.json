@@ -4,57 +4,57 @@
             {
                 "coptic": "Peniwt etqen nif3ov`i",
                 "arabic": "أبانا الذى فى السماوات",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Mare4tovbo `nge pekran",
                 "arabic": "ليتقدس اسمك",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Marec`I `nge tekmetovro",
                 "arabic": "ليأت ملكوتك",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Petehnak mare42wpi: `m`fr35 qen `tfe: nem higen pikahi",
                 "arabic": "لتكن مشيئتك كما فى السماء كذلك على الارض",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Penwik `nte rac5: m3i4 nan `mfoov",
                 "arabic": "خبزنا الذى للغد اعطيه لنا اليوم",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Ovoh xa n3et`eron nan `ebol",
                 "arabic": "واغفر لنا ذنوبنا",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "`M`fr35 hwn `ntenxw `ebol: `nn3`ete ovon `ntan `erwov",
                 "arabic": "كما نغفر نحن ايضاً للمذنبين إلينا",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Ovoh `mperenten `eqovn `epiracmoc",
                 "arabic": "ولا تدخلنا فى تجربة",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Alla nahmen `ebolha pipethwov",
                 "arabic": "لكن نجينا من الشرير",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Qen Pi`xrictoc i3covc pensoic",
                 "arabic": "بالمسيح يسوع ربنا",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Ge 0wk te 5metovro nem 5gom: nem pi`wov 2a `eneh: `am3n",
                 "arabic": "لأن لك المكل والقوة والمجد إلى الأبد آمين",
-                	"audio": ""
+                "audio": ""
             }
         ],
         "الآيات": [
@@ -85,7 +85,7 @@
                 "arabic": "وبروح غضبك وقف الماء ، وارتفعت المياه مثل السور ، وجمدت الأمواج فى وسط البحر.",
                 "audio": "",
                 "longAudio": ""
-            },
-        ],
+            }
+        ]
     }
 }

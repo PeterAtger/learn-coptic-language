@@ -4,57 +4,57 @@
             {
                 "coptic": "Peniwt etqen nif3ov`i",
                 "arabic": "أبانا الذى فى السماوات",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Mare4tovbo `nge pekran",
                 "arabic": "ليتقدس اسمك",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Marec`I `nge tekmetovro",
                 "arabic": "ليأت ملكوتك",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Petehnak mare42wpi: `m`fr35 qen `tfe: nem higen pikahi",
                 "arabic": "لتكن مشيئتك كما فى السماء كذلك على الارض",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Penwik `nte rac5: m3i4 nan `mfoov",
                 "arabic": "خبزنا الذى للغد اعطيه لنا اليوم",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Ovoh xa n3et`eron nan `ebol",
                 "arabic": "واغفر لنا ذنوبنا",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "`M`fr35 hwn `ntenxw `ebol: `nn3`ete ovon `ntan `erwov",
                 "arabic": "كما نغفر نحن ايضاً للمذنبين إلينا",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Ovoh `mperenten `eqovn `epiracmoc",
                 "arabic": "ولا تدخلنا فى تجربة",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Alla nahmen `ebolha pipethwov",
                 "arabic": "لكن نجينا من الشرير",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Qen Pi`xrictoc i3covc pensoic",
                 "arabic": "بالمسيح يسوع ربنا",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Ge 0wk te 5metovro nem 5gom: nem pi`wov 2a `eneh: `am3n",
                 "arabic": "لأن لك المكل والقوة والمجد إلى الأبد آمين",
-                	"audio": ""
+                "audio": ""
             }
         ],
         "الآيات": [
@@ -77,39 +77,39 @@
             {
                 "coptic": "F3`eta40amio `nnif3ov`I qen ovka5: All3lovi`a ge pe4nai 2op 2a `eneh",
                 "arabic": "الذي خلق السموات بفهم ، هلليلويا لأن إلي الأبد رحمته.",
-               	 "audio": "",
+                "audio": "",
                 "longAudio": ""
             },
             {
                 "coptic": "F3`eta4tagro `mpikahi higen nimwov: All3lovi`a ge pe4nai 2op 2a `eneh",
                 "arabic": "الذي ثبت الأرض على المياه ، هلليلويا لأن إلي الأبد رحمته.",
-               	 "audio": "",
+                "audio": "",
                 "longAudio": ""
             },
             {
                 "coptic": "F3`eta40ami`o `nhanni25 `nre4erovwini `mmavat4: All3lovi`a ge pe4nai 2op 2a `eneh",
                 "arabic": "الذى خلق نيرين عظيمين وحده ، هلليلويا لأن إلي الأبد رحمته.",
-               	 "audio": "",
+                "audio": "",
                 "longAudio": ""
             },
             {
                 "coptic": "`Fr3 `eover2i2i `nte pi`ehoov :  All3lovi`a ge pe4nai 2op 2a `eneh",
                 "arabic": "الشمس لحكم النهار ، هلليلويا لأن إلي الأبد رحمته.",
-               	 "audio": "",
+                "audio": "",
                 "longAudio": ""
             },
             {
                 "coptic": "Piioh nem niciov ev`e7ovci`a `nte pi`egwrh: All3lovi`a ge pe4nai 2op 2a `eneh",
                 "arabic": "القمر والنجوم لحكم الليل ، هلليلويا لأن إلي الأبد رحمته.",
-               	 "audio": "",
+                "audio": "",
                 "longAudio": ""
             },
             {
                 "coptic": "F3`eta42ari `ena X3mi nem nov2amici: All3lovi`a ge pe4nai 2op 2a `eneh",
                 "arabic": "الذى ضرب المصريين مع أبكارهم ، هلليلويا لأن إلي الأبد رحمته.",
-               	 "audio": "",
+                "audio": "",
                 "longAudio": ""
-            },
+            }
         ]
     }
 }

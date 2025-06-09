@@ -4,57 +4,57 @@
             {
                 "coptic": "Peniwt etqen nif3ov`i",
                 "arabic": "أبانا الذى فى السماوات",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Mare4tovbo `nge pekran",
                 "arabic": "ليتقدس اسمك",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Marec`I `nge tekmetovro",
                 "arabic": "ليأت ملكوتك",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Petehnak mare42wpi: `m`fr35 qen `tfe: nem higen pikahi",
                 "arabic": "لتكن مشيئتك كما فى السماء كذلك على الارض",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Penwik `nte rac5: m3i4 nan `mfoov",
                 "arabic": "خبزنا الذى للغد اعطيه لنا اليوم",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Ovoh xa n3et`eron nan `ebol",
                 "arabic": "واغفر لنا ذنوبنا",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "`M`fr35 hwn `ntenxw `ebol: `nn3`ete ovon `ntan `erwov",
                 "arabic": "كما نغفر نحن ايضاً للمذنبين إلينا",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Ovoh `mperenten `eqovn `epiracmoc",
                 "arabic": "ولا تدخلنا فى تجربة",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Alla nahmen `ebolha pipethwov",
                 "arabic": "لكن نجينا من الشرير",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Qen Pi`xrictoc i3covc pensoic",
                 "arabic": "بالمسيح يسوع ربنا",
-                	"audio": ""
+                "audio": ""
             },
             {
                 "coptic": "Ge 0wk te 5metovro nem 5gom: nem pi`wov 2a `eneh: `am3n",
                 "arabic": "لأن لك المكل والقوة والمجد إلى الأبد آمين",
-                	"audio": ""
+                "audio": ""
             }
         ],
         "الآيات": [
@@ -77,27 +77,27 @@
             {
                 "coptic": "Penn3b pencwt3r: pimairwmi `n`aja0oc: pire4tanqo `nte nenyvx3.",
                 "arabic": "يا سيدنا ومخلصنا محب البشر الصالح محيي انفسنا.",
-		"audio": "",
+                "audio": "",
                 "longAudio": ""
             },
-           {
+            {
                 "coptic": "F5 f3`eta4t3i4 `mmin `mmo4 `ncw5 qaron e0be nennobi.",
                 "arabic": "يا الله الذي اسلم ذاته عنا خلاصاً من أجل خطايانا.",
-		"audio": "",
+                "audio": "",
                 "longAudio": ""
             },
-           {
+            {
                 "coptic": "F3`ete `ebolhiten `p`a2ai `nte ne4nai: a4bol `ebol `n5metgagi `nte nirwmi",
                 "arabic": "الذى بكثرة رحمته حل عداوة البشر",
-		"audio": "",
+                "audio": "",
                 "longAudio": ""
             },
-           {
+            {
                 "coptic": "Pimonojen3c `nnovt: f3etx3 qen ken4 `mPe4iwt. Kvri`e evloj3con",
                 "arabic": "أيها الإله الوحيد الذى فى حضن أبيه. يا رب بارك.",
-		"audio": "",
+                "audio": "",
                 "longAudio": ""
-            },
+            }
         ]
     }
 }
