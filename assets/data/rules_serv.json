@@ -28,8 +28,7 @@
       "rule": "melkeia.png",
       "examples": [
         "melkeia-e-r-1.png"
-      ],
-      "shouldScale": true
+      ]
     },
     {
       "rule": "mady-tam.png",
@@ -52,8 +51,7 @@
       "rule": "mostakbal-awl.png",
       "examples": [
         "mostakbal-e-r-1.png"
-      ],
-      "shouldScale": true
+      ]
     },
     {
       "rule": "mafool-be-r.png",

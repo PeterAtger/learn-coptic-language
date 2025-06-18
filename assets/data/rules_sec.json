@@ -19,15 +19,13 @@
     },
     {
       "rule": "dmaer-monfasela.png",
-      "examples": [],
-      "shouldScale": true
+      "examples": []
     },
     {
       "rule": "kaynona.png",
       "examples": [
         "kaynona-e-3psc-1.png"
-      ],
-      "shouldScale": true
+      ]
     },
     {
       "rule": "edafa-s.png",
@@ -38,8 +36,7 @@
       "rule": "melkeia.png",
       "examples": [
         "melkeia-e-s-1.png"
-      ],
-      "shouldScale": true
+      ]
     }
   ],
   "المستوى الثانى": [
@@ -56,8 +53,7 @@
       "examples": [
         "mafool-be-e-ps-1.png",
         "mafool-be-e-s-2.png"
-      ],
-      "shouldScale": true
+      ]
     },
     {
       "rule": "sela-s.png",

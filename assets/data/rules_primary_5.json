@@ -1,49 +1,50 @@
 {
-    "المستوى الاول": [
-        {
-            "rule": "base.png",
-            "examples": []
-        },
-        {
-            "rule": "ebty-yonany.png",
-            "examples": [
-                "ebty-yonany-e-5-1.png"
-            ]
-        },
-        {
-            "rule": "tareef-tankeer.png",
-            "examples": [
-                "tareef-tankeer-e-5-1.png",
-                "tareef-tankeer-e-5-2.png"
-            ]
-        },
-        {
-            "rule": "edafa-5.png",
-            "examples": []
-        },
-        {
-            "rule": "dmaer-monfasela.png",
-            "examples": []
-        },
-        {
-            "rule": "kaynona.png",
-            "examples": [
-                "kaynona-e-5-1.png"
-            ]
-        }
-    ],
-    "المستوى الثانى": [
-        {
-            "rule": "melkeia.png",
-            "examples": [
-                "melkeia-e-5-1.png"
-            ]
-        },
-        {
-            "rule": "eshara.png",
-            "examples": [
-                "eshara-e-5p-1.png"
-            ]
-        }
-    ]
+  "المستوى الاول": [
+    {
+      "rule": "base.png",
+      "examples": []
+    },
+    {
+      "rule": "ebty-yonany.png",
+      "examples": [
+        "ebty-yonany-e-5-1.png"
+      ]
+    },
+    {
+      "rule": "tareef-tankeer.png",
+      "examples": [
+        "tareef-tankeer-e-5-1.png",
+        "tareef-tankeer-e-5-2.png"
+      ]
+    },
+    {
+      "rule": "edafa-5.png",
+      "examples": [],
+      "shouldScale": true
+    },
+    {
+      "rule": "dmaer-monfasela.png",
+      "examples": []
+    },
+    {
+      "rule": "kaynona.png",
+      "examples": [
+        "kaynona-e-5-1.png"
+      ]
+    }
+  ],
+  "المستوى الثانى": [
+    {
+      "rule": "melkeia.png",
+      "examples": [
+        "melkeia-e-5-1.png"
+      ]
+    },
+    {
+      "rule": "eshara.png",
+      "examples": [
+        "eshara-e-5p-1.png"
+      ]
+    }
+  ]
 }

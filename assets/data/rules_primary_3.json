@@ -31,7 +31,8 @@
     },
     {
       "rule": "edafa-3.png",
-      "examples": []
+      "examples": [],
+      "shouldScale": true
     }
   ]
 }

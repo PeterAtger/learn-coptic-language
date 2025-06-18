@@ -9,7 +9,7 @@ import 'package:ebty/presentation/pages/words_page/words_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-const hasNoRules = [Years.kg];
+const hasNoRules = [Years.kg, Years.primary_1];
 const messages = [
   "تم صنع هذا البرنامج بواسطة خدام كنيسة ابي سيفين والشهيدة دميانة بشبرا. أذكرونا فى صلواتكم",
   "أضغط على الحرف لسماع النطق باللغة القبطية",

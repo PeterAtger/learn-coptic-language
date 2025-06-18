@@ -28,12 +28,7 @@
       "rule": "melkeia.png",
       "examples": [
         "melkeia-e-c-1.png"
-      ],
-      "shouldScale": true
-    },
-    {
-      "rule": "dmaer-monfasela.png",
-      "examples": []
+      ]
     },
     {
       "rule": "dmaer-monfasela.png",
@@ -43,8 +38,7 @@
       "rule": "kaynona.png",
       "examples": [
         "kaynona-e-3psc-1.png"
-      ],
-      "shouldScale": true
+      ]
     }
   ],
   "المستوى الثانى": [
@@ -67,8 +61,7 @@
       "rule": "mostakbal-awl.png",
       "examples": [
         "mostakbal-e-c-1.png"
-      ],
-      "shouldScale": true
+      ]
     },
     {
       "rule": "mafool-be.png",
@@ -76,8 +69,7 @@
         "mafool-be-e-c-1.png",
         "mafool-be-e-cr-2.png",
         "mafool-be-e-c-3.png"
-      ],
-      "shouldScale": true
+      ]
     }
   ]
 }
