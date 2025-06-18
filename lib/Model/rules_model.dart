@@ -14,8 +14,8 @@ Map<Years, String> rulesFiles = {
   Years.primary_5: "assets/data/rules_primary_5.json",
   Years.preparatory: "assets/data/rules_prep.json",
   Years.secondary: "assets/data/rules_sec.json",
-  Years.college: "assets/data/rules_sec.json",
-  Years.servants: "assets/data/rules_sec.json",
+  Years.college: "assets/data/rules_col.json",
+  Years.servants: "assets/data/rules_serv.json",
 };
 
 class Rules {

@@ -1,66 +1,73 @@
 {
-    "المستوى الاول": [
-        {
-            "rule": "base.png",
-            "examples": []
-        },
-        {
-            "rule": "ebty-yonany.png",
-            "examples": [
-                "ebty-yonany-e-s-1.png"
-            ]
-        },
-        {
-            "rule": "tareef-tankeer.png",
-            "examples": [
-                "tareef-tankeer-e-s-1.png",
-                "tareef-tankeer-e-s-2.png"
-            ]
-        },
-        {
-            "rule": "mady-tam.png",
-            "examples": [
-                "mady-tam-e-s-1.png"
-            ],
-            "shouldScale": true
-        },
-        {
-            "rule": "hader-awl.png",
-            "examples": [
-                "hader-awl-e-s-1.png"
-            ],
-            "shouldScale": true
-        },
-        {
-            "rule": "mostakbal-awl.png",
-            "examples": [
-                "mostakbal-awl-e-s-1.png"
-            ]
-        },
-        {
-            "rule": "mafool-be.png",
-            "examples": [
-                "mafool-be-e-s-1.png",
-                "mafool-be-e-ps-2.png",
-                "mafool-be-e-s-3.png"
-            ]
-        },
-        {
-            "rule": "adwat-atf.png",
-            "examples": [],
-            "shouldScale": true
-        }
-    ],
-    "المستوى الثانى": [
-        {
-            "rule": "edafa-sec.png",
-            "examples": [],
-            "shouldScale": true
-        },
-        {
-            "rule": "amr-nahy-sec.png",
-            "examples": [],
-            "shouldScale": true
-        }
-    ]
+  "المستوى الاول": [
+    {
+      "rule": "base.png",
+      "examples": []
+    },
+    {
+      "rule": "ebty-yonany.png",
+      "examples": [
+        "ebty-yonany-e-s-1.png"
+      ]
+    },
+    {
+      "rule": "tareef-tankeer.png",
+      "examples": [
+        "tareef-tankeer-e-ps-1.png",
+        "tareef-tankeer-e-ps-2.png"
+      ]
+    },
+    {
+      "rule": "dmaer-monfasela.png",
+      "examples": [],
+      "shouldScale": true
+    },
+    {
+      "rule": "kaynona.png",
+      "examples": [
+        "kaynona-e-3psc-1.png"
+      ],
+      "shouldScale": true
+    },
+    {
+      "rule": "edafa-s.png",
+      "examples": [],
+      "shouldScale": true
+    },
+    {
+      "rule": "melkeia.png",
+      "examples": [
+        "melkeia-e-s-1.png"
+      ],
+      "shouldScale": true
+    }
+  ],
+  "المستوى الثانى": [
+    {
+      "rule": "mady-tam.png",
+      "examples": [
+        "mady-tam-e-pscr-1.png",
+        "mady-tam-e-s-2.png"
+      ],
+      "shouldScale": true
+    },
+    {
+      "rule": "mafool-be.png",
+      "examples": [
+        "mafool-be-e-ps-1.png",
+        "mafool-be-e-s-2.png"
+      ],
+      "shouldScale": true
+    },
+    {
+      "rule": "sela-s.png",
+      "examples": [],
+      "shouldScale": true
+    },
+    {
+      "rule": "eshara-s.png",
+      "examples": [],
+      "shouldScale": true
+    }
+  ]
 }
