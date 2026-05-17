@@ -1,0 +1,1840 @@
+{
+  "nursery": [
+    {
+      "id": "nur-hymn-1",
+      "title": "رشم الصليب",
+      "stageId": "nursery",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v1",
+          "coptic": "'en `vran `m`viwt",
+          "arabic": "باسم الآب",
+          "phonetic": "خين إفران إم إفيوت",
+          "audioPath": "/audio/hymns/1.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v2",
+          "coptic": "Nem `p]hri",
+          "arabic": "والابن",
+          "phonetic": "نيم إبشيري",
+          "audioPath": "/audio/hymns/2.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v3",
+          "coptic": "Nem Pi`pneuma",
+          "arabic": "والروح",
+          "phonetic": "نيم بي إبنيڤما",
+          "audioPath": "/audio/hymns/3.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v4",
+          "coptic": "Eqouab",
+          "arabic": "القدس",
+          "phonetic": "إثؤواب",
+          "audioPath": "/audio/hymns/4.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v5",
+          "coptic": "Ounou; `nouwt amhn",
+          "arabic": "إله واحد آمين",
+          "phonetic": "أونوتي إنؤوأوت آمين",
+          "audioPath": "/audio/hymns/5.mp3",
+          "isLegacy": true
+        }
+      ]
+    },
+    {
+      "id": "nur-hymn-2",
+      "title": "جمل الحفظ الشفوي",
+      "stageId": "nursery",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v1",
+          "coptic": ":menre pasoic ihcouc pi`xrictoc",
+          "arabic": "أنا أحب ربي يسوع المسيح",
+          "phonetic": "تي مينري با تشويس إيسوس بي خريستوس",
+          "audioPath": "/audio/hymns/6.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v2",
+          "coptic": ":menre ;parqenoc",
+          "arabic": "أنا أحب العذراء",
+          "phonetic": "تي مينري تي بارثينوس",
+          "audioPath": "/audio/hymns/7.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v3",
+          "coptic": ":menre paiwt",
+          "arabic": "أنا أحب أبي",
+          "phonetic": "تي مينري با يوت",
+          "audioPath": "/audio/hymns/8.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v4",
+          "coptic": ":menre tamau",
+          "arabic": "أنا أحب أمي",
+          "phonetic": "تي مينري طاماڤ",
+          "audioPath": "/audio/hymns/9.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v5",
+          "coptic": ":menre pacon",
+          "arabic": "أنا أحب أخي",
+          "phonetic": "تي مينري با سون",
+          "audioPath": "/audio/hymns/10.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v6",
+          "coptic": ":menre tacwni",
+          "arabic": "أنا أحب أختي",
+          "phonetic": "تي مينري طاصوني",
+          "audioPath": "/audio/hymns/11.mp3",
+          "isLegacy": true
+        }
+      ]
+    },
+    {
+      "id": "nur-hymn-theme",
+      "title": "شعار المهرجان",
+      "stageId": "nursery",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "يعظم انتصارنا بالذي أحبنا (رو 8: 37)",
+          "phonetic": "تين إير هوؤو تشرو إيڤول هيتين في إيطاف مينري تين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/12.mp3"
+        }
+      ]
+    }
+  ],
+  "primary12": [
+    {
+      "id": "p12-hymn-1",
+      "title": "رشم الصليب",
+      "stageId": "primary12",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v1",
+          "coptic": "'en `vran `m`viwt",
+          "arabic": "باسم الآب",
+          "phonetic": "خين إفران إم إفيوت",
+          "audioPath": "/audio/hymns/p12/1.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v2",
+          "coptic": "Nem `p]hri",
+          "arabic": "والابن",
+          "phonetic": "نيم إبشيري",
+          "audioPath": "/audio/hymns/p12/2.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v3",
+          "coptic": "Nem Pi`pneuma",
+          "arabic": "والروح",
+          "phonetic": "نيم بي إبنيڤما",
+          "audioPath": "/audio/hymns/p12/3.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v4",
+          "coptic": "Eqouab",
+          "arabic": "القدس",
+          "phonetic": "إثؤواب",
+          "audioPath": "/audio/hymns/p12/4.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v5",
+          "coptic": "Ounou; `nouwt amhn",
+          "arabic": "إله واحد آمين",
+          "phonetic": "أونوتي إنؤوأوت آمين",
+          "audioPath": "/audio/hymns/p12/5.mp3",
+          "isLegacy": true
+        }
+      ]
+    },
+    {
+      "id": "p12-hymn-2",
+      "title": "جمل الحفظ الشفوي",
+      "stageId": "primary12",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v1",
+          "coptic": ":ouw] `e`]lhl",
+          "arabic": "أنا عايز أصلي",
+          "phonetic": "تي أوؤوش إيه إشليل",
+          "audioPath": "/audio/hymns/p12/6.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v2",
+          "coptic": ":ouw] `eouwm",
+          "arabic": "أنا عايز أكل",
+          "phonetic": "تي أوؤوش إيه أوؤم",
+          "audioPath": "/audio/hymns/p12/7.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v3",
+          "coptic": ":ouw] `eenkot",
+          "arabic": "أنا عايز أنام",
+          "phonetic": "تي أوؤوش إيه إنكوت",
+          "audioPath": "/audio/hymns/p12/8.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v4",
+          "coptic": ":ouw] `ecw",
+          "arabic": "أنا عايز أشرب",
+          "phonetic": "تي أوؤوش إيه صو",
+          "audioPath": "/audio/hymns/p12/9.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v5",
+          "coptic": ":ouw] `ejerjer",
+          "arabic": "أنا عايز ألعب",
+          "phonetic": "تي أوؤوش إيه جيرجير",
+          "audioPath": "/audio/hymns/p12/10.mp3",
+          "isLegacy": true
+        }
+      ]
+    },
+    {
+      "id": "p12-hymn-theme",
+      "title": "شعار المهرجان",
+      "stageId": "primary12",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "يعظم انتصارنا بالذي أحبنا (رو 8: 37)",
+          "phonetic": "تين إير هوؤو تشرو إيڤول هيتين في إيطاف مينري تين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p12/11.mp3"
+        }
+      ]
+    }
+  ],
+  "primary34": [
+    {
+      "id": "p34-hymn-lvl1",
+      "title": "محفوظات المستوى الأول",
+      "stageId": "primary34",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "باسم الآب والابن والروح القدس إله واحد آمين",
+          "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl1/1.mp3"
+        },
+        {
+          "id": "v2",
+          "coptic": "Anok pe `vouwini `mpikocmoc",
+          "arabic": "أنا هو نور العالم",
+          "phonetic": "أنوك بي إفؤوأويني إم بي كوزموس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl1/2.mp3"
+        },
+        {
+          "id": "v3",
+          "coptic": "Anok pe piwik `nte `pwn'",
+          "arabic": "أنا هو خبز الحياة",
+          "phonetic": "أنوك بى بي أويك إنتى إبؤنخ",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl1/3.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "ذوقوا وانظروا ما أطيب الرب",
+          "phonetic": "چيم تيبي أووه أناڤ چى أو هيلچى بى إبتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl1/4.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "لاحظ نفسك والتعليم",
+          "phonetic": "ماإهثيك إيروك نيم تي ميت ريف تي إسڤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl1/5.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "كونوا مستعدين",
+          "phonetic": "شوبي إيريتين سيبتوت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl1/6.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "مستنيرة عيون أذهانكم",
+          "phonetic": "إثرو إير أوؤيني إنچى ني ڤال إنتى بيتين هيت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl1/7.mp3"
+        }
+      ]
+    },
+    {
+      "id": "p34-hymn-lvl2",
+      "title": "محفوظات المستوى الثاني",
+      "stageId": "primary34",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "باسم الآب والابن والروح القدس إله واحد آمين",
+          "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl2/1.mp3"
+        },
+        {
+          "id": "v2",
+          "coptic": "Vai pe pi`e\\oou `eta ` Psoic qamiof",
+          "arabic": "هذا هو اليوم الذي صنعه الرب",
+          "phonetic": "فاي بى بي إي هوأوو إيطا إبتشويس ثاميوف",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl2/2.mp3"
+        },
+        {
+          "id": "v3",
+          "coptic": "Anok pe `vouwini `mpikocmoc",
+          "arabic": "أنا هو نور العالم",
+          "phonetic": "أنوك بي إفؤوأويني إم بي كوزموس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl2/3.mp3"
+        },
+        {
+          "id": "v4",
+          "coptic": "Anok pe piwik `nte `pwn'",
+          "arabic": "أنا هو خبز الحياة",
+          "phonetic": "أنوك بى بي أويك إنتى إبؤنخ",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl2/4.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "ذوقوا وانظروا ما أطيب الرب",
+          "phonetic": "چيم تيبي أووه أناڤ چى أو هيلچى بى إبتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl2/5.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "لاحظ نفسك والتعليم",
+          "phonetic": "ما إهثيك إيروك نيم تي ميت ريف تي إسڤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl2/6.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "كونوا مستعدين",
+          "phonetic": "شوبي إيريتين سيبتوت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl2/7.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "مستنيرة عيون أذهانكم",
+          "phonetic": "إثرو إير أوؤيني إنچى ني ڤال إنتى بيتين هيت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl2/8.mp3"
+        }
+      ]
+    },
+    {
+      "id": "p34-hymn-theme",
+      "title": "شعار المهرجان",
+      "stageId": "primary34",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "يعظم انتصارنا بالذي أحبنا (رو 8: 37)",
+          "phonetic": "تين إير هوؤو تشرو إيڤول هيتين في إيطاف مينري تين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/theme/1.mp3"
+        }
+      ]
+    }
+  ],
+  "primary56": [
+    {
+      "id": "p56-hymn-lvl1",
+      "title": "محفوظات المستوى الأول",
+      "stageId": "primary56",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "باسم الآب والابن والروح القدس إله واحد آمين",
+          "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/1.mp3"
+        },
+        {
+          "id": "h-2-1",
+          "coptic": "Ouwn\\ `ebol `mP_ je ouxrhctoc ou`agaqoc pe allhloui`a> ",
+          "arabic": "اشكروا الرب لأنه صالح وخير الليلويا.",
+          "phonetic": "أوؤنه إيڤول إم إبتشويس چى أو خريستوس أو آغاثوس بى ألليلويا.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/2.mp3"
+        },
+        {
+          "id": "h-2-2",
+          "coptic": "Je pefnai ]op ]a `ene\\ ",
+          "arabic": "لأن إلى الأبد رحمته",
+          "phonetic": "چى بيف ناي شوب شا إينيه",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/3.mp3"
+        },
+        {
+          "id": "h-2-3",
+          "coptic": "Ouwn\\ `ebol `m`vnou; `nte ninou; a?l?> je pefnai ]op ]a `ene\\ ",
+          "arabic": "اشكروا إله الآلهة الليلويا: لأن إلى الأبد رحمته",
+          "phonetic": "أوؤنه إيڤول إم إفنوتي إنتى ني نووتي ألليلويا چى بيف ناي شوب شا إينيه",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/4.mp3"
+        },
+        {
+          "id": "v2",
+          "coptic": "Anok pe `vouwini `mpikocmoc",
+          "arabic": "أنا هو نور العالم",
+          "phonetic": "أنوك بي إفؤوأويني إم بي كوزموس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/5.mp3"
+        },
+        {
+          "id": "v3",
+          "coptic": "Anok pe piwik `nte `pwn'",
+          "arabic": "أنا هو خبز الحياة",
+          "phonetic": "أنوك بى بي أويك إنتى إبؤنخ",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/6.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "ذوقوا وانظروا ما أطيب الرب",
+          "phonetic": "چيم تيبي أووه أناڤ چى أو هيلچى بى إبتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/7.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "لاحظ نفسك والتعليم",
+          "phonetic": "ماإهثيك إيروك نيم تي ميت ريف تي إسڤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/8.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "كونوا مستعدين",
+          "phonetic": "شوبي إيريتين سيبتوت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/9.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "مستنيرة عيون أذهانكم",
+          "phonetic": "إثرو إير أوؤيني إنچى ني ڤال إنتى بيتين هيت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/10.mp3"
+        }
+      ]
+    },
+    {
+      "id": "p56-hymn-lvl2",
+      "title": "محفوظات المستوى الثاني",
+      "stageId": "primary56",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "باسم الآب والابن والروح القدس إله واحد آمين",
+          "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/1.mp3"
+        },
+        {
+          "id": "lp-1",
+          "coptic": "Peniwt e'ten nivhou`i",
+          "arabic": "أبانا الذي في السموات",
+          "phonetic": "بينيوت إتخن ني فيئوي",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/2.mp3"
+        },
+        {
+          "id": "lp-2",
+          "coptic": "Mareftoubo `nje pekran>",
+          "arabic": "ليتقدس اسمك",
+          "phonetic": "مارىف توڤو إنچى بيكران",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/3.mp3"
+        },
+        {
+          "id": "lp-3",
+          "coptic": "Marec` I `nje tekmetouro>",
+          "arabic": "ليأت ملكوتك",
+          "phonetic": "مارس إي إنچى تيك ميت أوورو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/4.mp3"
+        },
+        {
+          "id": "lp-4",
+          "coptic": "Pete\\nak maref]wpi> `m`vrh; 'en `tve> nem \\ijen pika\\i>",
+          "arabic": "لتكن مشيئتك كما في السماء كذلك على الأرض",
+          "phonetic": "بىت إهناك مارف شوبى إم إفريتى خين إتفى نيم هيچن بيكاهى",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/5.mp3"
+        },
+        {
+          "id": "lp-5",
+          "coptic": "Penwik `nte rac;> mhif nan `mvoou",
+          "arabic": "خبزنا الذي للغد أعطنا اليوم",
+          "phonetic": "بين أويك إنتى راستي ميف نان إمفوأوو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/6.mp3"
+        },
+        {
+          "id": "lp-6",
+          "coptic": "Ouo\\ xa nhet`eron nan `ebol>",
+          "arabic": "واغفر لنا ذنوبنا",
+          "phonetic": "أووه كا ني إت إيرون نان إيڤول",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/7.mp3"
+        },
+        {
+          "id": "lp-7",
+          "coptic": "`M`vrh; \\wn `ntenxw `ebol> `nnh`ete ouon `ntan `erwou>",
+          "arabic": "كما نحن أيضاً نغفر للمذنبين إلينا",
+          "phonetic": "إم إفريتي هو إنتين كو إيڤول إنني إى تى أوون إنطان إيرؤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/8.mp3"
+        },
+        {
+          "id": "lp-8",
+          "coptic": "Ouo\\ `mperenten `e'oun `epiracmoc",
+          "arabic": "ولا تدخلنا في تجربة",
+          "phonetic": "أووه إم بى رينتين إيخون إبي رازموس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/9.mp3"
+        },
+        {
+          "id": "lp-9",
+          "coptic": "Alla na\\men `ebol\\a pipet\\wou",
+          "arabic": "لكن نجنا من الشرير",
+          "phonetic": " اللا ناهمين إيڤولها بي بيتهوؤو ",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/10.mp3"
+        },
+        {
+          "id": "lp-10",
+          "coptic": "'en pixrictoc ihcouc pensoic>",
+          "arabic": "بالمسيح يسوع ربنا",
+          "phonetic": "خين بي خريستوس إيسوس بينتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/11.mp3"
+        },
+        {
+          "id": "lp-11",
+          "coptic": "Je qwk te ;metouro> nem ;jom> nem pi`wou> ]a `ene\\> amhn",
+          "arabic": "لأن لك الملك والقوة والمجد إلى الأبد آمين",
+          "phonetic": "چى ثوك تى تي ميت أورو نيم تي جوم نيم بي أوأوو شا إينيه آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/12.mp3"
+        },
+        {
+          "id": "v3",
+          "coptic": "Anok pe `vouwini `mpikocmoc",
+          "arabic": "أنا هو نور العالم",
+          "phonetic": "أنوك بي إفؤوأويني إم بي كوزموس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/13.mp3"
+        },
+        {
+          "id": "v4",
+          "coptic": "Anok pe piwik `nte `pwn'",
+          "arabic": "أنا هو خبز الحياة",
+          "phonetic": "أنوك بى بي أويك إنتى إبؤنخ",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/14.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "ذوقوا وانظروا ما أطيب الرب",
+          "phonetic": "چيم تيبي أووه أناڤ چى أو هيلچى بى إبتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/15.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "لاحظ نفسك والتعليم",
+          "phonetic": "ماإهثيك إيروك نيم تي ميت ريف تي إسڤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/16.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "كونوا مستعدين",
+          "phonetic": "شوبي إيريتين سيبتوت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/17.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "مستنيرة عيون أذهانكم",
+          "phonetic": "إثرو إير أوؤيني إنچى ني ڤال إنتى بيتين هيت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/18.mp3"
+        }
+      ]
+    },
+    {
+      "id": "p56-hymn-theme",
+      "title": "شعار المهرجان",
+      "stageId": "primary56",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "يعظم انتصارنا بالذي أحبنا (رو 8: 37)",
+          "phonetic": "تين إير هوؤو تشرو إيڤول هيتين في إيطاف مينري تين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/theme/1.mp3"
+        }
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "id": "prep-hymn-lvl1",
+      "title": "محفوظات المستوى الأول",
+      "stageId": "prep",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "باسم الآب والابن والروح القدس إله واحد آمين",
+          "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl1/1.mp3"
+        },
+        {
+          "id": "theo-1",
+          "coptic": "Ouckhnh `mmhi> te Maria ;parqenoc> euxh 'en tecmh;> `nje nimetmeqreu `eten\\ot.",
+          "arabic": "قبة حقيقية، هي مريم العذراء، موضوع في وسطها، الشهادات الصادقة.",
+          "phonetic": "أو إسكيني إممي : تى ماريا تي بارثينوس : إڤكي خين تي سميتي : إنجى ني ميت ميثريڤ إيتينهوت.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl1/2.mp3"
+        },
+        {
+          "id": "theo-2",
+          "coptic": ":kibwtoc `natqwleb> eto]j `nnoub `ncaca niben> nem piilacthrion> `nXeroubimikon.",
+          "arabic": "التابوت غير الدنس، المصفح بالذهب من كل ناحية، والغطاء الكاروبي.",
+          "phonetic": "تي كيڤوتوس إن آت ثوليب : إيتوشج إن نووب إن صاصا نيڤين : نيم بي إيلاستيريون إن شيروبيميكون",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl1/3.mp3"
+        },
+        {
+          "id": "theo-3",
+          "coptic": "Pictamnoc `nnoub> ere pimanna \\hp `n'htf> ic pilogoc `nte `viwt> `i afsicar[ `n'h;.",
+          "arabic": "القسط الذهبي، المخفي فيه المن، هوذا كلمة الآب، أتى وتجسد منكِ.",
+          "phonetic": "بي اسطامنوس إن نووب : إيريه بي مانا هيب إن خيتف : إيس بي لوغوس إنتى إفيوت : إي أف تشي ساركس إن خيتي.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl1/4.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "ذوقوا وانظروا ما أطيب الرب",
+          "phonetic": "چيم تيبي أووه أناڤ چى أو هيلچى بى إبتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl1/5.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "لاحظ نفسك والتعليم",
+          "phonetic": "ماإهثيك إيروك نيم تي ميت ريف تي إسڤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl1/6.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "كونوا مستعدين",
+          "phonetic": "شوبي إيريتين سيبتوت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl1/7.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "مستنيرة عيون أذهانكم",
+          "phonetic": "إثرو إير أوؤيني إنچى ني ڤال إنتى بيتين هيت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl1/8.mp3"
+        }
+      ]
+    },
+    {
+      "id": "prep-hymn-lvl2",
+      "title": "محفوظات المستوى الثاني",
+      "stageId": "prep",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "باسم الآب والابن والروح القدس إله واحد آمين",
+          "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/1.mp3"
+        },
+        {
+          "id": "theo-1",
+          "coptic": "Ouckhnh `mmhi> te Maria ;parqenoc> euxh 'en tecmh;> `nje nimetmeqreu `eten\\ot.",
+          "arabic": "قبة حقيقية، هي مريم العذراء، موضوع في وسطها، الشهادات الصادقة.",
+          "phonetic": "أو إسكيني إممي : تى ماريا تي بارثينوس : إڤكي خين تي سميتي : إنجى ني ميت ميثريڤ إيتينهوت.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/2.mp3"
+        },
+        {
+          "id": "theo-2",
+          "coptic": ":kibwtoc `natqwleb> eto]j `nnoub `ncaca niben> nem piilacthrion> `nXeroubimikon.",
+          "arabic": "التابوت غير الدنس، المصفح بالذهب من كل ناحية، والغطاء الكاروبي.",
+          "phonetic": "تي كيڤوتوس إن آت ثوليب : إيتوشج إن نووب إن صاصا نيڤين : نيم بي إيلاستيريون إن شيروبيميكون",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/3.mp3"
+        },
+        {
+          "id": "theo-3",
+          "coptic": "Pictamnoc `nnoub> ere pimanna \\hp `n'htf> ic pilogoc `nte `viwt> `i afsicar[ `n'h;.",
+          "arabic": "القسط الذهبي، المخفي فيه المن، هوذا كلمة الآب، أتى وتجسد منكِ.",
+          "phonetic": "بي اسطامنوس إن نووب : إيريه بي مانا هيب إن خيتف : إيس بي لوغوس إنتى إفيوت : إي أف تشي ساركس إن خيتي.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/4.mp3"
+        },
+        {
+          "id": "theo-4",
+          "coptic": ":luxnia `nnoub> etfai 'a piouwini `mmhi> `ete `vouwini `mpikocmoc> piat`]'wnt `erof.",
+          "arabic": "المنارة الذهبية، الحاملة النور الحقيقي، الذي هو نور العالم، الذي لا يدنى منه.",
+          "phonetic": "تي ليخنيا إن نوب : إتفاي خا بي أووؤيني إممي : إيتى إفؤوؤيني إم بي كوزموس : بي آت إشخونت إيروف.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/5.mp3"
+        },
+        {
+          "id": "theo-5",
+          "coptic": ":]ourh `nnoub> etfai 'a pijebc `n`xrwm> nem pi`cqoinoufi etcwtp> `n`arwmata.",
+          "arabic": "المجمرة الذهبية، الحاملة جمر النار، والبخور المختار العنبري.",
+          "phonetic": "تي شوري إن نووب : إتفاي خا بي چيبس إن إكروم : نيم بي إستوي نووفي إت صوتب : إن آروماطا.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/6.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "ذوقوا وانظروا ما أطيب الرب",
+          "phonetic": "چيم تيبي أووه أناڤ چى أو هيلچى بى إبتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/7.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "لاحظ نفسك والتعليم",
+          "phonetic": "ماإهثيك إيروك نيم تي ميت ريف تي إسڤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/8.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "كونوا مستعدين",
+          "phonetic": "شوبي إيريتين سيبتوت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/9.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "مستنيرة عيون أذهانكم",
+          "phonetic": "إثرو إير أوؤيني إنچى ني ڤال إنتى بيتين هيت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/123213.mp3"
+        }
+      ]
+    },
+    {
+      "id": "prep-hymn-theme",
+      "title": "شعار المهرجان",
+      "stageId": "prep",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "يعظم انتصارنا بالذي أحبنا (رو 8: 37)",
+          "phonetic": "تين إير هوؤو تشرو إيڤول هيتين في إيطاف مينري تين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/theme/1.mp3"
+        }
+      ]
+    }
+  ],
+  "sec": [
+    {
+      "id": "sec-hymn-lvl1",
+      "title": "محفوظات المستوى الأول",
+      "stageId": "sec",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "باسم الآب والابن والروح القدس إله واحد آمين",
+          "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl1/1.mp3"
+        },
+        {
+          "id": "theo-1",
+          "coptic": "Ouckhnh `mmhi> te Maria ;parqenoc> euxh 'en tecmh;> `nje nimetmeqreu `eten\\ot.",
+          "arabic": "قبة حقيقية، هي مريم العذراء، موضوع في وسطها، الشهادات الصادقة.",
+          "phonetic": "أو إسكيني إممي : تى ماريا تي بارثينوس : إڤكي خين تي سميتي : إنجيى ني ميت ميثريڤ إيتينهوت.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl1/2.mp3"
+        },
+        {
+          "id": "theo-2",
+          "coptic": ":kibwtoc `natqwleb> eto]j `nnoub `ncaca niben> nem piilacthrion> `nXeroubimikon.",
+          "arabic": "التابوت غير الدنس، المصفح بالذهب من كل ناحية، والغطاء الكاروبي.",
+          "phonetic": "تي كيڤوتوس إن آت ثوليب : إيتوشج إن نووب إن صاصا نيڤين : نيم بي إيلاستيريون إن شيروبيميكون",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl1/3.mp3"
+        },
+        {
+          "id": "theo-3",
+          "coptic": "Pictamnoc `nnoub> ere pimanna \\hp `n'htf> ic pilogoc `nte `viwt> `i afsicar[ `n'h;.",
+          "arabic": "القسط الذهبي، المخفي فيه المن، هوذا كلمة الآب، أتى وتجسد منكِ.",
+          "phonetic": "بي اسطامنوس إن نووب : إيريه بي مانا هيب إن خيتف : إيس بي لوغوس إنتى إفيوت : إي أف تشي ساركس إن خيتي.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl1/4.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "ذوقوا وانظروا ما أطيب الرب",
+          "phonetic": "چيم تيبي أووه أناڤ چى أو هيلچى بى إبتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl1/5.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "لاحظ نفسك والتعليم",
+          "phonetic": "ماإهثيك إيروك نيم تي ميت ريف تي إسڤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl1/6.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "كونوا مستعدين",
+          "phonetic": "شوبي إيريتين سيبتوت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl1/7.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "مستنيرة عيون أذهانكم",
+          "phonetic": "إثرو إير أوؤيني إنچى ني ڤال إنتى بيتين هيت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl1/8.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sec-hymn-lvl2",
+      "title": "محفوظات المستوى الثاني",
+      "stageId": "sec",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "باسم الآب والابن والروح القدس إله واحد آمين",
+          "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/1.mp3"
+        },
+        {
+          "id": "theo-1",
+          "coptic": "Ouckhnh `mmhi> te Maria ;parqenoc> euxh 'en tecmh;> `nje nimetmeqreu `eten\\ot.",
+          "arabic": "قبة حقيقية، هي مريم العذراء، موضوع في وسطها، الشهادات الصادقة.",
+          "phonetic": "أو إسكيني إممي : تى ماريا تي بارثينوس : إڤكي خين تي سميتي : إنجى ني ميت ميثريڤ إيتينهوت.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/2.mp3"
+        },
+        {
+          "id": "theo-2",
+          "coptic": ":kibwtoc `natqwleb> eto]j `nnoub `ncaca niben> nem piilacthrion> `nXeroubimikon.",
+          "arabic": "التابوت غير الدنس، المصفح بالذهب من كل ناحية، والغطاء الكاروبي.",
+          "phonetic": "تي كيڤوتوس إن آت ثوليب : إيتوشج إن نووب إن صاصا نيڤين : نيم بي إيلاستيريون إن شيروبيميكون",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/3.mp3"
+        },
+        {
+          "id": "theo-3",
+          "coptic": "Pictamnoc `nnoub> ere pimanna \\hp `n'htf> ic pilogoc `nte `viwt> `i afsicar[ `n'h;.",
+          "arabic": "القسط الذهبي، المخفي فيه المن، هوذا كلمة الآب، أتى وتجسد منكِ.",
+          "phonetic": "بي اسطامنوس إن نووب : إيريه بي مانا هيب إن خيتف : إيس بي لوغوس إنتى إفيوت : إي أف تشي ساركس إن خيتي.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/4.mp3"
+        },
+        {
+          "id": "theo-4",
+          "coptic": ":luxnia `nnoub> etfai 'a piouwini `mmhi> `ete `vouwini `mpikocmoc> piat`]'wnt `erof.",
+          "arabic": "المنارة الذهبية، الحاملة النور الحقيقي، الذي هو نور العالم، الذي لا يدنى منه.",
+          "phonetic": "تي ليخنيا إن نوب : إتفاي خا بي أووؤيني إممي : إيتى إفؤوؤيني إم بي كوزموس : بي آت إشخونت إيروف.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/5.mp3"
+        },
+        {
+          "id": "theo-5",
+          "coptic": ":]ourh `nnoub> etfai 'a pijebc `n`xrwm> nem pi`cqoinoufi etcwtp> `n`arwmata.",
+          "arabic": "المجمرة الذهبية، الحاملة جمر النار، والبخور المختار العنبري.",
+          "phonetic": "تي شوري إن نووب : إتفاي خا بي چيبس إن إكروم : نيم بي إستوي نووفي إت صوتب : إن آروماطا.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/6.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "ذوقوا وانظروا ما أطيب الرب",
+          "phonetic": "چيم تيبي أووه أناڤ چى أو هيلچى بى إبتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/7.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "لاحظ نفسك والتعليم",
+          "phonetic": "ماإهثيك إيروك نيم تي ميت ريف تي إسڤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/8.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "كونوا مستعدين",
+          "phonetic": "شوبي إيريتين سيبتوت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/9.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "مستنيرة عيون أذهانكم",
+          "phonetic": "إثرو إير أوؤيني إنچى ني ڤال إنتى بيتين هيت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/123213.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sec-hymn-theme",
+      "title": "شعار المهرجان",
+      "stageId": "sec",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "يعظم انتصارنا بالذي أحبنا (رو 8: 37)",
+          "phonetic": "تين إير هوؤو تشرو إيڤول هيتين في إيطاف مينري تين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/theme/1.mp3"
+        }
+      ]
+    }
+  ],
+  "qana": [
+    {
+      "id": "qana-hymn-lvl1",
+      "title": "محفوظات المستوى الأول",
+      "stageId": "qana",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "باسم الآب والابن والروح القدس إله واحد آمين",
+          "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/lvl1/1.mp3"
+        },
+        {
+          "id": "theo-1",
+          "coptic": "Ouckhnh `mmhi> te Maria ;parqenoc> euxh 'en tecmh;> `nje nimetmeqreu `eten\\ot.",
+          "arabic": "قبة حقيقية، هي مريم العذراء، موضوع في وسطها، الشهادات الصادقة.",
+          "phonetic": "أو إسكيني إممي : تى ماريا تي بارثينوس : إڤكي خين تي سميتي : إنجى ني ميت ميثريڤ إيتينهوت.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/lvl1/2.mp3"
+        },
+        {
+          "id": "theo-2",
+          "coptic": ":kibwtoc `natqwleb> eto]j `nnoub `ncaca niben> nem piilacthrion> `nXeroubimikon.",
+          "arabic": "التابوت غير الدنس، المصفح بالذهب من كل ناحية، والغطاء الكاروبي.",
+          "phonetic": "تي كيڤوتوس إن آت ثوليب : إيتوشج إن نووب إن صاصا نيڤين : نيم بي إيلاستيريون إن شيروبيميكون",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/lvl1/3.mp3"
+        },
+        {
+          "id": "theo-3",
+          "coptic": "Pictamnoc `nnoub> ere pimanna \\hp `n'htf> ic pilogoc `nte `viwt> `i afsicar[ `n'h;.",
+          "arabic": "القسط الذهبي، المخفي فيه المن، هوذا كلمة الآب، أتى وتجسد منكِ.",
+          "phonetic": "بي اسطامنوس إن نووب : إيريه بي مانا هيب إن خيتف : إيس بي لوغوس إنتى إفيوت : إي أف تشي ساركس إن خيتي.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/lvl1/4.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "ذوقوا وانظروا ما أطيب الرب",
+          "phonetic": "چيم تيبي أووه أناڤ چى أو هيلچى بى إبتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/lvl1/5.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "لاحظ نفسك والتعليم",
+          "phonetic": "ماإهثيك إيروك نيم تي ميت ريف تي إسڤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/lvl1/6.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "كونوا مستعدين",
+          "phonetic": "شوبي إيريتين سيبتوت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/lvl1/7.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "مستنيرة عيون أذهانكم",
+          "phonetic": "إثرو إير أوؤيني إنچى ني ڤال إنتى بيتين هيت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/lvl1/8.mp3"
+        }
+      ]
+    },
+    {
+      "id": "qana-hymn-theme",
+      "title": "شعار المهرجان",
+      "stageId": "qana",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "يعظم انتصارنا بالذي أحبنا (رو 8: 37)",
+          "phonetic": "تين إير هوؤو تشرو إيڤول هيتين في إيطاف مينري تين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/theme/1.mp3"
+        }
+      ]
+    }
+  ],
+  "uni": [
+    {
+      "id": "uni-lvl1",
+      "title": "محفوظات المستوى الأول",
+      "stageId": "uni",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "باسم الآب والابن والروح القدس إله واحد آمين",
+          "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl1/1.mp3"
+        },
+        {
+          "id": "theo-sat-1-1",
+          "coptic": ":atqwleb `ncemne> ouo\\ eqouab 'en \\wb niben> Qhetac`ini nan `m`vnou;> eftalhout `ejen nec`jvoi.",
+          "arabic": "أيتها الغير دنسة العفيفة: القديسة في كل شيء: التي قدمت لنا الله: محمولاً على ذراعيها.",
+          "phonetic": "تي آتثوليب إنسيمنى أووه إثؤواب خين هوب نيڤين ثي ايطاس إيني نان إم إفنوتي إفتاليؤوت إجين نيس إجفوي.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl1/2.mp3"
+        },
+        {
+          "id": "theo-sat-1-2",
+          "coptic": "`Cra]I neme `nje ;kthcic thrc> Ecw] `ebol ecjw `mmoc> je xere qheqme\\ `n\\mot> Ouo\\ ` Psoic ]op neme.",
+          "arabic": "تفرح معك كل الخليقة: صارخة قائلة: السلام لك ما ممتلئة نعمة: الرب معك.",
+          "phonetic": "إسراشي نى مى إنجي تي كتيسيس تيرس إيس أوش إيڤول إيسجو إمموس جى شيرى ثي إثميه إن إهموت أوؤه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl1/3.mp3"
+        },
+        {
+          "id": "theo-sat-ref",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "السلام لك يا ممتلئة نعمة: السلام لك يا من وجدت نعمة: السلام لك يا من ولدت المسيح: الرب معك.",
+          "phonetic": "شيري ثي إثميه إن إهموت : شيري ثي إتصاچيم إهموت : شيري ثي ايطاس ميس بي خريستوس : أووه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl1/4.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "ذوقوا وانظروا ما أطيب الرب",
+          "phonetic": "چيم تيبي أووه أناڤ چى أو هيلچى بى إبتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl1/5.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "لاحظ نفسك والتعليم",
+          "phonetic": "ماإهثيك إيروك نيم تي ميت ريف تي إسڤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl1/6.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "كونوا مستعدين",
+          "phonetic": "شوبي إيريتين سيبتوت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl1/7.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "مستنيرة عيون أذهانكم",
+          "phonetic": "إثرو إير أوؤيني إنچى ني ڤال إنتى بيتين هيت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl1/8.mp3"
+        }
+      ]
+    },
+    {
+      "id": "uni-lvl2",
+      "title": "محفوظات المستوى الثاني",
+      "stageId": "uni",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "باسم الآب والابن والروح القدس إله واحد آمين",
+          "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/1.mp3"
+        },
+        {
+          "id": "theo-sat-1-1",
+          "coptic": ":atqwleb `ncemne> ouo\\ eqouab 'en \\wb niben> Qhetac`ini nan `m`vnou;> eftalhout `ejen nec`jvoi.",
+          "arabic": "أيتها الغير دنسة العفيفة: القديسة في كل شيء: التي قدمت لنا الله: محمولاً على ذراعيها.",
+          "phonetic": "تي آتثوليب إنسيمنى أووه إثؤواب خين هوب نيڤين ثي ايطاس إيني نان إم إفنوتي إفتاليؤوت إجين نيس إجفوي.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/2.mp3"
+        },
+        {
+          "id": "theo-sat-1-2",
+          "coptic": "`Cra]I neme `nje ;kthcic thrc> Ecw] `ebol ecjw `mmoc> je xere qheqme\\ `n\\mot> Ouo\\ ` Psoic ]op neme.",
+          "arabic": "تفرح معك كل الخليقة: صارخة قائلة: السلام لك ما ممتلئة نعمة: الرب معك.",
+          "phonetic": "إسراشي نى مى إنجي تي كتيسيس تيرس إيس أوش إيڤول إيسجو إمموس جى شيرى ثي إثميه إن إهموت أوؤه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/3.mp3"
+        },
+        {
+          "id": "theo-sat-ref",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "السلام لك يا ممتلئة نعمة: السلام لك يا من وجدت نعمة: السلام لك يا من ولدت المسيح: الرب معك.",
+          "phonetic": "شيري ثي إثميه إن إهموت : شيري ثي إتصاچيم إهموت : شيري ثي ايطاس ميس بي خريستوس : أووه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/4.mp3"
+        },
+        {
+          "id": "theo-sat-2-1",
+          "coptic": "Tenermakarizin `ntemetni];> `w;parqenoc `ncabh> ten; ne `mpixereticmoc> nem gabrihl piaggeloc.",
+          "arabic": "نغبط عظمتك: أيتها العذراء الحكيمة: ونعطيك السلام: مع غبريال الملاك.",
+          "phonetic": "تين إير ماكاريزين إنتى ميت نيشتي أو تي بارثينوس إن صاڤي تين تي نى إمبي شيريتيزموس نيم غبرييل بي أنجيلوس.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/5.mp3"
+        },
+        {
+          "id": "theo-sat-2-2",
+          "coptic": "Je `ebol\\iten pekarpoc> a pioujai ta\\e pengenoc> a `vnou; \\otpen `erof `nkecop> \\iten tefmetagaqoc.",
+          "arabic": "لأن من قبل ثمرتك: أدرك خلاص جنسنا: وأصلحنا الله مرة أخرى: من قبل صلاحه.",
+          "phonetic": "چى إيڤول هيتين بيكاربوس آ بي أوجاي طاهى بين جينوس آ إفنووتي هوتبين إيروف إن كيسوب هيتين تيف ميت آغاثوس.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/6.mp3"
+        },
+        {
+          "id": "theo-sat-ref1",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "السلام لك يا ممتلئة نعمة: السلام لك يا من وجدت نعمة: السلام لك يا من ولدت المسيح: الرب معك.",
+          "phonetic": "شيري ثي إثميه إن إهموت : شيري ثي إتصاچيم إهموت : شيري ثي ايطاس ميس بي خريستوس : أووه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/7.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "ذوقوا وانظروا ما أطيب الرب",
+          "phonetic": "چيم تيبي أووه أناڤ چى أو هيلچى بى إبتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/8.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "لاحظ نفسك والتعليم",
+          "phonetic": "ماإهثيك إيروك نيم تي ميت ريف تي إسڤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/9.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "كونوا مستعدين",
+          "phonetic": "شوبي إيريتين سيبتوت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/10.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "مستنيرة عيون أذهانكم",
+          "phonetic": "إثرو إير أوؤيني إنچى ني ڤال إنتى بيتين هيت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/11.mp3"
+        }
+      ]
+    },
+    {
+      "id": "uni-hymn-theme",
+      "title": "شعار المهرجان",
+      "stageId": "uni",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "يعظم انتصارنا بالذي أحبنا (رو 8: 37)",
+          "phonetic": "تين إير هوؤو تشرو إيڤول هيتين في إيطاف مينري تين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/theme/1.mp3"
+        }
+      ]
+    }
+  ],
+  "graduates": [
+    {
+      "id": "grad-lvl1",
+      "title": "محفوظات المستوى الأول",
+      "stageId": "graduates",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "باسم الآب والابن والروح القدس إله واحد آمين",
+          "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl1/1.mp3"
+        },
+        {
+          "id": "theo-sat-1-1",
+          "coptic": ":atqwleb `ncemne> ouo\\ eqouab 'en \\wb niben> Qhetac`ini nan `m`vnou;> eftalhout `ejen nec`jvoi.",
+          "arabic": "أيتها الغير دنسة العفيفة: القديسة في كل شيء: التي قدمت لنا الله: محمولاً على ذراعيها.",
+          "phonetic": "تي آتثوليب إنسيمنى أووه إثؤواب خين هوب نيڤين ثي ايطاس إيني نان إم إفنوتي إفتاليؤوت إجين نيس إجفوي.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl1/2.mp3"
+        },
+        {
+          "id": "theo-sat-1-2",
+          "coptic": "`Cra]I neme `nje ;kthcic thrc> Ecw] `ebol ecjw `mmoc> je xere qheqme\\ `n\\mot> Ouo\\ ` Psoic ]op neme.",
+          "arabic": "تفرح معك كل الخليقة: صارخة قائلة: السلام لك ما ممتلئة نعمة: الرب معك.",
+          "phonetic": "إسراشي نى مى إنجي تي كتيسيس تيرس إيس أوش إيڤول إيسجو إمموس جى شيرى ثي إثميه إن إهموت أوؤه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl1/3.mp3"
+        },
+        {
+          "id": "theo-sat-ref",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "السلام لك يا ممتلئة نعمة: السلام لك يا من وجدت نعمة: السلام لك يا من ولدت المسيح: الرب معك.",
+          "phonetic": "شيري ثي إثميه إن إهموت : شيري ثي إتصاچيم إهموت : شيري ثي ايطاس ميس بي خريستوس : أووه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl1/4.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "ذوقوا وانظروا ما أطيب الرب",
+          "phonetic": "چيم تيبي أووه أناڤ چى أو هيلچى بى إبتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl1/5.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "لاحظ نفسك والتعليم",
+          "phonetic": "ماإهثيك إيروك نيم تي ميت ريف تي إسڤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl1/6.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "كونوا مستعدين",
+          "phonetic": "شوبي إيريتين سيبتوت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl1/7.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "مستنيرة عيون أذهانكم",
+          "phonetic": "إثرو إير أوؤيني إنچى ني ڤال إنتى بيتين هيت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl1/8.mp3"
+        }
+      ]
+    },
+    {
+      "id": "grad-lvl2",
+      "title": "محفوظات المستوى الثاني",
+      "stageId": "graduates",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "باسم الآب والابن والروح القدس إله واحد آمين",
+          "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/1.mp3"
+        },
+        {
+          "id": "theo-sat-1-1",
+          "coptic": ":atqwleb `ncemne> ouo\\ eqouab 'en \\wb niben> Qhetac`ini nan `m`vnou;> eftalhout `ejen nec`jvoi.",
+          "arabic": "أيتها الغير دنسة العفيفة: القديسة في كل شيء: التي قدمت لنا الله: محمولاً على ذراعيها.",
+          "phonetic": "تي آتثوليب إنسيمنى أووه إثؤواب خين هوب نيڤين ثي ايطاس إيني نان إم إفنوتي إفتاليؤوت إجين نيس إجفوي.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/2.mp3"
+        },
+        {
+          "id": "theo-sat-1-2",
+          "coptic": "`Cra]I neme `nje ;kthcic thrc> Ecw] `ebol ecjw `mmoc> je xere qheqme\\ `n\\mot> Ouo\\ ` Psoic ]op neme.",
+          "arabic": "تفرح معك كل الخليقة: صارخة قائلة: السلام لك ما ممتلئة نعمة: الرب معك.",
+          "phonetic": "إسراشي نى مى إنجي تي كتيسيس تيرس إيس أوش إيڤول إيسجو إمموس جى شيرى ثي إثميه إن إهموت أوؤه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/3.mp3"
+        },
+        {
+          "id": "theo-sat-ref",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "السلام لك يا ممتلئة نعمة: السلام لك يا من وجدت نعمة: السلام لك يا من ولدت المسيح: الرب معك.",
+          "phonetic": "شيري ثي إثميه إن إهموت : شيري ثي إتصاچيم إهموت : شيري ثي ايطاس ميس بي خريستوس : أووه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/4.mp3"
+        },
+        {
+          "id": "theo-sat-2-1",
+          "coptic": "Tenermakarizin `ntemetni];> `w;parqenoc `ncabh> ten; ne `mpixereticmoc> nem gabrihl piaggeloc.",
+          "arabic": "نغبط عظمتك: أيتها العذراء الحكيمة: ونعطيك السلام: مع غبريال الملاك.",
+          "phonetic": "تين إير ماكاريزين إنتى ميت نيشتي أو تي بارثينوس إن صاڤي تين تي نى إمبي شيريتيزموس نيم غبرييل بي أنجيلوس.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/5.mp3"
+        },
+        {
+          "id": "theo-sat-2-2",
+          "coptic": "Je `ebol\\iten pekarpoc> a pioujai ta\\e pengenoc> a `vnou; \\otpen `erof `nkecop> \\iten tefmetagaqoc.",
+          "arabic": "لأن من قبل ثمرتك: أدرك خلاص جنسنا: وأصلحنا الله مرة أخرى: من قبل صلاحه.",
+          "phonetic": "چى إيڤول هيتين بيكاربوس آ بي أوجاي طاهى بين جينوس آ إفنووتي هوتبين إيروف إن كيسوب هيتين تيف ميت آغاثوس.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/6.mp3"
+        },
+        {
+          "id": "theo-sat-ref1",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "السلام لك يا ممتلئة نعمة: السلام لك يا من وجدت نعمة: السلام لك يا من ولدت المسيح: الرب معك.",
+          "phonetic": "شيري ثي إثميه إن إهموت : شيري ثي إتصاچيم إهموت : شيري ثي ايطاس ميس بي خريستوس : أووه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/7.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "ذوقوا وانظروا ما أطيب الرب",
+          "phonetic": "چيم تيبي أووه أناڤ چى أو هيلچى بى إبتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/8.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "لاحظ نفسك والتعليم",
+          "phonetic": "ماإهثيك إيروك نيم تي ميت ريف تي إسڤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/9.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "كونوا مستعدين",
+          "phonetic": "شوبي إيريتين سيبتوت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/10.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "مستنيرة عيون أذهانكم",
+          "phonetic": "إثرو إير أوؤيني إنچى ني ڤال إنتى بيتين هيت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/11.mp3"
+        }
+      ]
+    },
+    {
+      "id": "graduates-hymn-theme",
+      "title": "شعار المهرجان",
+      "stageId": "graduates",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "يعظم انتصارنا بالذي أحبنا (رو 8: 37)",
+          "phonetic": "تين إير هوؤو تشرو إيڤول هيتين في إيطاف مينري تين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/theme/1.mp3"
+        }
+      ]
+    }
+  ],
+  "servants": [
+    {
+      "id": "serv-lvl1",
+      "title": "محفوظات المستوى الأول",
+      "stageId": "servants",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "باسم الآب والابن والروح القدس إله واحد آمين",
+          "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl1/1.mp3"
+        },
+        {
+          "id": "theo-sat-1-1",
+          "coptic": ":atqwleb `ncemne> ouo\\ eqouab 'en \\wb niben> Qhetac`ini nan `m`vnou;> eftalhout `ejen nec`jvoi.",
+          "arabic": "أيتها الغير دنسة العفيفة: القديسة في كل شيء: التي قدمت لنا الله: محمولاً على ذراعيها.",
+          "phonetic": "تي آتثوليب إنسيمنى أووه إثؤواب خين هوب نيڤين ثي ايطاس إيني نان إم إفنوتي إفتاليؤوت إجين نيس إجفوي.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl1/2.mp3"
+        },
+        {
+          "id": "theo-sat-1-2",
+          "coptic": "`Cra]I neme `nje ;kthcic thrc> Ecw] `ebol ecjw `mmoc> je xere qheqme\\ `n\\mot> Ouo\\ ` Psoic ]op neme.",
+          "arabic": "تفرح معك كل الخليقة: صارخة قائلة: السلام لك ما ممتلئة نعمة: الرب معك.",
+          "phonetic": "إسراشي نى مى إنجي تي كتيسيس تيرس إيس أوش إيڤول إيسجو إمموس جى شيرى ثي إثميه إن إهموت أوؤه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl1/3.mp3"
+        },
+        {
+          "id": "theo-sat-ref",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "السلام لك يا ممتلئة نعمة: السلام لك يا من وجدت نعمة: السلام لك يا من ولدت المسيح: الرب معك.",
+          "phonetic": "شيري ثي إثميه إن إهموت : شيري ثي إتصاچيم إهموت : شيري ثي ايطاس ميس بي خريستوس : أووه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl1/4.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "ذوقوا وانظروا ما أطيب الرب",
+          "phonetic": "چيم تيبي أووه أناڤ چى أو هيلچى بى إبتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl1/5.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "لاحظ نفسك والتعليم",
+          "phonetic": "ماإهثيك إيروك نيم تي ميت ريف تي إسڤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl1/6.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "كونوا مستعدين",
+          "phonetic": "شوبي إيريتين سيبتوت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl1/7.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "مستنيرة عيون أذهانكم",
+          "phonetic": "إثرو إير أوؤيني إنچى ني ڤال إنتى بيتين هيت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl1/8.mp3"
+        }
+      ]
+    },
+    {
+      "id": "serv-lvl2",
+      "title": "محفوظات المستوى الثاني",
+      "stageId": "servants",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "باسم الآب والابن والروح القدس إله واحد آمين",
+          "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/1.mp3"
+        },
+        {
+          "id": "theo-sat-1-1",
+          "coptic": ":atqwleb `ncemne> ouo\\ eqouab 'en \\wb niben> Qhetac`ini nan `m`vnou;> eftalhout `ejen nec`jvoi.",
+          "arabic": "أيتها الغير دنسة العفيفة: القديسة في كل شيء: التي قدمت لنا الله: محمولاً على ذراعيها.",
+          "phonetic": "تي آتثوليب إنسيمنى أووه إثؤواب خين هوب نيڤين ثي ايطاس إيني نان إم إفنوتي إفتاليؤوت إجين نيس إجفوي.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/2.mp3"
+        },
+        {
+          "id": "theo-sat-1-2",
+          "coptic": "`Cra]I neme `nje ;kthcic thrc> Ecw] `ebol ecjw `mmoc> je xere qheqme\\ `n\\mot> Ouo\\ ` Psoic ]op neme.",
+          "arabic": "تفرح معك كل الخليقة: صارخة قائلة: السلام لك ما ممتلئة نعمة: الرب معك.",
+          "phonetic": "إسراشي نى مى إنجي تي كتيسيس تيرس إيس أوش إيڤول إيسجو إمموس جى شيرى ثي إثميه إن إهموت أوؤه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/3.mp3"
+        },
+        {
+          "id": "theo-sat-ref",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "السلام لك يا ممتلئة نعمة: السلام لك يا من وجدت نعمة: السلام لك يا من ولدت المسيح: الرب معك.",
+          "phonetic": "شيري ثي إثميه إن إهموت : شيري ثي إتصاچيم إهموت : شيري ثي ايطاس ميس بي خريستوس : أووه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/4.mp3"
+        },
+        {
+          "id": "theo-sat-2-1",
+          "coptic": "Tenermakarizin `ntemetni];> `w;parqenoc `ncabh> ten; ne `mpixereticmoc> nem gabrihl piaggeloc.",
+          "arabic": "نغبط عظمتك: أيتها العذراء الحكيمة: ونعطيك السلام: مع غبريال الملاك.",
+          "phonetic": "تين إير ماكاريزين إنتى ميت نيشتي أو تي بارثينوس إن صاڤي تين تي نى إمبي شيريتيزموس نيم غبرييل بي أنجيلوس.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/5.mp3"
+        },
+        {
+          "id": "theo-sat-2-2",
+          "coptic": "Je `ebol\\iten pekarpoc> a pioujai ta\\e pengenoc> a `vnou; \\otpen `erof `nkecop> \\iten tefmetagaqoc.",
+          "arabic": "لأن من قبل ثمرتك: أدرك خلاص جنسنا: وأصلحنا الله مرة أخرى: من قبل صلاحه.",
+          "phonetic": "چى إيڤول هيتين بيكاربوس آ بي أوجاي طاهى بين جينوس آ إفنووتي هوتبين إيروف إن كيسوب هيتين تيف ميت آغاثوس.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/6.mp3"
+        },
+        {
+          "id": "theo-sat-ref1",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "السلام لك يا ممتلئة نعمة: السلام لك يا من وجدت نعمة: السلام لك يا من ولدت المسيح: الرب معك.",
+          "phonetic": "شيري ثي إثميه إن إهموت : شيري ثي إتصاچيم إهموت : شيري ثي ايطاس ميس بي خريستوس : أووه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/7.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "ذوقوا وانظروا ما أطيب الرب",
+          "phonetic": "چيم تيبي أووه أناڤ چى أو هيلچى بى إبتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/8.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "لاحظ نفسك والتعليم",
+          "phonetic": "ماإهثيك إيروك نيم تي ميت ريف تي إسڤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/9.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "كونوا مستعدين",
+          "phonetic": "شوبي إيريتين سيبتوت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/10.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "مستنيرة عيون أذهانكم",
+          "phonetic": "إثرو إير أوؤيني إنچى ني ڤال إنتى بيتين هيت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/11.mp3"
+        }
+      ]
+    },
+    {
+      "id": "servants-hymn-theme",
+      "title": "شعار المهرجان",
+      "stageId": "servants",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "يعظم انتصارنا بالذي أحبنا (رو 8: 37)",
+          "phonetic": "تين إير هوؤو تشرو إيڤول هيتين في إيطاف مينري تين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/theme/1.mp3"
+        }
+      ]
+    }
+  ],
+  "servants_trainees": [
+    {
+      "id": "trainee-lvl1",
+      "title": "محفوظات المستوى الأول",
+      "stageId": "servants_trainees",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "باسم الآب والابن والروح القدس إله واحد آمين",
+          "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl1/1.mp3"
+        },
+        {
+          "id": "theo-sat-1-1",
+          "coptic": ":atqwleb `ncemne> ouo\\ eqouab 'en \\wb niben> Qhetac`ini nan `m`vnou;> eftalhout `ejen nec`jvoi.",
+          "arabic": "أيتها الغير دنسة العفيفة: القديسة في كل شيء: التي قدمت لنا الله: محمولاً على ذراعيها.",
+          "phonetic": "تي آتثوليب إنسيمنى أووه إثؤواب خين هوب نيڤين ثي ايطاس إيني نان إم إفنوتي إفتاليؤوت إجين نيس إجفوي.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl1/2.mp3"
+        },
+        {
+          "id": "theo-sat-1-2",
+          "coptic": "`Cra]I neme `nje ;kthcic thrc> Ecw] `ebol ecjw `mmoc> je xere qheqme\\ `n\\mot> Ouo\\ ` Psoic ]op neme.",
+          "arabic": "تفرح معك كل الخليقة: صارخة قائلة: السلام لك ما ممتلئة نعمة: الرب معك.",
+          "phonetic": "إسراشي نى مى إنجي تي كتيسيس تيرس إيس أوش إيڤول إيسجو إمموس جى شيرى ثي إثميه إن إهموت أوؤه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl1/3.mp3"
+        },
+        {
+          "id": "theo-sat-ref",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "السلام لك يا ممتلئة نعمة: السلام لك يا من وجدت نعمة: السلام لك يا من ولدت المسيح: الرب معك.",
+          "phonetic": "شيري ثي إثميه إن إهموت : شيري ثي إتصاچيم إهموت : شيري ثي ايطاس ميس بي خريستوس : أووه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl1/4.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "ذوقوا وانظروا ما أطيب الرب",
+          "phonetic": "چيم تيبي أووه أناڤ چى أو هيلچى بى إبتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl1/5.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "لاحظ نفسك والتعليم",
+          "phonetic": "ماإهثيك إيروك نيم تي ميت ريف تي إسڤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl1/6.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "كونوا مستعدين",
+          "phonetic": "شوبي إيريتين سيبتوت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl1/7.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "مستنيرة عيون أذهانكم",
+          "phonetic": "إثرو إير أوؤيني إنچى ني ڤال إنتى بيتين هيت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl1/8.mp3"
+        }
+      ]
+    },
+    {
+      "id": "trainee-lvl2",
+      "title": "محفوظات المستوى الثاني",
+      "stageId": "servants_trainees",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "باسم الآب والابن والروح القدس إله واحد آمين",
+          "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/1.mp3"
+        },
+        {
+          "id": "theo-sat-1-1",
+          "coptic": ":atqwleb `ncemne> ouo\\ eqouab 'en \\wb niben> Qhetac`ini nan `m`vnou;> eftalhout `ejen nec`jvoi.",
+          "arabic": "أيتها الغير دنسة العفيفة: القديسة في كل شيء: التي قدمت لنا الله: محمولاً على ذراعيها.",
+          "phonetic": "تي آتثوليب إنسيمنى أووه إثؤواب خين هوب نيڤين ثي ايطاس إيني نان إم إفنوتي إفتاليؤوت إجين نيس إجفوي.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/2.mp3"
+        },
+        {
+          "id": "theo-sat-1-2",
+          "coptic": "`Cra]I neme `nje ;kthcic thrc> Ecw] `ebol ecjw `mmoc> je xere qheqme\\ `n\\mot> Ouo\\ ` Psoic ]op neme.",
+          "arabic": "تفرح معك كل الخليقة: صارخة قائلة: السلام لك ما ممتلئة نعمة: الرب معك.",
+          "phonetic": "إسراشي نى مى إنجي تي كتيسيس تيرس إيس أوش إيڤول إيسجو إمموس جى شيرى ثي إثميه إن إهموت أوؤه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/3.mp3"
+        },
+        {
+          "id": "theo-sat-ref",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "السلام لك يا ممتلئة نعمة: السلام لك يا من وجدت نعمة: السلام لك يا من ولدت المسيح: الرب معك.",
+          "phonetic": "شيري ثي إثميه إن إهموت : شيري ثي إتصاچيم إهموت : شيري ثي ايطاس ميس بي خريستوس : أووه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/4.mp3"
+        },
+        {
+          "id": "theo-sat-2-1",
+          "coptic": "Tenermakarizin `ntemetni];> `w;parqenoc `ncabh> ten; ne `mpixereticmoc> nem gabrihl piaggeloc.",
+          "arabic": "نغبط عظمتك: أيتها العذراء الحكيمة: ونعطيك السلام: مع غبريال الملاك.",
+          "phonetic": "تين إير ماكاريزين إنتى ميت نيشتي أو تي بارثينوس إن صاڤي تين تي نى إمبي شيريتيزموس نيم غبرييل بي أنجيلوس.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/5.mp3"
+        },
+        {
+          "id": "theo-sat-2-2",
+          "coptic": "Je `ebol\\iten pekarpoc> a pioujai ta\\e pengenoc> a `vnou; \\otpen `erof `nkecop> \\iten tefmetagaqoc.",
+          "arabic": "لأن من قبل ثمرتك: أدرك خلاص جنسنا: وأصلحنا الله مرة أخرى: من قبل صلاحه.",
+          "phonetic": "چى إيڤول هيتين بيكاربوس آ بي أوجاي طاهى بين جينوس آ إفنووتي هوتبين إيروف إن كيسوب هيتين تيف ميت آغاثوس.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/6.mp3"
+        },
+        {
+          "id": "theo-sat-ref1",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "السلام لك يا ممتلئة نعمة: السلام لك يا من وجدت نعمة: السلام لك يا من ولدت المسيح: الرب معك.",
+          "phonetic": "شيري ثي إثميه إن إهموت : شيري ثي إتصاچيم إهموت : شيري ثي ايطاس ميس بي خريستوس : أووه إبتشويس شوب نيمى.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/7.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "ذوقوا وانظروا ما أطيب الرب",
+          "phonetic": "چيم تيبي أووه أناڤ چى أو هيلچى بى إبتشويس",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/8.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "لاحظ نفسك والتعليم",
+          "phonetic": "ماإهثيك إيروك نيم تي ميت ريف تي إسڤو",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/9.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "كونوا مستعدين",
+          "phonetic": "شوبي إيريتين سيبتوت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/10.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "مستنيرة عيون أذهانكم",
+          "phonetic": "إثرو إير أوؤيني إنچى ني ڤال إنتى بيتين هيت",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/11.mp3"
+        }
+      ]
+    },
+    {
+      "id": "servants_trainees-hymn-theme",
+      "title": "شعار المهرجان",
+      "stageId": "servants_trainees",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "يعظم انتصارنا بالذي أحبنا (رو 8: 37)",
+          "phonetic": "تين إير هوؤو تشرو إيڤول هيتين في إيطاف مينري تين",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/theme/1.mp3"
+        }
+      ]
+    }
+  ]
+}

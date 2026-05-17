@@ -1,0 +1,958 @@
+{
+  "fullLetters": [
+    {
+      "char": "Ⲁ",
+      "small": "ⲁ",
+      "name": "الفا",
+      "phonetic": "(آ)",
+      "rules": [
+        {
+          "text": "(آ) كما في كلمة-آه",
+          "label": "آ"
+        }
+      ],
+      "color": "text-red-600",
+      "accent": "from-red-500/20 to-red-600/5"
+    },
+    {
+      "char": "Ⲃ",
+      "small": "ⲃ",
+      "name": "بيتا",
+      "phonetic": "ڤ/ب",
+      "rules": [
+        {
+          "text": "(ڤ) إذا جاء بعده حرف متحرك (Ⲁ-Ⲉ-Ⲏ-Ⲓ-Ⲟ-Ⲩ-Ⲱ)",
+          "label": "ڤ"
+        },
+        {
+          "text": "(ب) فيما عدا ذلك",
+          "label": "ب"
+        }
+      ],
+      "color": "text-amber-700",
+      "accent": "from-amber-600/20 to-amber-700/5"
+    },
+    {
+      "char": "Ⲅ",
+      "small": "ⲅ",
+      "name": "غما",
+      "phonetic": "چ/ن/غ",
+      "rules": [
+        {
+          "text": "(چ) إذا جاء بعده حرف متحرك للكسر (Ⲉ-Ⲏ-Ⲓ-Ⲩ)",
+          "label": "چ"
+        },
+        {
+          "text": "(ن) إذا جاء بعده حرف حلقي (Ⲅ-Ⲕ-Ⲭ-Ⲝ)",
+          "label": "ن"
+        },
+        {
+          "text": "(غ) فيما عدا ذلك",
+          "label": "غ"
+        }
+      ],
+      "color": "text-emerald-700",
+      "accent": "from-emerald-600/20 to-emerald-700/5"
+    },
+    {
+      "char": "Ⲇ",
+      "small": "ⲇ",
+      "name": "دلتا",
+      "phonetic": "د/ذ",
+      "rules": [
+        {
+          "text": "(د) إذا جاء في أسماء الأعلام",
+          "label": "د"
+        },
+        {
+          "text": "(ذ) فيما عدا ذلك",
+          "label": "ذ"
+        }
+      ],
+      "color": "text-blue-700",
+      "accent": "from-blue-600/20 to-blue-700/5"
+    },
+    {
+      "char": "Ⲉ",
+      "small": "ⲉ",
+      "name": "آي",
+      "phonetic": "(إيه)",
+      "rules": [
+        {
+          "text": "مثل الياء في بيت بالعامية (حرف متحرك للكسر)",
+          "label": "إيه"
+        }
+      ],
+      "color": "text-rose-600",
+      "accent": "from-rose-500/20 to-rose-600/5"
+    },
+    {
+      "char": "ⲋ",
+      "small": "ⲋ",
+      "name": "سو",
+      "phonetic": "٦",
+      "rules": [
+        {
+          "text": "يستخدم كرقم (6)",
+          "label": "٦"
+        }
+      ],
+      "color": "text-slate-700",
+      "accent": "from-slate-600/20 to-slate-700/5"
+    },
+    {
+      "char": "Ⲍ",
+      "small": "ⲍ",
+      "name": "زيتا",
+      "phonetic": "ز",
+      "rules": [
+        {
+          "text": "ينطق (ز) دائماً",
+          "label": "ز"
+        }
+      ],
+      "color": "text-yellow-700",
+      "accent": "from-yellow-600/20 to-yellow-700/5"
+    },
+    {
+      "char": "Ⲏ",
+      "small": "ⲏ",
+      "name": "إيتا",
+      "phonetic": "(ي)",
+      "rules": [
+        {
+          "text": "(ي) طويلة كما في كلمة فيل (حرف متحرك للكسر)",
+          "label": "ي"
+        }
+      ],
+      "color": "text-orange-700",
+      "accent": "from-orange-600/20 to-orange-700/5"
+    },
+    {
+      "char": "Ⲑ",
+      "small": "ⲑ",
+      "name": "ثيتا",
+      "phonetic": "ت/ث",
+      "rules": [
+        {
+          "text": "(ت) إذا جاء قبله Ⲥ أو Ϣ",
+          "label": "ت"
+        },
+        {
+          "text": "(ث) فيما عدا ذلك",
+          "label": "ث"
+        }
+      ],
+      "color": "text-teal-700",
+      "accent": "from-teal-600/20 to-teal-700/5"
+    },
+    {
+      "char": "Ⲓ",
+      "small": "ⲓ",
+      "name": "يوطا",
+      "phonetic": "ي",
+      "rules": [
+        {
+          "text": "ينطق (ي) قصيرة دائماً (حرف متحرك للكسر)",
+          "label": "ي"
+        }
+      ],
+      "color": "text-indigo-700",
+      "accent": "from-indigo-600/20 to-indigo-700/5"
+    },
+    {
+      "char": "Ⲕ",
+      "small": "ⲕ",
+      "name": "كبا",
+      "phonetic": "ك",
+      "rules": [
+        {
+          "text": "ينطق (ك) دائماً (حرف حلقي)",
+          "label": "ك"
+        }
+      ],
+      "color": "text-purple-700",
+      "accent": "from-purple-600/20 to-purple-700/5"
+    },
+    {
+      "char": "Ⲗ",
+      "small": "ⲗ",
+      "name": "لافلا / لولا",
+      "phonetic": "ل",
+      "rules": [
+        {
+          "text": "ينطق (ل) دائماً",
+          "label": "ل"
+        }
+      ],
+      "color": "text-pink-700",
+      "accent": "from-pink-500/20 to-pink-600/5"
+    },
+    {
+      "char": "Ⲙ",
+      "small": "ⲙ",
+      "name": "مي",
+      "phonetic": "م",
+      "rules": [
+        {
+          "text": "ينطق (م) دائماً",
+          "label": "م"
+        }
+      ],
+      "color": "text-red-800",
+      "accent": "from-red-700/20 to-red-800/5"
+    },
+    {
+      "char": "Ⲛ",
+      "small": "ⲛ",
+      "name": "ني",
+      "phonetic": "ن",
+      "rules": [
+        {
+          "text": "ينطق (ن) دائماً",
+          "label": "ن"
+        }
+      ],
+      "color": "text-blue-800",
+      "accent": "from-blue-700/20 to-blue-800/5"
+    },
+    {
+      "char": "Ⲝ",
+      "small": "ⲝ",
+      "name": "إكسي",
+      "phonetic": "ك+س",
+      "rules": [
+        {
+          "text": "ينطق (ك+س) دائماً (حرف حلقي)",
+          "label": "ك+س"
+        }
+      ],
+      "color": "text-amber-800",
+      "accent": "from-amber-700/20 to-amber-800/5"
+    },
+    {
+      "char": "Ⲟ",
+      "small": "ⲟ",
+      "name": "أوميكرون",
+      "phonetic": "أو",
+      "rules": [
+        {
+          "text": "ينطق (أو) قصيرة دائماً (حرف متحرك)",
+          "label": "أو"
+        }
+      ],
+      "color": "text-green-800",
+      "accent": "from-green-700/20 to-green-800/5"
+    },
+    {
+      "char": "Ⲡ",
+      "small": "ⲡ",
+      "name": "بي",
+      "phonetic": "ب",
+      "rules": [
+        {
+          "text": "ينطق (ب) دائماً",
+          "label": "ب"
+        }
+      ],
+      "color": "text-cyan-700",
+      "accent": "from-cyan-600/20 to-cyan-700/5"
+    },
+    {
+      "char": "Ⲣ",
+      "small": "ⲣ",
+      "name": "رو",
+      "phonetic": "ر",
+      "rules": [
+        {
+          "text": "ينطق (ر) دائماً",
+          "label": "ر"
+        }
+      ],
+      "color": "text-rose-800",
+      "accent": "from-rose-700/20 to-rose-800/5"
+    },
+    {
+      "char": "Ⲥ",
+      "small": "ⲥ",
+      "name": "سيما",
+      "phonetic": "س",
+      "rules": [
+        {
+          "text": " ينطق (ز) إذا جاء في كلمة يونانية الأصل وجاء بعده حرف (Ⲙ)",
+          "label": "ز"
+        },
+        {
+          "text": " ينطق (ص) إذا جاء  بعده حرف تضخيم (Ⲁ / Ⲱ)",
+          "label": "ص"
+        },
+        {
+          "text": "ينطق (س) فيما عدا ذلك",
+          "label": "س"
+        }
+      ],
+      "color": "text-slate-800",
+      "accent": "from-slate-700/20 to-slate-800/5"
+    },
+    {
+      "char": "Ⲧ",
+      "small": "ⲧ",
+      "name": "تاف",
+      "phonetic": "ت",
+      "rules": [
+        {
+          "text": " ينطق (د) إذا جاء في كلمة يونانية الأصل وجاء قبله حرف (ⲛ)",
+          "label": "د"
+        },
+        {
+          "text": "ينطق (ط) إذا جاء  بعده حرف تضخيم (Ⲁ / Ⲱ)",
+          "label": "ط"
+        },
+        {
+          "text": "ينطق (ت) فيما عدا ذلك",
+          "label": "ت"
+        }
+      ],
+      "color": "text-orange-800",
+      "accent": "from-orange-700/20 to-orange-800/5"
+    },
+    {
+      "char": "Ⲩ",
+      "small": "ⲩ",
+      "name": "ابسلن",
+      "phonetic": "ڤ/أوو/ي",
+      "rules": [
+        {
+          "text": "(ڤ) إذا جاء قبله (Ⲁ أو Ⲉ)",
+          "label": "ڤ"
+        },
+        {
+          "text": "(أوو) إذا جاء قبله حرف (Ⲟ) كما في كلمة فول",
+          "label": "أوو"
+        },
+        {
+          "text": "(ي) فيما عدا ذلك",
+          "label": "ي"
+        }
+      ],
+      "color": "text-violet-700",
+      "accent": "from-violet-600/20 to-violet-700/5"
+    },
+    {
+      "char": "Ⲫ",
+      "small": "ⲫ",
+      "name": "في",
+      "phonetic": "ف",
+      "rules": [
+        {
+          "text": "ينطق (ف) دائماً",
+          "label": "ف"
+        }
+      ],
+      "color": "text-lime-700",
+      "accent": "from-lime-600/20 to-lime-700/5"
+    },
+    {
+      "char": "Ⲭ",
+      "small": "ⲭ",
+      "name": "كي",
+      "phonetic": "ك/ش/خ",
+      "rules": [
+        {
+          "text": "(ك) في الكلمات القبطية (حرف حلقي) (Ⲅ-Ⲕ-Ⲭ-Ⲝ)",
+          "label": "ك"
+        },
+        {
+          "text": "(ش) إذا جاء بعده حرف متحرك للكسر (Ⲉ-Ⲏ-Ⲓ-Ⲩ)",
+          "label": "ش"
+        },
+        {
+          "text": "(خ) فيما عدا ذلك",
+          "label": "خ"
+        }
+      ],
+      "color": "text-emerald-800",
+      "accent": "from-emerald-700/20 to-emerald-800/5"
+    },
+    {
+      "char": "Ⲯ",
+      "small": "ⲯ",
+      "name": "إبسي",
+      "phonetic": "پس",
+      "rules": [
+        {
+          "text": "ينطق (پس) دائماً",
+          "label": "پس"
+        }
+      ],
+      "color": "text-blue-900",
+      "accent": "from-blue-800/20 to-blue-900/5"
+    },
+    {
+      "char": "Ⲱ",
+      "small": "ⲱ",
+      "name": "أوميجا",
+      "phonetic": "أو",
+      "rules": [
+        {
+          "text": "ينطق (أو) طويلة كما في كلمة خوخ (حرف متحرك)",
+          "label": "أو"
+        }
+      ],
+      "color": "text-indigo-800",
+      "accent": "from-indigo-700/20 to-indigo-800/5"
+    },
+    {
+      "char": "Ϣ",
+      "small": "ϣ",
+      "name": "شاي",
+      "phonetic": "ش",
+      "rules": [
+        {
+          "text": "ينطق (ش) دائماً",
+          "label": "ش"
+        }
+      ],
+      "color": "text-orange-800",
+      "accent": "from-orange-700/20 to-orange-800/5"
+    },
+    {
+      "char": "Ϥ",
+      "small": "ϥ",
+      "name": "فاي",
+      "phonetic": "ف",
+      "rules": [
+        {
+          "text": "ينطق (ف) دائماً",
+          "label": "ف"
+        }
+      ],
+      "color": "text-red-900",
+      "accent": "from-red-800/20 to-red-900/5"
+    },
+    {
+      "char": "Ϧ",
+      "small": "ϧ",
+      "name": "خاي",
+      "phonetic": "خ",
+      "rules": [
+        {
+          "text": "ينطق (خ) دائماً (حرف حلقي) (Ⲅ-Ⲕ-Ⲭ-Ⲝ)",
+          "label": "خ"
+        }
+      ],
+      "color": "text-stone-700",
+      "accent": "from-stone-600/20 to-stone-700/5"
+    },
+    {
+      "char": "Ϩ",
+      "small": "ϩ",
+      "name": "هوري",
+      "phonetic": "هـ",
+      "rules": [
+        {
+          "text": "ينطق (هـ) دائماً",
+          "label": "هـ"
+        }
+      ],
+      "color": "text-slate-900",
+      "accent": "from-slate-800/20 to-slate-900/5"
+    },
+    {
+      "char": "Ϫ",
+      "small": "ϫ",
+      "name": "چنچا",
+      "phonetic": "چ/ج",
+      "rules": [
+        {
+          "text": "(چ) إذا جاء بعده حرف متحرك للكسر (Ⲉ-Ⲏ-Ⲓ-Ⲩ)",
+          "label": "چ"
+        },
+        {
+          "text": "(ج) فيما عدا ذلك",
+          "label": "ج"
+        }
+      ],
+      "color": "text-amber-900",
+      "accent": "from-amber-800/20 to-amber-900/5"
+    },
+    {
+      "char": "Ϭ",
+      "small": "ϭ",
+      "name": "تشيما",
+      "phonetic": "تش",
+      "rules": [
+        {
+          "text": "ينطق (تش) دائماً",
+          "label": "تش"
+        }
+      ],
+      "color": "text-green-900",
+      "accent": "from-green-800/20 to-green-900/5"
+    },
+    {
+      "char": "Ϯ",
+      "small": "ϯ",
+      "name": "تي",
+      "phonetic": "تي",
+      "rules": [
+        {
+          "text": "ينطق (تي) دائماً",
+          "label": "تي"
+        }
+      ],
+      "color": "text-indigo-900",
+      "accent": "from-indigo-800/20 to-indigo-900/5"
+    }
+  ],
+  "juniorLetters": [
+    {
+      "char": "Ⲁ",
+      "small": "ⲁ",
+      "name": "الفا",
+      "phonetic": "آ",
+      "rules": [
+        {
+          "text": "ينطق (آ) ",
+          "label": "آ"
+        }
+      ],
+      "color": "text-red-600",
+      "accent": "from-red-500/20 to-red-600/5"
+    },
+    {
+      "char": "Ⲃ",
+      "small": "ⲃ",
+      "name": "بيتا",
+      "phonetic": "ڤ",
+      "rules": [
+        {
+          "text": "ينطق (ڤ) ",
+          "label": "ڤ"
+        }
+      ],
+      "color": "text-amber-700",
+      "accent": "from-amber-600/20 to-amber-700/5"
+    },
+    {
+      "char": "Ⲅ",
+      "small": "ⲅ",
+      "name": "غما",
+      "phonetic": "غ",
+      "rules": [
+        {
+          "text": "ينطق (غ) ",
+          "label": "غ"
+        }
+      ],
+      "color": "text-emerald-700",
+      "accent": "from-emerald-600/20 to-emerald-700/5"
+    },
+    {
+      "char": "Ⲇ",
+      "small": "ⲇ",
+      "name": "دلتا",
+      "phonetic": "د",
+      "rules": [
+        {
+          "text": "ينطق (د) ",
+          "label": "د"
+        }
+      ],
+      "color": "text-blue-700",
+      "accent": "from-blue-600/20 to-blue-700/5"
+    },
+    {
+      "char": "Ⲉ",
+      "small": "ⲉ",
+      "name": "آي",
+      "phonetic": "إى",
+      "rules": [
+        {
+          "text": "ينطق (إى) ",
+          "label": "إى"
+        }
+      ],
+      "color": "text-rose-600",
+      "accent": "from-rose-500/20 to-rose-600/5"
+    },
+    {
+      "char": "ⲋ",
+      "small": "ⲋ",
+      "name": "سو",
+      "phonetic": "سو",
+      "rules": [
+        {
+          "text": "رقم (6)",
+          "label": "٦"
+        }
+      ],
+      "color": "text-slate-700",
+      "accent": "from-slate-600/20 to-slate-700/5"
+    },
+    {
+      "char": "Ⲍ",
+      "small": "ⲍ",
+      "name": "زيتا",
+      "phonetic": "ز",
+      "rules": [
+        {
+          "text": "ينطق (ز) ",
+          "label": "ز"
+        }
+      ],
+      "color": "text-yellow-700",
+      "accent": "from-yellow-600/20 to-yellow-700/5"
+    },
+    {
+      "char": "Ⲏ",
+      "small": "ⲏ",
+      "name": "إيتا",
+      "phonetic": "ي",
+      "rules": [
+        {
+          "text": "ينطق (ي) طويلة ",
+          "label": "ي"
+        }
+      ],
+      "color": "text-orange-700",
+      "accent": "from-orange-600/20 to-orange-700/5"
+    },
+    {
+      "char": "Ⲑ",
+      "small": "ⲑ",
+      "name": "ثيتا",
+      "phonetic": "ث",
+      "rules": [
+        {
+          "text": "ينطق (ث) ",
+          "label": "ث"
+        }
+      ],
+      "color": "text-teal-700",
+      "accent": "from-teal-600/20 to-teal-700/5"
+    },
+    {
+      "char": "Ⲓ",
+      "small": "ⲓ",
+      "name": "يوطا",
+      "phonetic": "ي",
+      "rules": [
+        {
+          "text": "ينطق (ي) قصيرة ",
+          "label": "ي"
+        }
+      ],
+      "color": "text-indigo-700",
+      "accent": "from-indigo-600/20 to-indigo-700/5"
+    },
+    {
+      "char": "Ⲕ",
+      "small": "ⲕ",
+      "name": "كبا",
+      "phonetic": "ك",
+      "rules": [
+        {
+          "text": "ينطق (ك) ",
+          "label": "ك"
+        }
+      ],
+      "color": "text-purple-700",
+      "accent": "from-purple-600/20 to-purple-700/5"
+    },
+    {
+      "char": "Ⲗ",
+      "small": "ⲗ",
+      "name": "لولا",
+      "phonetic": "ل",
+      "rules": [
+        {
+          "text": "ينطق (ل) ",
+          "label": "ل"
+        }
+      ],
+      "color": "text-pink-700",
+      "accent": "from-pink-500/20 to-pink-600/5"
+    },
+    {
+      "char": "Ⲙ",
+      "small": "ⲙ",
+      "name": "مي",
+      "phonetic": "م",
+      "rules": [
+        {
+          "text": "ينطق (م) ",
+          "label": "م"
+        }
+      ],
+      "color": "text-red-800",
+      "accent": "from-red-700/20 to-red-800/5"
+    },
+    {
+      "char": "Ⲛ",
+      "small": "ⲛ",
+      "name": "ني",
+      "phonetic": "ن",
+      "rules": [
+        {
+          "text": "ينطق (ن) ",
+          "label": "ن"
+        }
+      ],
+      "color": "text-blue-800",
+      "accent": "from-blue-700/20 to-blue-800/5"
+    },
+    {
+      "char": "Ⲝ",
+      "small": "ⲝ",
+      "name": "إكسي",
+      "phonetic": "ك+س",
+      "rules": [
+        {
+          "text": "ينطق (ك+س) ",
+          "label": "ك+س"
+        }
+      ],
+      "color": "text-amber-800",
+      "accent": "from-amber-700/20 to-amber-800/5"
+    },
+    {
+      "char": "Ⲟ",
+      "small": "ⲟ",
+      "name": "أوميكرون",
+      "phonetic": "و قصيرة",
+      "rules": [
+        {
+          "text": "ينطق (و) قصيرة مثل الضمة",
+          "label": "و قصيرة"
+        }
+      ],
+      "color": "text-green-800",
+      "accent": "from-green-700/20 to-green-800/5"
+    },
+    {
+      "char": "Ⲡ",
+      "small": "ⲡ",
+      "name": "بي",
+      "phonetic": "ب",
+      "rules": [
+        {
+          "text": "ينطق (ب) ",
+          "label": "ب"
+        }
+      ],
+      "color": "text-cyan-700",
+      "accent": "from-cyan-600/20 to-cyan-700/5"
+    },
+    {
+      "char": "Ⲣ",
+      "small": "ⲣ",
+      "name": "رو",
+      "phonetic": "ر",
+      "rules": [
+        {
+          "text": "ينطق (ر) ",
+          "label": "ر"
+        }
+      ],
+      "color": "text-rose-800",
+      "accent": "from-rose-700/20 to-rose-800/5"
+    },
+    {
+      "char": "Ⲥ",
+      "small": "ⲥ",
+      "name": "سيما",
+      "phonetic": "س",
+      "rules": [
+        {
+          "text": "ينطق (س) ",
+          "label": "س"
+        }
+      ],
+      "color": "text-slate-800",
+      "accent": "from-slate-700/20 to-slate-800/5"
+    },
+    {
+      "char": "Ⲧ",
+      "small": "ⲧ",
+      "name": "تاف",
+      "phonetic": "ت",
+      "rules": [
+        {
+          "text": "ينطق (ت) ",
+          "label": "ت"
+        }
+      ],
+      "color": "text-orange-800",
+      "accent": "from-orange-700/20 to-orange-800/5"
+    },
+    {
+      "char": "Ⲩ",
+      "small": "ⲩ",
+      "name": "ابسلن",
+      "phonetic": "ي",
+      "rules": [
+        {
+          "text": "ينطق (ي) ",
+          "label": "ي"
+        }
+      ],
+      "color": "text-violet-700",
+      "accent": "from-violet-600/20 to-violet-700/5"
+    },
+    {
+      "char": "Ⲫ",
+      "small": "ⲫ",
+      "name": "في",
+      "phonetic": "ف",
+      "rules": [
+        {
+          "text": "ينطق (ف) ",
+          "label": "ف"
+        }
+      ],
+      "color": "text-lime-700",
+      "accent": "from-lime-600/20 to-lime-700/5"
+    },
+    {
+      "char": "Ⲭ",
+      "small": "ⲭ",
+      "name": "كي",
+      "phonetic": "ك",
+      "rules": [
+        {
+          "text": "ينطق (ك) ",
+          "label": "ك"
+        }
+      ],
+      "color": "text-emerald-800",
+      "accent": "from-emerald-700/20 to-emerald-800/5"
+    },
+    {
+      "char": "Ⲯ",
+      "small": "ⲯ",
+      "name": "إبسي",
+      "phonetic": "پس",
+      "rules": [
+        {
+          "text": "ينطق (پس) ",
+          "label": "پس"
+        }
+      ],
+      "color": "text-blue-900",
+      "accent": "from-blue-800/20 to-blue-900/5"
+    },
+    {
+      "char": "Ⲱ",
+      "small": "ⲱ",
+      "name": "أوميجا",
+      "phonetic": "أو",
+      "rules": [
+        {
+          "text": "ينطق (أو) طويلة ",
+          "label": "أو"
+        }
+      ],
+      "color": "text-indigo-800",
+      "accent": "from-indigo-700/20 to-indigo-800/5"
+    },
+    {
+      "char": "Ϣ",
+      "small": "ϣ",
+      "name": "شاي",
+      "phonetic": "ش",
+      "rules": [
+        {
+          "text": "ينطق (ش) ",
+          "label": "ش"
+        }
+      ],
+      "color": "text-orange-800",
+      "accent": "from-orange-700/20 to-orange-800/5"
+    },
+    {
+      "char": "Ϥ",
+      "small": "ϥ",
+      "name": "فاي",
+      "phonetic": "ف",
+      "rules": [
+        {
+          "text": "ينطق (ف) ",
+          "label": "ف"
+        }
+      ],
+      "color": "text-red-900",
+      "accent": "from-red-800/20 to-red-900/5"
+    },
+    {
+      "char": "Ϧ",
+      "small": "ϧ",
+      "name": "خاي",
+      "phonetic": "خ",
+      "rules": [
+        {
+          "text": "ينطق (خ) ",
+          "label": "خ"
+        }
+      ],
+      "color": "text-stone-700",
+      "accent": "from-stone-600/20 to-stone-700/5"
+    },
+    {
+      "char": "Ϩ",
+      "small": "ϩ",
+      "name": "هوري",
+      "phonetic": "هـ",
+      "rules": [
+        {
+          "text": "ينطق (هـ) ",
+          "label": "هـ"
+        }
+      ],
+      "color": "text-slate-900",
+      "accent": "from-slate-800/20 to-slate-900/5"
+    },
+    {
+      "char": "Ϫ",
+      "small": "ϫ",
+      "name": "چنچا",
+      "phonetic": "چ",
+      "rules": [
+        {
+          "text": "ينطق (چ) ",
+          "label": "چ"
+        }
+      ],
+      "color": "text-amber-900",
+      "accent": "from-amber-800/20 to-amber-900/5"
+    },
+    {
+      "char": "Ϭ",
+      "small": "ϭ",
+      "name": "تشيما",
+      "phonetic": "تش",
+      "rules": [
+        {
+          "text": "ينطق (تش) ",
+          "label": "تش"
+        }
+      ],
+      "color": "text-green-900",
+      "accent": "from-green-800/20 to-green-900/5"
+    },
+    {
+      "char": "Ϯ",
+      "small": "ϯ",
+      "name": "تي",
+      "phonetic": "تي",
+      "rules": [
+        {
+          "text": "ينطق (تي) ",
+          "label": "تي"
+        }
+      ],
+      "color": "text-indigo-900",
+      "accent": "from-indigo-800/20 to-indigo-900/5"
+    }
+  ]
+}

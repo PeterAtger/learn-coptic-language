@@ -1,115 +1,119 @@
-name: ebty
-description: An application to teach coptic language.
-# The following line prevents the package from being accidentally published to
-# pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-
-# The following defines the version and build number for your application.
-# A version number is three numbers separated by dots, like 1.2.43
-# followed by an optional build number separated by a +.
-# Both the version and the builder number may be overridden in flutter
-# build by specifying --build-name and --build-number, respectively.
-# In Android, build-name is used as versionName while build-number used as versionCode.
-# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
-# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
-# Read more about iOS versioning at
-# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-# In Windows, build-name is used as the major, minor, and patch parts
-# of the product and file versions while build-number is used as the build suffix.
-version: 3.0.0+2
+name: coptic_app
+description: A new Flutter project for learning Coptic.
+publish_to: 'none'
+version: 4.0.0+3
 
 environment:
-  sdk: '>=2.19.6 <3.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 
-# Dependencies specify other packages that your package needs in order to work.
-# To automatically upgrade your package dependencies to the latest versions
-# consider running `flutter pub upgrade --major-versions`. Alternatively,
-# dependencies can be manually updated by changing the version numbers below to
-# the latest version available on pub.dev. To see which dependencies have newer
-# versions available, run `flutter pub outdated`.
 dependencies:
   flutter:
     sdk: flutter
-
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  google_fonts: ^4.0.4
-  audioplayers: ^4.1.0
-  icons_launcher: ^2.1.0
-  scaffold_gradient_background: ^1.0.3+1
-  flutter_bloc: ^8.1.5
-  hydrated_bloc: ^9.1.5
-  path_provider: ^2.1.1
-  flutter_native_splash: ^2.2.19
-  pinch_zoom_release_unzoom: ^1.0.3
+  audioplayers: ^5.2.1
+  google_fonts: ^6.1.0
+  url_launcher: ^6.3.2
+  font_awesome_flutter: ^11.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.4
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter packages.
 flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
   assets:
-      - assets/images/
-      - assets/images/wordsV3/
-      - assets/images/Grammar/
-      - assets/images/Alphabet/
-      - assets/audio/
-      - assets/audio/mahfozatV2/kg/
-      - assets/audio/mahfozatV2/primary_1/
-      - assets/audio/mahfozatV2/primary_3/
-      - assets/audio/mahfozatV2/primary_5/
-      - assets/audio/mahfozatV2/prep/
-      - assets/audio/mahfozatV2/sec/
-      - assets/audio/wordsV2/kg/
-      - assets/audio/wordsV2/primary_1/
-      - assets/audio/wordsV2/primary_3/
-      - assets/audio/wordsV2/primary_5/
-      - assets/audio/wordsV2/prep/
-      - assets/audio/wordsV2/sec/
-      - assets/audio/letters/
-      - assets/data/
+    - assets/audio/
+    - assets/images/
+    - assets/data/
+    - assets/images/words/
+    - assets/images/words/p12/
+    - assets/images/words/p34/
+    - assets/images/words/p56/
+    - assets/images/words/prep/
+    - assets/images/words/uni/
+    - assets/audio/letters/
+    - assets/audio/words/
+    - assets/audio/words/grad/
+    - assets/audio/words/kg/
+    - assets/audio/words/p12/
+    - assets/audio/words/p34/
+    - assets/audio/words/p56/
+    - assets/audio/words/prep/
+    - assets/audio/words/primary_1/
+    - assets/audio/words/primary_3/
+    - assets/audio/words/primary_5/
+    - assets/audio/words/qana/
+    - assets/audio/words/sec/
+    - assets/audio/words/serv/
+    - assets/audio/words/st/
+    - assets/audio/words/uni/
+    - assets/audio/hymns/
+    - assets/audio/hymns/grad/
+    - assets/audio/hymns/grad/lvl1/
+    - assets/audio/hymns/grad/lvl2/
+    - assets/audio/hymns/grad/theme/
+    - assets/audio/hymns/kg/
+    - assets/audio/hymns/p12/
+    - assets/audio/hymns/p34/
+    - assets/audio/hymns/p34/lvl1/
+    - assets/audio/hymns/p34/lvl2/
+    - assets/audio/hymns/p34/theme/
+    - assets/audio/hymns/p56/
+    - assets/audio/hymns/p56/lvl1/
+    - assets/audio/hymns/p56/lvl2/
+    - assets/audio/hymns/p56/theme/
+    - assets/audio/hymns/prep/
+    - assets/audio/hymns/prep/lvl1/
+    - assets/audio/hymns/prep/lvl2/
+    - assets/audio/hymns/prep/theme/
+    - assets/audio/hymns/primary_1/
+    - assets/audio/hymns/primary_3/
+    - assets/audio/hymns/primary_5/
+    - assets/audio/hymns/qana/
+    - assets/audio/hymns/qana/lvl1/
+    - assets/audio/hymns/qana/theme/
+    - assets/audio/hymns/sec/
+    - assets/audio/hymns/sec/lvl1/
+    - assets/audio/hymns/sec/lvl2/
+    - assets/audio/hymns/sec/theme/
+    - assets/audio/hymns/serv/
+    - assets/audio/hymns/serv/lvl1/
+    - assets/audio/hymns/serv/lvl2/
+    - assets/audio/hymns/serv/theme/
+    - assets/audio/hymns/st/
+    - assets/audio/hymns/st/lvl1/
+    - assets/audio/hymns/st/lvl2/
+    - assets/audio/hymns/st/theme/
+    - assets/audio/hymns/uni/
+    - assets/audio/hymns/uni/lvl1/
+    - assets/audio/hymns/uni/lvl2/
+    - assets/audio/hymns/uni/theme/
 
   fonts:
-    - family: Avva_Shenouda
+    - family: AbraamLegacy
       fonts:
-        - asset: lib/presentation/theme/fonts/avva-shenouda/Avva_Shenouda.ttf
-    - family: lato
+        - asset: assets/fonts/ABRAAM_0.ttf
+    - family: Antinoou
       fonts:
-        - asset: lib/presentation/theme/fonts/lato/Lato-Regular.ttf
-        - asset: lib/presentation/theme/fonts/lato/Lato-Bold.ttf
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
+        - asset: assets/fonts/Antinoou.ttf
+    - family: CopticStandard
+      fonts:
+        - asset: assets/fonts/CopticStandard.ttf
 
-icons_launcher:
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
   image_path: "assets/images/icon.jpeg"
-  platforms:
-    android:
-      enable: true
-    ios:
-      enable: true
+  min_sdk_android: 21
 
 flutter_native_splash:
-  background_image: "assets/images/icon-no-bg.png"
+  color: "#FAF7F0"
+  image: "assets/images/icon-no-bg.png"
   android_12:
-    image: "assets/images/icon-no-bg.png"  
+    image: "assets/images/icon-no-bg.png"
+    color: "#FAF7F0"
+
