@@ -1,0 +1,592 @@
+[
+  {
+    "id": "adv-intro",
+    "title": "General Rules",
+    "stageIds": [
+      "prep",
+      "sec",
+      "qana"
+    ],
+    "sections": [
+      {
+        "type": "note",
+        "title": "",
+        "content": "The Coptic alphabet consists of 32 letters divided as follows:"
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Division of Coptic Alphabet",
+            ""
+          ],
+          "rows": [
+            [
+              "24 Consonants",
+              "7 Vowels",
+              "[c]<?[/c] (So) used as number 6 only"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "",
+        "content": "The [c]`[/c] (Jenkim) is a mark drawn as ( [c]`[/c] ) or ( [c]~[/c] ). When placed on a consonant, it is pronounced as [c]E[/c]. If placed on a vowel, it indicates the independence of that vowel's pronunciation."
+      },
+      {
+        "type": "table",
+        "title": "Vowels are divided into:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Vowel Divisions",
+            ""
+          ],
+          "rows": [
+            [
+              "Open Vowels",
+              "Rounded Vowels",
+              "Closed Vowels"
+            ],
+            [
+              "[c]A[/c]",
+              "[c]W - O[/c]",
+              "[c]E - H - I - U[/c]"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "adv-lvl1",
+    "title": "Level 1",
+    "stageIds": [
+      "prep",
+      "sec",
+      "qana"
+    ],
+    "sections": [
+      {
+        "type": "note",
+        "title": "",
+        "content": "Differentiating between Coptic words and Greek words"
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Coptic vs Greek",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "Seven letters usually appear in Coptic words: \n [c](]-f-'-\\-j-s-;)[/c]",
+                "rowSpan": 2
+              },
+              "Flower",
+              "[c]` |rhri[/c]"
+            ],
+            [
+              "Exam",
+              "[c]\"ot'et[/c]"
+            ],
+            [
+              {
+                "value": "Five letters usually appear in Greek words: \n [c](g-d-z-[-y)[/c]",
+                "rowSpan": 2
+              },
+              "Sugar",
+              "[c]Zaxri[/c]"
+            ],
+            [
+              "Body",
+              "[c]Car[[/c]"
+            ],
+            [
+              "Words where the letter [c]u[/c] is pronounced as (y) are usually Greek words.",
+              "Lake",
+              "[c]Aumnh[/c]"
+            ],
+            [
+              {
+                "value": "A word can be Greek if it ends with one of these suffixes: \n [c](ac - oc - hc - an - on - hn)[/c]",
+                "rowSpan": 2
+              },
+              "Sponge",
+              "[c]Cvoggoc[/c]"
+            ],
+            [
+              "Virgin",
+              "[c]Parqenoc[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Important Notes",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Important Notes",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "The letters [c]y - z - [[/c] appear in Greek words, but in rare cases they can appear in Coptic words.",
+                "rowSpan": 3
+              },
+              "School",
+              "[c]Anzhb[/c]"
+            ],
+            [
+              "Number 9",
+              "[c]Yit[/c]"
+            ],
+            [
+              "Curtain",
+              "[c]Li[[/c]"
+            ],
+            [
+              "The letter [c]|[/c] appears in Coptic words only, but it is sometimes used before Greek words to represent the Greek aspiration mark.",
+              "Icon",
+              "[c]|ikwn[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Articles (Definite and Indefinite)",
+        "content": "When a noun is used in a sentence, it is preceded by a definite or indefinite article. These articles are always attached to the noun."
+      },
+      {
+        "type": "table",
+        "title": "First: Definite Articles",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Definite Articles",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Description",
+              "Plural",
+              "Feminine Singular",
+              "Masculine Singular"
+            ],
+            [
+              "General Definite Articles",
+              "[c]Ni[/c]",
+              "[c]:[/c]",
+              "[c]Pi[/c]"
+            ],
+            [
+              {
+                "value": "Special article for words starting with these letters: \n [c](B - I - L - M - N - Ou - R)[/c]",
+                "colSpan": 1
+              },
+              "",
+              "[c]` Q[/c]",
+              "[c]` V[/c]"
+            ],
+            [
+              {
+                "value": "Special article for words NOT starting with these letters: \n [c](B - I - L - M - N - Ou - R)[/c]",
+                "colSpan": 1
+              },
+              "",
+              "[c]` T[/c]",
+              "[c]` P[/c]"
+            ],
+            [
+              "Special article for added plural nouns",
+              "[c]Nen[/c]",
+              {
+                "value": "",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "value": "If a vowel follows [c]I[/c] or [c]Ou[/c] at the beginning of a word, the articles [c]`v-`q[/c] are used. If a consonant follows, [c]`p-`t[/c] are used.",
+                "colSpan": 4
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Examples of Definite Articles:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "",
+            "Examples of Definite Articles",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "The Saints",
+              "[c]Niagioc[/c]",
+              "The mother",
+              "[c]~Qmau[/c]",
+              "God",
+              "[c]`Vnou;[/c]"
+            ],
+            [
+              "The Cherubim",
+              "[c]Nixeroubim[/c]",
+              "The flower",
+              "[c]:`\\rhri[/c]",
+              "The hair",
+              "[c]Pifwi[/c]"
+            ],
+            [
+              "The medicines",
+              "[c]Niva'ri[/c]",
+              "The daughter",
+              "[c]:]eri[/c]",
+              "The exam",
+              "[c]Pi'ot'et[/c]"
+            ],
+            [
+              "The nights",
+              "[c]Ni`ejwr\\[/c]",
+              "The woman",
+              "[c]~T`c\\imi[/c]",
+              "The darkness",
+              "[c]~Pxaki[/c]"
+            ],
+            [
+              {
+                "value": "The men of God",
+                "colSpan": 3
+              },
+              {
+                "value": "[c]Nenrwmi `m`Vnou;[/c]",
+                "colSpan": 3
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Articles can sometimes distinguish meanings for words with multiple meanings:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Distinguishing meanings with articles",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Barley",
+              "[c]Piiwt[/c]",
+              "The Father",
+              "[c]` Viwt[/c]"
+            ],
+            [
+              "Winepress",
+              "[c]Piiom[/c]",
+              "The Sea",
+              "[c]` Viom[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Some words change their form when pluralized:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Irregular Plurals",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "Plural",
+                "colSpan": 2
+              },
+              {
+                "value": "Singular",
+                "colSpan": 2
+              }
+            ],
+            [
+              "The works",
+              "[c]Ni`\\bhou`i[/c]",
+              "The work",
+              "[c]Pi\\wb[/c]"
+            ],
+            [
+              "The seas",
+              "[c]Niamaiou[/c]",
+              "The sea",
+              "[c]`Viom[/c]"
+            ],
+            [
+              "The legs",
+              "[c]Nisalauj[/c]",
+              "The leg / foot",
+              "[c]:saloj[/c]"
+            ],
+            [
+              "The rivers",
+              "[c]Niiarwou[/c]",
+              "The river",
+              "[c]`Viaro[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Second: Indefinite Articles",
+        "content": "These are used before nouns that do not have a definite article to make them indefinite."
+      },
+      {
+        "type": "table",
+        "title": "Indefinite Articles",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Indefinite Articles",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "For Plural (Both)",
+              "[c]|an[/c]",
+              "For Singular (Both)",
+              "[c]Ou[/c]"
+            ],
+            [
+              "Ways",
+              "[c]|anmwit[/c]",
+              "A fishing hook",
+              "[c]Ouwimi[/c]"
+            ],
+            [
+              "Men",
+              "[c]|anrwmi[/c]",
+              "A woman",
+              "[c]Ou`c\\imi[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Genitive Particles (Possession) [c]`nte-`n-`m[/c]",
+        "content": "In Coptic, the genitive sentence is formed using a particle to connect the possessed and the possessor. It is usually not translated to English as a separate word (acts like 'of')."
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Genitive Particles",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "The independent particle [c]`nte[/c]",
+                "colSpan": 4
+              }
+            ],
+            [
+              {
+                "value": "I am the bread of life",
+                "colSpan": 2
+              },
+              {
+                "value": "[c]` Anok pe piwik `nte `pwn'[/c]",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "value": "The attached particles [c]`m-`n[/c]",
+                "colSpan": 4
+              }
+            ],
+            [
+              {
+                "value": "You are the Son of God",
+                "colSpan": 2
+              },
+              {
+                "value": "[c]` Nqok pe `p]hri `m`Vnou;[/c]",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "value": "The particle [c]`n[/c] changes to [c]`m[/c] before words starting with labial letters: \n [c](y-b-m-p-v)[/c]",
+                "colSpan": 4
+              }
+            ],
+            [
+              {
+                "value": "[c]`n[/c]",
+                "colSpan": 2
+              },
+              {
+                "value": "[c]`m[/c]",
+                "colSpan": 2
+              }
+            ],
+            [
+              "The house of the angels",
+              "[c]` Phi `nniaggeloc[/c]",
+              "In the name of the Father",
+              "[c]\"en `vran `m`viwt[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Adjective Particles ([c]`m-[/c] or [c]`n-[/c])",
+        "content": "Used to connect an adjective to the noun it describes. Usually, the noun comes first, followed by the adjective, and they are connected by the adjective particle."
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "For example",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "The particle [c]`n[/c]",
+                "colSpan": 4
+              }
+            ],
+            [
+              {
+                "value": "The golden lampstand",
+                "colSpan": 2
+              },
+              {
+                "value": "[c]:luxnia `nnoub[/c]",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "value": "The particle [c]  `n[/c] changes to [c]`m[/c] before labial letters: \n [c](y-b-m-p-v)[/c]",
+                "colSpan": 4
+              }
+            ],
+            [
+              {
+                "value": "[c]`n-[/c]",
+                "colSpan": 2
+              },
+              {
+                "value": "[c]`m-[/c]",
+                "colSpan": 2
+              }
+            ],
+            [
+              "The golden censer",
+              "[c]:]ourh `nnoub[/c]",
+              "The true light",
+              "[c]Piouwini `mmhi[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Conjunctions",
+            ""
+          ],
+          "rows": [
+            [
+              "Conjunction",
+              "Usage"
+            ],
+            [
+              "[c]Ouo\\[/c]",
+              "Used to connect sentences, verbs, and nouns describing the same thing/person."
+            ],
+            [
+              "[c]Nem[/c]",
+              "Used to connect different nouns - also means 'with'."
+            ],
+            [
+              {
+                "value": "Examples",
+                "colSpan": 2
+              }
+            ],
+            [
+              "We ask and we entreat",
+              "[c]Ten;\\o ouo\\ tentwb\\[/c]"
+            ],
+            [
+              "Our Lord, our God, and our Savior",
+              "[c]Pensoic ouo\\ Pennou ouo\\ Pencwter[/c]"
+            ],
+            [
+              "Jesus Christ",
+              "[c]Ihcouc Pixrictoc[/c]"
+            ],
+            [
+              "Abraham, Isaac, and Jacob",
+              "[c]Abraam nem Icaak nem iakwb[/c]"
+            ],
+            [
+              "We cry out with the Cherubim",
+              "[c]Tenw] `ebol nem nixeroubim[/c]"
+            ]
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1836,5 +1836,46 @@
         }
       ]
     }
+  ],
+  "special_needs_simple": [
+    {
+      "id": "sn1",
+      "title": "محفوظات بسيطة",
+      "stageId": "special_needs_simple",
+      "isLegacy": true,
+      "verses": [
+        { "id": "sc-1", "coptic": "\"en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn", "arabic": "باسم الآب والابن والروح القدس إله واحد آمين", "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين", "audioPath": "/audio/hymns/p34/lvl1/1.mp3", "isLegacy": true },
+        { "id": "v-theme", "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten", "arabic": "يعظم انتصارنا بالذي أحبنا (رو 8: 37)", "phonetic": "تين إير هوؤو تشرو إيڤول هيتين في إيطاف مينري تين", "audioPath": "/audio/hymns/st/theme/1.mp3", "isLegacy": true }
+      ]
+    }
+  ],
+  "special_needs_average": [
+    {
+      "id": "sn2",
+      "title": "محفوظات متوسطة",
+      "stageId": "special_needs_average",
+      "isLegacy": true,
+      "verses": [
+        { "id": "sc-1", "coptic": "\"en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn", "arabic": "باسم الآب والابن والروح القدس إله واحد آمين", "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين", "audioPath": "/audio/hymns/p34/lvl1/1.mp3", "isLegacy": true },
+        { "id": "v-theme", "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten", "arabic": "يعظم انتصارنا بالذي أحبنا (رو 8: 37)", "phonetic": "تين إير هوؤو تشرو إيڤول هيتين في إيطاف مينري تين", "audioPath": "/audio/hymns/st/theme/1.mp3", "isLegacy": true }
+      ]
+    }
+  ],
+  "special_needs_advanced": [
+    {
+      "id": "sn3",
+      "title": "محفوظات متميز",
+      "stageId": "special_needs_advanced",
+      "isLegacy": true,
+      "verses": [
+        { "id": "sc-1", "coptic": "\"en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn", "arabic": "باسم الآب والابن والروح القدس إله واحد آمين", "phonetic": "خين إفران إم إفيوت نيم إبشيري نيم بي إبنيڤما إثؤواب أونوتي إنؤوأوت آمين", "audioPath": "/audio/hymns/p34/lvl1/1.mp3", "isLegacy": true },
+        { "id": "lp-1", "coptic": "Peniwt e'ten nivhou`i", "arabic": "أبانا الذي في السموات", "phonetic": "بينيوت إتخن ني فيئوي", "audioPath": "/audio/hymns/p56/lvl2/2.mp3", "isLegacy": true },
+        { "id": "lp-2", "coptic": "Mareftoubo `nje pekran>", "arabic": "ليتقدس اسمك", "phonetic": "مارىف توڤو إنچى بيكران", "audioPath": "/audio/hymns/p56/lvl2/3.mp3", "isLegacy": true },
+        { "id": "lp-3", "coptic": "Marec` I `nje tekmetouro>", "arabic": "ليأت ملكوتك", "phonetic": "مارس إي إنچى تيك ميت أوورو", "audioPath": "/audio/hymns/p56/lvl2/4.mp3", "isLegacy": true },
+        { "id": "lp-4", "coptic": "Pete\\nak maref]wpi> `m`vrh; 'en `tve> nem \\ijen pika\\i>", "arabic": "لتكن مشيئتك كما في السماء كذلك على الأرض", "phonetic": "بىت إهناك مارف شوبى إم إفريتى خين إتفى نيم هيچن بيكاهى", "audioPath": "/audio/hymns/p56/lvl2/5.mp3", "isLegacy": true },
+        { "id": "lp-5", "coptic": "Penwik `nte rac;> mhif nan `mvoou", "arabic": "خبزنا الذي للغد أعطنا اليوم", "phonetic": "بين أويك إنتى راستي ميف نان إمفوأوو", "audioPath": "/audio/hymns/p56/lvl2/6.mp3", "isLegacy": true },
+        { "id": "v-theme", "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten", "arabic": "يعظم انتصارنا بالذي أحبنا (رو 8: 37)", "phonetic": "تين إير هوؤو تشرو إيڤول هيتين في إيطاف مينري تين", "audioPath": "/audio/hymns/st/theme/1.mp3", "isLegacy": true }
+      ]
+    }
   ]
 }

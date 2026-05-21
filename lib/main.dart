@@ -6,53 +6,39 @@ import 'screens/letters_page.dart';
 import 'screens/words_page.dart';
 import 'screens/hymns_page.dart';
 import 'screens/grammar_page.dart';
+import 'screens/grammar_en_page.dart';
 import 'screens/bookmarks_page.dart';
 import 'services/stage_service.dart';
+import 'services/language_service.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatefulWidget {
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
-  State<MyApp> createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
-  final StageService _stageService = StageService();
-
-  @override
-  void initState() {
-    super.initState();
-    _stageService.addListener(_onStageChanged);
-  }
-
-  @override
-  void dispose() {
-    _stageService.removeListener(_onStageChanged);
-    super.dispose();
-  }
-
-  void _onStageChanged() {
-    if (mounted) setState(() {});
-  }
-
-  @override
   Widget build(BuildContext context) {
-    final accent = _stageService.selectedStage.accent;
-    return MaterialApp(
-      title: 'منهج القبطي',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: accent).copyWith(
-          primary: accent,
-        ),
-        useMaterial3: true,
-        textTheme: GoogleFonts.cairoTextTheme(),
-      ),
-      home: const MainScreen(),
+    return ListenableBuilder(
+      listenable: Listenable.merge([LanguageService(), StageService()]),
+      builder: (context, _) {
+        final accent = StageService().selectedStage.accent;
+        return MaterialApp(
+          title: LanguageService().translate('app_title'),
+          debugShowCheckedModeBanner: false,
+          theme: ThemeData(
+            colorScheme: ColorScheme.fromSeed(seedColor: accent).copyWith(
+              primary: accent,
+            ),
+            useMaterial3: true,
+            textTheme: LanguageService().isArabic
+                ? GoogleFonts.cairoTextTheme()
+                : GoogleFonts.poppinsTextTheme(),
+          ),
+          home: const MainScreen(),
+        );
+      },
     );
   }
 }
@@ -66,6 +52,43 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen> {
   int _selectedIndex = 0;
+  final StageService _stageService = StageService();
+  final LanguageService _langService = LanguageService();
+
+  @override
+  void initState() {
+    super.initState();
+    _stageService.addListener(_onStageChanged);
+    _langService.addListener(_onLanguageChanged);
+  }
+
+  @override
+  void dispose() {
+    _stageService.removeListener(_onStageChanged);
+    _langService.removeListener(_onLanguageChanged);
+    super.dispose();
+  }
+
+  void _onLanguageChanged() {
+    if (mounted) setState(() {});
+  }
+
+  void _onStageChanged() {
+    // If the currently selected tab becomes hidden, switch to Home (0)
+    final stage = _stageService.selectedStage;
+    bool currentIsHidden = false;
+    if (_selectedIndex == 1 && stage.hideLetters) currentIsHidden = true;
+    if (_selectedIndex == 2 && stage.hideWords) currentIsHidden = true;
+    if (_selectedIndex == 4 && stage.hideGrammar) currentIsHidden = true;
+
+    if (currentIsHidden) {
+      setState(() {
+        _selectedIndex = 0;
+      });
+    } else {
+      setState(() {});
+    }
+  }
 
   void _onItemTapped(int index) {
     setState(() {
@@ -75,15 +98,29 @@ class _MainScreenState extends State<MainScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final stage = _stageService.selectedStage;
     final accent = Theme.of(context).colorScheme.primary;
+
     final List<Widget> widgetOptions = <Widget>[
       HomePage(onNavigateTo: _onItemTapped),
       const LettersPage(),
       const WordsPage(),
       const HymnsPage(),
-      const GrammarPage(),
+      _langService.isArabic ? const GrammarPage() : const GrammarEnPage(),
       const BookmarksPage(),
     ];
+
+    // Define all possible items
+    final allItems = [
+      {'index': 0, 'icon': Icons.home_rounded, 'label': _langService.translate('main_page'), 'hide': false},
+      {'index': 1, 'icon': Icons.sort_by_alpha_rounded, 'label': _langService.translate('letters'), 'hide': stage.hideLetters},
+      {'index': 2, 'icon': Icons.menu_book_rounded, 'label': _langService.translate('words'), 'hide': stage.hideWords},
+      {'index': 3, 'icon': Icons.headphones_rounded, 'label': _langService.translate('hymns'), 'hide': false},
+      {'index': 4, 'icon': Icons.gavel_rounded, 'label': _langService.translate('grammar'), 'hide': stage.hideGrammar},
+      {'index': 5, 'icon': Icons.star_rounded, 'label': _langService.translate('bookmarks'), 'hide': false},
+    ];
+
+    final visibleItems = allItems.where((item) => !(item['hide'] as bool)).toList();
 
     return Scaffold(
       backgroundColor: const Color(0xFFFAF7F0), // Parchment Light Background
@@ -129,14 +166,13 @@ class _MainScreenState extends State<MainScreen> {
                         ]
                       ),
                       child: Row(
-                        children: [
-                          Expanded(child: _buildNavItem(0, Icons.home_rounded, 'الرئيسية')),
-                          Expanded(child: _buildNavItem(1, Icons.sort_by_alpha_rounded, 'الحروف')),
-                          Expanded(child: _buildNavItem(2, Icons.menu_book_rounded, 'الكلمات')),
-                          Expanded(child: _buildNavItem(3, Icons.headphones_rounded, 'المحفوظات')),
-                          Expanded(child: _buildNavItem(4, Icons.gavel_rounded, 'القواعد')),
-                          Expanded(child: _buildNavItem(5, Icons.star_rounded, 'المحفوظة')),
-                        ],
+                        children: visibleItems.map((item) => Expanded(
+                          child: _buildNavItem(
+                            item['index'] as int,
+                            item['icon'] as IconData,
+                            item['label'] as String,
+                          ),
+                        )).toList(),
                       ),
                     ),
                   ),
@@ -164,32 +200,47 @@ class _MainScreenState extends State<MainScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           mainAxisSize: MainAxisSize.min,
           children: [
-            index == 1
-                ? Text(
-                    'ⲀⲰ',
-                    style: TextStyle(
-                      fontFamily: 'CopticStandard',
-                      fontSize: isSelected ? 19 : 17,
-                      fontWeight: FontWeight.bold,
-                      color: isSelected ? activeColor : inactiveColor,
-                    ),
-                  )
-                : Icon(
-                    icon,
-                    color: isSelected ? activeColor : inactiveColor,
-                    size: isSelected ? 25 : 22,
-                  ),
+            SizedBox(
+              height: isSelected ? 25 : 22,
+              child: Center(
+                child: index == 1
+                    ? Padding(
+                        padding: const EdgeInsets.only(top: 4),
+                        child: Text(
+                          'ⲀⲰ',
+                          style: TextStyle(
+                            fontFamily: 'CopticStandard',
+                            fontSize: isSelected ? 19 : 17,
+                            fontWeight: FontWeight.bold,
+                            height: 1.0,
+                            color: isSelected ? activeColor : inactiveColor,
+                          ),
+                        ),
+                      )
+                    : Icon(
+                        icon,
+                        color: isSelected ? activeColor : inactiveColor,
+                        size: isSelected ? 25 : 22,
+                      ),
+              ),
+            ),
             const SizedBox(height: 3),
             FittedBox(
               fit: BoxFit.scaleDown,
               child: Text(
                 label,
                 maxLines: 1,
-                style: GoogleFonts.cairo(
-                  fontSize: 10,
-                  fontWeight: FontWeight.w900,
-                  color: isSelected ? activeColor : inactiveColor,
-                ),
+                style: _langService.isArabic
+                    ? GoogleFonts.cairo(
+                        fontSize: 10,
+                        fontWeight: FontWeight.w900,
+                        color: isSelected ? activeColor : inactiveColor,
+                      )
+                    : GoogleFonts.poppins(
+                        fontSize: 9,
+                        fontWeight: FontWeight.w800,
+                        color: isSelected ? activeColor : inactiveColor,
+                      ),
               ),
             )
           ],
@@ -202,14 +253,14 @@ class _MainScreenState extends State<MainScreen> {
 class BackgroundPainter extends CustomPainter {
   final Color accent;
 
-  // Two warm fixed pops keep the background from going monochrome on cool
-  // accents (blue/indigo/teal stages).
-  static const _sunny = Color(0xFFFACC15);   // warm yellow
-  static const _peach = Color(0xFFFDBA74);   // peach
+  // Two warm fixed pops keep the background cheerful even on cool accents.
+  static const _sunny = Color(0xFFFACC15);
+  static const _peach = Color(0xFFFDBA74);
 
   const BackgroundPainter({required this.accent});
 
-  void _blob(Canvas canvas, Rect rect, Size size, Color color, double cx, double cy, double scale, double alpha) {
+  void _blob(Canvas canvas, Rect rect, Size size, Color color,
+      double cx, double cy, double scale, double alpha) {
     final paint = Paint()
       ..shader = RadialGradient(
         colors: [color.withValues(alpha: alpha), Colors.transparent],
@@ -225,8 +276,8 @@ class BackgroundPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final rect = Offset.zero & size;
 
-    // Derive a small palette from the stage accent using HSL so the whole
-    // background visibly shifts when the user picks a new grade.
+    // Derive a small palette from the stage accent so the whole background
+    // visibly shifts when the user picks a new grade.
     final hsl = HSLColor.fromColor(accent);
     final lighter = hsl
         .withLightness((hsl.lightness + 0.18).clamp(0.0, 1.0))
@@ -250,25 +301,24 @@ class BackgroundPainter extends CustomPainter {
     canvas.drawRect(rect, Paint()..color = const Color(0xFFFFFAF0));
 
     // Strong corners in the stage accent
-    _blob(canvas, rect, size, accent,         0.10, 0.08, 1.5, 0.46);
-    _blob(canvas, rect, size, analogousWarm,  0.92, 0.05, 1.4, 0.40);
+    _blob(canvas, rect, size, accent,        0.10, 0.08, 1.5, 0.46);
+    _blob(canvas, rect, size, analogousWarm, 0.92, 0.05, 1.4, 0.40);
 
     // Mid-screen — analogous shades for cohesion
-    _blob(canvas, rect, size, lighter,        0.05, 0.42, 1.3, 0.34);
-    _blob(canvas, rect, size, analogousCool,  0.95, 0.45, 1.3, 0.34);
-    _blob(canvas, rect, size, complement,     0.55, 0.30, 1.2, 0.24);
+    _blob(canvas, rect, size, lighter,       0.05, 0.42, 1.3, 0.34);
+    _blob(canvas, rect, size, analogousCool, 0.95, 0.45, 1.3, 0.34);
+    _blob(canvas, rect, size, complement,    0.55, 0.30, 1.2, 0.24);
 
-    // Bottom band — accent echoes + a fixed warm pop so cool stages still feel happy
-    _blob(canvas, rect, size, lighter,        0.15, 0.92, 1.4, 0.34);
-    _blob(canvas, rect, size, _peach,         0.50, 0.95, 1.2, 0.24);
-    _blob(canvas, rect, size, accent,         0.88, 0.92, 1.3, 0.40);
+    // Bottom band — accent echoes + warm pops so cool stages still feel happy
+    _blob(canvas, rect, size, lighter,       0.15, 0.92, 1.4, 0.34);
+    _blob(canvas, rect, size, _peach,        0.50, 0.95, 1.2, 0.24);
+    _blob(canvas, rect, size, accent,        0.88, 0.92, 1.3, 0.40);
 
-    // Tiny sunny pop top-center keeps even dark stages from feeling heavy
-    _blob(canvas, rect, size, _sunny,         0.45, 0.02, 0.9, 0.20);
+    // Tiny sunny pop top-center
+    _blob(canvas, rect, size, _sunny,        0.45, 0.02, 0.9, 0.20);
 
-    // Soft white wash through the middle for content legibility
-    // Lower alpha so the colored blobs actually pop through.
-    _blob(canvas, rect, size, Colors.white,   0.50, 0.55, 2.0, 0.36);
+    // Soft white wash for content legibility
+    _blob(canvas, rect, size, Colors.white,  0.50, 0.55, 2.0, 0.36);
   }
 
   @override

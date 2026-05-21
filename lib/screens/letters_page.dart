@@ -3,8 +3,9 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:google_fonts/google_fonts.dart';
-import 'package:audioplayers/audioplayers.dart';
 import '../services/stage_service.dart';
+import '../services/language_service.dart';
+import '../services/audio_service.dart';
 
 Map<String, dynamic> _parseLettersJson(String jsonString) {
   return jsonDecode(jsonString) as Map<String, dynamic>;
@@ -46,7 +47,8 @@ class LettersPage extends StatefulWidget {
 
 class _LettersPageState extends State<LettersPage> {
   final StageService _stageService = StageService();
-  final AudioPlayer _audioPlayer = AudioPlayer();
+  final LanguageService _langService = LanguageService();
+  final AudioService _audioService = AudioService();
   List<LetterData> _letters = [];
   bool _isLoading = true;
   final String _searchQuery = "";
@@ -61,17 +63,17 @@ class _LettersPageState extends State<LettersPage> {
   void initState() {
     super.initState();
     _stageService.addListener(_onStageChanged);
+    _langService.addListener(_onLanguageChanged);
     _loadData();
-    _audioPlayer.onPositionChanged.listen((p) {
-      _audioPlayer.getDuration().then((d) {
-        if (d != null && d.inMilliseconds > 0 && mounted) {
-          setState(() {
-            _audioProgress = p.inMilliseconds / d.inMilliseconds;
-          });
-        }
-      });
+    _audioService.onPositionChanged.listen((p) async {
+      final d = await _audioService.getDuration();
+      if (d != null && d.inMilliseconds > 0 && mounted) {
+        setState(() {
+          _audioProgress = p.inMilliseconds / d.inMilliseconds;
+        });
+      }
     });
-    _audioPlayer.onPlayerComplete.listen((_) {
+    _audioService.setOnComplete(() {
       if (mounted) {
         setState(() {
           _playingIndex = null;
@@ -83,9 +85,14 @@ class _LettersPageState extends State<LettersPage> {
 
   @override
   void dispose() {
+    _audioService.stop();
     _stageService.removeListener(_onStageChanged);
-    _audioPlayer.dispose();
+    _langService.removeListener(_onLanguageChanged);
     super.dispose();
+  }
+
+  void _onLanguageChanged() {
+    _loadData();
   }
 
   void _onStageChanged() {
@@ -118,11 +125,12 @@ class _LettersPageState extends State<LettersPage> {
 
     try {
       if (mounted) setState(() { _isLoading = true; });
-      final String jsonString = await tryLoad('assets/data/letters.json');
+      final String jsonPath = _langService.getDataPath('letters');
+      final String jsonString = await tryLoad(jsonPath);
       final Map<String, dynamic> jsonResponse = await compute(_parseLettersJson, jsonString);
 
       final stageId = _stageService.selectedStage.id;
-      final List<dynamic> lettersList = (stageId == "nursery" || stageId == "primary12")
+      final List<dynamic> lettersList = (stageId == "nursery" || stageId == "primary12" || stageId == "special_needs_average")
           ? (jsonResponse['juniorLetters'] as List<dynamic>? ?? [])
           : (jsonResponse['fullLetters'] as List<dynamic>? ?? []);
 
@@ -156,21 +164,28 @@ class _LettersPageState extends State<LettersPage> {
   Future<void> _playAudio(int index) async {
     try {
       if (_playingIndex == index) {
-        await _audioPlayer.pause();
-        setState(() {
-          _playingIndex = null;
-          _audioProgress = 0.0;
-        });
+        await _audioService.stop();
+        if (mounted) {
+          setState(() {
+            _playingIndex = null;
+            _audioProgress = 0.0;
+          });
+        }
       } else {
-        await _audioPlayer.stop();
-        await _audioPlayer.play(AssetSource('audio/letters/$index.mp3'));
-        setState(() {
-          _playingIndex = index;
-          _audioProgress = 0.0;
-        });
+        final letter = _letters[index];
+        final audioPath = 'audio/letters/$index.mp3';
+        
+        await _audioService.playAsset(audioPath);
+        
+        if (mounted) {
+          setState(() {
+            _playingIndex = index;
+            _audioProgress = 0.0;
+          });
+        }
       }
     } catch (e) {
-      print("Audio playing error: $e");
+      debugPrint("Error playing audio: $e");
     }
   }
 
@@ -229,7 +244,7 @@ class _LettersPageState extends State<LettersPage> {
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
                     Text(
-                      'الحروف القبطية',
+                      _langService.translate('coptic_letters'),
                       style: GoogleFonts.cairo(
                         fontSize: 24,
                         fontWeight: FontWeight.w900,
@@ -238,7 +253,7 @@ class _LettersPageState extends State<LettersPage> {
                       ),
                     ),
                     Text(
-                      'سنة ٢٠٢٦ • ${_stageService.selectedStage.name}',
+                      '${_langService.translate('year_2026')} • ${_langService.translate(_stageService.selectedStage.id)}',
                       style: GoogleFonts.cairo(
                         fontSize: 11,
                         fontWeight: FontWeight.w800,
@@ -336,8 +351,9 @@ class _LettersPageState extends State<LettersPage> {
                                       height: 1.2,
                                     ),
                                   ),
+                                  const SizedBox(height: 4),
                                   Text(
-                                    'نطق الحرف: ${letter.phonetic}',
+                                    '${_langService.translate('pronunciation_label')}: ${letter.phonetic}',
                                     style: GoogleFonts.cairo(
                                       fontSize: 12,
                                       fontWeight: FontWeight.w800,

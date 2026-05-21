@@ -1,0 +1,830 @@
+{
+  "fullLetters": [
+    {
+      "char": "Ⲁ",
+      "small": "ⲁ",
+      "name": "Alpha",
+      "phonetic": "(A)",
+      "rules": [
+        {
+          "text": "(A) as in Father",
+          "label": "A"
+        }
+      ]
+    },
+    {
+      "char": "Ⲃ",
+      "small": "ⲃ",
+      "name": "Beta",
+      "phonetic": "V/B",
+      "rules": [
+        {
+          "text": "(V) if followed by a vowel (Ⲁ-Ⲉ-Ⲏ-Ⲓ-Ⲟ-Ⲩ-Ⲱ)",
+          "label": "V"
+        },
+        {
+          "text": "(B) otherwise",
+          "label": "B"
+        }
+      ]
+    },
+    {
+      "char": "Ⲅ",
+      "small": "ⲅ",
+      "name": "Gamma",
+      "phonetic": "G/N/Gh",
+      "rules": [
+        {
+          "text": "(G) if followed by a front vowel (Ⲉ-Ⲏ-Ⲓ-Ⲩ)",
+          "label": "G"
+        },
+        {
+          "text": "(N) if followed by a guttural (Ⲅ-Ⲕ-Ⲭ-Ⲝ)",
+          "label": "N"
+        },
+        {
+          "text": "(Gh) otherwise",
+          "label": "Gh"
+        }
+      ]
+    },
+    {
+      "char": "Ⲇ",
+      "small": "ⲇ",
+      "name": "Delta",
+      "phonetic": "D/Th",
+      "rules": [
+        {
+          "text": "(D) in proper nouns",
+          "label": "D"
+        },
+        {
+          "text": "(Th) as in The, otherwise",
+          "label": "Th"
+        }
+      ]
+    },
+    {
+      "char": "Ⲉ",
+      "small": "ⲉ",
+      "name": "Ei",
+      "phonetic": "(E)",
+      "rules": [
+        {
+          "text": "As in Egg (front vowel)",
+          "label": "E"
+        }
+      ]
+    },
+    {
+      "char": "ⲋ",
+      "small": "ⲋ",
+      "name": "So",
+      "phonetic": "6",
+      "rules": [
+        {
+          "text": "Used as a number (6)",
+          "label": "6"
+        }
+      ]
+    },
+    {
+      "char": "Ⲍ",
+      "small": "ⲍ",
+      "name": "Zeta",
+      "phonetic": "Z",
+      "rules": [
+        {
+          "text": "Always pronounced (Z)",
+          "label": "Z"
+        }
+      ]
+    },
+    {
+      "char": "Ⲏ",
+      "small": "ⲏ",
+      "name": "Eta",
+      "phonetic": "(I)",
+      "rules": [
+        {
+          "text": "Long (I) as in Meet (front vowel)",
+          "label": "I"
+        }
+      ]
+    },
+    {
+      "char": "Ⲑ",
+      "small": "ⲑ",
+      "name": "Theta",
+      "phonetic": "T/Th",
+      "rules": [
+        {
+          "text": "(T) if preceded by Ⲥ or Ϣ",
+          "label": "T"
+        },
+        {
+          "text": "(Th) as in Think, otherwise",
+          "label": "Th"
+        }
+      ]
+    },
+    {
+      "char": "Ⲓ",
+      "small": "ⲓ",
+      "name": "Iota",
+      "phonetic": "I",
+      "rules": [
+        {
+          "text": "Short (I) as in Bit (front vowel)",
+          "label": "I"
+        }
+      ]
+    },
+    {
+      "char": "Ⲕ",
+      "small": "ⲕ",
+      "name": "Kappa",
+      "phonetic": "K",
+      "rules": [
+        {
+          "text": "Always pronounced (K) (guttural)",
+          "label": "K"
+        }
+      ]
+    },
+    {
+      "char": "Ⲗ",
+      "small": "ⲗ",
+      "name": "Laula",
+      "phonetic": "L",
+      "rules": [
+        {
+          "text": "Always pronounced (L)",
+          "label": "L"
+        }
+      ]
+    },
+    {
+      "char": "Ⲙ",
+      "small": "ⲙ",
+      "name": "Me",
+      "phonetic": "M",
+      "rules": [
+        {
+          "text": "Always pronounced (M)",
+          "label": "M"
+        }
+      ]
+    },
+    {
+      "char": "Ⲛ",
+      "small": "ⲛ",
+      "name": "Ne",
+      "phonetic": "N",
+      "rules": [
+        {
+          "text": "Always pronounced (N)",
+          "label": "N"
+        }
+      ]
+    },
+    {
+      "char": "Ⲝ",
+      "small": "ⲝ",
+      "name": "Xi",
+      "phonetic": "X",
+      "rules": [
+        {
+          "text": "Always pronounced (X) (guttural)",
+          "label": "X"
+        }
+      ]
+    },
+    {
+      "char": "Ⲟ",
+      "small": "ⲟ",
+      "name": "Omicron",
+      "phonetic": "O",
+      "rules": [
+        {
+          "text": "Short (O) as in Not (vowel)",
+          "label": "O"
+        }
+      ]
+    },
+    {
+      "char": "Ⲡ",
+      "small": "ⲡ",
+      "name": "Pi",
+      "phonetic": "P",
+      "rules": [
+        {
+          "text": "Always pronounced (P)",
+          "label": "P"
+        }
+      ]
+    },
+    {
+      "char": "Ⲣ",
+      "small": "ⲣ",
+      "name": "Ro",
+      "phonetic": "R",
+      "rules": [
+        {
+          "text": "Always pronounced (R)",
+          "label": "R"
+        }
+      ]
+    },
+    {
+      "char": "Ⲥ",
+      "small": "ⲥ",
+      "name": "Semma",
+      "phonetic": "S/Z/S (emphatic)",
+      "rules": [
+        {
+          "text": "(Z) in Greek words before (Ⲙ)",
+          "label": "Z"
+        },
+        {
+          "text": "(S emphatic) before (Ⲁ / Ⲱ)",
+          "label": "S"
+        },
+        {
+          "text": "(S) otherwise",
+          "label": "S"
+        }
+      ]
+    },
+    {
+      "char": "Ⲧ",
+      "small": "ⲧ",
+      "name": "Tav",
+      "phonetic": "T/D/T (emphatic)",
+      "rules": [
+        {
+          "text": "(D) in Greek words after (ⲛ)",
+          "label": "D"
+        },
+        {
+          "text": "(T emphatic) before (Ⲁ / Ⲱ)",
+          "label": "T"
+        },
+        {
+          "text": "(T) otherwise",
+          "label": "T"
+        }
+      ]
+    },
+    {
+      "char": "Ⲩ",
+      "small": "ⲩ",
+      "name": "Upsilon",
+      "phonetic": "V/Ou/I",
+      "rules": [
+        {
+          "text": "(V) after (Ⲁ or Ⲉ)",
+          "label": "V"
+        },
+        {
+          "text": "(Ou) after (Ⲟ) as in Food",
+          "label": "Ou"
+        },
+        {
+          "text": "(I) otherwise",
+          "label": "I"
+        }
+      ]
+    },
+    {
+      "char": "Ⲫ",
+      "small": "ⲫ",
+      "name": "Phi",
+      "phonetic": "Ph",
+      "rules": [
+        {
+          "text": "Always pronounced (Ph)",
+          "label": "Ph"
+        }
+      ]
+    },
+    {
+      "char": "Ⲭ",
+      "small": "ⲭ",
+      "name": "Ki",
+      "phonetic": "K/Sh/Kh",
+      "rules": [
+        {
+          "text": "(K) in Coptic words (guttural)",
+          "label": "K"
+        },
+        {
+          "text": "(Sh) before front vowels (Ⲉ-Ⲏ-Ⲓ-Ⲩ)",
+          "label": "Sh"
+        },
+        {
+          "text": "(Kh) otherwise",
+          "label": "Kh"
+        }
+      ]
+    },
+    {
+      "char": "Ⲯ",
+      "small": "ⲯ",
+      "name": "Psi",
+      "phonetic": "Ps",
+      "rules": [
+        {
+          "text": "Always pronounced (Ps)",
+          "label": "Ps"
+        }
+      ]
+    },
+    {
+      "char": "Ⲱ",
+      "small": "ⲱ",
+      "name": "Omega",
+      "phonetic": "O",
+      "rules": [
+        {
+          "text": "Long (O) as in Go (vowel)",
+          "label": "O"
+        }
+      ]
+    },
+    {
+      "char": "Ϣ",
+      "small": "ϣ",
+      "name": "Shai",
+      "phonetic": "Sh",
+      "rules": [
+        {
+          "text": "Always pronounced (Sh)",
+          "label": "Sh"
+        }
+      ]
+    },
+    {
+      "char": "Ϥ",
+      "small": "ϥ",
+      "name": "Fai",
+      "phonetic": "F",
+      "rules": [
+        {
+          "text": "Always pronounced (F)",
+          "label": "F"
+        }
+      ]
+    },
+    {
+      "char": "Ϧ",
+      "small": "ϧ",
+      "name": "Khai",
+      "phonetic": "Kh",
+      "rules": [
+        {
+          "text": "Always pronounced (Kh) (guttural)",
+          "label": "Kh"
+        }
+      ]
+    },
+    {
+      "char": "Ϩ",
+      "small": "ϩ",
+      "name": "Hori",
+      "phonetic": "H",
+      "rules": [
+        {
+          "text": "Always pronounced (H)",
+          "label": "H"
+        }
+      ]
+    },
+    {
+      "char": "Ϫ",
+      "small": "ϫ",
+      "name": "Janja",
+      "phonetic": "G/J",
+      "rules": [
+        {
+          "text": "(J) before front vowels (Ⲉ-Ⲏ-Ⲓ-Ⲩ)",
+          "label": "J"
+        },
+        {
+          "text": "(G) otherwise",
+          "label": "G"
+        }
+      ]
+    },
+    {
+      "char": "Ϭ",
+      "small": "ϭ",
+      "name": "Tshima",
+      "phonetic": "Ch",
+      "rules": [
+        {
+          "text": "Always pronounced (Ch)",
+          "label": "Ch"
+        }
+      ]
+    },
+    {
+      "char": "Ϯ",
+      "small": "ϯ",
+      "name": "Ti",
+      "phonetic": "Ti",
+      "rules": [
+        {
+          "text": "Always pronounced (Ti)",
+          "label": "Ti"
+        }
+      ]
+    }
+  ],
+  "juniorLetters": [
+    {
+      "char": "Ⲁ",
+      "small": "ⲁ",
+      "name": "Alpha",
+      "phonetic": "A",
+      "rules": [
+        {
+          "text": "Pronounced (A)",
+          "label": "A"
+        }
+      ]
+    },
+    {
+      "char": "Ⲃ",
+      "small": "ⲃ",
+      "name": "Beta",
+      "phonetic": "V",
+      "rules": [
+        {
+          "text": "Pronounced (V)",
+          "label": "V"
+        }
+      ]
+    },
+    {
+      "char": "Ⲅ",
+      "small": "ⲅ",
+      "name": "Gamma",
+      "phonetic": "Gh",
+      "rules": [
+        {
+          "text": "Pronounced (Gh)",
+          "label": "Gh"
+        }
+      ]
+    },
+    {
+      "char": "Ⲇ",
+      "small": "ⲇ",
+      "name": "Delta",
+      "phonetic": "D",
+      "rules": [
+        {
+          "text": "Pronounced (D)",
+          "label": "D"
+        }
+      ]
+    },
+    {
+      "char": "Ⲉ",
+      "small": "ⲉ",
+      "name": "Ei",
+      "phonetic": "E",
+      "rules": [
+        {
+          "text": "Pronounced (E)",
+          "label": "E"
+        }
+      ]
+    },
+    {
+      "char": "ⲋ",
+      "small": "ⲋ",
+      "name": "So",
+      "phonetic": "6",
+      "rules": [
+        {
+          "text": "Number (6)",
+          "label": "6"
+        }
+      ]
+    },
+    {
+      "char": "Ⲍ",
+      "small": "ⲍ",
+      "name": "Zeta",
+      "phonetic": "Z",
+      "rules": [
+        {
+          "text": "Pronounced (Z)",
+          "label": "Z"
+        }
+      ]
+    },
+    {
+      "char": "Ⲏ",
+      "small": "ⲏ",
+      "name": "Eta",
+      "phonetic": "I",
+      "rules": [
+        {
+          "text": "Long (I)",
+          "label": "I"
+        }
+      ]
+    },
+    {
+      "char": "Ⲑ",
+      "small": "ⲑ",
+      "name": "Theta",
+      "phonetic": "Th",
+      "rules": [
+        {
+          "text": "Pronounced (Th)",
+          "label": "Th"
+        }
+      ]
+    },
+    {
+      "char": "Ⲓ",
+      "small": "ⲓ",
+      "name": "Iota",
+      "phonetic": "I",
+      "rules": [
+        {
+          "text": "Short (I)",
+          "label": "I"
+        }
+      ]
+    },
+    {
+      "char": "Ⲕ",
+      "small": "ⲕ",
+      "name": "Kappa",
+      "phonetic": "K",
+      "rules": [
+        {
+          "text": "Pronounced (K)",
+          "label": "K"
+        }
+      ]
+    },
+    {
+      "char": "Ⲗ",
+      "small": "ⲗ",
+      "name": "Laula",
+      "phonetic": "L",
+      "rules": [
+        {
+          "text": "Pronounced (L)",
+          "label": "L"
+        }
+      ]
+    },
+    {
+      "char": "Ⲙ",
+      "small": "ⲙ",
+      "name": "Me",
+      "phonetic": "M",
+      "rules": [
+        {
+          "text": "Pronounced (M)",
+          "label": "M"
+        }
+      ]
+    },
+    {
+      "char": "Ⲛ",
+      "small": "ⲛ",
+      "name": "Ne",
+      "phonetic": "N",
+      "rules": [
+        {
+          "text": "Pronounced (N)",
+          "label": "N"
+        }
+      ]
+    },
+    {
+      "char": "Ⲝ",
+      "small": "ⲝ",
+      "name": "Xi",
+      "phonetic": "X",
+      "rules": [
+        {
+          "text": "Pronounced (X)",
+          "label": "X"
+        }
+      ]
+    },
+    {
+      "char": "Ⲟ",
+      "small": "ⲟ",
+      "name": "Omicron",
+      "phonetic": "O",
+      "rules": [
+        {
+          "text": "Short (O)",
+          "label": "O"
+        }
+      ]
+    },
+    {
+      "char": "Ⲡ",
+      "small": "ⲡ",
+      "name": "Pi",
+      "phonetic": "P",
+      "rules": [
+        {
+          "text": "Pronounced (P)",
+          "label": "P"
+        }
+      ]
+    },
+    {
+      "char": "Ⲣ",
+      "small": "ⲣ",
+      "name": "Ro",
+      "phonetic": "R",
+      "rules": [
+        {
+          "text": "Pronounced (R)",
+          "label": "R"
+        }
+      ]
+    },
+    {
+      "char": "Ⲥ",
+      "small": "ⲥ",
+      "name": "Semma",
+      "phonetic": "S",
+      "rules": [
+        {
+          "text": "Pronounced (S)",
+          "label": "S"
+        }
+      ]
+    },
+    {
+      "char": "Ⲧ",
+      "small": "ⲧ",
+      "name": "Tav",
+      "phonetic": "T",
+      "rules": [
+        {
+          "text": "Pronounced (T)",
+          "label": "T"
+        }
+      ]
+    },
+    {
+      "char": "Ⲩ",
+      "small": "ⲩ",
+      "name": "Upsilon",
+      "phonetic": "I",
+      "rules": [
+        {
+          "text": "Pronounced (I)",
+          "label": "I"
+        }
+      ]
+    },
+    {
+      "char": "Ⲫ",
+      "small": "ⲫ",
+      "name": "Phi",
+      "phonetic": "Ph",
+      "rules": [
+        {
+          "text": "Pronounced (Ph)",
+          "label": "Ph"
+        }
+      ]
+    },
+    {
+      "char": "Ⲭ",
+      "small": "ⲭ",
+      "name": "Ki",
+      "phonetic": "K",
+      "rules": [
+        {
+          "text": "Pronounced (K)",
+          "label": "K"
+        }
+      ]
+    },
+    {
+      "char": "Ⲯ",
+      "small": "ⲯ",
+      "name": "Psi",
+      "phonetic": "Ps",
+      "rules": [
+        {
+          "text": "Pronounced (Ps)",
+          "label": "Ps"
+        }
+      ]
+    },
+    {
+      "char": "Ⲱ",
+      "small": "ⲱ",
+      "name": "Omega",
+      "phonetic": "O",
+      "rules": [
+        {
+          "text": "Long (O)",
+          "label": "O"
+        }
+      ]
+    },
+    {
+      "char": "Ϣ",
+      "small": "ϣ",
+      "name": "Shai",
+      "phonetic": "Sh",
+      "rules": [
+        {
+          "text": "Pronounced (Sh)",
+          "label": "Sh"
+        }
+      ]
+    },
+    {
+      "char": "Ϥ",
+      "small": "ϥ",
+      "name": "Fai",
+      "phonetic": "F",
+      "rules": [
+        {
+          "text": "Pronounced (F)",
+          "label": "F"
+        }
+      ]
+    },
+    {
+      "char": "Ϧ",
+      "small": "ϧ",
+      "name": "Khai",
+      "phonetic": "Kh",
+      "rules": [
+        {
+          "text": "Pronounced (Kh)",
+          "label": "Kh"
+        }
+      ]
+    },
+    {
+      "char": "Ϩ",
+      "small": "ϩ",
+      "name": "Hori",
+      "phonetic": "H",
+      "rules": [
+        {
+          "text": "Pronounced (H)",
+          "label": "H"
+        }
+      ]
+    },
+    {
+      "char": "Ϫ",
+      "small": "ϫ",
+      "name": "Janja",
+      "phonetic": "J",
+      "rules": [
+        {
+          "text": "Pronounced (J)",
+          "label": "J"
+        }
+      ]
+    },
+    {
+      "char": "Ϭ",
+      "small": "ϭ",
+      "name": "Tshima",
+      "phonetic": "Ch",
+      "rules": [
+        {
+          "text": "Pronounced (Ch)",
+          "label": "Ch"
+        }
+      ]
+    },
+    {
+      "char": "Ϯ",
+      "small": "ϯ",
+      "name": "Ti",
+      "phonetic": "Ti",
+      "rules": [
+        {
+          "text": "Pronounced (Ti)",
+          "label": "Ti"
+        }
+      ]
+    }
+  ]
+}

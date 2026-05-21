@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:audioplayers/audioplayers.dart';
 import '../models/hymn_models.dart';
 import '../services/bookmark_service.dart';
+import '../services/audio_service.dart';
+import '../services/language_service.dart';
 
 class BookmarksPage extends StatefulWidget {
   const BookmarksPage({super.key});
@@ -13,22 +14,25 @@ class BookmarksPage extends StatefulWidget {
 
 class _BookmarksPageState extends State<BookmarksPage> {
   final BookmarkService _bookmarkService = BookmarkService();
-  final AudioPlayer _audioPlayer = AudioPlayer();
+  final AudioService _audioService = AudioService();
+  final LanguageService _langService = LanguageService();
   String? _currentlyPlayingId;
 
   @override
   void initState() {
     super.initState();
     _bookmarkService.addListener(_update);
-    _audioPlayer.onPlayerComplete.listen((_) {
+    _langService.addListener(_update);
+    _audioService.setOnComplete(() {
       if (mounted) setState(() => _currentlyPlayingId = null);
     });
   }
 
   @override
   void dispose() {
+    _audioService.stop();
     _bookmarkService.removeListener(_update);
-    _audioPlayer.dispose();
+    _langService.removeListener(_update);
     super.dispose();
   }
 
@@ -50,15 +54,25 @@ class _BookmarksPageState extends State<BookmarksPage> {
     if (verse.audioPath == null || verse.audioPath!.isEmpty) return;
     try {
       if (_currentlyPlayingId == verse.id) {
-        await _audioPlayer.pause();
+        await _audioService.pause();
         setState(() => _currentlyPlayingId = null);
       } else {
-        await _audioPlayer.stop();
-        await _audioPlayer.play(AssetSource(verse.audioPath!));
+        await _audioService.stop();
+        // Remove leading slash if it exists
+        String path = verse.audioPath!;
+        if (path.startsWith('/')) {
+          path = path.substring(1);
+        }
+        await _audioService.playAsset(path);
         setState(() => _currentlyPlayingId = verse.id);
+        
+        // Re-attach completion listener in case it was overwritten
+        _audioService.setOnComplete(() {
+          if (mounted) setState(() => _currentlyPlayingId = null);
+        });
       }
     } catch (e) {
-      print("Audio playing error: $e");
+      debugPrint("Audio playing error: $e");
     }
   }
 
@@ -92,7 +106,7 @@ class _BookmarksPageState extends State<BookmarksPage> {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Text(
-                    'الآيات والمحفوظات',
+                    _langService.translate('bookmarks_title'),
                     style: GoogleFonts.cairo(
                       fontSize: 22,
                       fontWeight: FontWeight.w900,
@@ -100,7 +114,7 @@ class _BookmarksPageState extends State<BookmarksPage> {
                     ),
                   ),
                   Text(
-                    'سنة ٢٠٢٦ • محفوظاتك الشخصية',
+                    '${_langService.translate('year_2026')} • ${_langService.translate('bookmarks_subtitle')}',
                     style: GoogleFonts.cairo(
                       fontSize: 10,
                       fontWeight: FontWeight.w900,
@@ -267,7 +281,7 @@ class _BookmarksPageState extends State<BookmarksPage> {
                       const Icon(Icons.star_border_rounded, size: 64, color: Color(0xFFCBD5E1)),
                       const SizedBox(height: 12),
                       Text(
-                        'صفحة المحفوظات فاضية.\nاضغط على النجمة لحفظ أي جملة.',
+                        _langService.translate('bookmarks_empty'),
                         textAlign: TextAlign.center,
                         style: GoogleFonts.cairo(
                           fontSize: 15,

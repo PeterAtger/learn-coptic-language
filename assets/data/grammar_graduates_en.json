@@ -1,0 +1,1466 @@
+[
+  {
+    "id": "uni-intro",
+    "title": "General Rules",
+    "stageIds": [
+      "uni",
+      "graduates",
+      "servants",
+      "servants_trainees"
+    ],
+    "sections": [
+      {
+        "type": "note",
+        "title": "",
+        "content": "The Coptic alphabet consists of 32 letters divided as follows:"
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Division of Coptic Alphabet",
+            ""
+          ],
+          "rows": [
+            [
+              "24 Consonants",
+              "7 Vowels",
+              "[c]<?[/c] (So) used as number 6 only"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "",
+        "content": "The [c]`[/c] (Jenkim) is a mark drawn as ( [c]`[/c] ) or ( [c]~[/c] ). When placed on a consonant, it is pronounced as [c]E[/c]. If placed on a vowel, it indicates the independence of that vowel's pronunciation."
+      },
+      {
+        "type": "table",
+        "title": "Vowels are divided into:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Vowel Divisions",
+            ""
+          ],
+          "rows": [
+            [
+              "Open Vowels",
+              "Rounded Vowels",
+              "Closed Vowels"
+            ],
+            [
+              "[c]A[/c]",
+              "[c]W - O[/c]",
+              "[c]E - H - I - U[/c]"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "uni-lvl1",
+    "title": "Level 1",
+    "stageIds": [
+      "uni",
+      "graduates",
+      "servants",
+      "servants_trainees"
+    ],
+    "sections": [
+      {
+        "type": "note",
+        "title": "",
+        "content": "Differentiating between Coptic words and Greek words"
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Coptic vs Greek",
+            ""
+          ],
+          "rows": [
+            [
+              "Seven letters usually appear in Coptic words: \n [c](]-f-'-\\-j-s-;)[/c]",
+              "Arm",
+              "[c]` Jvoi[/c]"
+            ],
+            [
+              "Five letters usually appear in Greek words: \n [c](g-d-z-[-y)[/c]",
+              "Asceticism",
+              "[c]Egkratia[/c]"
+            ],
+            [
+              "Words where the letter [c]u[/c] is pronounced as (y) are usually Greek words.",
+              "Lampstand",
+              "[c]Luxnia[/c]"
+            ],
+            [
+              "A word can be Greek if it ends with one of these suffixes: \n [c] ac - oc - hc - an - on - hn[/c]",
+              "Only-begotten",
+              "[c]Monogenhc[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Important Notes",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Important Notes",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "The letters [c]y - z - [[/c] appear in Greek words, but in rare cases they can appear in Coptic words.",
+                "rowSpan": 3
+              },
+              "School",
+              "[c]Anzhb[/c]"
+            ],
+            [
+              "Number 9",
+              "[c]Yit[/c]"
+            ],
+            [
+              "Curtain",
+              "[c]Li[[/c]"
+            ],
+            [
+              "The letter [c]|[/c] appears in Coptic words only, but it is sometimes used before Greek words to represent the Greek aspiration mark.",
+              "Governor / Ruler",
+              "[c]|hgemwn[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Articles (Definite and Indefinite)",
+        "content": "When a noun is used in a sentence, it is preceded by a definite or indefinite article. These articles are always attached to the noun."
+      },
+      {
+        "type": "table",
+        "title": "First: Definite Articles",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Definite Articles",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Description",
+              "Plural",
+              "Feminine Singular",
+              "Masculine Singular"
+            ],
+            [
+              "General Definite Articles",
+              "[c]Ni[/c]",
+              "[c]:[/c]",
+              "[c]Pi[/c]"
+            ],
+            [
+              {
+                "value": "Special article for words starting with these letters: \n [c]B - I - L - M - N - Ou - R[/c]",
+                "colSpan": 1
+              },
+              "",
+              "[c]` Q[/c]",
+              "[c]` V[/c]"
+            ],
+            [
+              {
+                "value": "Special article for words NOT starting with these letters: \n [c]B - I - L - M - N - Ou - R[/c]",
+                "colSpan": 1
+              },
+              "",
+              "[c]` T[/c]",
+              "[c]` P[/c]"
+            ],
+            [
+              "Special article for added plural nouns",
+              "[c]Nen[/c]",
+              {
+                "value": "",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "value": "If a vowel follows [c]I[/c] or [c]Ou[/c] at the beginning of a word, the articles [c]`v-`q[/c] are used. If a consonant follows, [c]`p-`t[/c] are used.",
+                "colSpan": 4
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Examples of Definite Articles:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Examples of Definite Articles",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "The tombs",
+              "[c]Ni`m\\au[/c]",
+              "The city",
+              "[c]`Qbaki[/c]",
+              "God",
+              "[c]`Vnou;[/c]"
+            ],
+            [
+              "The Apostles",
+              "[c]Niapoctoloc[/c]",
+              "The widow (F)",
+              "[c]~Txhra[/c]",
+              "The widow (M)",
+              "[c]~Pxhroc[/c]"
+            ],
+            [
+              "The churches",
+              "[c]Niekklhcia[/c]",
+              "The school",
+              "[c]:anzhb[/c]",
+              "The baptism",
+              "[c]Piwmc[/c]"
+            ],
+            [
+              {
+                "value": "The books of the church",
+                "colSpan": 3
+              },
+              {
+                "value": "[c]Nenjwm `nte ;ekklhcia[/c]",
+                "colSpan": 3
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Articles can sometimes distinguish meanings for words with multiple meanings:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Distinguishing meanings with articles",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Barley",
+              "[c]Piiwt[/c]",
+              "The Father",
+              "[c]` Viwt[/c]"
+            ],
+            [
+              "Winepress",
+              "[c]Piiom[/c]",
+              "The Sea",
+              "[c]` Viom[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Second: Indefinite Articles",
+        "content": "These are used before nouns that do not have a definite article to make them indefinite."
+      },
+      {
+        "type": "table",
+        "title": "Indefinite Articles",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Indefinite Articles",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "For Plural (Both)",
+              "[c]|an[/c]",
+              "For Singular (Both)",
+              "[c]Ou[/c]"
+            ],
+            [
+              "Drums",
+              "[c]|ankemkem[/c]",
+              "A censer",
+              "[c]Ou]ourh[/c]"
+            ],
+            [
+              "Lampstands",
+              "[c]|anluxnia[/c]",
+              "A cup",
+              "[c]Ou`avot[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "First Present Tense",
+        "content": "Expresses an action happening currently, at the moment of speaking. For example: I am speaking, he is reading, etc. The verb is conjugated with pronouns as follows:"
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "First Present Tense",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "Conjugation with Pronouns",
+                "colSpan": 2
+              },
+              {
+                "value": "Example with a verb",
+                "colSpan": 2
+              }
+            ],
+            [
+              "I",
+              "[c]:[/c]",
+              "I bless the Lord",
+              "[c]:`cmou `ePoc? [/c]"
+            ],
+            [
+              "You (Masc.)",
+              "[c]` K[/c]",
+              "You bless the Lord",
+              "[c]` K`cmou `ePoc?[/c]"
+            ],
+            [
+              "You (Fem.)",
+              "[c]Te[/c]",
+              "You bless the Lord",
+              "[c]Te`cmou `ePoc?[/c]"
+            ],
+            [
+              "He",
+              "[c]` F[/c]",
+              "He blesses the Lord",
+              "[c]` F`cmou `ePoc?[/c]"
+            ],
+            [
+              "She",
+              "[c]` C[/c]",
+              "She blesses the Lord",
+              "[c]` C`cmou `ePoc?[/c]"
+            ],
+            [
+              "We",
+              "[c]Ten[/c]",
+              "We bless the Lord",
+              "[c]Ten`cmou `ePoc?[/c]"
+            ],
+            [
+              "You (Plural)",
+              "[c]Teten[/c]",
+              "You bless the Lord",
+              "[c]Teten`cmou `ePoc?[/c]"
+            ],
+            [
+              "They",
+              "[c]Ce[/c]",
+              "They bless the Lord",
+              "[c]Ce`cmou `ePoc?[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Object Markers",
+        "content": "A direct object noun takes one of these markers ([c]`e-`m-`n[/c]). The [c]`n-[/c] marker changes to [c]`m-[/c] before labial letters [c](y. b. m. p. v)[/c]."
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "For example",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "[c]`m[/c]",
+                "colSpan": 2
+              },
+              {
+                "value": "[c]`n[/c]",
+                "colSpan": 2
+              }
+            ],
+            [
+              "Sing to the Lord a new song",
+              "[c]Jw `mPoc? 'en oujw `mberi[/c]",
+              "Lift up your gates, O princes",
+              "[c]Fai `nnetenpulh `e`p]wpi niarxwn[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Object Pronouns",
+        "content": "The object marker attaches to the pronoun. Attached to [c]`n-[/c]/[c]`m-[/c] it becomes [c]`mmo-[/c], attached to [c]`e-[/c] it becomes [c]`ero-[/c]."
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "For example",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Us",
+              "[c]`mmon[/c]",
+              "Me",
+              "[c]`mmoi[/c]",
+              "Us",
+              "[c]`eron[/c]",
+              "Me",
+              "[c]`eroi[/c]"
+            ],
+            [
+              {
+                "value": "You (Plural)",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]`mmwten[/c]",
+                "rowSpan": 2
+              },
+              "You (Masc.)",
+              "[c]`mmok[/c]",
+              {
+                "value": "You (Plural)",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]`erwten[/c]",
+                "rowSpan": 2
+              },
+              "You (Masc.)",
+              "[c]`erok[/c]"
+            ],
+            [
+              "You (Fem.)",
+              "[c]`mmo[/c]",
+              "You (Fem.)",
+              "[c]`ero[/c]"
+            ],
+            [
+              {
+                "value": "Them",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]`mmwou[/c]",
+                "rowSpan": 2
+              },
+              "Him",
+              "[c]`mmof[/c]",
+              {
+                "value": "Them",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]`erwou[/c]",
+                "rowSpan": 2
+              },
+              "Him",
+              "[c]`erof[/c]"
+            ],
+            [
+              "Her",
+              "[c]`mmoc[/c]",
+              "Her",
+              "[c]`eroc[/c]"
+            ],
+            [
+              {
+                "value": "Hasten, O Lord, and help me",
+                "colSpan": 4
+              },
+              {
+                "value": "[c]Xwlem Poc? Aribo`hqin `eroi[/c]",
+                "colSpan": 4
+              }
+            ],
+            [
+              {
+                "value": "I love my God from the depth of my heart",
+                "colSpan": 4
+              },
+              {
+                "value": "[c]:mei `mpanou; 'en `p]wk `mpa\\ht[/c]",
+                "colSpan": 4
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Some Abbreviations (Nomina Sacra)",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Abbreviations",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Meaning",
+              "Abbreviation",
+              "Original Word"
+            ],
+            [
+              "God",
+              "[c]V:[/c]",
+              "[c]`Vnou;[/c]"
+            ],
+            [
+              "The Lord",
+              "[c]Poc?[/c]",
+              "[c]` Psoic[/c]"
+            ],
+            [
+              "Jesus",
+              "[c]Ihc?[/c]",
+              "[c]Ihcouc[/c]"
+            ],
+            [
+              "Christ",
+              "[c]Pxc?[/c]",
+              "[c]Pixrictoc[/c]"
+            ],
+            [
+              "The Spirit",
+              "[c]Pipn?a?[/c]",
+              "[c]Pi`pneuma[/c]"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "uni-lvl2",
+    "title": "Level 2",
+    "stageIds": [
+      "uni",
+      "graduates",
+      "servants",
+      "servants_trainees"
+    ],
+    "sections": [
+      {
+        "type": "note",
+        "title": "",
+        "content": "Differentiating between Coptic words and Greek words"
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Coptic vs Greek",
+            ""
+          ],
+          "rows": [
+            [
+              "Seven letters usually appear in Coptic words: \n [c](]-f-'-\\-j-s-;)[/c]",
+              "Arm",
+              "[c]` Jvoi[/c]"
+            ],
+            [
+              "Five letters usually appear in Greek words: \n [c](g-d-z-[-y)[/c]",
+              "Asceticism",
+              "[c]Egkratia[/c]"
+            ],
+            [
+              "Words where the letter [c]u[/c] is pronounced as (y) are usually Greek words.",
+              "Lampstand",
+              "[c]Luxnia[/c]"
+            ],
+            [
+              "A word can be Greek if it ends with one of these suffixes: \n [c] ac - oc - hc - an - on - hn[/c]",
+              "Only-begotten",
+              "[c]Monogenhc[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Important Notes",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Important Notes",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "The letters [c]y - z - [[/c] appear in Greek words, but in rare cases they can appear in Coptic words.",
+                "rowSpan": 3
+              },
+              "School",
+              "[c]Anzhb[/c]"
+            ],
+            [
+              "Number 9",
+              "[c]Yit[/c]"
+            ],
+            [
+              "Curtain",
+              "[c]Li[[/c]"
+            ],
+            [
+              "The letter [c]|[/c] appears in Coptic words only, but it is sometimes used before Greek words to represent the Greek aspiration mark.",
+              "Governor / Ruler",
+              "[c]|hgemwn[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Articles (Definite and Indefinite)",
+        "content": "When a noun is used in a sentence, it is preceded by a definite or indefinite article. These articles are always attached to the noun."
+      },
+      {
+        "type": "table",
+        "title": "First: Definite Articles",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Definite Articles",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Description",
+              "Plural",
+              "Feminine Singular",
+              "Masculine Singular"
+            ],
+            [
+              "General Definite Articles",
+              "[c]Ni[/c]",
+              "[c]:[/c]",
+              "[c]Pi[/c]"
+            ],
+            [
+              {
+                "value": "Special article for words starting with these letters: \n [c]B - I - L - M - N - Ou - R[/c]",
+                "colSpan": 1
+              },
+              "",
+              "[c]` Q[/c]",
+              "[c]` V[/c]"
+            ],
+            [
+              {
+                "value": "Special article for words NOT starting with these letters: \n [c]B - I - L - M - N - Ou - R[/c]",
+                "colSpan": 1
+              },
+              "",
+              "[c]` T[/c]",
+              "[c]` P[/c]"
+            ],
+            [
+              "Special article for added plural nouns",
+              "[c]Nen[/c]",
+              {
+                "value": "",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "value": "If a vowel follows [c]I[/c] or [c]Ou[/c] at the beginning of a word, the articles [c]`v-`q[/c] are used. If a consonant follows, [c]`p-`t[/c] are used.",
+                "colSpan": 4
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Examples of Definite Articles:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Examples of Definite Articles",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "The tombs",
+              "[c]Ni`m\\au[/c]",
+              "The city",
+              "[c]`Qbaki[/c]",
+              "God",
+              "[c]`Vnou;[/c]"
+            ],
+            [
+              "The Apostles",
+              "[c]Niapoctoloc[/c]",
+              "The widow (F)",
+              "[c]~Txhra[/c]",
+              "The widow (M)",
+              "[c]~Pxhroc[/c]"
+            ],
+            [
+              "The churches",
+              "[c]Niekklhcia[/c]",
+              "The school",
+              "[c]:anzhb[/c]",
+              "The baptism",
+              "[c]Piwmc[/c]"
+            ],
+            [
+              {
+                "value": "The books of the church",
+                "colSpan": 3
+              },
+              {
+                "value": "[c]Nenjwm `nte ;ekklhcia[/c]",
+                "colSpan": 3
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Articles can sometimes distinguish meanings for words with multiple meanings:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Distinguishing meanings with articles",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Barley",
+              "[c]Piiwt[/c]",
+              "The Father",
+              "[c]` Viwt[/c]"
+            ],
+            [
+              "Winepress",
+              "[c]Piiom[/c]",
+              "The Sea",
+              "[c]` Viom[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Second: Indefinite Articles",
+        "content": "These are used before nouns that do not have a definite article to make them indefinite."
+      },
+      {
+        "type": "table",
+        "title": "Indefinite Articles",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Indefinite Articles",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "For Plural (Both)",
+              "[c]|an[/c]",
+              "For Singular (Both)",
+              "[c]Ou[/c]"
+            ],
+            [
+              "Drums",
+              "[c]|ankemkem[/c]",
+              "A censer",
+              "[c]Ou]ourh[/c]"
+            ],
+            [
+              "Lampstands",
+              "[c]|anluxnia[/c]",
+              "A cup",
+              "[c]Ou`avot[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "First Present Tense",
+        "content": "Expresses an action happening currently, at the moment of speaking. For example: I am speaking, he is reading, etc. The verb is conjugated with pronouns as follows:"
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "First Present Tense",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "Conjugation with Pronouns",
+                "colSpan": 2
+              },
+              {
+                "value": "Example with a verb",
+                "colSpan": 2
+              }
+            ],
+            [
+              "I",
+              "[c]:[/c]",
+              "I bless the Lord",
+              "[c]:`cmou `ePoc? [/c]"
+            ],
+            [
+              "You (Masc.)",
+              "[c]` K[/c]",
+              "You bless the Lord",
+              "[c]` K`cmou `ePoc?[/c]"
+            ],
+            [
+              "You (Fem.)",
+              "[c]Te[/c]",
+              "You bless the Lord",
+              "[c]Te`cmou `ePoc?[/c]"
+            ],
+            [
+              "He",
+              "[c]` F[/c]",
+              "He blesses the Lord",
+              "[c]` F`cmou `ePoc?[/c]"
+            ],
+            [
+              "She",
+              "[c]` C[/c]",
+              "She blesses the Lord",
+              "[c]` C`cmou `ePoc?[/c]"
+            ],
+            [
+              "We",
+              "[c]Ten[/c]",
+              "We bless the Lord",
+              "[c]Ten`cmou `ePoc?[/c]"
+            ],
+            [
+              "You (Plural)",
+              "[c]Teten[/c]",
+              "You bless the Lord",
+              "[c]Teten`cmou `ePoc?[/c]"
+            ],
+            [
+              "They",
+              "[c]Ce[/c]",
+              "They bless the Lord",
+              "[c]Ce`cmou `ePoc?[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Object Markers",
+        "content": "A direct object noun takes one of these markers ([c]`e-`m-`n[/c]). The [c]`n-[/c] marker changes to [c]`m-[/c] before labial letters [c](y. b. m. p. v)[/c]."
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [],
+          "rows": [
+            [
+              {
+                "value": "[c]`m[/c]",
+                "colSpan": 2
+              },
+              {
+                "value": "[c]`n[/c]",
+                "colSpan": 2
+              }
+            ],
+            [
+              "Sing to the Lord a new song",
+              "[c]Jw `mPoc? 'en oujw `mberi[/c]",
+              "Lift up your gates, O princes",
+              "[c]Fai `nnetenpulh `e`p]wpi niarxwn[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Object Pronouns",
+        "content": "The object marker attaches to the pronoun. Attached to [c]`n-[/c]/[c]`m-[/c] it becomes [c]`mmo-[/c], attached to [c]`e-[/c] it becomes [c]`ero-[/c]."
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "For example",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Us",
+              "[c]`mmon[/c]",
+              "Me",
+              "[c]`mmoi[/c]",
+              "Us",
+              "[c]`eron[/c]",
+              "Me",
+              "[c]`eroi[/c]"
+            ],
+            [
+              {
+                "value": "You (Plural)",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]`mmwten[/c]",
+                "rowSpan": 2
+              },
+              "You (Masc.)",
+              "[c]`mmok[/c]",
+              {
+                "value": "You (Plural)",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]`erwten[/c]",
+                "rowSpan": 2
+              },
+              "You (Masc.)",
+              "[c]`erok[/c]"
+            ],
+            [
+              "You (Fem.)",
+              "[c]`mmo[/c]",
+              "You (Fem.)",
+              "[c]`ero[/c]"
+            ],
+            [
+              {
+                "value": "Them",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]`mmwou[/c]",
+                "rowSpan": 2
+              },
+              "Him",
+              "[c]`mmof[/c]",
+              {
+                "value": "Them",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]`erwou[/c]",
+                "rowSpan": 2
+              },
+              "Him",
+              "[c]`erof[/c]"
+            ],
+            [
+              "Her",
+              "[c]`mmoc[/c]",
+              "Her",
+              "[c]`eroc[/c]"
+            ],
+            [
+              {
+                "value": "Hasten, O Lord, and help me",
+                "colSpan": 4
+              },
+              {
+                "value": "[c]Xwlem Poc? Aribo`hqin `eroi[/c]",
+                "colSpan": 4
+              }
+            ],
+            [
+              {
+                "value": "I love my God from the depth of my heart",
+                "colSpan": 4
+              },
+              {
+                "value": "[c]:mei `mpanou; 'en `p]wk `mpa\\ht[/c]",
+                "colSpan": 4
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Some Abbreviations (Nomina Sacra)",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Abbreviations",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Meaning",
+              "Abbreviation",
+              "Original Word"
+            ],
+            [
+              "God",
+              "[c]V:[/c]",
+              "[c]`Vnou;[/c]"
+            ],
+            [
+              "The Lord",
+              "[c]Poc?[/c]",
+              "[c]` Psoic[/c]"
+            ],
+            [
+              "Jesus",
+              "[c]Ihc?[/c]",
+              "[c]Ihcouc[/c]"
+            ],
+            [
+              "Christ",
+              "[c]Pxc?[/c]",
+              "[c]Pixrictoc[/c]"
+            ],
+            [
+              "The Spirit",
+              "[c]Pipn?a?[/c]",
+              "[c]Pi`pneuma[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Third Present (Circumstantial Present)",
+        "content": "Used to express the state of the subject or object. Translated as 'while', 'during', or 'as'. Conjugated as follows:"
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Third Present Conjugations",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "Conjugation",
+                "colSpan": 2
+              },
+              {
+                "value": "Example with a verb",
+                "colSpan": 2
+              }
+            ],
+            [
+              "I",
+              "[c]Ei[/c]",
+              "While I am awake",
+              "[c]Eine\\ci[/c]"
+            ],
+            [
+              "You (Masc.)",
+              "[c]Ek[/c]",
+              "While you are awake",
+              "[c]Ekne\\ci[/c]"
+            ],
+            [
+              "You (Fem.)",
+              "[c]Ere[/c]",
+              "While you are awake",
+              "[c]Erene\\ci[/c]"
+            ],
+            [
+              "He",
+              "[c]Ef[/c]",
+              "While he is awake",
+              "[c]Efne\\ci[/c]"
+            ],
+            [
+              "She",
+              "[c]Ec[/c]",
+              "While she is awake",
+              "[c]Ecne\\ci[/c]"
+            ],
+            [
+              "We",
+              "[c]En[/c]",
+              "While we are awake",
+              "[c]Enne\\ci[/c]"
+            ],
+            [
+              "You (Plural)",
+              "[c]Ereten[/c]",
+              "While you are awake",
+              "[c]Eretenne\\ci[/c]"
+            ],
+            [
+              "They",
+              "[c]Eu[/c]",
+              "While they are awake",
+              "[c]Eune\\ci[/c]"
+            ],
+            [
+              {
+                "value": "Also used as an adjective for indefinite nouns.",
+                "colSpan": 4
+              }
+            ],
+            [
+              {
+                "value": "Found with child from the Holy Spirit",
+                "colSpan": 2
+              },
+              {
+                "value": "[c]Aujemc ec`mboki `ebol'en oupn?a? Eqouab[/c]",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "value": "Negated by adding [c]An[/c] after the verb.",
+                "colSpan": 4
+              }
+            ],
+            [
+              {
+                "value": "Pilate said to Him, 'Why do you not speak with me?'",
+                "colSpan": 2
+              },
+              {
+                "value": "[c]Peje pilatoc naf je eqbe ou ekcaji nemhi an[/c]",
+                "colSpan": 2
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Examples:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Examples",
+            ""
+          ],
+          "rows": [
+            [
+              "Why then do you baptize if you are not the Christ?",
+              "[c]Ie eqbe ou ek;wmc icje `nqok an pe Pxc?.[/c]"
+            ],
+            [
+              "Crying out one to another, saying...",
+              "[c]Euw] `ebol ouai oube ouai `mmwou eujw `mmoc[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Certain Future (Future II)",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Certain Future",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "Indicates an event that will certainly happen. Used in prophecies and divine promises.",
+                "colSpan": 2
+              }
+            ],
+            [
+              "She shall bring forth a son, and you shall call His name Jesus",
+              "[c]Ec`emici `nou]hri ek`emou; `epefran je Ihc?[/c]"
+            ],
+            [
+              {
+                "value": "Also used in petitions and prayers.",
+                "colSpan": 2
+              }
+            ],
+            [
+              "Wash me thoroughly from my iniquity, and cleanse me from my sin",
+              "[c]Ek`era'; `n\\ou`o `ebol'a ta`anomina ouo\\ ek`etouboi `ebol'a panobi[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Affirmative Future II",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Affirmative Future II",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "Conjugation",
+                "colSpan": 2
+              },
+              {
+                "value": "Example with a verb",
+                "colSpan": 2
+              }
+            ],
+            [
+              "I shall",
+              "[c]Ei`e[/c]",
+              "I shall read the lesson",
+              "[c]Ei`ew] `mpiw][/c]"
+            ],
+            [
+              "You (Masc.) shall",
+              "[c]Ek`e[/c]",
+              "You shall read the lesson",
+              "[c]Ek`ew] `mpiw][/c]"
+            ],
+            [
+              "You (Fem.) shall",
+              "[c]Er`e[/c]",
+              "You shall read the lesson",
+              "[c]Er`ew] `mpiw][/c]"
+            ],
+            [
+              "He shall",
+              "[c]Ef`e[/c]",
+              "He shall read the lesson",
+              "[c]Ef`ew] `mpiw][/c]"
+            ],
+            [
+              "She shall",
+              "[c]Ec`e[/c]",
+              "She shall read the lesson",
+              "[c]Ec`ew] `mpiw][/c]"
+            ],
+            [
+              "We shall",
+              "[c]En`e[/c]",
+              "We shall read the lesson",
+              "[c]En`ew] `mpiw][/c]"
+            ],
+            [
+              "You (Plural) shall",
+              "[c]Ereten`e[/c]",
+              "You shall read the lesson",
+              "[c]Ereten`ew] `mpiw][/c]"
+            ],
+            [
+              "They shall",
+              "[c]Eu`e[/c]",
+              "They shall read the lesson",
+              "[c]Eu`ew] `mpiw][/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Negative Future II",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Negative Future II",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "Conjugation",
+                "colSpan": 2
+              },
+              {
+                "value": "Example with a verb",
+                "colSpan": 2
+              }
+            ],
+            [
+              "I shall not",
+              "[c]` Nna[/c]",
+              "I shall not kill",
+              "[c]` Nna'wteb[/c]"
+            ],
+            [
+              "You (Masc.) shall not",
+              "[c]` Nnek[/c]",
+              "You shall not kill",
+              "[c]` Nnek'wteb[/c]"
+            ],
+            [
+              "You (Fem.) shall not",
+              "[c]` Nne[/c]",
+              "You shall not kill",
+              "[c]` Nne'wteb[/c]"
+            ],
+            [
+              "He shall not",
+              "[c]` Nnef[/c]",
+              "He shall not kill",
+              "[c]` Nnef'wteb[/c]"
+            ],
+            [
+              "She shall not",
+              "[c]` Nnec[/c]",
+              "She shall not kill",
+              "[c]` Nnec'wteb[/c]"
+            ],
+            [
+              "We shall not",
+              "[c]` Nnen[/c]",
+              "We shall not kill",
+              "[c]` Nnen'wteb[/c]"
+            ],
+            [
+              "You (Plural) shall not",
+              "[c]` Nneten[/c]",
+              "You shall not kill",
+              "[c]` Nneten'wteb[/c]"
+            ],
+            [
+              "They shall not",
+              "[c]` Nnou[/c]",
+              "They shall not kill",
+              "[c]` Nnou'wteb[/c]"
+            ],
+            [
+              {
+                "value": "The Lord is my Shepherd; I shall not want anything",
+                "colSpan": 2
+              },
+              {
+                "value": "[c]` Psoic peqna`amoni `mmoi `nnef`qri`er 'a`e `n`\\li[/c]",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "value": "Negative Future II is also used for prohibition (Thou shalt not).",
+                "colSpan": 4
+              }
+            ],
+            [
+              {
+                "value": "Do not swear at all",
+                "colSpan": 2
+              },
+              {
+                "value": "[c]` Nnekwrk `nnouj[/c]",
+                "colSpan": 2
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  }
+]

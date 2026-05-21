@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:audioplayers/audioplayers.dart';
 import '../models/hymn_models.dart';
 import '../services/bookmark_service.dart';
+import '../services/audio_service.dart';
 
 class HymnCard extends StatefulWidget {
   final HymnVerse verse;
@@ -27,19 +27,24 @@ class HymnCard extends StatefulWidget {
 
 class _HymnCardState extends State<HymnCard> {
   final BookmarkService _bookmarkService = BookmarkService();
-  final AudioPlayer _audioPlayer = AudioPlayer();
+  final AudioService _audioService = AudioService();
   bool _localIsPlaying = false;
 
   @override
   void initState() {
     super.initState();
     _bookmarkService.addListener(_update);
+    // Listen to global completion if this card is playing
+    _audioService.setOnComplete(() {
+      if (mounted && _localIsPlaying) {
+        setState(() => _localIsPlaying = false);
+      }
+    });
   }
 
   @override
   void dispose() {
     _bookmarkService.removeListener(_update);
-    _audioPlayer.dispose();
     super.dispose();
   }
 
@@ -51,7 +56,7 @@ class _HymnCardState extends State<HymnCard> {
     if (widget.verse.audioPath == null || widget.verse.audioPath!.isEmpty) return;
     try {
       if (_localIsPlaying) {
-        await _audioPlayer.pause();
+        await _audioService.stop();
         setState(() => _localIsPlaying = false);
       } else {
         // Remove leading slash if it exists
@@ -59,15 +64,18 @@ class _HymnCardState extends State<HymnCard> {
         if (path.startsWith('/')) {
           path = path.substring(1);
         }
-        await _audioPlayer.play(AssetSource(path));
+        await _audioService.playAsset(path);
         setState(() => _localIsPlaying = true);
         
-        _audioPlayer.onPlayerComplete.listen((event) {
-          if (mounted) setState(() => _localIsPlaying = false);
+        // Re-attach completion listener in case it was overwritten by another card
+        _audioService.setOnComplete(() {
+          if (mounted && _localIsPlaying) {
+            setState(() => _localIsPlaying = false);
+          }
         });
       }
     } catch (e) {
-      print("Error playing audio: $e");
+      debugPrint("Error playing audio: $e");
     }
   }
 

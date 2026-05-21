@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "p34-intro",
+    "title": "General Rules",
+    "stageIds": [
+      "primary34"
+    ],
+    "sections": [
+      {
+        "type": "note",
+        "title": "",
+        "content": "The Coptic alphabet consists of 32 letters divided as follows:"
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Division of Coptic Alphabet",
+            ""
+          ],
+          "rows": [
+            [
+              "24 Consonants",
+              "7 Vowels",
+              "[c]<?[/c] (So) used as number 6 only"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "",
+        "content": "The [c]`[/c] (Jenkim) is a mark drawn as ( [c]`[/c] ) or ( [c]~[/c] ). When placed on a consonant, it is pronounced as [c]E[/c]. If placed on a vowel, it indicates the independence of that vowel's pronunciation."
+      },
+      {
+        "type": "table",
+        "title": "Vowels are divided into:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Vowel Divisions",
+            ""
+          ],
+          "rows": [
+            [
+              "Open Vowels",
+              "Rounded Vowels",
+              "Closed Vowels"
+            ],
+            [
+              "[c]A[/c]",
+              "[c]W - O[/c]",
+              "[c]E - H - I - U[/c]"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "p34-lvl1",
+    "title": "Level 1",
+    "stageIds": [
+      "primary34"
+    ],
+    "sections": [
+      {
+        "type": "note",
+        "title": "",
+        "content": "Differentiating between Coptic words and Greek words"
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Coptic vs Greek",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "Seven letters usually appear in Coptic words: \n [c] (]-f-'-\\-j-s-;) [/c]",
+                "rowSpan": 2
+              },
+              "Earth",
+              "[c]Ka\\i[/c]"
+            ],
+            [
+              "Milk",
+              "[c]`Erw;[/c]"
+            ],
+            [
+              {
+                "value": "Five letters usually appear in Greek words: \n [c](g-d-z-[-y)[/c]",
+                "rowSpan": 2
+              },
+              "Earth",
+              "[c]Gh[/c]"
+            ],
+            [
+              "Milk",
+              "[c]Gala[/c]"
+            ],
+            [
+              "Words where the letter [c]u[/c] is pronounced as (y) are usually Greek words.",
+              "Soul",
+              "[c]Yuxh[/c]"
+            ],
+            [
+              {
+                "value": "A word can be Greek if it ends with one of these suffixes: \n [c] ac - oc - hc - an - on - hn[/c]",
+                "rowSpan": 2
+              },
+              "Angel",
+              "[c]Aggeloc[/c]"
+            ],
+            [
+              "Christ",
+              "[c]PiXrictoc[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Important Notes",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Important Notes",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "The letters [c]y - z - [[/c] appear in Greek words, but in rare cases they can appear in Coptic words.",
+                "rowSpan": 3
+              },
+              "School",
+              "[c]Anzhb[/c]"
+            ],
+            [
+              "Number 9",
+              "[c]Yit[/c]"
+            ],
+            [
+              "Curtain",
+              "[c]Li[[/c]"
+            ],
+            [
+              "The letter [c]|[/c] appears in Coptic words only, but it is sometimes used before Greek words to represent the Greek aspiration mark.",
+              "Peace",
+              "[c]|irhnh[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Articles (Definite and Indefinite)",
+        "content": "When a noun is used in a sentence, it is preceded by a definite or indefinite article. These articles are always attached to the noun."
+      },
+      {
+        "type": "table",
+        "title": "First: Definite Articles",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Definite Articles",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Description",
+              "Plural",
+              "Feminine Singular",
+              "Masculine Singular"
+            ],
+            [
+              "General Definite Articles",
+              "[c]Ni[/c]",
+              "[c]:[/c]",
+              "[c]Pi[/c]"
+            ],
+            [
+              {
+                "value": "Special article for words starting with these letters: \n [c] B - I - L - M - N - Ou - R[/c]",
+                "colSpan": 1
+              },
+              "",
+              "[c]` Q[/c]",
+              "[c]` V[/c]"
+            ],
+            [
+              {
+                "value": "Special article for words NOT starting with these letters: \n [c]B - I - L - M - N - Ou - R[/c]",
+                "colSpan": 1
+              },
+              "",
+              "[c]` T[/c]",
+              "[c]` P[/c]"
+            ],
+            [
+              "Special article for added plural nouns",
+              "[c]Nen[/c]",
+              "",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Examples of Definite Articles:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "",
+            "Examples of Definite Articles",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "The eyes",
+              "[c]Nibal[/c]",
+              "The church",
+              "[c]:ekklhcia[/c]",
+              "The Spirit",
+              "[c]Pi`pneuma[/c]"
+            ],
+            [
+              "The fingers",
+              "[c]Nithb[/c]",
+              "The hand",
+              "[c]` Tjij[/c]",
+              "The life",
+              "[c]` Pwn'[/c]"
+            ],
+            [
+              "The oranges",
+              "[c]Nimanmon[/c]",
+              "The mother",
+              "[c]` Qmau[/c]",
+              "The people",
+              "[c]` Vlaoc[/c]"
+            ],
+            [
+              {
+                "value": "The priests of the church",
+                "colSpan": 3
+              },
+              {
+                "value": "[c]Nenouhb `n;ekklhcia[/c]",
+                "colSpan": 3
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Articles can sometimes distinguish meanings for words with multiple meanings:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Distinguishing meanings with articles",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Barley",
+              "[c]Piiwt[/c]",
+              "The Father",
+              "[c]` Viwt[/c]"
+            ],
+            [
+              "Winepress",
+              "[c]Piiom[/c]",
+              "The Sea",
+              "[c]` Viom[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Second: Indefinite Articles",
+        "content": "These are used before nouns that do not have a definite article to make them indefinite."
+      },
+      {
+        "type": "table",
+        "title": "Indefinite Articles",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Indefinite Articles",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "For Plural (Both)",
+              "[c]|an[/c]",
+              "For Singular (Both)",
+              "[c]Ou[/c]"
+            ],
+            [
+              "Books",
+              "[c]|anjwm[/c]",
+              "A garden",
+              "[c]Ouswm[/c]"
+            ],
+            [
+              "Pens",
+              "[c]|anka][/c]",
+              "A moon",
+              "[c]Ouio\\[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Independent Personal Pronouns",
+        "content": "Used in nominal sentences to express different personal pronouns (First, Second, Third person). They often act as the subject."
+      },
+      {
+        "type": "table",
+        "title": "Independent Personal Pronouns",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Independent Personal Pronouns",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "We",
+              "[c]Anon[/c]",
+              "I",
+              "[c]Anok[/c]"
+            ],
+            [
+              {
+                "value": "You (Plural)",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]` Nqwten[/c]",
+                "rowSpan": 2
+              },
+              "You (Masc. Sing.)",
+              "[c]` Nqok[/c]"
+            ],
+            [
+              "You (Fem. Sing.)",
+              "[c]` Nqo[/c]"
+            ],
+            [
+              {
+                "value": "They",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]` Nqwou[/c]",
+                "rowSpan": 2
+              },
+              "He",
+              "[c]` Nqof[/c]"
+            ],
+            [
+              "She",
+              "[c]` Nqoc[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Copulas (To Be)",
+        "content": "Copulas connect two nouns (subject and predicate) in nominal sentences."
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [],
+          "rows": [
+            [
+              "Plural (Both)",
+              "Fem. Singular",
+              "Masc. Singular"
+            ],
+            [
+              "[c]Ne[/c]",
+              "[c]Te[/c]",
+              "[c]Pe[/c]"
+            ],
+            [
+              "They are / We are",
+              "She is / It is / I am",
+              "He is / It is / I am"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "",
+            "Important Notes",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "If the predicate is definite, the copula is placed between the subject and the predicate.",
+                "colSpan": 2
+              },
+              {
+                "value": "If the predicate is indefinite, the copula is placed AFTER the predicate.",
+                "colSpan": 2
+              }
+            ],
+            [
+              "[c]` Nqo te ;]ourh[/c]",
+              "You are the censer",
+              "[c]` Vnou; ouagaph pe[/c]",
+              "God is love"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Some Abbreviations",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Abbreviations",
+            ""
+          ],
+          "rows": [
+            [
+              "Abbreviation",
+              "Meaning",
+              "Original Word"
+            ],
+            [
+              "[c]Ihc?[/c]",
+              "Jesus",
+              "[c]Ihcouc[/c]"
+            ],
+            [
+              "[c]Pxc?[/c]",
+              "Christ",
+              "[c]Pixrictoc[/c]"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "p34-lvl2",
+    "title": "Level 2",
+    "stageIds": [
+      "primary34"
+    ],
+    "sections": [
+      {
+        "type": "note",
+        "title": "",
+        "content": "Differentiating between Coptic words and Greek words"
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Coptic vs Greek",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "Seven letters usually appear in Coptic words: \n [c](]-f-'-\\-j-s-;)[/c]",
+                "rowSpan": 2
+              },
+              "Earth",
+              "[c]Ka\\i[/c]"
+            ],
+            [
+              "Milk",
+              "[c]` Erw;[/c]"
+            ],
+            [
+              {
+                "value": "Five letters usually appear in Greek words: \n [c](g-d-z-[-y)[/c]",
+                "rowSpan": 2
+              },
+              "Earth",
+              "[c]Gh[/c]"
+            ],
+            [
+              "Milk",
+              "[c]Gala[/c]"
+            ],
+            [
+              "Words where the letter [c]u[/c] is pronounced as (y) are usually Greek words.",
+              "Soul",
+              "[c]Yuxh[/c]"
+            ],
+            [
+              {
+                "value": "A word can be Greek if it ends with one of these suffixes: \n [c]ac - oc - hc - an - on - hn[/c]",
+                "rowSpan": 2
+              },
+              "Angel",
+              "[c]Aggeloc[/c]"
+            ],
+            [
+              "Christ",
+              "[c]PiXrictoc[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Important Notes",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Important Notes",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "The letters [c]y - z - [[/c] appear in Greek words, but in rare cases they can appear in Coptic words.",
+                "rowSpan": 3
+              },
+              "School",
+              "[c]Anzhb[/c]"
+            ],
+            [
+              "Number 9",
+              "[c]Yit[/c]"
+            ],
+            [
+              "Curtain",
+              "[c]Li[[/c]"
+            ],
+            [
+              "The letter [c]|[/c] appears in Coptic words only, but it is sometimes used before Greek words to represent the Greek aspiration mark.",
+              "Peace",
+              "[c]|irhnh[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Articles (Definite and Indefinite)",
+        "content": "When a noun is used in a sentence, it is preceded by a definite or indefinite article. These articles are always attached to the noun."
+      },
+      {
+        "type": "table",
+        "title": "First: Definite Articles",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Definite Articles",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Description",
+              "Plural",
+              "Feminine Singular",
+              "Masculine Singular"
+            ],
+            [
+              "General Definite Articles",
+              "[c]Ni[/c]",
+              "[c]:[/c]",
+              "[c]Pi[/c]"
+            ],
+            [
+              {
+                "value": "Special article for words starting with these letters: \n [c]B - I - L - M - N - Ou - R[/c]",
+                "colSpan": 1
+              },
+              "",
+              "[c]` Q[/c]",
+              "[c]` V[/c]"
+            ],
+            [
+              {
+                "value": "Special article for words NOT starting with these letters: \n [c]B - I - L - M - N - Ou - R[/c]",
+                "colSpan": 1
+              },
+              "",
+              "[c]` T[/c]",
+              "[c]` P[/c]"
+            ],
+            [
+              "Special article for added plural nouns",
+              "[c]Nen[/c]",
+              "",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Examples of Definite Articles:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "",
+            "Examples of Definite Articles",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "The eyes",
+              "[c]Nibal[/c]",
+              "The church",
+              "[c]:ekklhcia[/c]",
+              "The Spirit",
+              "[c]Pi`pneuma[/c]"
+            ],
+            [
+              "The fingers",
+              "[c]Nithb[/c]",
+              "The hand",
+              "[c]` Tjij[/c]",
+              "The life",
+              "[c]` Pwn'[/c]"
+            ],
+            [
+              "The oranges",
+              "[c]Nimanmon[/c]",
+              "The mother",
+              "[c]` Qmau[/c]",
+              "The people",
+              "[c]` Vlaoc[/c]"
+            ],
+            [
+              {
+                "value": "The priests of the church",
+                "colSpan": 3
+              },
+              {
+                "value": "[c]Nenouhb `n;ekklhcia[/c]",
+                "colSpan": 3
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Articles can sometimes distinguish meanings for words with multiple meanings:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Distinguishing meanings with articles",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Barley",
+              "[c]Piiwt[/c]",
+              "The Father",
+              "[c]` Viwt[/c]"
+            ],
+            [
+              "Winepress",
+              "[c]Piiom[/c]",
+              "The Sea",
+              "[c]` Viom[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Second: Indefinite Articles",
+        "content": "These are used before nouns that do not have a definite article to make them indefinite."
+      },
+      {
+        "type": "table",
+        "title": "Indefinite Articles",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Indefinite Articles",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "For Plural (Both)",
+              "[c]|an[/c]",
+              "For Singular (Both)",
+              "[c]Ou[/c]"
+            ],
+            [
+              "Books",
+              "[c]|anjwm[/c]",
+              "A garden",
+              "[c]Ouswm[/c]"
+            ],
+            [
+              "Pens",
+              "[c]|anka][/c]",
+              "A moon",
+              "[c]Ouio\\[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Independent Personal Pronouns",
+        "content": "Used in nominal sentences to express different personal pronouns (First, Second, Third person). They often act as the subject."
+      },
+      {
+        "type": "table",
+        "title": "Independent Personal Pronouns",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Independent Personal Pronouns",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "We",
+              "[c]Anon[/c]",
+              "I",
+              "[c]Anok[/c]"
+            ],
+            [
+              {
+                "value": "You (Plural)",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]` Nqwten[/c]",
+                "rowSpan": 2
+              },
+              "You (Masc. Sing.)",
+              "[c]` Nqok[/c]"
+            ],
+            [
+              "You (Fem. Sing.)",
+              "[c]` Nqo[/c]"
+            ],
+            [
+              {
+                "value": "They",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]` Nqwou[/c]",
+                "rowSpan": 2
+              },
+              "He",
+              "[c]` Nqof[/c]"
+            ],
+            [
+              "She",
+              "[c]` Nqoc[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Copulas (To Be)",
+        "content": "Copulas connect two nouns (subject and predicate) in nominal sentences."
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [],
+          "rows": [
+            [
+              "Plural (Both)",
+              "Fem. Singular",
+              "Masc. Singular"
+            ],
+            [
+              "[c]Ne[/c]",
+              "[c]Te[/c]",
+              "[c]Pe[/c]"
+            ],
+            [
+              "They are / We are",
+              "She is / It is / I am",
+              "He is / It is / I am"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "",
+            "Important Notes",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "If the predicate is definite, the copula is placed between the subject and the predicate.",
+                "colSpan": 2
+              },
+              {
+                "value": "If the predicate is indefinite, the copula is placed AFTER the predicate.",
+                "colSpan": 2
+              }
+            ],
+            [
+              "[c]` Nqo te ;]ourh[/c]",
+              "You are the censer",
+              "[c]` Vnou; ouagaph pe[/c]",
+              "God is love"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Some Abbreviations",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Abbreviations",
+            ""
+          ],
+          "rows": [
+            [
+              "Abbreviation",
+              "Meaning",
+              "Original Word"
+            ],
+            [
+              "[c]Ihc?[/c]",
+              "Jesus",
+              "[c]Ihcouc[/c]"
+            ],
+            [
+              "[c]Pxc?[/c]",
+              "Christ",
+              "[c]Pixrictoc[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Independent Demonstrative Pronouns",
+        "content": "These pronouns are independent of the rest of the sentence. They require a copula and a definite article for the noun following them."
+      },
+      {
+        "type": "table",
+        "title": "Independent Demonstrative Pronouns",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Independent Demonstrative Pronouns",
+            ""
+          ],
+          "rows": [
+            [
+              "Plural (Both)",
+              "Fem. Singular",
+              "Masc. Singular"
+            ],
+            [
+              "[c]Nai[/c]",
+              "[c]Qai[/c]",
+              "[c]Vai[/c]"
+            ],
+            [
+              "These",
+              "This (Fem.)",
+              "This (Masc.)"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "",
+            "",
+            "Important Notes"
+          ],
+          "rows": [
+            [
+              {
+                "value": "If the predicate is definite, the copula is placed between the demonstrative pronoun and the predicate.",
+                "colSpan": 2
+              },
+              {
+                "value": "If the predicate is indefinite, the copula is placed AFTER the predicate.",
+                "colSpan": 2
+              }
+            ],
+            [
+              "This is the day",
+              "[c]Vai pe pi`e\\oou[/c]",
+              "This is a day",
+              "[c]Vai ou`e\\oou pe[/c]"
+            ],
+            [
+              "This is the school",
+              "[c]Qai te ;anzhb[/c]",
+              "This is a school",
+              "[c]Qai ouanzhb te[/c]"
+            ],
+            [
+              "These are the doctors",
+              "[c]Nai ne nichini[/c]",
+              "These are doctors",
+              "[c]Nai \\anchini ne[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Possessive Adjectives",
+        "content": "The first letter [c] (P-T-N) [/c] matches the gender/number of the possessed noun. The suffix matches the owner."
+      },
+      {
+        "type": "table",
+        "title": "Possessive Adjectives",
+        "isLegacy": false,
+        "table": {
+          "headers": [],
+          "rows": [
+            [
+              {
+                "value": "Plural [c](N)[/c]",
+                "colSpan": 2
+              },
+              {
+                "value": "Fem. Sing. [c](T)[/c]",
+                "colSpan": 2
+              },
+              {
+                "value": "Masc. Sing. [c](P)[/c]",
+                "colSpan": 2
+              },
+              "Owner"
+            ],
+            [
+              "My pens",
+              "[c]Naka][/c]",
+              "My mother",
+              "[c]Tamau[/c]",
+              "My father",
+              "[c]Paiwt[/c]",
+              "I"
+            ],
+            [
+              "Your pens",
+              "[c]Nekka][/c]",
+              "Your mother",
+              "[c]Tekmau[/c]",
+              "Your father",
+              "[c]Pekiwt[/c]",
+              "You (Masc.)"
+            ],
+            [
+              "Your pens",
+              "[c]Neka][/c]",
+              "Your mother",
+              "[c]Temau[/c]",
+              "Your father",
+              "[c]Peiwt[/c]",
+              "You (Fem.)"
+            ],
+            [
+              "His pens",
+              "[c]Nefka][/c]",
+              "His mother",
+              "[c]Tefmau[/c]",
+              "His father",
+              "[c]Pefiwt[/c]",
+              "He"
+            ],
+            [
+              "Her pens",
+              "[c]Necka][/c]",
+              "Her mother",
+              "[c]Tecmau[/c]",
+              "Her father",
+              "[c]Peciwt[/c]",
+              "She"
+            ],
+            [
+              "Our pens",
+              "[c]Nenka][/c]",
+              "Our mother",
+              "[c]Tenmau[/c]",
+              "Our father",
+              "[c]Peniwt[/c]",
+              "We"
+            ],
+            [
+              "Your pens",
+              "[c]Netenka][/c]",
+              "Your mother",
+              "[c]Tetenmau[/c]",
+              "Your father",
+              "[c]Peteniwt[/c]",
+              "You (Plural)"
+            ],
+            [
+              "Their pens",
+              "[c]Nouka][/c]",
+              "Their mother",
+              "[c]Toumau[/c]",
+              "Their father",
+              "[c]Pouiwt[/c]",
+              "They"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Examples:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "Our Father who art in heaven",
+              "[c]Peniwt `et'en nivhou`i[/c]"
+            ],
+            [
+              "Hallowed be Thy name",
+              "[c]Mareftoubo `nje pekran[/c]"
+            ]
+          ]
+        }
+      }
+    ]
+  }
+]

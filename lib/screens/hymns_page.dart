@@ -3,10 +3,11 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:google_fonts/google_fonts.dart';
-import 'package:audioplayers/audioplayers.dart';
 import '../models/hymn_models.dart';
 import '../services/stage_service.dart';
+import '../services/language_service.dart';
 import '../services/bookmark_service.dart';
+import '../services/audio_service.dart';
 
 Map<String, dynamic> _parseHymnsJson(String jsonString) {
   return jsonDecode(jsonString) as Map<String, dynamic>;
@@ -21,8 +22,9 @@ class HymnsPage extends StatefulWidget {
 
 class _HymnsPageState extends State<HymnsPage> {
   final StageService _stageService = StageService();
+  final LanguageService _langService = LanguageService();
   final BookmarkService _bookmarkService = BookmarkService();
-  final AudioPlayer _audioPlayer = AudioPlayer();
+  final AudioService _audioService = AudioService();
 
   Map<String, dynamic> _allHymnsJson = {};
   List<HymnItem> _hymns = [];
@@ -49,17 +51,19 @@ class _HymnsPageState extends State<HymnsPage> {
     super.initState();
     _stageService.addListener(_onStageChanged);
     _bookmarkService.addListener(_update);
+    _langService.addListener(_onLanguageChanged);
     _loadData();
-    _audioPlayer.onPlayerComplete.listen((_) {
+    _audioService.setOnComplete(() {
       if (mounted) _currentlyPlayingNotifier.value = null;
     });
   }
 
   @override
   void dispose() {
+    _audioService.stop();
     _stageService.removeListener(_onStageChanged);
     _bookmarkService.removeListener(_update);
-    _audioPlayer.dispose();
+    _langService.removeListener(_onLanguageChanged);
     _currentlyPlayingNotifier.dispose();
     super.dispose();
   }
@@ -68,8 +72,12 @@ class _HymnsPageState extends State<HymnsPage> {
     if (mounted) setState(() {});
   }
 
+  void _onLanguageChanged() {
+    _loadData();
+  }
+
   void _onStageChanged() {
-    _audioPlayer.stop();
+    _audioService.stop();
     _currentlyPlayingNotifier.value = null;
     _activeHymnIndex = 0;
     if (_allHymnsJson.isNotEmpty) {
@@ -91,7 +99,8 @@ class _HymnsPageState extends State<HymnsPage> {
     }
 
     try {
-      final String jsonString = await tryLoad('assets/data/hymns.json');
+      final String jsonPath = _langService.getDataPath('hymns');
+      final String jsonString = await tryLoad(jsonPath);
       _allHymnsJson = await compute(_parseHymnsJson, jsonString);
       _filterForStage();
     } catch (e) {
@@ -135,20 +144,15 @@ class _HymnsPageState extends State<HymnsPage> {
   Future<void> _toggleAudio(HymnVerse verse) async {
     if (verse.audioPath == null || verse.audioPath!.isEmpty) return;
     try {
-      String cleanPath = verse.audioPath!.trim();
-      if (cleanPath.startsWith('/')) cleanPath = cleanPath.substring(1);
-      if (cleanPath.startsWith('assets/')) cleanPath = cleanPath.replaceFirst('assets/', '');
-
       if (_currentlyPlayingNotifier.value == verse.id) {
-        await _audioPlayer.pause();
+        await _audioService.stop();
         _currentlyPlayingNotifier.value = null;
       } else {
-        await _audioPlayer.stop();
-        await _audioPlayer.play(AssetSource(cleanPath));
+        await _audioService.playAsset(verse.audioPath!);
         _currentlyPlayingNotifier.value = verse.id;
       }
     } catch (e) {
-      print("Audio playing error: $e");
+      debugPrint("Error playing audio: $e");
     }
   }
 
@@ -166,7 +170,7 @@ class _HymnsPageState extends State<HymnsPage> {
             const Icon(Icons.music_off_rounded, size: 64, color: Color(0xFFCBD5E1)),
             const SizedBox(height: 12),
             Text(
-              'لا توجد محفوظات حالياً',
+              _langService.translate('no_hymns_found'),
               style: GoogleFonts.cairo(
                 fontSize: 18,
                 fontWeight: FontWeight.w900,
@@ -217,7 +221,7 @@ class _HymnsPageState extends State<HymnsPage> {
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
                     Text(
-                      'المحفوظات القبطية',
+                      _langService.translate('coptic_hymns'),
                       style: GoogleFonts.cairo(
                         fontSize: 24,
                         fontWeight: FontWeight.w900,
@@ -226,7 +230,7 @@ class _HymnsPageState extends State<HymnsPage> {
                       ),
                     ),
                     Text(
-                      'سنة ٢٠٢٦ • ${_stageService.selectedStage.name}',
+                      '${_langService.translate('year_2026')} • ${_langService.translate(_stageService.selectedStage.id)}',
                       style: GoogleFonts.cairo(
                         fontSize: 11,
                         fontWeight: FontWeight.w800,
@@ -247,7 +251,7 @@ class _HymnsPageState extends State<HymnsPage> {
                 height: 48,
                 child: ListView.builder(
                   scrollDirection: Axis.horizontal,
-                  reverse: true, // RTL feel
+                  reverse: _langService.isArabic, // RTL feel when Arabic
                   padding: const EdgeInsets.symmetric(horizontal: 20),
                   itemCount: _hymns.length,
                   itemBuilder: (context, index) {
@@ -357,6 +361,7 @@ class _HymnsPageState extends State<HymnsPage> {
                                 )
                               else
                                 const SizedBox(),
+
                               GestureDetector(
                                 onTap: () => _bookmarkService.toggleBookmark(verse),
                                 child: Container(

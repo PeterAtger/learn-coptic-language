@@ -107,13 +107,18 @@ flutter:
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/images/icon.jpeg"
+  image_path: "assets/images/logo_sq.png"
+  # Adaptive icon — Android 8+ rounds the corners via the launcher's mask
+  # (rounded square, squircle, or circle depending on the device).
+  adaptive_icon_background: "#FAF7F0"
+  adaptive_icon_foreground: "assets/images/logo_fg.png"
   min_sdk_android: 21
+  remove_alpha_ios: true
 
 flutter_native_splash:
   color: "#FAF7F0"
-  image: "assets/images/icon-no-bg.png"
+  image: "assets/images/logo_fg.png"
   android_12:
-    image: "assets/images/icon-no-bg.png"
+    image: "assets/images/logo_fg.png"
     color: "#FAF7F0"
 

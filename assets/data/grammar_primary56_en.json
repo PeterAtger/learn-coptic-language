@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "p56-intro",
+    "title": "General Rules",
+    "stageIds": [
+      "primary56"
+    ],
+    "sections": [
+      {
+        "type": "note",
+        "title": "",
+        "content": "The Coptic alphabet consists of 32 letters divided as follows:"
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Division of Coptic Alphabet",
+            ""
+          ],
+          "rows": [
+            [
+              "24 Consonants",
+              "7 Vowels",
+              "[c]<?[/c] (So) used as number 6 only"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "",
+        "content": "The [c]`[/c] (Jenkim) is a mark drawn as ( [c]`[/c] ) or ( [c]~[/c] ). When placed on a consonant, it is pronounced as [c]E[/c]. If placed on a vowel, it indicates the independence of that vowel's pronunciation."
+      },
+      {
+        "type": "table",
+        "title": "Vowels are divided into:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Vowel Divisions",
+            ""
+          ],
+          "rows": [
+            [
+              "Open Vowels",
+              "Rounded Vowels",
+              "Closed Vowels"
+            ],
+            [
+              "[c]A[/c]",
+              "[c]W - O[/c]",
+              "[c]E - H - I - U[/c]"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "p56-lvl1",
+    "title": "Level 1",
+    "stageIds": [
+      "primary56"
+    ],
+    "sections": [
+      {
+        "type": "note",
+        "title": "",
+        "content": "Differentiating between Coptic words and Greek words"
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Coptic vs Greek",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "Seven letters usually appear in Coptic words: \n [c](]-f-'-\\-j-s-;)[/c]",
+                "rowSpan": 2
+              },
+              "Earth",
+              "[c]Ka\\i[/c]"
+            ],
+            [
+              "Book",
+              "[c]Jwm[/c]"
+            ],
+            [
+              {
+                "value": "Five letters usually appear in Greek words: \n [c](g-d-z-[-y)[/c]",
+                "rowSpan": 2
+              },
+              "Earth",
+              "[c]Gh[/c]"
+            ],
+            [
+              "Book",
+              "[c]Gravh[/c]"
+            ],
+            [
+              "Words where the letter [c]u[/c] is pronounced as (y) are usually Greek words.",
+              "Cold",
+              "[c]Yuxoc[/c]"
+            ],
+            [
+              "A word can be Greek if it ends with one of these suffixes: \n [c]ac - oc - hc - an - on - hn[/c]",
+              "Angel",
+              "[c]Aggeloc[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Important Notes",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Important Notes",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "The letters [c]y - z - [[/c] appear in Greek words, but in rare cases they can appear in Coptic words.",
+                "rowSpan": 3
+              },
+              "School",
+              "[c]Anzhb[/c]"
+            ],
+            [
+              "Number 9",
+              "[c]Yit[/c]"
+            ],
+            [
+              "Curtain",
+              "[c]Li[[/c]"
+            ],
+            [
+              "The letter [c]|[/c] appears in Coptic words only, but it is sometimes used before Greek words to represent the Greek aspiration mark.",
+              "Peace",
+              "[c]|irhnh[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Articles (Definite and Indefinite)",
+        "content": "When a noun is used in a sentence, it is preceded by a definite or indefinite article. These articles are always attached to the noun."
+      },
+      {
+        "type": "table",
+        "title": "First: Definite Articles",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Definite Articles",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Description",
+              "Plural",
+              "Feminine Singular",
+              "Masculine Singular"
+            ],
+            [
+              "General Definite Articles",
+              "[c]Ni[/c]",
+              "[c]:[/c]",
+              "[c]Pi[/c]"
+            ],
+            [
+              {
+                "value": "Special article for words starting with these letters: \n [c]R - Ou - N - M - L - I - B[/c]",
+                "colSpan": 1
+              },
+              "",
+              "[c]` Q[/c]",
+              "[c]` V[/c]"
+            ],
+            [
+              {
+                "value": "Special article for words NOT starting with these letters: \n [c]R - Ou - N - M - L - I - B[/c]",
+                "colSpan": 1
+              },
+              "",
+              "[c]` T[/c]",
+              "[c]` P[/c]"
+            ],
+            [
+              "Special article for added plural nouns",
+              "[c]Nen[/c]",
+              "",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Examples of Definite Articles:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "",
+            "Examples of Definite Articles",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "The knees",
+              "[c]Nikeli[/c]",
+              "The head",
+              "[c]:`ave[/c]",
+              "The eye",
+              "[c]Pibal[/c]"
+            ],
+            [
+              "The doctors",
+              "[c]Nichini[/c]",
+              "The hand",
+              "[c]` Tjij[/c]",
+              "The neck",
+              "[c]` P'a'[/c]"
+            ],
+            [
+              "The tongues",
+              "[c]NiLac[/c]",
+              "The mother",
+              "[c]` Qmau[/c]",
+              "God",
+              "[c]`Vnou;[/c]"
+            ],
+            [
+              {
+                "value": "The angels of the church",
+                "colSpan": 3
+              },
+              {
+                "value": "[c]Nenaggeloc `nte ;ekklhcia[/c]",
+                "colSpan": 3
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Articles can sometimes distinguish meanings for words with multiple meanings:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Distinguishing meanings with articles",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Barley",
+              "[c]Piiwt[/c]",
+              "The Father",
+              "[c]` Viwt[/c]"
+            ],
+            [
+              "Winepress",
+              "[c]Piiom[/c]",
+              "The Sea",
+              "[c]` Viom[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Second: Indefinite Articles",
+        "content": "These are used before nouns that do not have a definite article to make them indefinite."
+      },
+      {
+        "type": "table",
+        "title": "Indefinite Articles",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Indefinite Articles",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "For Plural (Both)",
+              "[c]|an[/c]",
+              "For Singular (Both)",
+              "[c]Ou[/c]"
+            ],
+            [
+              {
+                "value": "Kings",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]|anourwou[/c]",
+                "rowSpan": 2
+              },
+              "A king",
+              "[c]Ououro[/c]"
+            ],
+            [
+              "A queen",
+              "[c]Ouourw[/c]"
+            ],
+            [
+              "Foods",
+              "[c]|an`'rhou`i[/c]",
+              "A food",
+              "[c]Ou`'re[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "The Conjunction [c]Nem[/c]",
+        "content": "Used to connect nouns like 'Joseph and Mary', 'My father and my mother', etc."
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "My father and my mother",
+              "[c]Paiwt nem tamau[/c]"
+            ],
+            [
+              "Joseph and Mary",
+              "[c]Iwchv nem Maria[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "It also means 'With' and is conjugated as follows:",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "With us",
+              "[c]Neman[/c]",
+              "With me",
+              "[c]Nemhi[/c]"
+            ],
+            [
+              {
+                "value": "With you (Plural)",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]Nemwten[/c]",
+                "rowSpan": 2
+              },
+              "With you (Masc. Sing.)",
+              "[c]Nemak[/c]"
+            ],
+            [
+              "With you (Fem. Sing.)",
+              "[c]Neme[/c]"
+            ],
+            [
+              {
+                "value": "With them",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]Nemwou[/c]",
+                "rowSpan": 2
+              },
+              "With him",
+              "[c]Nemaf[/c]"
+            ],
+            [
+              "With her",
+              "[c]Nemac[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Examples of 'With':",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Examples",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Pray with me",
+              "[c]` }lhl nemhi[/c]",
+              "God be with you",
+              "[c]`Vnou; nemak[/c]"
+            ],
+            [
+              "Come with them",
+              "[c]Amou nemwou[/c]",
+              "Come with us",
+              "[c]Amh neman[/c]"
+            ],
+            [
+              "Come with me (Plural)",
+              "[c]Amwini nemhi[/c]",
+              "Walk with him",
+              "[c]Mo]I nemaf[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Some Abbreviations",
+        "isLegacy": false,
+        "table": {
+          "headers": [],
+          "rows": [
+            [
+              "Meaning",
+              "Abbreviation",
+              "Original Word"
+            ],
+            [
+              "God",
+              "[c]V:[/c]",
+              "[c]`Vnou;[/c]"
+            ],
+            [
+              "The Lord",
+              "[c]Poc?[/c]",
+              "[c]` Psoic[/c]"
+            ],
+            [
+              "Jesus",
+              "[c]Ihc?[/c]",
+              "[c]Ihcouc[/c]"
+            ],
+            [
+              "Christ",
+              "[c]Pxc?[/c]",
+              "[c]Pixrictoc[/c]"
+            ],
+            [
+              "Alleluia",
+              "[c]al?[/c]",
+              "[c]Allhlouia[/c]"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "p56-lvl2",
+    "title": "Level 2",
+    "stageIds": [
+      "primary56"
+    ],
+    "sections": [
+      {
+        "type": "note",
+        "title": "",
+        "content": "Differentiating between Coptic words and Greek words"
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Coptic vs Greek",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "Seven letters usually appear in Coptic words: \n [c](]-f-'-\\-j-s-;)[/c]",
+                "rowSpan": 2
+              },
+              "Earth",
+              "[c]Ka\\i[/c]"
+            ],
+            [
+              "Book",
+              "[c]Jwm[/c]"
+            ],
+            [
+              {
+                "value": "Five letters usually appear in Greek words: \n [c](g-d-z-[-y)[/c]",
+                "rowSpan": 2
+              },
+              "Earth",
+              "[c]Gh[/c]"
+            ],
+            [
+              "Book",
+              "[c]Gravh[/c]"
+            ],
+            [
+              "Words where the letter [c]u[/c] is pronounced as (y) are usually Greek words.",
+              "Cold",
+              "[c]Yuxoc[/c]"
+            ],
+            [
+              "A word can be Greek if it ends with one of these suffixes: \n [c]ac - oc - hc - an - on - hn[/c]",
+              "Angel",
+              "[c]Aggeloc[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Important Notes",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Important Notes",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "The letters [c]y - z - [[/c] appear in Greek words, but in rare cases they can appear in Coptic words.",
+                "rowSpan": 3
+              },
+              "School",
+              "[c]Anzhb[/c]"
+            ],
+            [
+              "Number 9",
+              "[c]Yit[/c]"
+            ],
+            [
+              "Curtain",
+              "[c]Li[[/c]"
+            ],
+            [
+              "The letter [c]|[/c] appears in Coptic words only, but it is sometimes used before Greek words to represent the Greek aspiration mark.",
+              "Peace",
+              "[c]|irhnh[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Articles (Definite and Indefinite)",
+        "content": "When a noun is used in a sentence, it is preceded by a definite or indefinite article. These articles are always attached to the noun."
+      },
+      {
+        "type": "table",
+        "title": "First: Definite Articles",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Definite Articles",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Description",
+              "Plural",
+              "Feminine Singular",
+              "Masculine Singular"
+            ],
+            [
+              "General Definite Articles",
+              "[c]Ni[/c]",
+              "[c]:[/c]",
+              "[c]Pi[/c]"
+            ],
+            [
+              {
+                "value": "Special article for words starting with these letters: \n [c]R - Ou - N - M - L - I - B[/c]",
+                "colSpan": 1
+              },
+              "",
+              "[c]` Q[/c]",
+              "[c]` V[/c]"
+            ],
+            [
+              {
+                "value": "Special article for words NOT starting with these letters: \n [c]R - Ou - N - M - L - I - B[/c]",
+                "colSpan": 1
+              },
+              "",
+              "[c]` T[/c]",
+              "[c]` P[/c]"
+            ],
+            [
+              "Special article for added plural nouns",
+              "[c]Nen[/c]",
+              "",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Examples of Definite Articles:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "",
+            "Examples of Definite Articles",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "The knees",
+              "[c]Nikeli[/c]",
+              "The head",
+              "[c]:`ave[/c]",
+              "The eye",
+              "[c]Pibal[/c]"
+            ],
+            [
+              "The doctors",
+              "[c]Nichini[/c]",
+              "The hand",
+              "[c]` Tjij[/c]",
+              "The neck",
+              "[c]` P'a'[/c]"
+            ],
+            [
+              "The tongues",
+              "[c]NiLac[/c]",
+              "The mother",
+              "[c]` Qmau[/c]",
+              "God",
+              "[c]`Vnou;[/c]"
+            ],
+            [
+              {
+                "value": "The angels of the church",
+                "colSpan": 3
+              },
+              {
+                "value": "[c]Nenaggeloc `nte ;ekklhcia[/c]",
+                "colSpan": 3
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Articles can sometimes distinguish meanings for words with multiple meanings:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Distinguishing meanings with articles",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Barley",
+              "[c]Piiwt[/c]",
+              "The Father",
+              "[c]` Viwt[/c]"
+            ],
+            [
+              "Winepress",
+              "[c]Piiom[/c]",
+              "The Sea",
+              "[c]` Viom[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Second: Indefinite Articles",
+        "content": "These are used before nouns that do not have a definite article to make them indefinite."
+      },
+      {
+        "type": "table",
+        "title": "Indefinite Articles",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Indefinite Articles",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "For Plural (Both)",
+              "[c]|an[/c]",
+              "For Singular (Both)",
+              "[c]Ou[/c]"
+            ],
+            [
+              {
+                "value": "Kings",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]|anourwou[/c]",
+                "rowSpan": 2
+              },
+              "A king",
+              "[c]Ououro[/c]"
+            ],
+            [
+              "A queen",
+              "[c]Ouourw[/c]"
+            ],
+            [
+              "Foods",
+              "[c]|an`'rhou`i[/c]",
+              "A food",
+              "[c]Ou`'re[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "The Conjunction [c]Nem[/c]",
+        "content": "Used to connect nouns like 'Joseph and Mary', 'My father and my mother', etc."
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "My father and my mother",
+              "[c]Paiwt nem tamau[/c]"
+            ],
+            [
+              "Joseph and Mary",
+              "[c]Iwchv nem Maria[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "It also means 'With' and is conjugated as follows:",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "With us",
+              "[c]Neman[/c]",
+              "With me",
+              "[c]Nemhi[/c]"
+            ],
+            [
+              {
+                "value": "With you (Plural)",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]Nemwten[/c]",
+                "rowSpan": 2
+              },
+              "With you (Masc. Sing.)",
+              "[c]Nemak[/c]"
+            ],
+            [
+              "With you (Fem. Sing.)",
+              "[c]Neme[/c]"
+            ],
+            [
+              {
+                "value": "With them",
+                "rowSpan": 2
+              },
+              {
+                "value": "[c]Nemwou[/c]",
+                "rowSpan": 2
+              },
+              "With him",
+              "[c]Nemaf[/c]"
+            ],
+            [
+              "With her",
+              "[c]Nemac[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Examples of 'With':",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "",
+            "Examples",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Pray with me",
+              "[c]` }lhl nemhi[/c]",
+              "God be with you",
+              "[c]`Vnou; nemak[/c]"
+            ],
+            [
+              "Come with them",
+              "[c]Amou nemwou[/c]",
+              "Come with us",
+              "[c]Amh neman[/c]"
+            ],
+            [
+              "Come with me (Plural)",
+              "[c]Amwini nemhi[/c]",
+              "Walk with him",
+              "[c]Mo]I nemaf[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Some Abbreviations",
+        "isLegacy": false,
+        "table": {
+          "headers": [],
+          "rows": [
+            [
+              "Meaning",
+              "Abbreviation",
+              "Original Word"
+            ],
+            [
+              "God",
+              "[c]V:[/c]",
+              "[c]`Vnou;[/c]"
+            ],
+            [
+              "The Lord",
+              "[c]Poc?[/c]",
+              "[c]` Psoic[/c]"
+            ],
+            [
+              "Jesus",
+              "[c]Ihc?[/c]",
+              "[c]Ihcouc[/c]"
+            ],
+            [
+              "Christ",
+              "[c]Pxc?[/c]",
+              "[c]Pixrictoc[/c]"
+            ],
+            [
+              "Alleluia",
+              "[c]al?[/c]",
+              "[c]Allhlouia[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Simple Imperative (Orders)",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Simple Imperative",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "The simple imperative is formed from the root of the verb (no changes).",
+                "colSpan": 6
+              }
+            ],
+            [
+              "Pray",
+              "[c]` }lhl[/c]",
+              "Sleep",
+              "[c]` Enkot[/c]",
+              "Eat",
+              "[c]Ouwm[/c]"
+            ],
+            [
+              "Write",
+              "[c]` C'ai[/c]",
+              "Read",
+              "[c]W][/c]",
+              "Save / Keep",
+              "[c]Are\\[/c]"
+            ],
+            [
+              {
+                "value": "Simple sentences in imperative form:",
+                "colSpan": 6
+              }
+            ],
+            [
+              "Write the lesson",
+              {
+                "value": "[c]` C'ai `mpiw][/c]",
+                "colSpan": 2
+              },
+              "Keep the lesson",
+              {
+                "value": "[c]Are\\ `epiw][/c]",
+                "colSpan": 2
+              }
+            ],
+            [
+              "Eat the food",
+              {
+                "value": "[c]Ouwm `n;'re[/c]",
+                "colSpan": 2
+              },
+              "Wake up early",
+              {
+                "value": "[c]Ne\\ci `n]orp[/c]",
+                "colSpan": 2
+              }
+            ],
+            [
+              "Turn on the light",
+              {
+                "value": "[c]Sero `mpiouwini[/c]",
+                "colSpan": 2
+              },
+              "Turn off the light",
+              {
+                "value": "[c]Seno `mpiouwini[/c]",
+                "colSpan": 2
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Prohibition (Negation of Order)",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Prohibition",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "Prohibition is formed by adding [c]`mper[/c] to the verb.",
+                "colSpan": 4
+              }
+            ],
+            [
+              "Don't eat",
+              "[c]` Mperouwm[/c]",
+              "Don't swear",
+              "[c]` Mperwrk[/c]"
+            ],
+            [
+              "Don't be late",
+              "[c]` Mperwck[/c]",
+              "Don't play",
+              "[c]~Mperjerjer[/c]"
+            ],
+            [
+              {
+                "value": "Simple sentences in prohibition form:",
+                "colSpan": 4
+              }
+            ],
+            [
+              {
+                "value": "Don't speak in church",
+                "colSpan": 2
+              },
+              {
+                "value": "[c]` Mpercaji 'en ;ekklhcia[/c]",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "value": "Don't hit your brother",
+                "colSpan": 2
+              },
+              {
+                "value": "[c]` Mper]ari `epekcon[/c]",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "value": "Don't sleep late",
+                "colSpan": 2
+              },
+              {
+                "value": "[c]` Mper`enkot `nwck[/c]",
+                "colSpan": 2
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "The Question Word [c]A][/c]",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "The Question Word [c]A][/c]",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "Meaning (How - What) [c]A][/c]",
+                "colSpan": 4
+              }
+            ],
+            [
+              {
+                "value": "Answer",
+                "colSpan": 2
+              },
+              {
+                "value": "Question",
+                "colSpan": 2
+              }
+            ],
+            [
+              "My name is Mark",
+              "[c]Paran pe Markoc[/c]",
+              "What is your name? (Masc.)",
+              "[c]A] pe pekran[/c]"
+            ],
+            [
+              "My name is Maria",
+              "[c]Paran pe Maria[/c]",
+              "What is your name? (Fem.)",
+              "[c]A] pe peran[/c]"
+            ],
+            [
+              "I am well",
+              "[c]:ouoj[/c]",
+              "How are you? (Masc.)",
+              "[c]A] pe pekrh;[/c]"
+            ],
+            [
+              "I am well",
+              "[c]:ouoj[/c]",
+              "How are you? (Fem.)",
+              "[c]A] pe perh;[/c]"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "note",
+        "title": "Possessive Adjectives",
+        "content": "The first letter [c](P - T - N)[/c] matches the gender/number of the possessed noun. The suffix matches the owner."
+      },
+      {
+        "type": "table",
+        "title": "Possessive Adjectives",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Possessive Adjectives",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              {
+                "value": "Plural ([c]N[/c])",
+                "colSpan": 2
+              },
+              {
+                "value": "Fem. Sing. ([c]T[/c])",
+                "colSpan": 2
+              },
+              {
+                "value": "Masc. Sing. ([c]P[/c])",
+                "colSpan": 2
+              },
+              "Owner"
+            ],
+            [
+              "My eyes",
+              "[c]Nenbal[/c]",
+              "My sister",
+              "[c]Tacwni[/c]",
+              "My name",
+              "[c]Paran[/c]",
+              "I"
+            ],
+            [
+              "Your eyes",
+              "[c]Nekbal[/c]",
+              "Your sister",
+              "[c]Tekcwni[/c]",
+              "Your name",
+              "[c]Pekran[/c]",
+              "You (Masc.)"
+            ],
+            [
+              "Your eyes",
+              "[c]Nebbal[/c]",
+              "Your sister",
+              "[c]Tecwni[/c]",
+              "Your name",
+              "[c]Peran[/c]",
+              "You (Fem.)"
+            ],
+            [
+              "His eyes",
+              "[c]Nefbal[/c]",
+              "His sister",
+              "[c]Tefcwni[/c]",
+              "His name",
+              "[c]Pefran[/c]",
+              "He"
+            ],
+            [
+              "Her eyes",
+              "[c]Necbal[/c]",
+              "Her sister",
+              "[c]Teccwni[/c]",
+              "Her name",
+              "[c]Pecran[/c]",
+              "She"
+            ],
+            [
+              "Our eyes",
+              "[c]Nenbal[/c]",
+              "Our sister",
+              "[c]Tencwni[/c]",
+              "Our name",
+              "[c]Penran[/c]",
+              "We"
+            ],
+            [
+              "Your eyes",
+              "[c]Netenbal[/c]",
+              "Your sister",
+              "[c]Tetencwni[/c]",
+              "Your name",
+              "[c]Petenran[/c]",
+              "You (Plural)"
+            ],
+            [
+              "Their eyes",
+              "[c]Noubal[/c]",
+              "Their sister",
+              "[c]Toucwni[/c]",
+              "Their name",
+              "[c]Pouran[/c]",
+              "They"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "title": "Application Examples:",
+        "isLegacy": false,
+        "table": {
+          "headers": [
+            "Application Examples",
+            ""
+          ],
+          "rows": [
+            [
+              "What is your name (plural)?",
+              "[c]A] pe petenran[/c]"
+            ],
+            [
+              "Our names are Mark and Maria",
+              "[c]Penran pe Markoc nem Maria[/c]"
+            ]
+          ]
+        }
+      }
+    ]
+  }
+]

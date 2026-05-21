@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:google_fonts/google_fonts.dart';
 import '../services/stage_service.dart';
+import '../services/language_service.dart';
 
 Map<String, dynamic> _parseGrammarJson(String jsonString) {
   return jsonDecode(jsonString) as Map<String, dynamic>;
@@ -67,6 +68,7 @@ class GrammarPage extends StatefulWidget {
 
 class _GrammarPageState extends State<GrammarPage> {
   final StageService _stageService = StageService();
+  final LanguageService _langService = LanguageService();
   final Map<String, dynamic> _allGrammarJson = {};
   List<GrammarLesson> _lessons = [];
   bool _isLoading = true;
@@ -79,13 +81,19 @@ class _GrammarPageState extends State<GrammarPage> {
   void initState() {
     super.initState();
     _stageService.addListener(_onStageChanged);
+    _langService.addListener(_onLanguageChanged);
     _loadData();
   }
 
   @override
   void dispose() {
     _stageService.removeListener(_onStageChanged);
+    _langService.removeListener(_onLanguageChanged);
     super.dispose();
+  }
+
+  void _onLanguageChanged() {
+    _loadData();
   }
 
   void _onStageChanged() {
@@ -93,12 +101,6 @@ class _GrammarPageState extends State<GrammarPage> {
   }
 
   String _getCopticFontFamily(String text) {
-    for (int i = 0; i < text.length; i++) {
-      int code = text.codeUnitAt(i);
-      if ((code >= 0x2C80 && code <= 0x2CFF) || (code >= 0x0370 && code <= 0x03FF)) {
-        return 'Antinoou';
-      }
-    }
     return 'AbraamLegacy';
   }
 
@@ -112,136 +114,193 @@ class _GrammarPageState extends State<GrammarPage> {
   }) {
     if (text.isEmpty) return const SizedBox();
 
-    bool hasCopticMatch = _copticPattern.hasMatch(text);
-    if (!hasCopticMatch && !isLegacy) {
-      return Text(
-        text,
-        textAlign: textAlign,
-        textDirection: TextDirection.rtl,
-        style: TextStyle(
-          fontSize: fontSize,
-          fontWeight: fontWeight,
-          color: color,
-          height: height,
-        ),
-      );
-    }
-
-    bool hasArabicMatch = _arabicRegex.hasMatch(text);
-    if (!hasArabicMatch) {
-      final fontFamily = isLegacy ? 'AbraamLegacy' : _getCopticFontFamily(text);
-      return Text(
-        text,
-        textAlign: textAlign,
-        textDirection: TextDirection.ltr,
-        style: TextStyle(
-          fontFamily: fontFamily,
-          fontFamilyFallback: const ['Antinoou', 'CopticStandard', 'AbraamLegacy'],
-          fontSize: fontSize >= 16 ? fontSize + 2 : 17,
-          fontWeight: fontWeight,
-          color: color,
-          height: height,
-        ),
-      );
-    }
-
     final List<InlineSpan> spans = [];
-    String current = '';
-    bool currentIsCoptic = false;
+    final RegExp tagRegex = RegExp(r'\[c\](.*?)\[/c\]', dotAll: true);
+    int lastMatchEnd = 0;
+    
+    // Logic to add spans for Coptic text (handling mixed Unicode/Legacy)
+    void addCopticSpans(String subtext) {
+      if (subtext.isEmpty) return;
 
-    for (int i = 0; i < text.length; i++) {
-      final char = text[i];
-      final bool isArabic = _arabicRegex.hasMatch(char);
-      final bool isCopticLetter = _copticPattern.hasMatch(char) || (isLegacy && RegExp(r'[a-zA-Z]').hasMatch(char));
-      final bool isNeutral = !isArabic && !isCopticLetter;
+      String current = '';
+      bool? currentIsUnicode; // true for Unicode, false for Legacy
 
-      if (current.isEmpty) {
-        current = char;
-        if (isNeutral) {
-          // Look ahead for the first strong script
-          bool foundStrong = false;
-          for (int j = i + 1; j < text.length; j++) {
-            if (_arabicRegex.hasMatch(text[j])) {
-              currentIsCoptic = false;
-              foundStrong = true;
-              break;
-            }
-            if (_copticPattern.hasMatch(text[j])) {
-              currentIsCoptic = true;
-              foundStrong = true;
-              break;
-            }
-          }
-          if (!foundStrong) currentIsCoptic = isLegacy;
-        } else {
-          currentIsCoptic = isCopticLetter;
-        }
-      } else {
-        bool shouldContinue;
-        if (isNeutral) {
-          shouldContinue = true; // Neutrals always continue current script
-        } else if (isArabic) {
-          shouldContinue = !currentIsCoptic;
-        } else {
-          shouldContinue = currentIsCoptic;
-        }
+      for (int i = 0; i < subtext.length; i++) {
+        final char = subtext[i];
+        final bool isUnicode = RegExp(r'[\u2C80-\u2CFF\u0370-\u03FF\u03E2-\u03EF\u0300-\u036F]').hasMatch(char);
         
-        if (shouldContinue) {
+        if (currentIsUnicode == null) {
+          current = char;
+          currentIsUnicode = isUnicode;
+        } else if (currentIsUnicode == isUnicode) {
           current += char;
         } else {
+          // Flush
           String processedText = current;
-          if (currentIsCoptic) {
-            // Force legacy symbols to Unicode Coptic for guaranteed rendering
-            processedText = processedText.replaceAll(':', 'ⲋ').replaceAll(';', 'Ϯ');
-          }
-
+          processedText = '\u202A$processedText\u202C';
           spans.add(TextSpan(
             text: processedText,
-            style: currentIsCoptic
-                ? TextStyle(
-                    fontFamily: _getCopticFontFamily(current),
-                    fontFamilyFallback: const ['Antinoou', 'CopticStandard', 'AbraamLegacy'],
-                    fontSize: fontSize >= 16 ? fontSize + 2 : 17,
-                    fontWeight: fontWeight,
-                    color: color,
-                    height: height,
-                  )
-                : GoogleFonts.cairo(
-                    fontSize: fontSize,
-                    fontWeight: fontWeight,
-                    color: color,
-                    height: height,
-                  ),
+            style: TextStyle(
+              fontFamily: 'AbraamLegacy',
+              fontFamilyFallback: const ['AbraamLegacy', 'Antinoou', 'CopticStandard'],
+              fontSize: fontSize >= 16 ? fontSize + 2 : 17,
+              fontWeight: fontWeight,
+              color: color,
+              height: height,
+            ),
           ));
           current = char;
-          currentIsCoptic = isCopticLetter;
+          currentIsUnicode = isUnicode;
+        }
+      }
+
+      if (current.isNotEmpty) {
+        String processedText = current;
+        processedText = '\u202A$processedText\u202C';
+        spans.add(TextSpan(
+          text: processedText,
+          style: TextStyle(
+            fontFamily: 'AbraamLegacy',
+            fontFamilyFallback: const ['AbraamLegacy', 'Antinoou', 'CopticStandard'],
+            fontSize: fontSize >= 16 ? fontSize + 2 : 17,
+            fontWeight: fontWeight,
+            color: color,
+            height: height,
+          ),
+        ));
+      }
+    }
+
+    // Auto-detection logic for text outside [c] tags
+    void addAutoDetectedSpans(String subtext) {
+      if (subtext.isEmpty) return;
+
+      bool isCopticChar(String char) {
+        if (RegExp(r'[\u2C80-\u2CFF\u0370-\u03FF\u03E2-\u03EF\u0300-\u036F]').hasMatch(char)) return true;
+        return RegExp(r"[a-zA-Z`\\\[\]:;'\/?\><|~{}]").hasMatch(char);
+      }
+
+      bool hasCopticMatch = false;
+      bool hasArabicMatch = false;
+      for (int i = 0; i < subtext.length; i++) {
+        if (isCopticChar(subtext[i])) hasCopticMatch = true;
+        if (_arabicRegex.hasMatch(subtext[i])) hasArabicMatch = true;
+      }
+
+      // If purely standard text (no Coptic/Arabic)
+      if (!hasCopticMatch && !hasArabicMatch) {
+        spans.add(TextSpan(
+          text: subtext,
+          style: GoogleFonts.cairo(
+            fontSize: fontSize,
+            fontWeight: fontWeight,
+            color: color,
+            height: height,
+          ),
+        ));
+        return;
+      }
+
+      // If purely Coptic
+      if (!hasArabicMatch && hasCopticMatch) {
+        addCopticSpans(subtext);
+        return;
+      }
+
+      String current = '';
+      bool currentIsCoptic = false;
+
+      for (int i = 0; i < subtext.length; i++) {
+        final char = subtext[i];
+        final bool isArabicChar = _arabicRegex.hasMatch(char);
+        final bool isCopticLetter = isCopticChar(char);
+        final bool isNeutral = !isArabicChar && !isCopticLetter;
+
+        if (current.isEmpty) {
+          current = char;
+          if (isNeutral) {
+            bool foundStrong = false;
+            for (int j = i + 1; j < subtext.length; j++) {
+              if (_arabicRegex.hasMatch(subtext[j])) {
+                currentIsCoptic = false;
+                foundStrong = true;
+                break;
+              }
+              if (isCopticChar(subtext[j])) {
+                currentIsCoptic = true;
+                foundStrong = true;
+                break;
+              }
+            }
+            if (!foundStrong) currentIsCoptic = isLegacy;
+          } else {
+            currentIsCoptic = isCopticLetter;
+          }
+        } else {
+          bool shouldContinue;
+          if (isNeutral) {
+            shouldContinue = true;
+          } else if (isArabicChar) {
+            shouldContinue = !currentIsCoptic;
+          } else {
+            shouldContinue = currentIsCoptic;
+          }
+          
+          if (shouldContinue) {
+            current += char;
+          } else {
+            if (currentIsCoptic) {
+              addCopticSpans(current);
+            } else {
+              spans.add(TextSpan(
+                text: current,
+                style: GoogleFonts.cairo(
+                  fontSize: fontSize,
+                  fontWeight: fontWeight,
+                  color: color,
+                  height: height,
+                ),
+              ));
+            }
+            current = char;
+            currentIsCoptic = isCopticLetter;
+          }
+        }
+      }
+
+      if (current.isNotEmpty) {
+        if (currentIsCoptic) {
+          addCopticSpans(current);
+        } else {
+          spans.add(TextSpan(
+            text: current,
+            style: GoogleFonts.cairo(
+              fontSize: fontSize,
+              fontWeight: fontWeight,
+              color: color,
+              height: height,
+            ),
+          ));
         }
       }
     }
 
-    if (current.isNotEmpty) {
-      String processedText = current;
-      if (currentIsCoptic) {
-        processedText = processedText.replaceAll(':', 'ⲋ').replaceAll(';', 'Ϯ');
+    // Process explicit [c] tags
+    for (final match in tagRegex.allMatches(text)) {
+      if (match.start > lastMatchEnd) {
+        addAutoDetectedSpans(text.substring(lastMatchEnd, match.start));
       }
-      spans.add(TextSpan(
-        text: processedText,
-        style: currentIsCoptic
-            ? TextStyle(
-                fontFamily: _getCopticFontFamily(current),
-                fontFamilyFallback: const ['Antinoou', 'CopticStandard', 'AbraamLegacy'],
-                fontSize: fontSize >= 16 ? fontSize + 2 : 17,
-                fontWeight: fontWeight,
-                color: color,
-                height: height,
-              )
-            : GoogleFonts.cairo(
-                fontSize: fontSize,
-                fontWeight: fontWeight,
-                color: color,
-                height: height,
-              ),
-      ));
+      
+      String copticText = match.group(1) ?? '';
+      // Force everything inside [c] to use Coptic logic
+      addCopticSpans(copticText);
+      
+      lastMatchEnd = match.end;
+    }
+
+    // Process remaining text
+    if (lastMatchEnd < text.length) {
+      addAutoDetectedSpans(text.substring(lastMatchEnd));
     }
 
     return RichText(
@@ -273,7 +332,8 @@ class _GrammarPageState extends State<GrammarPage> {
 
     try {
       // 1. Try to load stage-specific file: grammar_stageId.json
-      final String jsonString = await tryLoad('assets/data/grammar_$stageId.json');
+      final String jsonPath = 'assets/data/grammar_$stageId.json';
+      final String jsonString = await tryLoad(jsonPath);
       final dynamic decoded = jsonDecode(jsonString);
       
       List<dynamic> stageLessons;
@@ -289,7 +349,7 @@ class _GrammarPageState extends State<GrammarPage> {
     } catch (e) {
       // 2. Fallback to old grammar.json
       try {
-        final String jsonString = await tryLoad('assets/data/grammar.json');
+        final String jsonString = await tryLoad(_langService.getDataPath('grammar'));
         final Map<String, dynamic> allJson = jsonDecode(jsonString);
         _applyLessons(allJson[stageId] ?? []);
       } catch (e2) {
@@ -349,7 +409,7 @@ class _GrammarPageState extends State<GrammarPage> {
             ),
             const SizedBox(height: 24),
             Text(
-              'مفيش قواعد للمرحلة دي',
+              _langService.translate('no_grammar_found'),
               style: GoogleFonts.cairo(
                 fontSize: 20,
                 fontWeight: FontWeight.w900,
@@ -403,7 +463,7 @@ class _GrammarPageState extends State<GrammarPage> {
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
                     Text(
-                      'قواعد اللغة القبطية',
+                      _langService.translate('coptic_grammar'),
                       style: GoogleFonts.cairo(
                         fontSize: 24,
                         fontWeight: FontWeight.w900,
@@ -419,7 +479,7 @@ class _GrammarPageState extends State<GrammarPage> {
                         borderRadius: BorderRadius.circular(20),
                       ),
                       child: Text(
-                        'سنة ٢٠٢٦ • ${_stageService.selectedStage.name}',
+                        '${_langService.translate('year_2026')} • ${_langService.translate(_stageService.selectedStage.id)}',
                         style: GoogleFonts.cairo(
                           fontSize: 11,
                           fontWeight: FontWeight.bold,
@@ -437,10 +497,10 @@ class _GrammarPageState extends State<GrammarPage> {
           if (_lessons.length > 1)
             Container(
               height: 46,
-              margin: const EdgeInsets.only(bottom: 16),
+              margin: const EdgeInsets.only(bottom: 12),
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
-                reverse: true, // RTL feel
+                reverse: _langService.isArabic, // RTL feel when Arabic
                 padding: const EdgeInsets.symmetric(horizontal: 20),
                 itemCount: _lessons.length,
                 itemBuilder: (context, index) {
@@ -666,7 +726,7 @@ class _GrammarPageState extends State<GrammarPage> {
                       textAlign: TextAlign.right,
                       style: TextStyle(
                         fontFamily: _getCopticFontFamily(ex['coptic'] ?? ''),
-                        fontFamilyFallback: const ['CopticStandard', 'Antinoou'],
+                        fontFamilyFallback: const ['AbraamLegacy', 'Antinoou', 'CopticStandard'],
                         fontSize: 22,
                         fontWeight: FontWeight.w900,
                         color: const Color(0xFF1E293B),
@@ -850,7 +910,7 @@ class _GrammarPageState extends State<GrammarPage> {
             borderRadius: BorderRadius.circular(20),
             child: SingleChildScrollView(
               scrollDirection: Axis.horizontal,
-              reverse: true, // Start from the right for RTL feel
+              reverse: _langService.isArabic, // RTL feel when Arabic
               child: SizedBox(
               width: colWidth * numCols,
               height: totalTableHeight,
@@ -894,7 +954,7 @@ class _GrammarPageState extends State<GrammarPage> {
                         alignment: Alignment.center,
                         decoration: BoxDecoration(
                           color: Colors.white,
-                          border: Border.all(color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.18), width: 0.5),
+                          border: Border.all(color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.2), width: 0.5),
                         ),
                         child: (() {
                           final bool isSentence = cell.text.trim().contains(' ');

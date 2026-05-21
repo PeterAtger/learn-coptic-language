@@ -4,6 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../services/stage_service.dart';
+import '../services/language_service.dart';
+import '../utils/donation_utils.dart';
 
 class HomePage extends StatefulWidget {
   final Function(int) onNavigateTo;
@@ -16,17 +18,20 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   final StageService _stageService = StageService();
+  final LanguageService _langService = LanguageService();
 
 
   @override
   void initState() {
     super.initState();
     _stageService.addListener(_updateState);
+    _langService.addListener(_updateState);
   }
 
   @override
   void dispose() {
     _stageService.removeListener(_updateState);
+    _langService.removeListener(_updateState);
     super.dispose();
   }
 
@@ -79,7 +84,31 @@ class _HomePageState extends State<HomePage> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              const SizedBox(), // Spacer
+              GestureDetector(
+                onTap: () {
+                  _langService.setLanguage(
+                    _langService.isArabic ? AppLanguage.en : AppLanguage.ar
+                  );
+                },
+                child: Container(
+                  width: 48,
+                  height: 48,
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.1),
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.2)),
+                  ),
+                  child: Text(
+                    _langService.isArabic ? 'EN' : 'عربي',
+                    style: GoogleFonts.cairo(
+                      color: Theme.of(context).colorScheme.primary,
+                      fontWeight: FontWeight.w900,
+                      fontSize: 13,
+                    ),
+                  ),
+                ),
+              ),
               Row(
                 children: [
                   GestureDetector(
@@ -97,12 +126,24 @@ class _HomePageState extends State<HomePage> {
                   ),
                   const SizedBox(width: 8),
                   GestureDetector(
+                    onTap: () => DonationUtils.showDonationDialog(context),
+                    child: Container(
+                      padding: const EdgeInsets.all(10),
+                      decoration: BoxDecoration(
+                        color: const Color(0xFFB45309).withValues(alpha: 0.1),
+                        borderRadius: BorderRadius.circular(16),
+                        border: Border.all(color: const Color(0xFFB45309).withValues(alpha: 0.2)),
+                      ),
+                      child: const Icon(Icons.volunteer_activism_rounded, color: Color(0xFFB45309), size: 22),
+                    ),
+                  ),
+                  const SizedBox(width: 12),
+                  GestureDetector(
                     onTap: () => _showInfoDialog(context),
                     child: Container(
-                      width: 48,
-                      height: 48,
+                      padding: const EdgeInsets.all(10),
                       decoration: BoxDecoration(
-                        color: Colors.white.withValues(alpha: 0.72),
+                        color: Colors.white.withValues(alpha: 0.5),
                         borderRadius: BorderRadius.circular(16),
                         border: Border.all(color: Colors.white.withValues(alpha: 0.55)),
                       ),
@@ -126,40 +167,52 @@ class _HomePageState extends State<HomePage> {
                     'assets/images/logo.webp',
                     fit: BoxFit.contain,
                     errorBuilder: (context, error, stackTrace) {
-                      return Icon(Icons.auto_awesome_rounded, size: 72, color: Theme.of(context).colorScheme.primary);
+                      return const Icon(Icons.auto_awesome_rounded, size: 72, color: Color(0xFFB45309));
                     },
                   ),
                 ),
                 const SizedBox(height: 24),
                 Text(
-                  'منهج القبطي - مهرجان الكرازة المرقسية',
+                  _langService.translate('app_title'),
                   textAlign: TextAlign.center,
-                  style: GoogleFonts.cairo(
-                    fontSize: 20,
-                    fontWeight: FontWeight.w900,
-                    color: const Color(0xFF1c1917),
-                  ),
+                  style: _langService.isArabic 
+                    ? GoogleFonts.cairo(
+                        fontSize: 20,
+                        fontWeight: FontWeight.w900,
+                        color: const Color(0xFF1c1917),
+                      )
+                    : GoogleFonts.poppins(
+                        fontSize: 18,
+                        fontWeight: FontWeight.w900,
+                        color: const Color(0xFF1c1917),
+                      ),
                 ),
                 const SizedBox(height: 8),
                 Container(
                   padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
                   decoration: BoxDecoration(
-                    color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.1),
+                    color: const Color(0xFFB45309).withValues(alpha: 0.1),
                     borderRadius: BorderRadius.circular(20),
-                    border: Border.all(color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.2)),
+                    border: Border.all(color: const Color(0xFFB45309).withValues(alpha: 0.2)),
                   ),
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.auto_awesome_rounded, size: 14, color: Theme.of(context).colorScheme.primary),
+                      const Icon(Icons.auto_awesome_rounded, size: 14, color: Color(0xFFB45309)),
                       const SizedBox(width: 6),
                       Text(
-                        'سنة ٢٠٢٦',
-                        style: GoogleFonts.cairo(
-                          fontSize: 11,
-                          fontWeight: FontWeight.w900,
-                          color: Theme.of(context).colorScheme.primary,
-                        ),
+                        _langService.translate('year_2026'),
+                        style: _langService.isArabic 
+                          ? GoogleFonts.cairo(
+                              fontSize: 11,
+                              fontWeight: FontWeight.w900,
+                              color: const Color(0xFFB45309),
+                            )
+                          : GoogleFonts.poppins(
+                              fontSize: 10,
+                              fontWeight: FontWeight.w800,
+                              color: const Color(0xFFB45309),
+                            ),
                       ),
                     ],
                   ),
@@ -225,13 +278,19 @@ class _HomePageState extends State<HomePage> {
                       Align(
                         alignment: Alignment.center,
                         child: Text(
-                          stage.name,
+                          _langService.translate(stage.id),
                           textAlign: TextAlign.center,
-                          style: GoogleFonts.cairo(
-                            fontSize: 16,
-                            fontWeight: FontWeight.w900,
-                            color: isSelected ? Colors.white : const Color(0xFF1C1917),
-                          ),
+                          style: _langService.isArabic
+                            ? GoogleFonts.cairo(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w900,
+                                color: isSelected ? Colors.white : const Color(0xFF1C1917),
+                              )
+                            : GoogleFonts.poppins(
+                                fontSize: 13,
+                                fontWeight: FontWeight.w800,
+                                color: isSelected ? Colors.white : const Color(0xFF1C1917),
+                              ),
                         ),
                       ),
                     ],
@@ -240,6 +299,7 @@ class _HomePageState extends State<HomePage> {
               );
             },
           ),
+          const SizedBox(height: 32),
         ],
       ),
     );
@@ -255,19 +315,22 @@ class _HomePageState extends State<HomePage> {
             backgroundColor: Colors.white.withValues(alpha: 0.85),
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(32)),
             title: Text(
-              'عن التطبيق',
+              _langService.translate('about_app'),
               textAlign: TextAlign.center,
               style: GoogleFonts.cairo(fontWeight: FontWeight.w900),
             ),
             content: Text(
-              'هذا التطبيق تم بكل حب ومودة من أجلكم\nبواسطة خدام كنيسة الشهيد العظيم أبي سيفين والشهيدة دميانة بشبرا\n\nمهرجان الكرازة ٢٠٢٦',
+              _langService.translate('about_content'),
               textAlign: TextAlign.center,
               style: GoogleFonts.cairo(fontWeight: FontWeight.bold, height: 1.5, fontSize: 14),
             ),
             actions: [
               TextButton(
                 onPressed: () => Navigator.of(context).pop(),
-                child: Text('إغلاق', style: GoogleFonts.cairo(color: Theme.of(context).colorScheme.primary, fontWeight: FontWeight.w900)),
+                child: Text(
+                  _langService.translate('close'), 
+                  style: GoogleFonts.cairo(color: const Color(0xFFB45309), fontWeight: FontWeight.w900)
+                ),
               )
             ],
           ),
@@ -289,7 +352,7 @@ class _HomePageState extends State<HomePage> {
               side: const BorderSide(color: Colors.white, width: 1.5),
             ),
             title: Text(
-              'للتواصل معنا',
+              _langService.translate('contact_us'),
               textAlign: TextAlign.center,
               style: GoogleFonts.cairo(
                 fontWeight: FontWeight.w900,
@@ -303,12 +366,12 @@ class _HomePageState extends State<HomePage> {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   _buildModernContactCard(
-                    name: 'م. مينا چوزيف',
+                    name: _langService.translate('mina_joseph'),
                     phone: '01098734124',
                   ),
                   const SizedBox(height: 12),
                   _buildModernContactCard(
-                    name: 'م. فيلوباتير چوزيف',
+                    name: _langService.translate('philopater_joseph'),
                     phone: '01210826678',
                   ),
                   const SizedBox(height: 12),
@@ -322,9 +385,9 @@ class _HomePageState extends State<HomePage> {
               TextButton(
                 onPressed: () => Navigator.of(context).pop(),
                 child: Text(
-                  'إغلاق',
+                  _langService.translate('close'),
                   style: GoogleFonts.cairo(
-                    color: Theme.of(context).colorScheme.primary,
+                    color: const Color(0xFFB45309),
                     fontWeight: FontWeight.w900,
                   ),
                 ),
@@ -417,12 +480,12 @@ class _HomePageState extends State<HomePage> {
             Container(
               padding: const EdgeInsets.all(8),
               decoration: BoxDecoration(
-                color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.12),
+                color: const Color(0xFFB45309).withValues(alpha: 0.12),
                 shape: BoxShape.circle,
               ),
-              child: Icon(
+              child: const Icon(
                 Icons.mail_rounded,
-                color: Theme.of(context).colorScheme.primary,
+                color: Color(0xFFB45309),
                 size: 20,
               ),
             ),

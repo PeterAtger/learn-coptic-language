@@ -25,10 +25,10 @@ class RuleNote extends StatelessWidget {
           if (title.isNotEmpty) ...[
             Text(
               title,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
+              style: const TextStyle(
+                fontWeight: FontWeight.bold, 
                 fontSize: 18,
-                color: Theme.of(context).colorScheme.primary,
+                color: Color(0xFFB45309), // لون بني ذهبي يليق بالسمة
               ),
             ),
             const SizedBox(height: 8),

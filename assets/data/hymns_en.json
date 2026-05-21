@@ -1,0 +1,1958 @@
+{
+  "nursery": [
+    {
+      "id": "nur-hymn-1",
+      "title": "Sign of the Cross",
+      "stageId": "nursery",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v1",
+          "coptic": "'en `vran `m`viwt",
+          "arabic": "In the name of the Father",
+          "phonetic": "Khen efran em-efiout",
+          "audioPath": "/audio/hymns/1.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v2",
+          "coptic": "Nem `p]hri",
+          "arabic": "and the Son",
+          "phonetic": "Nem epshiri",
+          "audioPath": "/audio/hymns/2.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v3",
+          "coptic": "Nem Pi`pneuma",
+          "arabic": "and the Spirit",
+          "phonetic": "Nem pi-epnevma",
+          "audioPath": "/audio/hymns/3.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v4",
+          "coptic": "Eqouab",
+          "arabic": "the Holy",
+          "phonetic": "Ethouab",
+          "audioPath": "/audio/hymns/4.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v5",
+          "coptic": "Ounou; `nouwt amhn",
+          "arabic": "One God, Amen",
+          "phonetic": "Ounouti enouot amin",
+          "audioPath": "/audio/hymns/5.mp3",
+          "isLegacy": true
+        }
+      ]
+    },
+    {
+      "id": "nur-hymn-2",
+      "title": "Oral Memorization Phrases",
+      "stageId": "nursery",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v1",
+          "coptic": ":menre pasoic ihcouc pi`xrictoc",
+          "arabic": "I love my Lord Jesus Christ",
+          "phonetic": "Ti-menre pa-chois Isos pi-khristos",
+          "audioPath": "/audio/hymns/6.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v2",
+          "coptic": ":menre ;parqenoc",
+          "arabic": "I love the Virgin",
+          "phonetic": "Ti-menre ti-parthenos",
+          "audioPath": "/audio/hymns/7.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v3",
+          "coptic": ":menre paiwt",
+          "arabic": "I love my father",
+          "phonetic": "Ti-menre paiot",
+          "audioPath": "/audio/hymns/8.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v4",
+          "coptic": ":menre tamau",
+          "arabic": "I love my mother",
+          "phonetic": "Ti-menre tamav",
+          "audioPath": "/audio/hymns/9.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v5",
+          "coptic": ":menre pacon",
+          "arabic": "I love my brother",
+          "phonetic": "Ti-menre pason",
+          "audioPath": "/audio/hymns/10.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v6",
+          "coptic": ":menre tacwni",
+          "arabic": "I love my sister",
+          "phonetic": "Ti-menre tasoni",
+          "audioPath": "/audio/hymns/11.mp3",
+          "isLegacy": true
+        }
+      ]
+    },
+    {
+      "id": "nur-hymn-theme",
+      "title": "Festival Theme",
+      "stageId": "nursery",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "In all these things we are more than conquerors through him who loved us (Rom 8:37)",
+          "phonetic": "Ten-er-houo-chro evol hiten phi-etaf-menriten",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/12.mp3"
+        }
+      ]
+    }
+  ],
+  "primary12": [
+    {
+      "id": "p12-hymn-1",
+      "title": "Sign of the Cross",
+      "stageId": "primary12",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v1",
+          "coptic": "'en `vran `m`viwt",
+          "arabic": "In the name of the Father",
+          "phonetic": "Khen efran em-efiout",
+          "audioPath": "/audio/hymns/p12/1.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v2",
+          "coptic": "Nem `p]hri",
+          "arabic": "and the Son",
+          "phonetic": "Nem epshiri",
+          "audioPath": "/audio/hymns/p12/2.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v3",
+          "coptic": "Nem Pi`pneuma",
+          "arabic": "and the Spirit",
+          "phonetic": "Nem pi-epnevma",
+          "audioPath": "/audio/hymns/p12/3.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v4",
+          "coptic": "Eqouab",
+          "arabic": "the Holy",
+          "phonetic": "Ethouab",
+          "audioPath": "/audio/hymns/p12/4.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v5",
+          "coptic": "Ounou; `nouwt amhn",
+          "arabic": "One God, Amen",
+          "phonetic": "Ounouti enouot amin",
+          "audioPath": "/audio/hymns/p12/5.mp3",
+          "isLegacy": true
+        }
+      ]
+    },
+    {
+      "id": "p12-hymn-2",
+      "title": "Oral Memorization Phrases",
+      "stageId": "primary12",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v1",
+          "coptic": ":ouw] `e`]lhl",
+          "arabic": "I want to pray",
+          "phonetic": "Ti-ouosh e-eshlel",
+          "audioPath": "/audio/hymns/p12/6.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v2",
+          "coptic": ":ouw] `eouwm",
+          "arabic": "I want to eat",
+          "phonetic": "Ti-ouosh e-ouwm",
+          "audioPath": "/audio/hymns/p12/7.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v3",
+          "coptic": ":ouw] `eenkot",
+          "arabic": "I want to sleep",
+          "phonetic": "Ti-ouosh e-enkot",
+          "audioPath": "/audio/hymns/p12/8.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v4",
+          "coptic": ":ouw] `ecw",
+          "arabic": "I want to drink",
+          "phonetic": "Ti-ouosh e-so",
+          "audioPath": "/audio/hymns/p12/9.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v5",
+          "coptic": ":ouw] `ejerjer",
+          "arabic": "I want to play",
+          "phonetic": "Ti-ouosh e-jerjer",
+          "audioPath": "/audio/hymns/p12/10.mp3",
+          "isLegacy": true
+        }
+      ]
+    },
+    {
+      "id": "p12-hymn-theme",
+      "title": "Festival Theme",
+      "stageId": "primary12",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "In all these things we are more than conquerors through him who loved us (Rom 8:37)",
+          "phonetic": "Ten-er-houo-chro evol hiten phi-etaf-menriten",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p12/11.mp3"
+        }
+      ]
+    }
+  ],
+  "primary34": [
+    {
+      "id": "p34-hymn-lvl1",
+      "title": "Level 1 Memorization",
+      "stageId": "primary34",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl1/1.mp3"
+        },
+        {
+          "id": "v2",
+          "coptic": "Anok pe `vouwini `mpikocmoc",
+          "arabic": "I am the light of the world",
+          "phonetic": "Anok pe ef-ouwini em-pi-kozmos",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl1/2.mp3"
+        },
+        {
+          "id": "v3",
+          "coptic": "Anok pe piwik `nte `pwn'",
+          "arabic": "I am the bread of life",
+          "phonetic": "Anok pe pi-wik ente ep-onkh",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl1/3.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "Taste and see that the Lord is good",
+          "phonetic": "Jem-tipi ouoh anav je ou-helje pe ep-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl1/4.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "Take heed to yourself and to the doctrine",
+          "phonetic": "Ma-ehtik erok nem ti-met-ref-ti-esvo",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl1/5.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "Be ready",
+          "phonetic": "Shopi ereten-septot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl1/6.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "Having the eyes of your hearts enlightened",
+          "phonetic": "Ethrou-er-ouwini enje ni-val ente peten-hit",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl1/7.mp3"
+        }
+      ]
+    },
+    {
+      "id": "p34-hymn-lvl2",
+      "title": "Level 2 Memorization",
+      "stageId": "primary34",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl2/1.mp3"
+        },
+        {
+          "id": "v2",
+          "coptic": "Vai pe pi`e\\oou `eta ` Psoic qamiof",
+          "arabic": "This is the day the Lord has made",
+          "phonetic": "Phai pe pi-ehoou eta ep-chois thamiof",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl2/2.mp3"
+        },
+        {
+          "id": "v3",
+          "coptic": "Anok pe `vouwini `mpikocmoc",
+          "arabic": "I am the light of the world",
+          "phonetic": "Anok pe ef-ouwini em-pi-kozmos",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl2/3.mp3"
+        },
+        {
+          "id": "v4",
+          "coptic": "Anok pe piwik `nte `pwn'",
+          "arabic": "I am the bread of life",
+          "phonetic": "Anok pe pi-wik ente ep-onkh",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl2/4.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "Taste and see that the Lord is good",
+          "phonetic": "Jem-tipi ouoh anav je ou-helje pe ep-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl2/5.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "Take heed to yourself and to the doctrine",
+          "phonetic": "Ma-ehtik erok nem ti-met-ref-ti-esvo",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl2/6.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "Be ready",
+          "phonetic": "Shopi ereten-septot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl2/7.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "Having the eyes of your hearts enlightened",
+          "phonetic": "Ethrou-er-ouwini enje ni-val ente peten-hit",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/lvl2/8.mp3"
+        }
+      ]
+    },
+    {
+      "id": "p34-hymn-theme",
+      "title": "Festival Theme",
+      "stageId": "primary34",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "In all these things we are more than conquerors through him who loved us (Rom 8:37)",
+          "phonetic": "Ten-er-houo-chro evol hiten phi-etaf-menriten",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p34/theme/1.mp3"
+        }
+      ]
+    }
+  ],
+  "primary56": [
+    {
+      "id": "p56-hymn-lvl1",
+      "title": "Level 1 Memorization",
+      "stageId": "primary56",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/1.mp3"
+        },
+        {
+          "id": "h-2-1",
+          "coptic": "Ouwn\\ `ebol `mP_ je ouxrhctoc ou`agaqoc pe allhloui`a> ",
+          "arabic": "Give thanks to the Lord, for He is good, for He is kind, Alleluia.",
+          "phonetic": "Ouwnh evol em-epchois je ou-khristos ou-aghathos pe allelouia",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/2.mp3"
+        },
+        {
+          "id": "h-2-2",
+          "coptic": "Je pefnai ]op ]a `ene\\ ",
+          "arabic": "For His mercy endures forever",
+          "phonetic": "Je pefnai shop sha eneh",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/3.mp3"
+        },
+        {
+          "id": "h-2-3",
+          "coptic": "Ouwn\\ `ebol `m`vnou; `nte ninou; a?l?> je pefnai ]op ]a `ene\\ ",
+          "arabic": "Give thanks to the God of gods, Alleluia: for His mercy endures forever",
+          "phonetic": "Ouwnh evol em-efnouti ente ni-nouti allelouia je pefnai shop sha eneh",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/4.mp3"
+        },
+        {
+          "id": "v2",
+          "coptic": "Anok pe `vouwini `mpikocmoc",
+          "arabic": "I am the light of the world",
+          "phonetic": "Anok pe ef-ouwini em-pi-kozmos",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/5.mp3"
+        },
+        {
+          "id": "v3",
+          "coptic": "Anok pe piwik `nte `pwn'",
+          "arabic": "I am the bread of life",
+          "phonetic": "Anok pe pi-wik ente ep-onkh",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/6.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "Taste and see that the Lord is good",
+          "phonetic": "Jem-tipi ouoh anav je ou-helje pe ep-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/7.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "Take heed to yourself and to the doctrine",
+          "phonetic": "Ma-ehtik erok nem ti-met-ref-ti-esvo",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/8.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "Be ready",
+          "phonetic": "Shopi ereten-septot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/9.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "Having the eyes of your hearts enlightened",
+          "phonetic": "Ethrou-er-ouwini enje ni-val ente peten-hit",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl1/10.mp3"
+        }
+      ]
+    },
+    {
+      "id": "p56-hymn-lvl2",
+      "title": "Level 2 Memorization",
+      "stageId": "primary56",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/1.mp3"
+        },
+        {
+          "id": "lp-1",
+          "coptic": "Peniwt e'ten nivhou`i",
+          "arabic": "Our Father who art in heaven",
+          "phonetic": "Peniot et-khen ni-phi-oui",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/2.mp3"
+        },
+        {
+          "id": "lp-2",
+          "coptic": "Mareftoubo `nje pekran>",
+          "arabic": "Hallowed be Thy name",
+          "phonetic": "Maref-touvo enje pek-ran",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/3.mp3"
+        },
+        {
+          "id": "lp-3",
+          "coptic": "Marec` I `nje tekmetouro>",
+          "arabic": "Thy kingdom come",
+          "phonetic": "Mares-i enje tek-met-ouro",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/4.mp3"
+        },
+        {
+          "id": "lp-4",
+          "coptic": "Pete\\nak maref]wpi> `m`vrh; 'en `tve> nem \\ijen pika\\i>",
+          "arabic": "Thy will be done, on earth as it is in heaven",
+          "phonetic": "Petehnak maref-shopi em-ef-riti khen et-fe nem hijen pi-kahi",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/5.mp3"
+        },
+        {
+          "id": "lp-5",
+          "coptic": "Penwik `nte rac;> mhif nan `mvoou",
+          "arabic": "Give us this day our daily bread",
+          "phonetic": "Pen-wik ente rasti meif nan em-phoou",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/6.mp3"
+        },
+        {
+          "id": "lp-6",
+          "coptic": "Ouo\\ xa nhet`eron nan `ebol>",
+          "arabic": "And forgive us our trespasses",
+          "phonetic": "Ouoh ka ni-eteron nan evol",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/7.mp3"
+        },
+        {
+          "id": "lp-7",
+          "coptic": "`M`vrh; \\wn `ntenxw `ebol> `nnh`ete ouon `ntan `erwou>",
+          "arabic": "As we forgive those who trespass against us",
+          "phonetic": "Em-ef-riti hon enten-ko evol en-ni-ete ouon entan erwou",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/8.mp3"
+        },
+        {
+          "id": "lp-8",
+          "coptic": "Ouo\\ `mperenten `e'oun `epiracmoc",
+          "arabic": "And lead us not into temptation",
+          "phonetic": "Ouoh emper-enten e-khoun epi-razmos",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/9.mp3"
+        },
+        {
+          "id": "lp-9",
+          "coptic": "Alla na\\men `ebol\\a pipet\\wou",
+          "arabic": "But deliver us from the evil one",
+          "phonetic": "Alla nahmen evol-ha pi-pet-hwou",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/10.mp3"
+        },
+        {
+          "id": "lp-10",
+          "coptic": "'en pixrictoc ihcouc pensoic>",
+          "arabic": "In Christ Jesus our Lord",
+          "phonetic": "Khen pi-khristos Isos pen-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/11.mp3"
+        },
+        {
+          "id": "lp-11",
+          "coptic": "Je qwk te ;metouro> nem ;jom> nem pi`wou> ]a `ene\\> amhn",
+          "arabic": "For Thine is the kingdom, the power, and the glory, forever. Amen.",
+          "phonetic": "Je thok te ti-met-ouro nem ti-gom nem pi-wou sha eneh. Amin.",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/12.mp3"
+        },
+        {
+          "id": "v3",
+          "coptic": "Anok pe `vouwini `mpikocmoc",
+          "arabic": "I am the light of the world",
+          "phonetic": "Anok pe ef-ouwini em-pi-kozmos",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/13.mp3"
+        },
+        {
+          "id": "v4",
+          "coptic": "Anok pe piwik `nte `pwn'",
+          "arabic": "I am the bread of life",
+          "phonetic": "Anok pe pi-wik ente ep-onkh",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/14.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "Taste and see that the Lord is good",
+          "phonetic": "Jem-tipi ouoh anav je ou-helje pe ep-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/15.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "Take heed to yourself and to the doctrine",
+          "phonetic": "Ma-ehtik erok nem ti-met-ref-ti-esvo",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/16.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "Be ready",
+          "phonetic": "Shopi ereten-septot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/17.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "Having the eyes of your hearts enlightened",
+          "phonetic": "Ethrou-er-ouwini enje ni-val ente peten-hit",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/lvl2/18.mp3"
+        }
+      ]
+    },
+    {
+      "id": "p56-hymn-theme",
+      "title": "Festival Theme",
+      "stageId": "primary56",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "In all these things we are more than conquerors through him who loved us (Rom 8:37)",
+          "phonetic": "Ten-er-houo-chro evol hiten phi-etaf-menriten",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/p56/theme/1.mp3"
+        }
+      ]
+    }
+  ],
+  "qana": [
+    {
+      "id": "qana-hymn-lvl1",
+      "title": "Level 1 Memorization",
+      "stageId": "qana",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/lvl1/1.mp3"
+        },
+        {
+          "id": "theo-1",
+          "coptic": "Ouckhnh `mmhi> te Maria ;parqenoc> euxh 'en tecmh;> `nje nimetmeqreu `eten\\ot.",
+          "arabic": "A true tabernacle is Mary the Virgin, wherein are placed the true testimonies.",
+          "phonetic": "Ou-skene em-mi te Maria ti-parthenos ev-ki khen tes-meti enje ni-met-methreu eten-hot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/lvl1/2.mp3"
+        },
+        {
+          "id": "theo-2",
+          "coptic": ":kibwtoc `natqwleb> eto]j `nnoub `ncaca niben> nem piilacthrion> `nXeroubimikon.",
+          "arabic": "The undefiled Ark, overlaid with gold on all sides, and the mercy seat of the Cherubim.",
+          "phonetic": "Ti-kivotos en-at-thouleb etoshg en-noub en-sasa niven nem pi-ilastirion en-sheroubimikon",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/lvl1/3.mp3"
+        },
+        {
+          "id": "theo-3",
+          "coptic": "Pictamnoc `nnoub> ere pimanna \\hp `n'htf> ic pilogoc `nte `viwt> `i afsicar[ `n'h;.",
+          "arabic": "The golden pot, wherein the manna was hidden, is the Word of the Father, who came and took flesh of you.",
+          "phonetic": "Pi-stamnios en-noub ere pi-manna hip en-khitf is pi-loghos ente ef-iot e af-chi-sarx en-khiti",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/lvl1/4.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "Taste and see that the Lord is good",
+          "phonetic": "Jem-tipi ouoh anav je ou-helje pe ep-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/lvl1/5.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "Take heed to yourself and to the doctrine",
+          "phonetic": "Ma-ehtik erok nem ti-met-ref-ti-esvo",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/lvl1/6.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "Be ready",
+          "phonetic": "Shopi ereten-septot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/lvl1/7.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "Having the eyes of your hearts enlightened",
+          "phonetic": "Ethrou-er-ouwini enje ni-val ente peten-hit",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/lvl1/8.mp3"
+        }
+      ]
+    },
+    {
+      "id": "qana-hymn-theme",
+      "title": "Festival Theme",
+      "stageId": "qana",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "In all these things we are more than conquerors through him who loved us (Rom 8:37)",
+          "phonetic": "Ten-er-houo-chro evol hiten phi-etaf-menriten",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/qana/theme/1.mp3"
+        }
+      ]
+    }
+  ],
+  "uni": [
+    {
+      "id": "uni-lvl1",
+      "title": "Level 1 Memorization",
+      "stageId": "uni",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl1/1.mp3"
+        },
+        {
+          "id": "theo-sat-1-1",
+          "coptic": ":atqwleb `ncemne> ouo\\ eqouab 'en \\wb niben> Qhetac`ini nan `m`vnou;> eftalhout `ejen nec`jvoi.",
+          "arabic": "O pure and chaste one, and holy in all things, you who brought us God, carried on your arms.",
+          "phonetic": "Ti-at-thouleb en-semne ouoh ethouab khen hob niven thi-etas-ini nan em-efnouti ef-tale-iout ejen nes-egvoi",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl1/2.mp3"
+        },
+        {
+          "id": "theo-sat-1-2",
+          "coptic": "`Cra]I neme `nje ;kthcic thrc> Ecw] `ebol ecjw `mmoc> je xere qheqme\\ `n\\mot> Ouo\\ ` Psoic ]op neme.",
+          "arabic": "Rejoice with us, O all creation, crying out and saying: Hail to you, O full of grace, the Lord is with you.",
+          "phonetic": "Esrashi neme enje ti-ktisis tirs es-osh evol esgo em-mos je shere thi-ethmeh en-hmot ouoh epchois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl1/3.mp3"
+        },
+        {
+          "id": "theo-sat-ref",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "Hail to you, O full of grace; Hail to you, who have found grace; Hail to you, who have given birth to Christ; the Lord is with you.",
+          "phonetic": "Shere thi-ethmeh en-hmot shere thi-etas-ajem hmot shere thi-etas-mes pi-khristos ouoh ep-chois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl1/4.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "Taste and see that the Lord is good",
+          "phonetic": "Jem-tipi ouoh anav je ou-helje pe ep-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl1/5.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "Take heed to yourself and to the doctrine",
+          "phonetic": "Ma-ehtik erok nem ti-met-ref-ti-esvo",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl1/6.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "Be ready",
+          "phonetic": "Shopi ereten-septot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl1/7.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "Having the eyes of your hearts enlightened",
+          "phonetic": "Ethrou-er-ouwini enje ni-val ente peten-hit",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl1/8.mp3"
+        }
+      ]
+    },
+    {
+      "id": "uni-lvl2",
+      "title": "Level 2 Memorization",
+      "stageId": "uni",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/1.mp3"
+        },
+        {
+          "id": "theo-sat-1-1",
+          "coptic": ":atqwleb `ncemne> ouo\\ eqouab 'en \\wb niben> Qhetac`ini nan `m`vnou;> eftalhout `ejen nec`jvoi.",
+          "arabic": "O pure and chaste one, and holy in all things, you who brought us God, carried on your arms.",
+          "phonetic": "Ti-at-thouleb en-semne ouoh ethouab khen hmot niven thi-etas-ini nan em-efnouti ef-tale-iout ejen nes-egvoi",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/2.mp3"
+        },
+        {
+          "id": "theo-sat-1-2",
+          "coptic": "`Cra]I neme `nje ;kthcic thrc> Ecw] `ebol ecjw `mmoc> je xere qheqme\\ `n\\mot> Ouo\\ ` Psoic ]op neme.",
+          "arabic": "Rejoice with us, O all creation, crying out and saying: Hail to you, O full of grace, the Lord is with you.",
+          "phonetic": "Esrashi neme enje ti-ktisis tirs es-osh evol es-go em-mos je shere thi-ethmeh en-hmot ouoh epchois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/3.mp3"
+        },
+        {
+          "id": "theo-sat-ref",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "Hail to you, O full of grace; Hail to you, who have found grace; Hail to you, who have given birth to Christ; the Lord is with you.",
+          "phonetic": "Shere thi-ethmeh en-hmot shere thi-etas-ajem hmot shere thi-etas-mes pi-khristos ouoh ep-chois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/4.mp3"
+        },
+        {
+          "id": "theo-sat-2-1",
+          "coptic": "Tenermakarizin `ntemetni];> `w;parqenoc `ncabh> ten; ne `mpixereticmoc> nem gabrihl piaggeloc.",
+          "arabic": "We bless your greatness, O wise Virgin; we give you greeting, with Gabriel the angel.",
+          "phonetic": "Ten-er-makarizin ente-met-nishti o ti-parthenos en-savy ten-ti ne em-pi-kheretizmos nem Gabriyel pi-angelos",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/5.mp3"
+        },
+        {
+          "id": "theo-sat-2-2",
+          "coptic": "Je `ebol\\iten pekarpoc> a pioujai ta\\e pengenoc> a `vnou; \\otpen `erof `nkecop> \\iten tefmetagaqoc.",
+          "arabic": "For through your fruit, salvation has reached our race; and God has reconciled us again to Him, through His goodness.",
+          "phonetic": "Je evol-hiten pe-karpos a pi-ougai tahe pen-genos a ef-nouti hotpen erof en-kesop hiten tef-met-agathos",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/6.mp3"
+        },
+        {
+          "id": "theo-sat-ref1",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "Hail to you, O full of grace; Hail to you, who have found grace; Hail to you, who have given birth to Christ; the Lord is with you.",
+          "phonetic": "Shere thi-ethmeh en-hmot shere thi-etas-ajem hmot shere thi-etas-mes pi-khristos ouoh ep-chois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/7.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "Taste and see that the Lord is good",
+          "phonetic": "Jem-tipi ouoh anav je ou-helje pe ep-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/8.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "Take heed to yourself and to the doctrine",
+          "phonetic": "Ma-ehtik erok nem ti-met-ref-ti-esvo",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/9.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "Be ready",
+          "phonetic": "Shopi ereten-septot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/10.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "Having the eyes of your hearts enlightened",
+          "phonetic": "Ethrou-er-ouwini enje ni-val ente peten-hit",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/lvl2/11.mp3"
+        }
+      ]
+    },
+    {
+      "id": "uni-hymn-theme",
+      "title": "Festival Theme",
+      "stageId": "uni",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "In all these things we are more than conquerors through him who loved us (Rom 8:37)",
+          "phonetic": "Ten-er-houo-chro evol hiten phi-etaf-menriten",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/uni/theme/1.mp3"
+        }
+      ]
+    }
+  ],
+  "graduates": [
+    {
+      "id": "grad-lvl1",
+      "title": "Level 1 Memorization",
+      "stageId": "graduates",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl1/1.mp3"
+        },
+        {
+          "id": "theo-sat-1-1",
+          "coptic": ":atqwleb `ncemne> ouo\\ eqouab 'en \\wb niben> Qhetac`ini nan `m`vnou;> eftalhout `ejen nec`jvoi.",
+          "arabic": "O pure and chaste one, and holy in all things, you who brought us God, carried on your arms.",
+          "phonetic": "Ti-at-thouleb en-semne ouoh ethouab khen hob niven thi-etas-ini nan em-efnouti ef-tale-iout ejen nes-egvoi",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl1/2.mp3"
+        },
+        {
+          "id": "theo-sat-1-2",
+          "coptic": "`Cra]I neme `nje ;kthcic thrc> Ecw] `ebol ecjw `mmoc> je xere qheqme\\ `n\\mot> Ouo\\ ` Psoic ]op neme.",
+          "arabic": "Rejoice with us, O all creation, crying out and saying: Hail to you, O full of grace, the Lord is with you.",
+          "phonetic": "Esrashi neme enje ti-ktisis tirs es-osh evol esgo em-mos je shere thi-ethmeh en-hmot ouoh epchois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl1/3.mp3"
+        },
+        {
+          "id": "theo-sat-ref",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "Hail to you, O full of grace; Hail to you, who have found grace; Hail to you, who have given birth to Christ; the Lord is with you.",
+          "phonetic": "Shere thi-ethmeh en-hmot shere thi-etas-ajem hmot shere thi-etas-mes pi-khristos ouoh ep-chois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl1/4.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "Taste and see that the Lord is good",
+          "phonetic": "Jem-tipi ouoh anav je ou-helje pe ep-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl1/5.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "Take heed to yourself and to the doctrine",
+          "phonetic": "Ma-ehtik erok nem ti-met-ref-ti-esvo",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl1/6.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "Be ready",
+          "phonetic": "Shopi ereten-septot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl1/7.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "Having the eyes of your hearts enlightened",
+          "phonetic": "Ethrou-er-ouwini enje ni-val ente peten-hit",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl1/8.mp3"
+        }
+      ]
+    },
+    {
+      "id": "grad-lvl2",
+      "title": "Level 2 Memorization",
+      "stageId": "graduates",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/1.mp3"
+        },
+        {
+          "id": "theo-sat-1-1",
+          "coptic": ":atqwleb `ncemne> ouo\\ eqouab 'en \\wb niben> Qhetac`ini nan `m`vnou;> eftalhout `ejen nec`jvoi.",
+          "arabic": "O pure and chaste one, and holy in all things, you who brought us God, carried on your arms.",
+          "phonetic": "Ti-at-thouleb en-semne ouoh ethouab khen hmot niven thi-etas-ini nan em-efnouti ef-tale-iout ejen nes-egvoi",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/2.mp3"
+        },
+        {
+          "id": "theo-sat-1-2",
+          "coptic": "`Cra]I neme `nje ;kthcic thrc> Ecw] `ebol ecjw `mmoc> je xere qheqme\\ `n\\mot> Ouo\\ ` Psoic ]op neme.",
+          "arabic": "Rejoice with us, O all creation, crying out and saying: Hail to you, O full of grace, the Lord is with you.",
+          "phonetic": "Esrashi neme enje ti-ktisis tirs es-osh evol es-go em-mos je shere thi-ethmeh en-hmot ouoh epchois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/3.mp3"
+        },
+        {
+          "id": "theo-sat-ref",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "Hail to you, O full of grace; Hail to you, who have found grace; Hail to you, who have given birth to Christ; the Lord is with you.",
+          "phonetic": "Shere thi-ethmeh en-hmot shere thi-etas-ajem hmot shere thi-etas-mes pi-khristos ouoh ep-chois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/4.mp3"
+        },
+        {
+          "id": "theo-sat-2-1",
+          "coptic": "Tenermakarizin `ntemetni];> `w;parqenoc `ncabh> ten; ne `mpixereticmoc> nem gabrihl piaggeloc.",
+          "arabic": "We bless your greatness, O wise Virgin; we give you greeting, with Gabriel the angel.",
+          "phonetic": "Ten-er-makarizin ente-met-nishti o ti-parthenos en-savy ten-ti ne em-pi-kheretizmos nem Gabriyel pi-angelos",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/5.mp3"
+        },
+        {
+          "id": "theo-sat-2-2",
+          "coptic": "Je `ebol\\iten pekarpoc> a pioujai ta\\e pengenoc> a `vnou; \\otpen `erof `nkecop> \\iten tefmetagaqoc.",
+          "arabic": "For through your fruit, salvation has reached our race; and God has reconciled us again to Him, through His goodness.",
+          "phonetic": "Je evol-hiten pe-karpos a pi-ougai tahe pen-genos a ef-nouti hotpen erof en-kesop hiten tef-met-agathos",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/6.mp3"
+        },
+        {
+          "id": "theo-sat-ref1",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "Hail to you, O full of grace; Hail to you, who have found grace; Hail to you, who have given birth to Christ; the Lord is with you.",
+          "phonetic": "Shere thi-ethmeh en-hmot shere thi-etas-ajem hmot shere thi-etas-mes pi-khristos ouoh ep-chois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/7.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "Taste and see that the Lord is good",
+          "phonetic": "Jem-tipi ouoh anav je ou-helje pe ep-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/8.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "Take heed to yourself and to the doctrine",
+          "phonetic": "Ma-ehtik erok nem ti-met-ref-ti-esvo",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/9.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "Be ready",
+          "phonetic": "Shopi ereten-septot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/10.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "Having the eyes of your hearts enlightened",
+          "phonetic": "Ethrou-er-ouwini enje ni-val ente peten-hit",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/lvl2/11.mp3"
+        }
+      ]
+    },
+    {
+      "id": "grad-hymn-theme",
+      "title": "Festival Theme",
+      "stageId": "graduates",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "In all these things we are more than conquerors through him who loved us (Rom 8:37)",
+          "phonetic": "Ten-er-houo-chro evol hiten phi-etaf-menriten",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/grad/theme/1.mp3"
+        }
+      ]
+    }
+  ],
+  "servants": [
+    {
+      "id": "serv-lvl1",
+      "title": "Level 1 Memorization",
+      "stageId": "servants",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl1/1.mp3"
+        },
+        {
+          "id": "theo-sat-1-1",
+          "coptic": ":atqwleb `ncemne> ouo\\ eqouab 'en \\wb niben> Qhetac`ini nan `m`vnou;> eftalhout `ejen nec`jvoi.",
+          "arabic": "O pure and chaste one, and holy in all things, you who brought us God, carried on your arms.",
+          "phonetic": "Ti-at-thouleb en-semne ouoh ethouab khen hob niven thi-etas-ini nan em-efnouti ef-tale-iout ejen nes-egvoi",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl1/2.mp3"
+        },
+        {
+          "id": "theo-sat-1-2",
+          "coptic": "`Cra]I neme `nje ;kthcic thrc> Ecw] `ebol ecjw `mmoc> je xere qheqme\\ `n\\mot> Ouo\\ ` Psoic ]op neme.",
+          "arabic": "Rejoice with us, O all creation, crying out and saying: Hail to you, O full of grace, the Lord is with you.",
+          "phonetic": "Esrashi neme enje ti-ktisis tirs es-osh evol esgo em-mos je shere thi-ethmeh en-hmot ouoh epchois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl1/3.mp3"
+        },
+        {
+          "id": "theo-sat-ref",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "Hail to you, O full of grace; Hail to you, who have found grace; Hail to you, who have given birth to Christ; the Lord is with you.",
+          "phonetic": "Shere thi-ethmeh en-hmot shere thi-etas-ajem hmot shere thi-etas-mes pi-khristos ouoh ep-chois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl1/4.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "Taste and see that the Lord is good",
+          "phonetic": "Jem-tipi ouoh anav je ou-helje pe ep-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl1/5.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "Take heed to yourself and to the doctrine",
+          "phonetic": "Ma-ehtik erok nem ti-met-ref-ti-esvo",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl1/6.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "Be ready",
+          "phonetic": "Shopi ereten-septot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl1/7.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "Having the eyes of your hearts enlightened",
+          "phonetic": "Ethrou-er-ouwini enje ni-val ente peten-hit",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl1/8.mp3"
+        }
+      ]
+    },
+    {
+      "id": "serv-lvl2",
+      "title": "Level 2 Memorization",
+      "stageId": "servants",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/1.mp3"
+        },
+        {
+          "id": "theo-sat-1-1",
+          "coptic": ":atqwleb `ncemne> ouo\\ eqouab 'en \\wb niben> Qhetac`ini nan `m`vnou;> eftalhout `ejen nec`jvoi.",
+          "arabic": "O pure and chaste one, and holy in all things, you who brought us God, carried on your arms.",
+          "phonetic": "Ti-at-thouleb en-semne ouoh ethouab khen hmot niven thi-etas-ini nan em-efnouti ef-tale-iout ejen nes-egvoi",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/2.mp3"
+        },
+        {
+          "id": "theo-sat-1-2",
+          "coptic": "`Cra]I neme `nje ;kthcic thrc> Ecw] `ebol ecjw `mmoc> je xere qheqme\\ `n\\mot> Ouo\\ ` Psoic ]op neme.",
+          "arabic": "Rejoice with us, O all creation, crying out and saying: Hail to you, O full of grace, the Lord is with you.",
+          "phonetic": "Esrashi neme enje ti-ktisis tirs es-osh evol es-go em-mos je shere thi-ethmeh en-hmot ouoh epchois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/3.mp3"
+        },
+        {
+          "id": "theo-sat-ref",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "Hail to you, O full of grace; Hail to you, who have found grace; Hail to you, who have given birth to Christ; the Lord is with you.",
+          "phonetic": "Shere thi-ethmeh en-hmot shere thi-etas-ajem hmot shere thi-etas-mes pi-khristos ouoh ep-chois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/4.mp3"
+        },
+        {
+          "id": "theo-sat-2-1",
+          "coptic": "Tenermakarizin `ntemetni];> `w;parqenoc `ncabh> ten; ne `mpixereticmoc> nem gabrihl piaggeloc.",
+          "arabic": "We bless your greatness, O wise Virgin; we give you greeting, with Gabriel the angel.",
+          "phonetic": "Ten-er-makarizin ente-met-nishti o ti-parthenos en-savy ten-ti ne em-pi-kheretizmos nem Gabriyel pi-angelos",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/5.mp3"
+        },
+        {
+          "id": "theo-sat-2-2",
+          "coptic": "Je `ebol\\iten pekarpoc> a pioujai ta\\e pengenoc> a `vnou; \\otpen `erof `nkecop> \\iten tefmetagaqoc.",
+          "arabic": "For through your fruit, salvation has reached our race; and God has reconciled us again to Him, through His goodness.",
+          "phonetic": "Je evol-hiten pe-karpos a pi-ougai tahe pen-genos a ef-nouti hotpen erof en-kesop hiten tef-met-agathos",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/6.mp3"
+        },
+        {
+          "id": "theo-sat-ref1",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "Hail to you, O full of grace; Hail to you, who have found grace; Hail to you, who have given birth to Christ; the Lord is with you.",
+          "phonetic": "Shere thi-ethmeh en-hmot shere thi-etas-ajem hmot shere thi-etas-mes pi-khristos ouoh ep-chois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/7.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "Taste and see that the Lord is good",
+          "phonetic": "Jem-tipi ouoh anav je ou-helje pe ep-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/8.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "Take heed to yourself and to the doctrine",
+          "phonetic": "Ma-ehtik erok nem ti-met-ref-ti-esvo",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/9.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "Be ready",
+          "phonetic": "Shopi ereten-septot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/10.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "Having the eyes of your hearts enlightened",
+          "phonetic": "Ethrou-er-ouwini enje ni-val ente peten-hit",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/lvl2/11.mp3"
+        }
+      ]
+    },
+    {
+      "id": "serv-hymn-theme",
+      "title": "Festival Theme",
+      "stageId": "servants",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "In all these things we are more than conquerors through him who loved us (Rom 8:37)",
+          "phonetic": "Ten-er-houo-chro evol hiten phi-etaf-menriten",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/serv/theme/1.mp3"
+        }
+      ]
+    }
+  ],
+  "servants_trainees": [
+    {
+      "id": "trainee-lvl1",
+      "title": "Level 1 Memorization",
+      "stageId": "servant_trainees",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl1/1.mp3"
+        },
+        {
+          "id": "theo-sat-1-1",
+          "coptic": ":atqwleb `ncemne> ouo\\ eqouab 'en \\wb niben> Qhetac`ini nan `m`vnou;> eftalhout `ejen nec`jvoi.",
+          "arabic": "O pure and chaste one, and holy in all things, you who brought us God, carried on your arms.",
+          "phonetic": "Ti-at-thouleb en-semne ouoh ethouab khen hob niven thi-etas-ini nan em-efnouti ef-tale-iout ejen nes-egvoi",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl1/2.mp3"
+        },
+        {
+          "id": "theo-sat-1-2",
+          "coptic": "`Cra]I neme `nje ;kthcic thrc> Ecw] `ebol ecjw `mmoc> je xere qheqme\\ `n\\mot> Ouo\\ ` Psoic ]op neme.",
+          "arabic": "Rejoice with us, O all creation, crying out and saying: Hail to you, O full of grace, the Lord is with you.",
+          "phonetic": "Esrashi neme enje ti-ktisis tirs es-osh evol esgo em-mos je shere thi-ethmeh en-hmot ouoh epchois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl1/3.mp3"
+        },
+        {
+          "id": "theo-sat-ref",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "Hail to you, O full of grace; Hail to you, who have found grace; Hail to you, who have given birth to Christ; the Lord is with you.",
+          "phonetic": "Shere thi-ethmeh en-hmot shere thi-etas-ajem hmot shere thi-etas-mes pi-khristos ouoh ep-chois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl1/4.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "Taste and see that the Lord is good",
+          "phonetic": "Jem-tipi ouoh anav je ou-helje pe ep-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl1/5.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "Take heed to yourself and to the doctrine",
+          "phonetic": "Ma-ehtik erok nem ti-met-ref-ti-esvo",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl1/6.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "Be ready",
+          "phonetic": "Shopi ereten-septot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl1/7.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "Having the eyes of your hearts enlightened",
+          "phonetic": "Ethrou-er-ouwini enje ni-val ente peten-hit",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl1/8.mp3"
+        }
+      ]
+    },
+    {
+      "id": "trainee-lvl2",
+      "title": "Level 2 Memorization",
+      "stageId": "servant_trainees",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-pneuma ethouab ounouti enouot amen",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/1.mp3"
+        },
+        {
+          "id": "theo-sat-1-1",
+          "coptic": ":atqwleb `ncemne> ouo\\ eqouab 'en \\wb niben> Qhetac`ini nan `m`vnou;> eftalhout `ejen nec`jvoi.",
+          "arabic": "O pure and chaste one, and holy in all things, you who brought us God, carried on your arms.",
+          "phonetic": "Ti-at-thouleb en-semne ouoh ethouab khen hmot niven thi-etas-ini nan em-efnouti ef-tale-iout ejen nes-egvoi",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/2.mp3"
+        },
+        {
+          "id": "theo-sat-1-2",
+          "coptic": "`Cra]I neme `nje ;kthcic thrc> Ecw] `ebol ecjw `mmoc> je xere qheqme\\ `n\\mot> Ouo\\ ` Psoic ]op neme.",
+          "arabic": "Rejoice with us, O all creation, crying out and saying: Hail to you, O full of grace, the Lord is with you.",
+          "phonetic": "Esrashi neme enje ti-ktisis tirs es-osh evol es-go em-mos je shere thi-ethmeh en-hmot ouoh epchois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/3.mp3"
+        },
+        {
+          "id": "theo-sat-ref",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "Hail to you, O full of grace; Hail to you, who have found grace; Hail to you, who have given birth to Christ; the Lord is with you.",
+          "phonetic": "Shere thi-ethmeh en-hmot shere thi-etas-ajem hmot shere thi-etas-mes pi-khristos ouoh ep-chois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/4.mp3"
+        },
+        {
+          "id": "theo-sat-2-1",
+          "coptic": "Tenermakarizin `ntemetni];> `w;parqenoc `ncabh> ten; ne `mpixereticmoc> nem gabrihl piaggeloc.",
+          "arabic": "We bless your greatness, O wise Virgin; we give you greeting, with Gabriel the angel.",
+          "phonetic": "Ten-er-makarizin ente-met-nishti o ti-parthenos en-savy ten-ti ne em-pi-kheretizmos nem Gabriyel pi-angelos",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/5.mp3"
+        },
+        {
+          "id": "theo-sat-2-2",
+          "coptic": "Je `ebol\\iten pekarpoc> a pioujai ta\\e pengenoc> a `vnou; \\otpen `erof `nkecop> \\iten tefmetagaqoc.",
+          "arabic": "For through your fruit, salvation has reached our race; and God has reconciled us again to Him, through His goodness.",
+          "phonetic": "Je evol-hiten pe-karpos a pi-ougai tahe pen-genos a ef-nouti hotpen erof en-kesop hiten tef-met-agathos",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/6.mp3"
+        },
+        {
+          "id": "theo-sat-ref1",
+          "coptic": "Xere qheqme\\ `n`\\mot> xere qhetcajem `\\mot> xere qhetacmec Pixrictoc> ouo\\ ` Psoic ]op neme",
+          "arabic": "Hail to you, O full of grace; Hail to you, who have found grace; Hail to you, who have given birth to Christ; the Lord is with you.",
+          "phonetic": "Shere thi-ethmeh en-hmot shere thi-etas-ajem hmot shere thi-etas-mes pi-khristos ouoh ep-chois shop neme",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/7.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "Taste and see that the Lord is good",
+          "phonetic": "Jem-tipi ouoh anav je ou-helje pe ep-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/8.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "Take heed to yourself and to the doctrine",
+          "phonetic": "Ma-ehtik erok nem ti-met-ref-ti-esvo",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/9.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "Be ready",
+          "phonetic": "Shopi ereten-septot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/10.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "Having the eyes of your hearts enlightened",
+          "phonetic": "Ethrou-er-ouwini enje ni-val ente peten-hit",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/lvl2/11.mp3"
+        }
+      ]
+    },
+    {
+      "id": "trainee-hymn-theme",
+      "title": "Festival Theme",
+      "stageId": "servant_trainees",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "In all these things we are more than conquerors through him who loved us (Rom 8:37)",
+          "phonetic": "Ten-er-houo-chro evol hiten phi-etaf-menriten",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/st/theme/1.mp3"
+        }
+      ]
+    }
+  ],
+  "special_needs_simple": [
+    {
+      "id": "sn1",
+      "title": "Simple Memorization",
+      "stageId": "special_needs_simple",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "sc-1",
+          "coptic": "\"en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "audioPath": "/audio/hymns/p34/lvl1/1.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "In all these things we are more than conquerors through him who loved us (Rom 8:37)",
+          "phonetic": "Ten-er-houo-chro evol hiten phi-etaf-menriten",
+          "audioPath": "/audio/hymns/st/theme/1.mp3",
+          "isLegacy": true
+        }
+      ]
+    }
+  ],
+  "special_needs_average": [
+    {
+      "id": "sn2",
+      "title": "Average Memorization",
+      "stageId": "special_needs_average",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "sc-1",
+          "coptic": "\"en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "audioPath": "/audio/hymns/p34/lvl1/1.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "In all these things we are more than conquerors through him who loved us (Rom 8:37)",
+          "phonetic": "Ten-er-houo-chro evol hiten phi-etaf-menriten",
+          "audioPath": "/audio/hymns/st/theme/1.mp3",
+          "isLegacy": true
+        }
+      ]
+    }
+  ],
+  "special_needs_advanced": [
+    {
+      "id": "sn3",
+      "title": "Advanced Memorization",
+      "stageId": "special_needs_advanced",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "sc-1",
+          "coptic": "\"en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "audioPath": "/audio/hymns/p34/lvl1/1.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "lp-1",
+          "coptic": "Peniwt e'ten nivhou`i",
+          "arabic": "Our Father who art in heaven",
+          "phonetic": "Peniot et-khen ni-phi-oui",
+          "audioPath": "/audio/hymns/p56/lvl2/2.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "lp-2",
+          "coptic": "Mareftoubo `nje pekran>",
+          "arabic": "Hallowed be Thy name",
+          "phonetic": "Maref-touvo enje pek-ran",
+          "audioPath": "/audio/hymns/p56/lvl2/3.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "lp-3",
+          "coptic": "Marec` I `nje tekmetouro>",
+          "arabic": "Thy kingdom come",
+          "phonetic": "Mares-i enje tek-met-ouro",
+          "audioPath": "/audio/hymns/p56/lvl2/4.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "lp-4",
+          "coptic": "Pete\\nak maref]wpi> `m`vrh; 'en `tve> nem \\ijen pika\\i>",
+          "arabic": "Thy will be done, on earth as it is in heaven",
+          "phonetic": "Petehnak maref-shopi em-ef-riti khen et-fe nem hijen pi-kahi",
+          "audioPath": "/audio/hymns/p56/lvl2/5.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "lp-5",
+          "coptic": "Penwik `nte rac;> mhif nan `mvoou",
+          "arabic": "Give us this day our daily bread",
+          "phonetic": "Pen-wik ente rasti meif nan em-phoou",
+          "audioPath": "/audio/hymns/p56/lvl2/6.mp3",
+          "isLegacy": true
+        },
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "In all these things we are more than conquerors through him who loved us (Rom 8:37)",
+          "phonetic": "Ten-er-houo-chro evol hiten phi-etaf-menriten",
+          "audioPath": "/audio/hymns/st/theme/1.mp3",
+          "isLegacy": true
+        }
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "id": "prep-hymn-lvl1",
+      "title": "Level 1 Memorization",
+      "stageId": "prep",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl1/1.mp3"
+        },
+        {
+          "id": "theo-1",
+          "coptic": "Ouckhnh `mmhi> te Maria ;parqenoc> euxh 'en tecmh;> `nje nimetmeqreu `eten\\ot.",
+          "arabic": "A true tabernacle is Mary the Virgin, wherein are placed the true testimonies.",
+          "phonetic": "Ou-skene em-mi te Maria ti-parthenos ev-ki khen tes-meti enje ni-met-methreu eten-hot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl1/2.mp3"
+        },
+        {
+          "id": "theo-2",
+          "coptic": ":kibwtoc `natqwleb> eto]j `nnoub `ncaca niben> nem piilacthrion> `nXeroubimikon.",
+          "arabic": "The undefiled Ark, overlaid with gold on all sides, and the mercy seat of the Cherubim.",
+          "phonetic": "Ti-kivotos en-at-thouleb etoshg en-noub en-sasa niven nem pi-ilastirion en-sheroubimikon",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl1/3.mp3"
+        },
+        {
+          "id": "theo-3",
+          "coptic": "Pictamnoc `nnoub> ere pimanna \\hp `n'htf> ic pilogoc `nte `viwt> `i afsicar[ `n'h;.",
+          "arabic": "The golden pot, wherein the manna was hidden, is the Word of the Father, who came and took flesh of you.",
+          "phonetic": "Pi-stamnios en-noub ere pi-manna hip en-khitf is pi-loghos ente ef-iot e af-chi-sarx en-khiti",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl1/4.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "Taste and see that the Lord is good",
+          "phonetic": "Jem-tipi ouoh anav je ou-helje pe ep-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl1/5.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "Take heed to yourself and to the doctrine",
+          "phonetic": "Ma-ehtik erok nem ti-met-ref-ti-esvo",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl1/6.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "Be ready",
+          "phonetic": "Shopi ereten-septot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl1/7.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "Having the eyes of your hearts enlightened",
+          "phonetic": "Ethrou-er-ouwini enje ni-val ente peten-hit",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl1/8.mp3"
+        }
+      ]
+    },
+    {
+      "id": "prep-hymn-lvl2",
+      "title": "Level 2 Memorization",
+      "stageId": "prep",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/1.mp3"
+        },
+        {
+          "id": "theo-1",
+          "coptic": "Ouckhnh `mmhi> te Maria ;parqenoc> euxh 'en tecmh;> `nje nimetmeqreu `eten\\ot.",
+          "arabic": "A true tabernacle is Mary the Virgin, wherein are placed the true testimonies.",
+          "phonetic": "Ou-skene em-mi te Maria ti-parthenos ev-ki khen tes-meti enje ni-met-methreu eten-hot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/2.mp3"
+        },
+        {
+          "id": "theo-2",
+          "coptic": ":kibwtoc `natqwleb> eto]j `nnoub `ncaca niben> nem piilacthrion> `nXeroubimikon.",
+          "arabic": "The undefiled Ark, overlaid with gold on all sides, and the mercy seat of the Cherubim.",
+          "phonetic": "Ti-kivotos en-at-thouleb etoshg en-noub en-sasa niven nem pi-ilastirion en-sheroubimikon",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/3.mp3"
+        },
+        {
+          "id": "theo-3",
+          "coptic": "Pictamnoc `nnoub> ere pimanna \\hp `n'htf> ic pilogoc `nte `viwt> `i afsicar[ `n'h;.",
+          "arabic": "The golden pot, wherein the manna was hidden, is the Word of the Father, who came and took flesh of you.",
+          "phonetic": "Pi-stamnios en-noub ere pi-manna hip en-khitf is pi-loghos ente ef-iot i af-chi-sarx en-khiti",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/4.mp3"
+        },
+        {
+          "id": "theo-4",
+          "coptic": ":luxnia `nnoub> etfai 'a piouwini `mmhi> `ete `vouwini `mpikocmoc> piat`]'wnt `erof.",
+          "arabic": "The golden lampstand, carrying the true Light, which is the light of the world, unapproachable.",
+          "phonetic": "Ti-lykhnia en-noub et-fai kha pi-ouwini em-mi ete ef-ouwini em-pi-kozmos pi-at-eshkhont erof",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/5.mp3"
+        },
+        {
+          "id": "theo-5",
+          "coptic": ":]ourh `nnoub> etfai 'a pijebc `n`xrwm> nem pi`cqoinoufi etcwtp> `n`arwmata.",
+          "arabic": "The golden censer, carrying the live coal of fire, and the choice incense of sweet fragrance.",
+          "phonetic": "Ti-shouri en-noub et-fai kha pi-jebs en-krom nem pi-stoi-noufi et-sotp en-aromata",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/6.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "Taste and see that the Lord is good",
+          "phonetic": "Jem-tipi ouoh anav je ou-helje pe ep-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/7.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "Take heed to yourself and to the doctrine",
+          "phonetic": "Ma-ehtik erok nem ti-met-ref-ti-esvo",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/8.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "Be ready",
+          "phonetic": "Shopi ereten-septot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/9.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "Having the eyes of your hearts enlightened",
+          "phonetic": "Ethrou-er-ouwini enje ni-val ente peten-hit",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/lvl2/10.mp3"
+        }
+      ]
+    },
+    {
+      "id": "prep-hymn-theme",
+      "title": "Festival Theme",
+      "stageId": "prep",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "In all these things we are more than conquerors through him who loved us (Rom 8:37)",
+          "phonetic": "Ten-er-houo-chro evol hiten phi-etaf-menriten",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/prep/theme/1.mp3"
+        }
+      ]
+    }
+  ],
+  "sec": [
+    {
+      "id": "sec-hymn-lvl1",
+      "title": "Level 1 Memorization",
+      "stageId": "sec",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl1/1.mp3"
+        },
+        {
+          "id": "theo-1",
+          "coptic": "Ouckhnh `mmhi> te Maria ;parqenoc> euxh 'en tecmh;> `nje nimetmeqreu `eten\\ot.",
+          "arabic": "A true tabernacle is Mary the Virgin, wherein are placed the true testimonies.",
+          "phonetic": "Ou-skene em-mi te Maria ti-parthenos ev-ki khen tes-meti enje ni-met-methreu eten-hot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl1/2.mp3"
+        },
+        {
+          "id": "theo-2",
+          "coptic": ":kibwtoc `natqwleb> eto]j `nnoub `ncaca niben> nem piilacthrion> `nXeroubimikon.",
+          "arabic": "The undefiled Ark, overlaid with gold on all sides, and the mercy seat of the Cherubim.",
+          "phonetic": "Ti-kivotos en-at-thouleb etoshg en-noub en-sasa niven nem pi-ilastirion en-sheroubimikon",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl1/3.mp3"
+        },
+        {
+          "id": "theo-3",
+          "coptic": "Pictamnoc `nnoub> ere pimanna \\hp `n'htf> ic pilogoc `nte `viwt> `i afsicar[ `n'h;.",
+          "arabic": "The golden pot, wherein the manna was hidden, is the Word of the Father, who came and took flesh of you.",
+          "phonetic": "Pi-stamnios en-noub ere pi-manna hip en-khitf is pi-loghos ente ef-iot i af-chi-sarx en-khiti",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl1/4.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "Taste and see that the Lord is good",
+          "phonetic": "Jem-tipi ouoh anav je ou-helje pe ep-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl1/5.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "Take heed to yourself and to the doctrine",
+          "phonetic": "Ma-ehtik erok nem ti-met-ref-ti-esvo",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl1/6.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "Be ready",
+          "phonetic": "Shopi ereten-septot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl1/7.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "Having the eyes of your hearts enlightened",
+          "phonetic": "Ethrou-er-ouwini enje ni-val ente peten-hit",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl1/8.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sec-hymn-lvl2",
+      "title": "Level 2 Memorization",
+      "stageId": "sec",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-sign",
+          "coptic": "'en `vran `m`viwt Nem `p]hri Nem Pi`pneuma Eqouab Ounou; `nouwt amhn",
+          "arabic": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+          "phonetic": "Khen efran em-efiout nem epshiri nem pi-epnevma ethouab ounouti enouot amin",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/1.mp3"
+        },
+        {
+          "id": "theo-1",
+          "coptic": "Ouckhnh `mmhi> te Maria ;parqenoc> euxh 'en tecmh;> `nje nimetmeqreu `eten\\ot.",
+          "arabic": "A true tabernacle is Mary the Virgin, wherein are placed the true testimonies.",
+          "phonetic": "Ou-skene em-mi te Maria ti-parthenos ev-ki khen tes-meti enje ni-met-methreu eten-hot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/2.mp3"
+        },
+        {
+          "id": "theo-2",
+          "coptic": ":kibwtoc `natqwleb> eto]j `nnoub `ncaca niben> nem piilacthrion> `nXeroubimikon.",
+          "arabic": "The undefiled Ark, overlaid with gold on all sides, and the mercy seat of the Cherubim.",
+          "phonetic": "Ti-kivotos en-at-thouleb etoshg en-noub en-sasa niven nem pi-ilastirion en-kheroubimikon",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/3.mp3"
+        },
+        {
+          "id": "theo-3",
+          "coptic": "Pictamnoc `nnoub> ere pimanna \\hp `n'htf> ic pilogoc `nte `viwt> `i afsicar[ `n'h;.",
+          "arabic": "The golden pot, wherein the manna was hidden, is the Word of the Father, who came and took flesh of you.",
+          "phonetic": "Pi-stamnios en-noub ere pi-manna hip en-khitf is pi-loghos ente ef-iot i af-chi-sarx en-khiti",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/4.mp3"
+        },
+        {
+          "id": "theo-4",
+          "coptic": ":luxnia `nnoub> etfai 'a piouwini `mmhi> `ete `vouwini `mpikocmoc> piat`]'wnt `erof.",
+          "arabic": "The golden lampstand, carrying the true Light, which is the light of the world, unapproachable.",
+          "phonetic": "Ti-lykhnia en-noub et-fai kha pi-ouwini em-mi ete ef-ouwini em-pi-kozmos pi-at-eshkhont erof",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/5.mp3"
+        },
+        {
+          "id": "theo-5",
+          "coptic": ":]ourh `nnoub> etfai 'a pijebc `n`xrwm> nem pi`cqoinoufi etcwtp> `n`arwmata.",
+          "arabic": "The golden censer, carrying the live coal of fire, and the choice incense of sweet fragrance.",
+          "phonetic": "Ti-shouri en-noub et-fai kha pi-jebs en-krom nem pi-stoi-noufi et-sotp en-aromata",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/6.mp3"
+        },
+        {
+          "id": "v-taste",
+          "coptic": "Jem;pi ouo\\ anau je ou\\elje pe `psoic",
+          "arabic": "Taste and see that the Lord is good",
+          "phonetic": "Jem-tipi ouoh anav je ou-helje pe ep-chois",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/7.mp3"
+        },
+        {
+          "id": "v-watch",
+          "coptic": "Ma`\\qhk `erok nem ;metref;`cbw",
+          "arabic": "Take heed to yourself and to the doctrine",
+          "phonetic": "Ma-ehtik erok nem ti-met-ref-ti-esvo",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/8.mp3"
+        },
+        {
+          "id": "v-ready",
+          "coptic": "}wpi `eretencebtwt",
+          "arabic": "Be ready",
+          "phonetic": "Shopi ereten-septot",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/9.mp3"
+        },
+        {
+          "id": "v-minds",
+          "coptic": "Eqrouerouwini `nje nibal `nte peten\\ht",
+          "arabic": "Having the eyes of your hearts enlightened",
+          "phonetic": "Ethrou-er-ouwini enje ni-val ente peten-hit",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/lvl2/10.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sec-hymn-theme",
+      "title": "Festival Theme",
+      "stageId": "sec",
+      "isLegacy": true,
+      "verses": [
+        {
+          "id": "v-theme",
+          "coptic": "Tener\\ou`o sro `ebol \\iten vh`etafmenriten",
+          "arabic": "In all these things we are more than conquerors through him who loved us (Rom 8:37)",
+          "phonetic": "Ten-er-houo-chro evol hiten phi-etaf-menriten",
+          "isLegacy": true,
+          "audioPath": "/audio/hymns/sec/theme/1.mp3"
+        }
+      ]
+    }
+  ]
+}

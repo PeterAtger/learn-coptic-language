@@ -3,8 +3,9 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:google_fonts/google_fonts.dart';
-import 'package:audioplayers/audioplayers.dart';
 import '../services/stage_service.dart';
+import '../services/language_service.dart';
+import '../services/audio_service.dart';
 
 Map<String, dynamic> _parseWordsJson(String jsonString) {
   return jsonDecode(jsonString) as Map<String, dynamic>;
@@ -19,6 +20,7 @@ class WordData {
   final String? imagePath;
   final String? audioPath;
   final String? gender;
+  final String color;
 
   WordData({
     required this.id,
@@ -29,6 +31,7 @@ class WordData {
     this.imagePath,
     this.audioPath,
     this.gender,
+    this.color = '#000000',
   });
 }
 
@@ -41,11 +44,12 @@ class WordsPage extends StatefulWidget {
 
 class _WordsPageState extends State<WordsPage> {
   final StageService _stageService = StageService();
-  final AudioPlayer _audioPlayer = AudioPlayer();
+  final LanguageService _langService = LanguageService();
+  final AudioService _audioService = AudioService();
   Map<String, dynamic> _allWordsJson = {};
   List<WordData> _words = [];
   bool _isLoading = true;
-  String _selectedLetter = "الكل";
+  String _selectedLetter = "all";
   final String _searchQuery = "";
   bool _showCoptic = true;
   bool _showArabic = true;
@@ -66,18 +70,24 @@ class _WordsPageState extends State<WordsPage> {
   void initState() {
     super.initState();
     _stageService.addListener(_onStageChanged);
+    _langService.addListener(_onLanguageChanged);
     _loadData();
-    _audioPlayer.onPlayerComplete.listen((_) {
+    _audioService.setOnComplete(() {
       if (mounted) _currentlyPlayingNotifier.value = null;
     });
   }
 
   @override
   void dispose() {
+    _audioService.stop();
     _stageService.removeListener(_onStageChanged);
-    _audioPlayer.dispose();
+    _langService.removeListener(_onLanguageChanged);
     _currentlyPlayingNotifier.dispose();
     super.dispose();
+  }
+
+  void _onLanguageChanged() {
+    _loadData();
   }
 
   void _onStageChanged() {
@@ -100,7 +110,8 @@ class _WordsPageState extends State<WordsPage> {
     }
 
     try {
-      final String jsonString = await tryLoad('assets/data/words.json');
+      final String jsonPath = _langService.getDataPath('words');
+      final String jsonString = await tryLoad(jsonPath);
       _allWordsJson = await compute(_parseWordsJson, jsonString);
       _filterForStage();
     } catch (e) {
@@ -115,26 +126,29 @@ class _WordsPageState extends State<WordsPage> {
 
     if (mounted) {
       setState(() {
-      _words = stageWords.map((data) {
-        String img = data['imagePath'] ?? '';
-        if (img.startsWith('/')) img = img.substring(1);
+        _words = stageWords.map<WordData>((data) {
+          String img = data['imagePath'] ?? '';
+          if (img.startsWith('/')) img = img.substring(1);
 
-        String aud = data['audioPath'] ?? '';
-        if (aud.startsWith('/')) aud = aud.substring(1);
-
-        return WordData(
-          id: data['id'] ?? '',
-          letter: data['letter'] ?? '',
-          coptic: data['coptic'] ?? '',
-          pronunciation: data['pronunciation'] ?? '',
-          meaning: data['meaning'] ?? '',
-          imagePath: img.isEmpty ? null : img,
-          audioPath: aud.isEmpty ? null : aud,
-          gender: data['gender'],
-        );
-      }).toList();
-      _isLoading = false;
-    });
+          String aud = data['audioPath'] ?? '';
+          aud = aud.trim();
+          if (aud.startsWith('/')) aud = aud.substring(1);
+          if (aud.startsWith('assets/')) aud = aud.replaceFirst('assets/', '');
+          
+          return WordData(
+            id: data['id'] ?? '',
+            letter: data['letter'] ?? '',
+            coptic: data['coptic'] ?? '',
+            pronunciation: data['pronunciation'] ?? '',
+            meaning: data['meaning'] ?? '',
+            imagePath: img.isEmpty ? null : img,
+            audioPath: aud.isEmpty ? null : aud,
+            color: data['color'] ?? '#000000',
+            gender: data['gender'],
+          );
+        }).toList();
+        _isLoading = false;
+      });
     }
   }
 
@@ -142,15 +156,14 @@ class _WordsPageState extends State<WordsPage> {
     if (word.audioPath == null || word.audioPath!.isEmpty) return;
     try {
       if (_currentlyPlayingNotifier.value == word.id) {
-        await _audioPlayer.pause();
+        await _audioService.stop();
         _currentlyPlayingNotifier.value = null;
       } else {
-        await _audioPlayer.stop();
-        await _audioPlayer.play(AssetSource(word.audioPath!));
+        await _audioService.playAsset(word.audioPath!);
         _currentlyPlayingNotifier.value = word.id;
       }
     } catch (e) {
-      print("Error playing audio: $e");
+      debugPrint("Error playing audio: $e");
     }
   }
 
@@ -160,12 +173,12 @@ class _WordsPageState extends State<WordsPage> {
       return Center(child: CircularProgressIndicator(color: Theme.of(context).colorScheme.primary));
     }
 
-    // Horizontal category list (alphabet unique letters for current stage + الكل)
-    final List<String> alphabet = ["الكل", ..._words.map((w) => w.letter).toSet().toList()];
+    // Horizontal category list (alphabet unique letters for current stage + all)
+    final List<String> alphabet = ["all", ..._words.map((w) => w.letter).toSet().toList()];
 
     // Filtered words
     final filteredWords = _words.where((word) {
-      final matchesLetter = _selectedLetter == "الكل" || word.letter == _selectedLetter;
+      final matchesLetter = _selectedLetter == "all" || word.letter == _selectedLetter;
       final query = _searchQuery.trim().toLowerCase();
       final matchesSearch = query.isEmpty ||
           word.coptic.toLowerCase().contains(query) ||
@@ -211,7 +224,7 @@ class _WordsPageState extends State<WordsPage> {
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
                     Text(
-                      'الكلمات القبطية',
+                      _langService.translate('coptic_words'),
                       style: GoogleFonts.cairo(
                         fontSize: 24,
                         fontWeight: FontWeight.w900,
@@ -220,7 +233,7 @@ class _WordsPageState extends State<WordsPage> {
                       ),
                     ),
                     Text(
-                      'سنة ٢٠٢٦ • ${_stageService.selectedStage.name}',
+                      '${_langService.translate('year_2026')} • ${_langService.translate(_stageService.selectedStage.id)}',
                       style: GoogleFonts.cairo(
                         fontSize: 11,
                         fontWeight: FontWeight.w800,
@@ -240,7 +253,7 @@ class _WordsPageState extends State<WordsPage> {
               height: 52,
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
-                reverse: true, // RTL feel
+                reverse: _langService.isArabic, // RTL feel when Arabic
                 padding: const EdgeInsets.symmetric(horizontal: 20),
                 itemCount: alphabet.length,
                 itemBuilder: (context, idx) {
@@ -268,14 +281,14 @@ class _WordsPageState extends State<WordsPage> {
                       ),
                       child: Center(
                         child: Text(
-                          letter,
+                          letter == "all" ? _langService.translate('all_filter') : letter,
                           style: isSelected
                               ? GoogleFonts.cairo(
                                   color: Colors.white,
                                   fontWeight: FontWeight.w900,
                                   fontSize: 14,
                                 )
-                              : (letter == "الكل"
+                              : (letter == "all"
                                   ? GoogleFonts.cairo(
                                       color: const Color(0xFF475569),
                                       fontWeight: FontWeight.w800,
@@ -515,7 +528,7 @@ class _WordsPageState extends State<WordsPage> {
                         const Icon(Icons.search_off_rounded, size: 64, color: Color(0xFFCBD5E1)),
                         const SizedBox(height: 12),
                         Text(
-                          'لا توجد كلمات مطابقة',
+                          _langService.translate('no_words_found'),
                           style: GoogleFonts.cairo(
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
@@ -534,14 +547,20 @@ class _WordsPageState extends State<WordsPage> {
   Color _getGenderColor(String? gender) {
     switch (gender) {
       case 'مذكر':
+      case 'Masculine':
         return const Color(0xFF2563EB); // Blue
       case 'مؤنث':
+      case 'Feminine':
         return const Color(0xFFDB2777); // Pink
       case 'فعل':
+      case 'Verb':
         return const Color(0xFF059669); // Green
       case 'اسم علم':
+      case 'Proper Name':
+      case 'Name':
         return const Color(0xFF7C3AED); // Purple
       case 'عدد':
+      case 'Number':
         return const Color(0xFFD97706); // Amber
       default:
         return const Color(0xFF475569); // Slate
