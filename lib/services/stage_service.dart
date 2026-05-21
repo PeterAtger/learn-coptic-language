@@ -50,6 +50,7 @@ class StageService extends ChangeNotifier {
       color: Color(0xFFFFF7ED),
       accent: Color(0xFFF97316), // orange-500
       hideLetters: true,
+      hideWords: true,
       hideGrammar: true,
     ),
     Stage(
@@ -58,6 +59,7 @@ class StageService extends ChangeNotifier {
       color: Color(0xFFFDF4FF),
       accent: Color(0xFFD946EF), // fuchsia-500
       hideLetters: true,
+      hideWords: true,
       hideGrammar: true,
     ),
     Stage(

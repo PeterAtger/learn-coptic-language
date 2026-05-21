@@ -5,7 +5,6 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../services/stage_service.dart';
 import '../services/language_service.dart';
-import '../utils/donation_utils.dart';
 
 class HomePage extends StatefulWidget {
   final Function(int) onNavigateTo;
@@ -122,19 +121,6 @@ class _HomePageState extends State<HomePage> {
                         border: Border.all(color: Colors.white.withValues(alpha: 0.55)),
                       ),
                       child: const Icon(Icons.phone_rounded, color: Color(0xFF64748B), size: 22),
-                    ),
-                  ),
-                  const SizedBox(width: 8),
-                  GestureDetector(
-                    onTap: () => DonationUtils.showDonationDialog(context),
-                    child: Container(
-                      padding: const EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: const Color(0xFFB45309).withValues(alpha: 0.1),
-                        borderRadius: BorderRadius.circular(16),
-                        border: Border.all(color: const Color(0xFFB45309).withValues(alpha: 0.2)),
-                      ),
-                      child: const Icon(Icons.volunteer_activism_rounded, color: Color(0xFFB45309), size: 22),
                     ),
                   ),
                   const SizedBox(width: 12),
