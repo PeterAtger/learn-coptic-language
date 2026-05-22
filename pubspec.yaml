@@ -1,7 +1,7 @@
 name: coptic_app
 description: A new Flutter project for learning Coptic.
 publish_to: 'none'
-version: 4.0.0+3
+version: 4.1.0+4
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -34,6 +34,7 @@ flutter:
     - assets/images/words/p34/
     - assets/images/words/p56/
     - assets/images/words/prep/
+    - assets/images/words/sn/
     - assets/images/words/uni/
     - assets/audio/letters/
     - assets/audio/words/
@@ -43,6 +44,7 @@ flutter:
     - assets/audio/words/p34/
     - assets/audio/words/p56/
     - assets/audio/words/prep/
+    - assets/audio/words/sn/
     - assets/audio/words/primary_1/
     - assets/audio/words/primary_3/
     - assets/audio/words/primary_5/

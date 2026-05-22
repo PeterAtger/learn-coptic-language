@@ -198,6 +198,38 @@ class LanguageService extends ChangeNotifier {
       AppLanguage.ar: 'مينفعش تخفي الـ 3 مع بعض',
       AppLanguage.en: 'You cannot hide all three at once',
     },
+    'settings_title': {
+      AppLanguage.ar: 'الإعدادات',
+      AppLanguage.en: 'Settings',
+    },
+    'audio_speed': {
+      AppLanguage.ar: 'سرعة الصوت',
+      AppLanguage.en: 'Audio Speed',
+    },
+    'natural_speed': {
+      AppLanguage.ar: 'طبيعي',
+      AppLanguage.en: 'Natural',
+    },
+    'show_coptic_word': {
+      AppLanguage.ar: 'إظهار الكلمة القبطية',
+      AppLanguage.en: 'Show Coptic word',
+    },
+    'show_meaning': {
+      AppLanguage.ar: 'إظهار المعنى',
+      AppLanguage.en: 'Show meaning',
+    },
+    'show_pronunciation': {
+      AppLanguage.ar: 'إظهار النطق',
+      AppLanguage.en: 'Show pronunciation',
+    },
+    'show_images': {
+      AppLanguage.ar: 'إظهار الصور',
+      AppLanguage.en: 'Show images',
+    },
+    'web_version': {
+      AppLanguage.ar: 'نسخة الويب (آيفون وكمبيوتر)',
+      AppLanguage.en: 'Web version (iPhone & desktop)',
+    },
     'masculine': {
       AppLanguage.ar: 'مذكر',
       AppLanguage.en: 'Masc',

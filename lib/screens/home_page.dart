@@ -295,6 +295,7 @@ class _HomePageState extends State<HomePage> {
     showDialog(
       context: context,
       builder: (context) {
+        final accent = Theme.of(context).colorScheme.primary;
         return BackdropFilter(
           filter: ImageFilter.blur(sigmaX: 12, sigmaY: 12),
           child: AlertDialog(
@@ -305,17 +306,54 @@ class _HomePageState extends State<HomePage> {
               textAlign: TextAlign.center,
               style: GoogleFonts.cairo(fontWeight: FontWeight.w900),
             ),
-            content: Text(
-              _langService.translate('about_content'),
-              textAlign: TextAlign.center,
-              style: GoogleFonts.cairo(fontWeight: FontWeight.bold, height: 1.5, fontSize: 14),
+            content: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  _langService.translate('about_content'),
+                  textAlign: TextAlign.center,
+                  style: GoogleFonts.cairo(fontWeight: FontWeight.bold, height: 1.5, fontSize: 14),
+                ),
+                const SizedBox(height: 18),
+                InkWell(
+                  onTap: () => _launchUrl('https://coptic-web.philopater41.workers.dev/'),
+                  borderRadius: BorderRadius.circular(16),
+                  child: Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+                    decoration: BoxDecoration(
+                      color: accent.withValues(alpha: 0.10),
+                      borderRadius: BorderRadius.circular(16),
+                      border: Border.all(color: accent.withValues(alpha: 0.25)),
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(Icons.public_rounded, color: accent, size: 20),
+                        const SizedBox(width: 8),
+                        Flexible(
+                          child: Text(
+                            _langService.translate('web_version'),
+                            textAlign: TextAlign.center,
+                            style: GoogleFonts.cairo(
+                              fontWeight: FontWeight.w900,
+                              fontSize: 13,
+                              color: accent,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
             ),
             actions: [
               TextButton(
                 onPressed: () => Navigator.of(context).pop(),
                 child: Text(
-                  _langService.translate('close'), 
-                  style: GoogleFonts.cairo(color: const Color(0xFFB45309), fontWeight: FontWeight.w900)
+                  _langService.translate('close'),
+                  style: GoogleFonts.cairo(color: accent, fontWeight: FontWeight.w900),
                 ),
               )
             ],
@@ -323,6 +361,14 @@ class _HomePageState extends State<HomePage> {
         );
       },
     );
+  }
+
+  Future<void> _launchUrl(String url) async {
+    try {
+      await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
+    } catch (_) {
+      // ignore — user can copy/paste manually if external launch fails
+    }
   }
 
   void _showContactDialog(BuildContext context) {

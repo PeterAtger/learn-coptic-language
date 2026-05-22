@@ -311,7 +311,7 @@
     {
       "char": "Ⲭ",
       "small": "ⲭ",
-      "name": "Ki",
+      "name": "ki",
       "phonetic": "K/Sh/Kh",
       "rules": [
         {
@@ -403,7 +403,7 @@
     {
       "char": "Ϫ",
       "small": "ϫ",
-      "name": "Janja",
+      "name": "janja",
       "phonetic": "G/J",
       "rules": [
         {
@@ -709,7 +709,7 @@
     {
       "char": "Ⲭ",
       "small": "ⲭ",
-      "name": "Ki",
+      "name": "ki",
       "phonetic": "K",
       "rules": [
         {
@@ -793,7 +793,7 @@
     {
       "char": "Ϫ",
       "small": "ϫ",
-      "name": "Janja",
+      "name": "janja",
       "phonetic": "J",
       "rules": [
         {

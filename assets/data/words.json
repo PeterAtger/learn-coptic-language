@@ -5280,5 +5280,150 @@
       "color": "#FF9F43",
       "gender": "فعل"
     }
-  ]
+  ],
+  "special_needs_simple": [
+    {
+      "id": "sns_1",
+      "letter": "Ⲥ",
+      "coptic": "Ⲥⲱ",
+      "pronunciation": "صو",
+      "meaning": "يشرب",
+      "imagePath": "assets/images/words/p12/drinks.webp",
+      "audioPath": "/audio/words/p12/19.mp3",
+      "color": "#00D2D3"
+    },
+    {
+      "id": "sns_2",
+      "letter": "Ⲟ",
+      "coptic": "Ⲟⲩⲱⲙ",
+      "pronunciation": "أوؤم",
+      "meaning": "يأكل",
+      "imagePath": "assets/images/words/eating_3d.webp",
+      "audioPath": "/audio/words/p12/16.mp3",
+      "color": "#00D2D3"
+    },
+    {
+      "id": "sns_3",
+      "letter": "Ⲉ",
+      "coptic": "Ⲉⲛⲕⲟⲧ",
+      "pronunciation": "إنكوت",
+      "meaning": "ينام",
+      "imagePath": "assets/images/words/sleeping_3d.webp",
+      "audioPath": "/audio/words/p12/5.mp3",
+      "color": "#00D2D3"
+    },
+    {
+      "id": "sns_4",
+      "letter": "Ϣ",
+      "coptic": "`Ϣⲗⲏⲗ",
+      "pronunciation": "إشليل",
+      "meaning": "يصلي",
+      "imagePath": "assets/images/words/p12/prays.webp",
+      "audioPath": "/audio/words/p12/26.mp3",
+      "color": "#00D2D3"
+    },
+    {
+      "id": "sns_5",
+      "letter": "Ϣ",
+      "coptic": "Ϣⲉⲡ`ϩⲙⲟⲧ",
+      "pronunciation": "شيب إهموت",
+      "meaning": "يشكر",
+      "imagePath": "assets/images/words/sn/thanks.webp",
+      "audioPath": "/audio/words/sn/05.mp3",
+      "color": "#00D2D3"
+    },
+    {
+      "id": "sns_6",
+      "letter": "Ⲙ",
+      "coptic": "Ⲙⲟⲕⲙⲉⲕ",
+      "pronunciation": "موكميك",
+      "meaning": "يفكر",
+      "imagePath": "assets/images/words/sn/think.webp",
+      "audioPath": "/audio/words/sn/06.mp3",
+      "color": "#00D2D3"
+    },
+    {
+      "id": "sns_7",
+      "letter": "Ⲫ",
+      "coptic": "`Ⲫⲛⲟⲩϯ ⲛⲉⲙⲁⲕ",
+      "pronunciation": "إفنووتي نيماك",
+      "meaning": "الله معك",
+      "imagePath": "assets/images/words/sn/god_with_you.webp",
+      "audioPath": "/audio/words/sn/07.mp3",
+      "color": "#00D2D3"
+    },
+    {
+      "id": "sns_8",
+      "letter": "Ⲫ",
+      "coptic": "`Ⲫⲛⲟⲩϯ ⲛⲉⲙⲉ",
+      "pronunciation": "إفنووتي نيميه",
+      "meaning": "الله معكِ",
+      "imagePath": "assets/images/words/sn/god_with_you.webp",
+      "audioPath": "/audio/words/sn/08.mp3",
+      "color": "#00D2D3"
+    }
+  ],
+  "special_needs_average": [
+    {
+      "id": "sna_1",
+      "letter": "Ϯ",
+      "coptic": "Ϯⲉⲕⲕⲗⲏⲥⲓⲁ",
+      "pronunciation": "إككليسيا",
+      "meaning": "الكنيسة",
+      "imagePath": "assets/images/words/p34/church.webp",
+      "audioPath": "/audio/words/sn/01.mp3",
+      "color": "#FF6B6B"
+    },
+    {
+      "id": "sna_2",
+      "letter": "Ⲡ",
+      "coptic": "Ⲡⲓⲟⲩⲏⲃ",
+      "pronunciation": "بي أوويب",
+      "meaning": "الكاهن",
+      "imagePath": "assets/images/words/sn/priest.webp",
+      "audioPath": "/audio/words/sn/02.mp3",
+      "color": "#FF6B6B"
+    },
+    {
+      "id": "sna_3",
+      "letter": "Ϯ",
+      "coptic": "Ϯⲁⲛⲁⲫⲟⲣⲁ",
+      "pronunciation": "تي أنافورا",
+      "meaning": "القداس",
+      "imagePath": "assets/images/words/sn/liturgy.webp",
+      "audioPath": "/audio/words/sn/03.mp3",
+      "color": "#FF6B6B"
+    },
+    {
+      "id": "sna_4",
+      "letter": "Ⲡ",
+      "coptic": "Ⲡⲓ`ⲉⲣⲫⲉⲓ",
+      "pronunciation": "بي إرفيي",
+      "meaning": "الهيكل",
+      "imagePath": "assets/images/words/sn/sanctuary.webp",
+      "audioPath": "/audio/words/sn/04.mp3",
+      "color": "#FF6B6B"
+    },
+    {
+      "id": "sna_5",
+      "letter": "Ϭ",
+      "coptic": "Ϭⲓ",
+      "pronunciation": "تشي",
+      "meaning": "يتناول",
+      "imagePath": "assets/images/words/sn/communion.webp",
+      "audioPath": "/audio/words/sn/09.mp3",
+      "color": "#FF6B6B"
+    },
+    {
+      "id": "sna_6",
+      "letter": "Ϣ",
+      "coptic": "`Ϣⲗⲏⲗ",
+      "pronunciation": "إشليل",
+      "meaning": "يصلي",
+      "imagePath": "assets/images/words/p12/prays.webp",
+      "audioPath": "/audio/words/p12/26.mp3",
+      "color": "#FF6B6B"
+    }
+  ],
+  "special_needs_advanced": []
 }

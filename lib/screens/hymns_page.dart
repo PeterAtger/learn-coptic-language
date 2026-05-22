@@ -8,6 +8,8 @@ import '../services/stage_service.dart';
 import '../services/language_service.dart';
 import '../services/bookmark_service.dart';
 import '../services/audio_service.dart';
+import '../services/settings_service.dart';
+import '../widgets/settings_modal.dart';
 
 Map<String, dynamic> _parseHymnsJson(String jsonString) {
   return jsonDecode(jsonString) as Map<String, dynamic>;
@@ -25,14 +27,15 @@ class _HymnsPageState extends State<HymnsPage> {
   final LanguageService _langService = LanguageService();
   final BookmarkService _bookmarkService = BookmarkService();
   final AudioService _audioService = AudioService();
+  final SettingsService _settings = SettingsService();
 
   Map<String, dynamic> _allHymnsJson = {};
   List<HymnItem> _hymns = [];
   bool _isLoading = true;
 
-  bool _showCoptic = true;
-  bool _showArabic = true;
-  bool _showPhonetic = true;
+  bool get _showCoptic => _settings.showCoptic;
+  bool get _showArabic => _settings.showArabic;
+  bool get _showPhonetic => _settings.showPronunciation;
   int _activeHymnIndex = 0;
   final ValueNotifier<String?> _currentlyPlayingNotifier = ValueNotifier<String?>(null);
 
@@ -52,6 +55,7 @@ class _HymnsPageState extends State<HymnsPage> {
     _stageService.addListener(_onStageChanged);
     _bookmarkService.addListener(_update);
     _langService.addListener(_onLanguageChanged);
+    _settings.addListener(_update);
     _loadData();
     _audioService.setOnComplete(() {
       if (mounted) _currentlyPlayingNotifier.value = null;
@@ -64,6 +68,7 @@ class _HymnsPageState extends State<HymnsPage> {
     _stageService.removeListener(_onStageChanged);
     _bookmarkService.removeListener(_update);
     _langService.removeListener(_onLanguageChanged);
+    _settings.removeListener(_update);
     _currentlyPlayingNotifier.dispose();
     super.dispose();
   }
@@ -204,40 +209,84 @@ class _HymnsPageState extends State<HymnsPage> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
-                  decoration: BoxDecoration(
-                    color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.08),
-                    borderRadius: BorderRadius.circular(16),
-                    border: Border.all(color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.2)),
-                  ),
-                  child: Icon(
-                    Icons.headphones_rounded,
-                    color: Theme.of(context).colorScheme.primary,
-                    size: 22,
-                  ),
-                ),
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.end,
+                Row(
                   children: [
-                    Text(
-                      _langService.translate('coptic_hymns'),
-                      style: GoogleFonts.cairo(
-                        fontSize: 24,
-                        fontWeight: FontWeight.w900,
-                        color: const Color(0xFF1C1917),
-                        letterSpacing: -0.5,
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+                      decoration: BoxDecoration(
+                        color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.08),
+                        borderRadius: BorderRadius.circular(16),
+                        border: Border.all(color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.2)),
+                      ),
+                      child: Icon(
+                        Icons.headphones_rounded,
+                        color: Theme.of(context).colorScheme.primary,
+                        size: 22,
                       ),
                     ),
-                    Text(
-                      '${_langService.translate('year_2026')} • ${_langService.translate(_stageService.selectedStage.id)}',
-                      style: GoogleFonts.cairo(
-                        fontSize: 11,
-                        fontWeight: FontWeight.w800,
-                        color: const Color(0xFF94A3B8),
+                    const SizedBox(width: 8),
+                    GestureDetector(
+                      onTap: () => SettingsModal.show(context, showImagesToggle: false),
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+                        decoration: BoxDecoration(
+                          color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.08),
+                          borderRadius: BorderRadius.circular(16),
+                          border: Border.all(color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.2)),
+                        ),
+                        child: Icon(
+                          Icons.settings_rounded,
+                          color: Theme.of(context).colorScheme.primary,
+                          size: 22,
+                        ),
                       ),
                     ),
                   ],
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      SizedBox(
+                        width: double.infinity,
+                        child: FittedBox(
+                          fit: BoxFit.scaleDown,
+                          alignment: Alignment.centerRight,
+                          child: Text(
+                            _langService.translate('coptic_hymns'),
+                            maxLines: 1,
+                            softWrap: false,
+                            overflow: TextOverflow.visible,
+                            style: GoogleFonts.cairo(
+                              fontSize: 18,
+                              fontWeight: FontWeight.w900,
+                              color: const Color(0xFF1C1917),
+                              letterSpacing: -0.5,
+                            ),
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: double.infinity,
+                        child: FittedBox(
+                          fit: BoxFit.scaleDown,
+                          alignment: Alignment.centerRight,
+                          child: Text(
+                            '${_langService.translate('year_2026')} • ${_langService.translate(_stageService.selectedStage.id)}',
+                            maxLines: 1,
+                            softWrap: false,
+                            overflow: TextOverflow.visible,
+                            style: GoogleFonts.cairo(
+                              fontSize: 11,
+                              fontWeight: FontWeight.w800,
+                              color: const Color(0xFF94A3B8),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ],
             ),

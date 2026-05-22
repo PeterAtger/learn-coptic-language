@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
 import 'screens/home_page.dart';
@@ -12,6 +13,19 @@ import 'services/stage_service.dart';
 import 'services/language_service.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  // Android 15 (targetSdk 35+) draws apps edge-to-edge by default.
+  // Make the system bars transparent and ensure icons stay readable on the
+  // parchment background.
+  // Edge-to-edge makes the system bars transparent automatically; setting
+  // statusBarColor / systemNavigationBarColor explicitly triggers Android 15
+  // deprecation warnings, so we only configure icon brightness here.
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+    statusBarIconBrightness: Brightness.dark,
+    statusBarBrightness: Brightness.light, // iOS
+    systemNavigationBarIconBrightness: Brightness.dark,
+  ));
   runApp(const MyApp());
 }
 
@@ -141,12 +155,16 @@ class _MainScreenState extends State<MainScreen> {
             child: widgetOptions.elementAt(_selectedIndex),
           ),
 
-          // Bottom Navigation Bar
+          // Bottom Navigation Bar — lift above the gesture/nav bar inset
           Align(
             alignment: Alignment.bottomCenter,
             child: RepaintBoundary(
               child: Padding(
-                padding: const EdgeInsets.only(bottom: 24.0, left: 16.0, right: 16.0),
+                padding: EdgeInsets.only(
+                  bottom: 16.0 + MediaQuery.of(context).viewPadding.bottom,
+                  left: 16.0,
+                  right: 16.0,
+                ),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(28),
                   child: BackdropFilter(

@@ -6,6 +6,8 @@ import 'package:google_fonts/google_fonts.dart';
 import '../services/stage_service.dart';
 import '../services/language_service.dart';
 import '../services/audio_service.dart';
+import '../services/settings_service.dart';
+import '../widgets/settings_modal.dart';
 
 Map<String, dynamic> _parseWordsJson(String jsonString) {
   return jsonDecode(jsonString) as Map<String, dynamic>;
@@ -46,14 +48,17 @@ class _WordsPageState extends State<WordsPage> {
   final StageService _stageService = StageService();
   final LanguageService _langService = LanguageService();
   final AudioService _audioService = AudioService();
+  final SettingsService _settings = SettingsService();
   Map<String, dynamic> _allWordsJson = {};
   List<WordData> _words = [];
   bool _isLoading = true;
   String _selectedLetter = "all";
   final String _searchQuery = "";
-  bool _showCoptic = true;
-  bool _showArabic = true;
-  bool _showPronunciation = true;
+  // Per-card visibility now lives in SettingsService.
+  bool get _showCoptic => _settings.showCoptic;
+  bool get _showArabic => _settings.showArabic;
+  bool get _showPronunciation => _settings.showPronunciation;
+  bool get _showImages => _settings.showImages;
   final ValueNotifier<String?> _currentlyPlayingNotifier = ValueNotifier<String?>(null);
 
   String _getCopticFontFamily(String text) {
@@ -71,6 +76,7 @@ class _WordsPageState extends State<WordsPage> {
     super.initState();
     _stageService.addListener(_onStageChanged);
     _langService.addListener(_onLanguageChanged);
+    _settings.addListener(_onSettingsChanged);
     _loadData();
     _audioService.setOnComplete(() {
       if (mounted) _currentlyPlayingNotifier.value = null;
@@ -82,8 +88,13 @@ class _WordsPageState extends State<WordsPage> {
     _audioService.stop();
     _stageService.removeListener(_onStageChanged);
     _langService.removeListener(_onLanguageChanged);
+    _settings.removeListener(_onSettingsChanged);
     _currentlyPlayingNotifier.dispose();
     super.dispose();
+  }
+
+  void _onSettingsChanged() {
+    if (mounted) setState(() {});
   }
 
   void _onLanguageChanged() {
@@ -207,18 +218,39 @@ class _WordsPageState extends State<WordsPage> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
-                  decoration: BoxDecoration(
-                    color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.08),
-                    borderRadius: BorderRadius.circular(16),
-                    border: Border.all(color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.2)),
-                  ),
-                  child: Icon(
-                    Icons.menu_book_rounded,
-                    color: Theme.of(context).colorScheme.primary,
-                    size: 22,
-                  ),
+                Row(
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+                      decoration: BoxDecoration(
+                        color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.08),
+                        borderRadius: BorderRadius.circular(16),
+                        border: Border.all(color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.2)),
+                      ),
+                      child: Icon(
+                        Icons.menu_book_rounded,
+                        color: Theme.of(context).colorScheme.primary,
+                        size: 22,
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    GestureDetector(
+                      onTap: () => SettingsModal.show(context),
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+                        decoration: BoxDecoration(
+                          color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.08),
+                          borderRadius: BorderRadius.circular(16),
+                          border: Border.all(color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.2)),
+                        ),
+                        child: Icon(
+                          Icons.settings_rounded,
+                          color: Theme.of(context).colorScheme.primary,
+                          size: 22,
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.end,
@@ -375,10 +407,10 @@ class _WordsPageState extends State<WordsPage> {
                                 else
                                   const SizedBox(width: 48),
 
-                                const SizedBox(width: 14),
+                                if (_showImages) const SizedBox(width: 14),
 
                                 // Image or Alphabet initial
-                                Container(
+                                if (_showImages) Container(
                                   width: 80,
                                   height: 80,
                                   decoration: const BoxDecoration(
@@ -528,7 +560,7 @@ class _WordsPageState extends State<WordsPage> {
                         const Icon(Icons.search_off_rounded, size: 64, color: Color(0xFFCBD5E1)),
                         const SizedBox(height: 12),
                         Text(
-                          _langService.translate('no_words_found'),
+                          _langService.translate('no_matches'),
                           style: GoogleFonts.cairo(
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
